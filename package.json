@@ -7,6 +7,7 @@
   "hideInEditor": false,
   "type": "library",
   "dependencies": {
+    "com.unity.2d.common": "1.0.0"
   },
   "keywords": [
     "cubusky",
