@@ -1,0 +1,112 @@
+{
+  "api/Cubusky.AnimatorHash.html": {
+    "href": "api/Cubusky.AnimatorHash.html",
+    "title": "Struct AnimatorHash | Cubusky Core | 0.9.0-pre",
+    "keywords": "Struct AnimatorHash Namespace Cubusky A generated parameter id from a string. [Serializable] public struct AnimatorHash : ISerializationCallbackReceiver, IEquatable<AnimatorHash> Implements ISerializationCallbackReceiver IEquatable<AnimatorHash> Inherited Members object.Equals(object, object) object.GetType() object.ReferenceEquals(object, object) Constructors AnimatorHash(string) public AnimatorHash(string name) Parameters name string Properties id public readonly int id { get; } Property Value int name public string? name { get; set; } Property Value string Methods Equals(AnimatorHash) Indicates whether the current object is equal to another object of the same type. public bool Equals(AnimatorHash other) Parameters other AnimatorHash An object to compare with this object. Returns bool true if the current object is equal to the other parameter; otherwise, false. Equals(object?) Indicates whether this instance and a specified object are equal. public override bool Equals(object? obj) Parameters obj object The object to compare with the current instance. Returns bool true if obj and this instance are the same type and represent the same value; otherwise, false. GetHashCode() Returns the hash code for this instance. public override int GetHashCode() Returns int A 32-bit signed integer that is the hash code for this instance. ToString() Returns the fully qualified type name of this instance. public override string ToString() Returns string The fully qualified type name. Operators operator ==(AnimatorHash, AnimatorHash) public static bool operator ==(AnimatorHash left, AnimatorHash right) Parameters left AnimatorHash right AnimatorHash Returns bool implicit operator int(AnimatorHash) public static implicit operator int(AnimatorHash animatorHash) Parameters animatorHash AnimatorHash Returns int implicit operator AnimatorHash(string) public static implicit operator AnimatorHash(string name) Parameters name string Returns AnimatorHash operator !=(AnimatorHash, AnimatorHash) public static bool operator !=(AnimatorHash left, AnimatorHash right) Parameters left AnimatorHash right AnimatorHash Returns bool"
+  },
+  "api/Cubusky.Editor.AnimatorHashDrawer.html": {
+    "href": "api/Cubusky.Editor.AnimatorHashDrawer.html",
+    "title": "Class AnimatorHashDrawer | Cubusky Core | 0.9.0-pre",
+    "keywords": "Class AnimatorHashDrawer Namespace Cubusky.Editor public class AnimatorHashDrawer : PropertyDrawer Inheritance object AnimatorHashDrawer Methods CreatePropertyGUI(SerializedProperty) public override VisualElement CreatePropertyGUI(SerializedProperty property) Parameters property SerializedProperty Returns VisualElement"
+  },
+  "api/Cubusky.Editor.GuidDrawer.html": {
+    "href": "api/Cubusky.Editor.GuidDrawer.html",
+    "title": "Class GuidDrawer | Cubusky Core | 0.9.0-pre",
+    "keywords": "Class GuidDrawer Namespace Cubusky.Editor public class GuidDrawer : PropertyDrawer Inheritance object GuidDrawer Methods CreatePropertyGUI(SerializedProperty) public override VisualElement CreatePropertyGUI(SerializedProperty property) Parameters property SerializedProperty Returns VisualElement"
+  },
+  "api/Cubusky.Editor.Menus.html": {
+    "href": "api/Cubusky.Editor.Menus.html",
+    "title": "Class Menus | Cubusky Core | 0.9.0-pre",
+    "keywords": "Class Menus Namespace Cubusky.Editor public static class Menus Inheritance object Menus Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods SetState(MenuCommand) public static void SetState(MenuCommand command) Parameters command MenuCommand"
+  },
+  "api/Cubusky.Editor.OfTypeDrawer.html": {
+    "href": "api/Cubusky.Editor.OfTypeDrawer.html",
+    "title": "Class OfTypeDrawer | Cubusky Core | 0.9.0-pre",
+    "keywords": "Class OfTypeDrawer Namespace Cubusky.Editor public class OfTypeDrawer : PropertyDrawer Inheritance object OfTypeDrawer Methods CreatePropertyGUI(SerializedProperty) public override VisualElement CreatePropertyGUI(SerializedProperty property) Parameters property SerializedProperty Returns VisualElement"
+  },
+  "api/Cubusky.Editor.ShaderIdDrawer.html": {
+    "href": "api/Cubusky.Editor.ShaderIdDrawer.html",
+    "title": "Class ShaderIdDrawer | Cubusky Core | 0.9.0-pre",
+    "keywords": "Class ShaderIdDrawer Namespace Cubusky.Editor public class ShaderIdDrawer : PropertyDrawer Inheritance object ShaderIdDrawer Methods CreatePropertyGUI(SerializedProperty) public override VisualElement CreatePropertyGUI(SerializedProperty property) Parameters property SerializedProperty Returns VisualElement"
+  },
+  "api/Cubusky.Editor.TimeSpanDrawer.html": {
+    "href": "api/Cubusky.Editor.TimeSpanDrawer.html",
+    "title": "Class TimeSpanDrawer | Cubusky Core | 0.9.0-pre",
+    "keywords": "Class TimeSpanDrawer Namespace Cubusky.Editor public class TimeSpanDrawer : PropertyDrawer Inheritance object TimeSpanDrawer Methods CreatePropertyGUI(SerializedProperty) public override VisualElement CreatePropertyGUI(SerializedProperty property) Parameters property SerializedProperty Returns VisualElement"
+  },
+  "api/Cubusky.Editor.html": {
+    "href": "api/Cubusky.Editor.html",
+    "title": "Namespace Cubusky.Editor | Cubusky Core | 0.9.0-pre",
+    "keywords": "Namespace Cubusky.Editor Classes AnimatorHashDrawer GuidDrawer Menus OfTypeDrawer ShaderIdDrawer TimeSpanDrawer"
+  },
+  "api/Cubusky.GuidAttribute.html": {
+    "href": "api/Cubusky.GuidAttribute.html",
+    "title": "Class GuidAttribute | Cubusky Core | 0.9.0-pre",
+    "keywords": "Class GuidAttribute Namespace Cubusky Serializes a string as a valid Guid. public class GuidAttribute : PropertyAttribute Inheritance object GuidAttribute"
+  },
+  "api/Cubusky.Instance-1.html": {
+    "href": "api/Cubusky.Instance-1.html",
+    "title": "Class Instance<T> | Cubusky Core | 0.9.0-pre",
+    "keywords": "Class Instance<T> Namespace Cubusky public abstract class Instance<T> : Instance where T : Instance<T> Type Parameters T Inheritance object Instance Instance<T> Inherited Members Instance.SetState() Properties current Return the current instance. public static T? current { get; } Property Value T Methods OnDisable() protected virtual void OnDisable() OnEnable() protected virtual void OnEnable()"
+  },
+  "api/Cubusky.Instance.html": {
+    "href": "api/Cubusky.Instance.html",
+    "title": "Class Instance | Cubusky Core | 0.9.0-pre",
+    "keywords": "Class Instance Namespace Cubusky public abstract class Instance : MonoBehaviour Inheritance object Instance Derived Instance<T> Methods SetState() Sets the instance state. public abstract void SetState()"
+  },
+  "api/Cubusky.OfTypeAttribute.html": {
+    "href": "api/Cubusky.OfTypeAttribute.html",
+    "title": "Class OfTypeAttribute | Cubusky Core | 0.9.0-pre",
+    "keywords": "Class OfTypeAttribute Namespace Cubusky Specifies types that an Object needs to be of. Can be used to create an Object selector that allows interfaces. public class OfTypeAttribute : PropertyAttribute Inheritance object OfTypeAttribute Constructors OfTypeAttribute(Type) public OfTypeAttribute(Type type) Parameters type Type OfTypeAttribute(params Type[]) public OfTypeAttribute(params Type[] types) Parameters types Type[] Fields types public Type[] types Field Value Type[]"
+  },
+  "api/Cubusky.ShaderId.html": {
+    "href": "api/Cubusky.ShaderId.html",
+    "title": "Struct ShaderId | Cubusky Core | 0.9.0-pre",
+    "keywords": "Struct ShaderId Namespace Cubusky A unique identifier for a shader property name. [Serializable] public struct ShaderId : ISerializationCallbackReceiver, IEquatable<ShaderId> Implements ISerializationCallbackReceiver IEquatable<ShaderId> Inherited Members object.Equals(object, object) object.GetType() object.ReferenceEquals(object, object) Constructors ShaderId(string) public ShaderId(string name) Parameters name string Properties id public readonly int id { get; } Property Value int name public string? name { get; set; } Property Value string Methods Equals(ShaderId) Indicates whether the current object is equal to another object of the same type. public bool Equals(ShaderId other) Parameters other ShaderId An object to compare with this object. Returns bool true if the current object is equal to the other parameter; otherwise, false. Equals(object?) Indicates whether this instance and a specified object are equal. public override bool Equals(object? obj) Parameters obj object The object to compare with the current instance. Returns bool true if obj and this instance are the same type and represent the same value; otherwise, false. GetHashCode() Returns the hash code for this instance. public override int GetHashCode() Returns int A 32-bit signed integer that is the hash code for this instance. ToString() Returns the fully qualified type name of this instance. public override string ToString() Returns string The fully qualified type name. Operators operator ==(ShaderId, ShaderId) public static bool operator ==(ShaderId left, ShaderId right) Parameters left ShaderId right ShaderId Returns bool implicit operator int(ShaderId) public static implicit operator int(ShaderId id) Parameters id ShaderId Returns int implicit operator ShaderId(string) public static implicit operator ShaderId(string name) Parameters name string Returns ShaderId operator !=(ShaderId, ShaderId) public static bool operator !=(ShaderId left, ShaderId right) Parameters left ShaderId right ShaderId Returns bool"
+  },
+  "api/Cubusky.TimeSpanAttribute.html": {
+    "href": "api/Cubusky.TimeSpanAttribute.html",
+    "title": "Class TimeSpanAttribute | Cubusky Core | 0.9.0-pre",
+    "keywords": "Class TimeSpanAttribute Namespace Cubusky public class TimeSpanAttribute : PropertyAttribute Inheritance object TimeSpanAttribute"
+  },
+  "api/Cubusky.UIElements.TimeSpanField.html": {
+    "href": "api/Cubusky.UIElements.TimeSpanField.html",
+    "title": "Class TimeSpanField | Cubusky Core | 0.9.0-pre",
+    "keywords": "Class TimeSpanField Namespace Cubusky.UIElements public class TimeSpanField : TextValueField<TimeSpan> Inheritance object TimeSpanField Constructors TimeSpanField() public TimeSpanField() TimeSpanField(string) public TimeSpanField(string label) Parameters label string Fields inputUssClassName public static readonly string inputUssClassName Field Value string labelUssClassName public static readonly string labelUssClassName Field Value string ussClassName public static readonly string ussClassName Field Value string Methods ApplyInputDeviceDelta(Vector3, DeltaSpeed, TimeSpan) public override void ApplyInputDeviceDelta(Vector3 delta, DeltaSpeed speed, TimeSpan startValue) Parameters delta Vector3 speed DeltaSpeed startValue TimeSpan StringToValue(string) protected override TimeSpan StringToValue(string str) Parameters str string Returns TimeSpan ValueToString(TimeSpan) protected override string ValueToString(TimeSpan v) Parameters v TimeSpan Returns string"
+  },
+  "api/Cubusky.UIElements.html": {
+    "href": "api/Cubusky.UIElements.html",
+    "title": "Namespace Cubusky.UIElements | Cubusky Core | 0.9.0-pre",
+    "keywords": "Namespace Cubusky.UIElements Classes TimeSpanField"
+  },
+  "api/Cubusky.html": {
+    "href": "api/Cubusky.html",
+    "title": "Namespace Cubusky | Cubusky Core | 0.9.0-pre",
+    "keywords": "Namespace Cubusky Classes GuidAttribute Serializes a string as a valid Guid. Instance Instance<T> OfTypeAttribute Specifies types that an Object needs to be of. Can be used to create an Object selector that allows interfaces. TimeSpanAttribute Structs AnimatorHash A generated parameter id from a string. ShaderId A unique identifier for a shader property name."
+  },
+  "api/index.html": {
+    "href": "api/index.html",
+    "title": "| Cubusky Core | 0.9.0-pre",
+    "keywords": "This is the documentation for the Scripting APIs of this package."
+  },
+  "changelog/CHANGELOG.html": {
+    "href": "changelog/CHANGELOG.html",
+    "title": "Changelog | Cubusky Core | 0.9.0-pre",
+    "keywords": "Changelog All notable changes to this package will be documented in this file. The format is based on Keep a Changelog and this project adheres to Semantic Versioning. [0.9.0-pre] - 2023-12-30 Added Add documentation, license and changelog url. Add a UIElement TimeSpanField that may be used to draw a TimeSpan in the inspector. Add a TimeSpanAttribute to allow long to be drawn as TimeSpan in the inspector. Use like so: [TimeSpan] public long timeSpan; Add an OfTypeAttribute to allow Objects to specify which types they need to be of. Use like so: [OfType(typeof(IPointerClickHandler), typeof(ISubmitHandler))] public Selectable pointClickSubmitHandler; Removed Remove unused SerializedPropertyExtensions before version 1.0 as their integrety cannot be verified at this time. [0.1.0-exp] - 2023-05-15 This is the first release of Cubusky Core. Cubusky Core contains reusable code spanning across the Cubusky organization including serialization features and utility functions. If you are creating a custom package based on the Cubusky organization, using Cubusky Core will save you time."
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "| Cubusky Core | 0.9.0-pre",
+    "keywords": "This page redirects to the manual."
+  },
+  "license/LICENSE.html": {
+    "href": "license/LICENSE.html",
+    "title": "| Cubusky Core | 0.9.0-pre",
+    "keywords": "MIT License Copyright (c) 2023 Cubusky Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+  },
+  "manual/index.html": {
+    "href": "manual/index.html",
+    "title": "Cubusky Core | Cubusky Core | 0.9.0-pre",
+    "keywords": "Cubusky Core Reusable code spanning across the Cubusky organization including serialization features and utility functions. If you are creating a custom package based on the Cubusky organization, using Cubusky Core will save you time."
+  }
+}

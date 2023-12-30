@@ -1,0 +1,294 @@
+{
+  "sitemap": {
+    "baseUrl": "https://cubusky.github.io/com.cubusky.core/"
+  },
+  "source_base_path": "/home/runner/work/com.cubusky.core/com.cubusky.core/Documentation~",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cubusky.AnimatorHash.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cubusky.AnimatorHash.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cubusky.Editor.AnimatorHashDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cubusky.Editor.AnimatorHashDrawer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cubusky.Editor.GuidDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cubusky.Editor.GuidDrawer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cubusky.Editor.Menus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cubusky.Editor.Menus.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cubusky.Editor.OfTypeDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cubusky.Editor.OfTypeDrawer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cubusky.Editor.ShaderIdDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cubusky.Editor.ShaderIdDrawer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cubusky.Editor.TimeSpanDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cubusky.Editor.TimeSpanDrawer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cubusky.Editor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cubusky.Editor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cubusky.GuidAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cubusky.GuidAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cubusky.Instance-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cubusky.Instance-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cubusky.Instance.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cubusky.Instance.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cubusky.OfTypeAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cubusky.OfTypeAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cubusky.ShaderId.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cubusky.ShaderId.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cubusky.TimeSpanAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cubusky.TimeSpanAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cubusky.UIElements.TimeSpanField.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cubusky.UIElements.TimeSpanField.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cubusky.UIElements.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cubusky.UIElements.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cubusky.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cubusky.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "api/toc.json"
+        },
+        ".html": {
+          "relative_path": "api/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "changelog/CHANGELOG.md",
+      "output": {
+        ".html": {
+          "relative_path": "changelog/CHANGELOG.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "changelog/toc.md",
+      "output": {
+        ".json": {
+          "relative_path": "changelog/toc.json"
+        },
+        ".html": {
+          "relative_path": "changelog/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "license/LICENSE.md",
+      "output": {
+        ".html": {
+          "relative_path": "license/LICENSE.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "license/toc.md",
+      "output": {
+        ".json": {
+          "relative_path": "license/toc.json"
+        },
+        ".html": {
+          "relative_path": "license/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "toc.json"
+        },
+        ".html": {
+          "relative_path": "toc.html"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

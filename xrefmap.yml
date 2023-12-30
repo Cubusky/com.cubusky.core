@@ -1,0 +1,690 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: Cubusky
+  name: Cubusky
+  href: api/Cubusky.html
+  commentId: N:Cubusky
+  fullName: Cubusky
+  nameWithType: Cubusky
+- uid: Cubusky.AnimatorHash
+  name: AnimatorHash
+  href: api/Cubusky.AnimatorHash.html
+  commentId: T:Cubusky.AnimatorHash
+  fullName: Cubusky.AnimatorHash
+  nameWithType: AnimatorHash
+- uid: Cubusky.AnimatorHash.#ctor(System.String)
+  name: AnimatorHash(string)
+  href: api/Cubusky.AnimatorHash.html#Cubusky_AnimatorHash__ctor_System_String_
+  commentId: M:Cubusky.AnimatorHash.#ctor(System.String)
+  name.vb: New(String)
+  fullName: Cubusky.AnimatorHash.AnimatorHash(string)
+  fullName.vb: Cubusky.AnimatorHash.New(String)
+  nameWithType: AnimatorHash.AnimatorHash(string)
+  nameWithType.vb: AnimatorHash.New(String)
+- uid: Cubusky.AnimatorHash.#ctor*
+  name: AnimatorHash
+  href: api/Cubusky.AnimatorHash.html#Cubusky_AnimatorHash__ctor_
+  commentId: Overload:Cubusky.AnimatorHash.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Cubusky.AnimatorHash.AnimatorHash
+  fullName.vb: Cubusky.AnimatorHash.New
+  nameWithType: AnimatorHash.AnimatorHash
+  nameWithType.vb: AnimatorHash.New
+- uid: Cubusky.AnimatorHash.Equals(Cubusky.AnimatorHash)
+  name: Equals(AnimatorHash)
+  href: api/Cubusky.AnimatorHash.html#Cubusky_AnimatorHash_Equals_Cubusky_AnimatorHash_
+  commentId: M:Cubusky.AnimatorHash.Equals(Cubusky.AnimatorHash)
+  fullName: Cubusky.AnimatorHash.Equals(Cubusky.AnimatorHash)
+  nameWithType: AnimatorHash.Equals(AnimatorHash)
+- uid: Cubusky.AnimatorHash.Equals(System.Object)
+  name: Equals(object?)
+  href: api/Cubusky.AnimatorHash.html#Cubusky_AnimatorHash_Equals_System_Object_
+  commentId: M:Cubusky.AnimatorHash.Equals(System.Object)
+  name.vb: Equals(Object)
+  fullName: Cubusky.AnimatorHash.Equals(object?)
+  fullName.vb: Cubusky.AnimatorHash.Equals(Object)
+  nameWithType: AnimatorHash.Equals(object?)
+  nameWithType.vb: AnimatorHash.Equals(Object)
+- uid: Cubusky.AnimatorHash.Equals*
+  name: Equals
+  href: api/Cubusky.AnimatorHash.html#Cubusky_AnimatorHash_Equals_
+  commentId: Overload:Cubusky.AnimatorHash.Equals
+  isSpec: "True"
+  fullName: Cubusky.AnimatorHash.Equals
+  nameWithType: AnimatorHash.Equals
+- uid: Cubusky.AnimatorHash.GetHashCode
+  name: GetHashCode()
+  href: api/Cubusky.AnimatorHash.html#Cubusky_AnimatorHash_GetHashCode
+  commentId: M:Cubusky.AnimatorHash.GetHashCode
+  fullName: Cubusky.AnimatorHash.GetHashCode()
+  nameWithType: AnimatorHash.GetHashCode()
+- uid: Cubusky.AnimatorHash.GetHashCode*
+  name: GetHashCode
+  href: api/Cubusky.AnimatorHash.html#Cubusky_AnimatorHash_GetHashCode_
+  commentId: Overload:Cubusky.AnimatorHash.GetHashCode
+  isSpec: "True"
+  fullName: Cubusky.AnimatorHash.GetHashCode
+  nameWithType: AnimatorHash.GetHashCode
+- uid: Cubusky.AnimatorHash.ToString
+  name: ToString()
+  href: api/Cubusky.AnimatorHash.html#Cubusky_AnimatorHash_ToString
+  commentId: M:Cubusky.AnimatorHash.ToString
+  fullName: Cubusky.AnimatorHash.ToString()
+  nameWithType: AnimatorHash.ToString()
+- uid: Cubusky.AnimatorHash.ToString*
+  name: ToString
+  href: api/Cubusky.AnimatorHash.html#Cubusky_AnimatorHash_ToString_
+  commentId: Overload:Cubusky.AnimatorHash.ToString
+  isSpec: "True"
+  fullName: Cubusky.AnimatorHash.ToString
+  nameWithType: AnimatorHash.ToString
+- uid: Cubusky.AnimatorHash.id
+  name: id
+  href: api/Cubusky.AnimatorHash.html#Cubusky_AnimatorHash_id
+  commentId: P:Cubusky.AnimatorHash.id
+  fullName: Cubusky.AnimatorHash.id
+  nameWithType: AnimatorHash.id
+- uid: Cubusky.AnimatorHash.id*
+  name: id
+  href: api/Cubusky.AnimatorHash.html#Cubusky_AnimatorHash_id_
+  commentId: Overload:Cubusky.AnimatorHash.id
+  isSpec: "True"
+  fullName: Cubusky.AnimatorHash.id
+  nameWithType: AnimatorHash.id
+- uid: Cubusky.AnimatorHash.name
+  name: name
+  href: api/Cubusky.AnimatorHash.html#Cubusky_AnimatorHash_name
+  commentId: P:Cubusky.AnimatorHash.name
+  fullName: Cubusky.AnimatorHash.name
+  nameWithType: AnimatorHash.name
+- uid: Cubusky.AnimatorHash.name*
+  name: name
+  href: api/Cubusky.AnimatorHash.html#Cubusky_AnimatorHash_name_
+  commentId: Overload:Cubusky.AnimatorHash.name
+  isSpec: "True"
+  fullName: Cubusky.AnimatorHash.name
+  nameWithType: AnimatorHash.name
+- uid: Cubusky.AnimatorHash.op_Equality(Cubusky.AnimatorHash,Cubusky.AnimatorHash)
+  name: operator ==(AnimatorHash, AnimatorHash)
+  href: api/Cubusky.AnimatorHash.html#Cubusky_AnimatorHash_op_Equality_Cubusky_AnimatorHash_Cubusky_AnimatorHash_
+  commentId: M:Cubusky.AnimatorHash.op_Equality(Cubusky.AnimatorHash,Cubusky.AnimatorHash)
+  name.vb: =(AnimatorHash, AnimatorHash)
+  fullName: Cubusky.AnimatorHash.operator ==(Cubusky.AnimatorHash, Cubusky.AnimatorHash)
+  fullName.vb: Cubusky.AnimatorHash.=(Cubusky.AnimatorHash, Cubusky.AnimatorHash)
+  nameWithType: AnimatorHash.operator ==(AnimatorHash, AnimatorHash)
+  nameWithType.vb: AnimatorHash.=(AnimatorHash, AnimatorHash)
+- uid: Cubusky.AnimatorHash.op_Equality*
+  name: operator ==
+  href: api/Cubusky.AnimatorHash.html#Cubusky_AnimatorHash_op_Equality_
+  commentId: Overload:Cubusky.AnimatorHash.op_Equality
+  isSpec: "True"
+  name.vb: =
+  fullName: Cubusky.AnimatorHash.operator ==
+  fullName.vb: Cubusky.AnimatorHash.=
+  nameWithType: AnimatorHash.operator ==
+  nameWithType.vb: AnimatorHash.=
+- uid: Cubusky.AnimatorHash.op_Implicit(Cubusky.AnimatorHash)~System.Int32
+  name: implicit operator int(AnimatorHash)
+  href: api/Cubusky.AnimatorHash.html#Cubusky_AnimatorHash_op_Implicit_Cubusky_AnimatorHash__System_Int32
+  commentId: M:Cubusky.AnimatorHash.op_Implicit(Cubusky.AnimatorHash)~System.Int32
+  name.vb: CType(AnimatorHash)
+  fullName: Cubusky.AnimatorHash.implicit operator int(Cubusky.AnimatorHash)
+  fullName.vb: Cubusky.AnimatorHash.CType(Cubusky.AnimatorHash)
+  nameWithType: AnimatorHash.implicit operator int(AnimatorHash)
+  nameWithType.vb: AnimatorHash.CType(AnimatorHash)
+- uid: Cubusky.AnimatorHash.op_Implicit(System.String)~Cubusky.AnimatorHash
+  name: implicit operator AnimatorHash(string)
+  href: api/Cubusky.AnimatorHash.html#Cubusky_AnimatorHash_op_Implicit_System_String__Cubusky_AnimatorHash
+  commentId: M:Cubusky.AnimatorHash.op_Implicit(System.String)~Cubusky.AnimatorHash
+  name.vb: CType(String)
+  fullName: Cubusky.AnimatorHash.implicit operator Cubusky.AnimatorHash(string)
+  fullName.vb: Cubusky.AnimatorHash.CType(String)
+  nameWithType: AnimatorHash.implicit operator AnimatorHash(string)
+  nameWithType.vb: AnimatorHash.CType(String)
+- uid: Cubusky.AnimatorHash.op_Implicit*
+  name: implicit operator
+  href: api/Cubusky.AnimatorHash.html#Cubusky_AnimatorHash_op_Implicit_
+  commentId: Overload:Cubusky.AnimatorHash.op_Implicit
+  isSpec: "True"
+  name.vb: CType
+  fullName: Cubusky.AnimatorHash.implicit operator
+  fullName.vb: Cubusky.AnimatorHash.CType
+  nameWithType: AnimatorHash.implicit operator
+  nameWithType.vb: AnimatorHash.CType
+- uid: Cubusky.AnimatorHash.op_Inequality(Cubusky.AnimatorHash,Cubusky.AnimatorHash)
+  name: operator !=(AnimatorHash, AnimatorHash)
+  href: api/Cubusky.AnimatorHash.html#Cubusky_AnimatorHash_op_Inequality_Cubusky_AnimatorHash_Cubusky_AnimatorHash_
+  commentId: M:Cubusky.AnimatorHash.op_Inequality(Cubusky.AnimatorHash,Cubusky.AnimatorHash)
+  name.vb: <>(AnimatorHash, AnimatorHash)
+  fullName: Cubusky.AnimatorHash.operator !=(Cubusky.AnimatorHash, Cubusky.AnimatorHash)
+  fullName.vb: Cubusky.AnimatorHash.<>(Cubusky.AnimatorHash, Cubusky.AnimatorHash)
+  nameWithType: AnimatorHash.operator !=(AnimatorHash, AnimatorHash)
+  nameWithType.vb: AnimatorHash.<>(AnimatorHash, AnimatorHash)
+- uid: Cubusky.AnimatorHash.op_Inequality*
+  name: operator !=
+  href: api/Cubusky.AnimatorHash.html#Cubusky_AnimatorHash_op_Inequality_
+  commentId: Overload:Cubusky.AnimatorHash.op_Inequality
+  isSpec: "True"
+  name.vb: <>
+  fullName: Cubusky.AnimatorHash.operator !=
+  fullName.vb: Cubusky.AnimatorHash.<>
+  nameWithType: AnimatorHash.operator !=
+  nameWithType.vb: AnimatorHash.<>
+- uid: Cubusky.Editor
+  name: Cubusky.Editor
+  href: api/Cubusky.Editor.html
+  commentId: N:Cubusky.Editor
+  fullName: Cubusky.Editor
+  nameWithType: Cubusky.Editor
+- uid: Cubusky.Editor.AnimatorHashDrawer
+  name: AnimatorHashDrawer
+  href: api/Cubusky.Editor.AnimatorHashDrawer.html
+  commentId: T:Cubusky.Editor.AnimatorHashDrawer
+  fullName: Cubusky.Editor.AnimatorHashDrawer
+  nameWithType: AnimatorHashDrawer
+- uid: Cubusky.Editor.AnimatorHashDrawer.CreatePropertyGUI(SerializedProperty)
+  name: CreatePropertyGUI(SerializedProperty)
+  href: api/Cubusky.Editor.AnimatorHashDrawer.html#Cubusky_Editor_AnimatorHashDrawer_CreatePropertyGUI_SerializedProperty_
+  commentId: M:Cubusky.Editor.AnimatorHashDrawer.CreatePropertyGUI(SerializedProperty)
+  fullName: Cubusky.Editor.AnimatorHashDrawer.CreatePropertyGUI(SerializedProperty)
+  nameWithType: AnimatorHashDrawer.CreatePropertyGUI(SerializedProperty)
+- uid: Cubusky.Editor.AnimatorHashDrawer.CreatePropertyGUI*
+  name: CreatePropertyGUI
+  href: api/Cubusky.Editor.AnimatorHashDrawer.html#Cubusky_Editor_AnimatorHashDrawer_CreatePropertyGUI_
+  commentId: Overload:Cubusky.Editor.AnimatorHashDrawer.CreatePropertyGUI
+  isSpec: "True"
+  fullName: Cubusky.Editor.AnimatorHashDrawer.CreatePropertyGUI
+  nameWithType: AnimatorHashDrawer.CreatePropertyGUI
+- uid: Cubusky.Editor.GuidDrawer
+  name: GuidDrawer
+  href: api/Cubusky.Editor.GuidDrawer.html
+  commentId: T:Cubusky.Editor.GuidDrawer
+  fullName: Cubusky.Editor.GuidDrawer
+  nameWithType: GuidDrawer
+- uid: Cubusky.Editor.GuidDrawer.CreatePropertyGUI(SerializedProperty)
+  name: CreatePropertyGUI(SerializedProperty)
+  href: api/Cubusky.Editor.GuidDrawer.html#Cubusky_Editor_GuidDrawer_CreatePropertyGUI_SerializedProperty_
+  commentId: M:Cubusky.Editor.GuidDrawer.CreatePropertyGUI(SerializedProperty)
+  fullName: Cubusky.Editor.GuidDrawer.CreatePropertyGUI(SerializedProperty)
+  nameWithType: GuidDrawer.CreatePropertyGUI(SerializedProperty)
+- uid: Cubusky.Editor.GuidDrawer.CreatePropertyGUI*
+  name: CreatePropertyGUI
+  href: api/Cubusky.Editor.GuidDrawer.html#Cubusky_Editor_GuidDrawer_CreatePropertyGUI_
+  commentId: Overload:Cubusky.Editor.GuidDrawer.CreatePropertyGUI
+  isSpec: "True"
+  fullName: Cubusky.Editor.GuidDrawer.CreatePropertyGUI
+  nameWithType: GuidDrawer.CreatePropertyGUI
+- uid: Cubusky.Editor.Menus
+  name: Menus
+  href: api/Cubusky.Editor.Menus.html
+  commentId: T:Cubusky.Editor.Menus
+  fullName: Cubusky.Editor.Menus
+  nameWithType: Menus
+- uid: Cubusky.Editor.Menus.SetState(MenuCommand)
+  name: SetState(MenuCommand)
+  href: api/Cubusky.Editor.Menus.html#Cubusky_Editor_Menus_SetState_MenuCommand_
+  commentId: M:Cubusky.Editor.Menus.SetState(MenuCommand)
+  fullName: Cubusky.Editor.Menus.SetState(MenuCommand)
+  nameWithType: Menus.SetState(MenuCommand)
+- uid: Cubusky.Editor.Menus.SetState*
+  name: SetState
+  href: api/Cubusky.Editor.Menus.html#Cubusky_Editor_Menus_SetState_
+  commentId: Overload:Cubusky.Editor.Menus.SetState
+  isSpec: "True"
+  fullName: Cubusky.Editor.Menus.SetState
+  nameWithType: Menus.SetState
+- uid: Cubusky.Editor.OfTypeDrawer
+  name: OfTypeDrawer
+  href: api/Cubusky.Editor.OfTypeDrawer.html
+  commentId: T:Cubusky.Editor.OfTypeDrawer
+  fullName: Cubusky.Editor.OfTypeDrawer
+  nameWithType: OfTypeDrawer
+- uid: Cubusky.Editor.OfTypeDrawer.CreatePropertyGUI(SerializedProperty)
+  name: CreatePropertyGUI(SerializedProperty)
+  href: api/Cubusky.Editor.OfTypeDrawer.html#Cubusky_Editor_OfTypeDrawer_CreatePropertyGUI_SerializedProperty_
+  commentId: M:Cubusky.Editor.OfTypeDrawer.CreatePropertyGUI(SerializedProperty)
+  fullName: Cubusky.Editor.OfTypeDrawer.CreatePropertyGUI(SerializedProperty)
+  nameWithType: OfTypeDrawer.CreatePropertyGUI(SerializedProperty)
+- uid: Cubusky.Editor.OfTypeDrawer.CreatePropertyGUI*
+  name: CreatePropertyGUI
+  href: api/Cubusky.Editor.OfTypeDrawer.html#Cubusky_Editor_OfTypeDrawer_CreatePropertyGUI_
+  commentId: Overload:Cubusky.Editor.OfTypeDrawer.CreatePropertyGUI
+  isSpec: "True"
+  fullName: Cubusky.Editor.OfTypeDrawer.CreatePropertyGUI
+  nameWithType: OfTypeDrawer.CreatePropertyGUI
+- uid: Cubusky.Editor.ShaderIdDrawer
+  name: ShaderIdDrawer
+  href: api/Cubusky.Editor.ShaderIdDrawer.html
+  commentId: T:Cubusky.Editor.ShaderIdDrawer
+  fullName: Cubusky.Editor.ShaderIdDrawer
+  nameWithType: ShaderIdDrawer
+- uid: Cubusky.Editor.ShaderIdDrawer.CreatePropertyGUI(SerializedProperty)
+  name: CreatePropertyGUI(SerializedProperty)
+  href: api/Cubusky.Editor.ShaderIdDrawer.html#Cubusky_Editor_ShaderIdDrawer_CreatePropertyGUI_SerializedProperty_
+  commentId: M:Cubusky.Editor.ShaderIdDrawer.CreatePropertyGUI(SerializedProperty)
+  fullName: Cubusky.Editor.ShaderIdDrawer.CreatePropertyGUI(SerializedProperty)
+  nameWithType: ShaderIdDrawer.CreatePropertyGUI(SerializedProperty)
+- uid: Cubusky.Editor.ShaderIdDrawer.CreatePropertyGUI*
+  name: CreatePropertyGUI
+  href: api/Cubusky.Editor.ShaderIdDrawer.html#Cubusky_Editor_ShaderIdDrawer_CreatePropertyGUI_
+  commentId: Overload:Cubusky.Editor.ShaderIdDrawer.CreatePropertyGUI
+  isSpec: "True"
+  fullName: Cubusky.Editor.ShaderIdDrawer.CreatePropertyGUI
+  nameWithType: ShaderIdDrawer.CreatePropertyGUI
+- uid: Cubusky.Editor.TimeSpanDrawer
+  name: TimeSpanDrawer
+  href: api/Cubusky.Editor.TimeSpanDrawer.html
+  commentId: T:Cubusky.Editor.TimeSpanDrawer
+  fullName: Cubusky.Editor.TimeSpanDrawer
+  nameWithType: TimeSpanDrawer
+- uid: Cubusky.Editor.TimeSpanDrawer.CreatePropertyGUI(SerializedProperty)
+  name: CreatePropertyGUI(SerializedProperty)
+  href: api/Cubusky.Editor.TimeSpanDrawer.html#Cubusky_Editor_TimeSpanDrawer_CreatePropertyGUI_SerializedProperty_
+  commentId: M:Cubusky.Editor.TimeSpanDrawer.CreatePropertyGUI(SerializedProperty)
+  fullName: Cubusky.Editor.TimeSpanDrawer.CreatePropertyGUI(SerializedProperty)
+  nameWithType: TimeSpanDrawer.CreatePropertyGUI(SerializedProperty)
+- uid: Cubusky.Editor.TimeSpanDrawer.CreatePropertyGUI*
+  name: CreatePropertyGUI
+  href: api/Cubusky.Editor.TimeSpanDrawer.html#Cubusky_Editor_TimeSpanDrawer_CreatePropertyGUI_
+  commentId: Overload:Cubusky.Editor.TimeSpanDrawer.CreatePropertyGUI
+  isSpec: "True"
+  fullName: Cubusky.Editor.TimeSpanDrawer.CreatePropertyGUI
+  nameWithType: TimeSpanDrawer.CreatePropertyGUI
+- uid: Cubusky.GuidAttribute
+  name: GuidAttribute
+  href: api/Cubusky.GuidAttribute.html
+  commentId: T:Cubusky.GuidAttribute
+  fullName: Cubusky.GuidAttribute
+  nameWithType: GuidAttribute
+- uid: Cubusky.Instance
+  name: Instance
+  href: api/Cubusky.Instance.html
+  commentId: T:Cubusky.Instance
+  fullName: Cubusky.Instance
+  nameWithType: Instance
+- uid: Cubusky.Instance.SetState
+  name: SetState()
+  href: api/Cubusky.Instance.html#Cubusky_Instance_SetState
+  commentId: M:Cubusky.Instance.SetState
+  fullName: Cubusky.Instance.SetState()
+  nameWithType: Instance.SetState()
+- uid: Cubusky.Instance.SetState*
+  name: SetState
+  href: api/Cubusky.Instance.html#Cubusky_Instance_SetState_
+  commentId: Overload:Cubusky.Instance.SetState
+  isSpec: "True"
+  fullName: Cubusky.Instance.SetState
+  nameWithType: Instance.SetState
+- uid: Cubusky.Instance`1
+  name: Instance<T>
+  href: api/Cubusky.Instance-1.html
+  commentId: T:Cubusky.Instance`1
+  name.vb: Instance(Of T)
+  fullName: Cubusky.Instance<T>
+  fullName.vb: Cubusky.Instance(Of T)
+  nameWithType: Instance<T>
+  nameWithType.vb: Instance(Of T)
+- uid: Cubusky.Instance`1.OnDisable
+  name: OnDisable()
+  href: api/Cubusky.Instance-1.html#Cubusky_Instance_1_OnDisable
+  commentId: M:Cubusky.Instance`1.OnDisable
+  fullName: Cubusky.Instance<T>.OnDisable()
+  fullName.vb: Cubusky.Instance(Of T).OnDisable()
+  nameWithType: Instance<T>.OnDisable()
+  nameWithType.vb: Instance(Of T).OnDisable()
+- uid: Cubusky.Instance`1.OnDisable*
+  name: OnDisable
+  href: api/Cubusky.Instance-1.html#Cubusky_Instance_1_OnDisable_
+  commentId: Overload:Cubusky.Instance`1.OnDisable
+  isSpec: "True"
+  fullName: Cubusky.Instance<T>.OnDisable
+  fullName.vb: Cubusky.Instance(Of T).OnDisable
+  nameWithType: Instance<T>.OnDisable
+  nameWithType.vb: Instance(Of T).OnDisable
+- uid: Cubusky.Instance`1.OnEnable
+  name: OnEnable()
+  href: api/Cubusky.Instance-1.html#Cubusky_Instance_1_OnEnable
+  commentId: M:Cubusky.Instance`1.OnEnable
+  fullName: Cubusky.Instance<T>.OnEnable()
+  fullName.vb: Cubusky.Instance(Of T).OnEnable()
+  nameWithType: Instance<T>.OnEnable()
+  nameWithType.vb: Instance(Of T).OnEnable()
+- uid: Cubusky.Instance`1.OnEnable*
+  name: OnEnable
+  href: api/Cubusky.Instance-1.html#Cubusky_Instance_1_OnEnable_
+  commentId: Overload:Cubusky.Instance`1.OnEnable
+  isSpec: "True"
+  fullName: Cubusky.Instance<T>.OnEnable
+  fullName.vb: Cubusky.Instance(Of T).OnEnable
+  nameWithType: Instance<T>.OnEnable
+  nameWithType.vb: Instance(Of T).OnEnable
+- uid: Cubusky.Instance`1.current
+  name: current
+  href: api/Cubusky.Instance-1.html#Cubusky_Instance_1_current
+  commentId: P:Cubusky.Instance`1.current
+  fullName: Cubusky.Instance<T>.current
+  fullName.vb: Cubusky.Instance(Of T).current
+  nameWithType: Instance<T>.current
+  nameWithType.vb: Instance(Of T).current
+- uid: Cubusky.Instance`1.current*
+  name: current
+  href: api/Cubusky.Instance-1.html#Cubusky_Instance_1_current_
+  commentId: Overload:Cubusky.Instance`1.current
+  isSpec: "True"
+  fullName: Cubusky.Instance<T>.current
+  fullName.vb: Cubusky.Instance(Of T).current
+  nameWithType: Instance<T>.current
+  nameWithType.vb: Instance(Of T).current
+- uid: Cubusky.OfTypeAttribute
+  name: OfTypeAttribute
+  href: api/Cubusky.OfTypeAttribute.html
+  commentId: T:Cubusky.OfTypeAttribute
+  fullName: Cubusky.OfTypeAttribute
+  nameWithType: OfTypeAttribute
+- uid: Cubusky.OfTypeAttribute.#ctor(System.Type)
+  name: OfTypeAttribute(Type)
+  href: api/Cubusky.OfTypeAttribute.html#Cubusky_OfTypeAttribute__ctor_System_Type_
+  commentId: M:Cubusky.OfTypeAttribute.#ctor(System.Type)
+  name.vb: New(Type)
+  fullName: Cubusky.OfTypeAttribute.OfTypeAttribute(System.Type)
+  fullName.vb: Cubusky.OfTypeAttribute.New(System.Type)
+  nameWithType: OfTypeAttribute.OfTypeAttribute(Type)
+  nameWithType.vb: OfTypeAttribute.New(Type)
+- uid: Cubusky.OfTypeAttribute.#ctor(System.Type[])
+  name: OfTypeAttribute(params Type[])
+  href: api/Cubusky.OfTypeAttribute.html#Cubusky_OfTypeAttribute__ctor_System_Type___
+  commentId: M:Cubusky.OfTypeAttribute.#ctor(System.Type[])
+  name.vb: New(ParamArray Type())
+  fullName: Cubusky.OfTypeAttribute.OfTypeAttribute(params System.Type[])
+  fullName.vb: Cubusky.OfTypeAttribute.New(ParamArray System.Type())
+  nameWithType: OfTypeAttribute.OfTypeAttribute(params Type[])
+  nameWithType.vb: OfTypeAttribute.New(ParamArray Type())
+- uid: Cubusky.OfTypeAttribute.#ctor*
+  name: OfTypeAttribute
+  href: api/Cubusky.OfTypeAttribute.html#Cubusky_OfTypeAttribute__ctor_
+  commentId: Overload:Cubusky.OfTypeAttribute.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Cubusky.OfTypeAttribute.OfTypeAttribute
+  fullName.vb: Cubusky.OfTypeAttribute.New
+  nameWithType: OfTypeAttribute.OfTypeAttribute
+  nameWithType.vb: OfTypeAttribute.New
+- uid: Cubusky.OfTypeAttribute.types
+  name: types
+  href: api/Cubusky.OfTypeAttribute.html#Cubusky_OfTypeAttribute_types
+  commentId: F:Cubusky.OfTypeAttribute.types
+  fullName: Cubusky.OfTypeAttribute.types
+  nameWithType: OfTypeAttribute.types
+- uid: Cubusky.ShaderId
+  name: ShaderId
+  href: api/Cubusky.ShaderId.html
+  commentId: T:Cubusky.ShaderId
+  fullName: Cubusky.ShaderId
+  nameWithType: ShaderId
+- uid: Cubusky.ShaderId.#ctor(System.String)
+  name: ShaderId(string)
+  href: api/Cubusky.ShaderId.html#Cubusky_ShaderId__ctor_System_String_
+  commentId: M:Cubusky.ShaderId.#ctor(System.String)
+  name.vb: New(String)
+  fullName: Cubusky.ShaderId.ShaderId(string)
+  fullName.vb: Cubusky.ShaderId.New(String)
+  nameWithType: ShaderId.ShaderId(string)
+  nameWithType.vb: ShaderId.New(String)
+- uid: Cubusky.ShaderId.#ctor*
+  name: ShaderId
+  href: api/Cubusky.ShaderId.html#Cubusky_ShaderId__ctor_
+  commentId: Overload:Cubusky.ShaderId.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Cubusky.ShaderId.ShaderId
+  fullName.vb: Cubusky.ShaderId.New
+  nameWithType: ShaderId.ShaderId
+  nameWithType.vb: ShaderId.New
+- uid: Cubusky.ShaderId.Equals(Cubusky.ShaderId)
+  name: Equals(ShaderId)
+  href: api/Cubusky.ShaderId.html#Cubusky_ShaderId_Equals_Cubusky_ShaderId_
+  commentId: M:Cubusky.ShaderId.Equals(Cubusky.ShaderId)
+  fullName: Cubusky.ShaderId.Equals(Cubusky.ShaderId)
+  nameWithType: ShaderId.Equals(ShaderId)
+- uid: Cubusky.ShaderId.Equals(System.Object)
+  name: Equals(object?)
+  href: api/Cubusky.ShaderId.html#Cubusky_ShaderId_Equals_System_Object_
+  commentId: M:Cubusky.ShaderId.Equals(System.Object)
+  name.vb: Equals(Object)
+  fullName: Cubusky.ShaderId.Equals(object?)
+  fullName.vb: Cubusky.ShaderId.Equals(Object)
+  nameWithType: ShaderId.Equals(object?)
+  nameWithType.vb: ShaderId.Equals(Object)
+- uid: Cubusky.ShaderId.Equals*
+  name: Equals
+  href: api/Cubusky.ShaderId.html#Cubusky_ShaderId_Equals_
+  commentId: Overload:Cubusky.ShaderId.Equals
+  isSpec: "True"
+  fullName: Cubusky.ShaderId.Equals
+  nameWithType: ShaderId.Equals
+- uid: Cubusky.ShaderId.GetHashCode
+  name: GetHashCode()
+  href: api/Cubusky.ShaderId.html#Cubusky_ShaderId_GetHashCode
+  commentId: M:Cubusky.ShaderId.GetHashCode
+  fullName: Cubusky.ShaderId.GetHashCode()
+  nameWithType: ShaderId.GetHashCode()
+- uid: Cubusky.ShaderId.GetHashCode*
+  name: GetHashCode
+  href: api/Cubusky.ShaderId.html#Cubusky_ShaderId_GetHashCode_
+  commentId: Overload:Cubusky.ShaderId.GetHashCode
+  isSpec: "True"
+  fullName: Cubusky.ShaderId.GetHashCode
+  nameWithType: ShaderId.GetHashCode
+- uid: Cubusky.ShaderId.ToString
+  name: ToString()
+  href: api/Cubusky.ShaderId.html#Cubusky_ShaderId_ToString
+  commentId: M:Cubusky.ShaderId.ToString
+  fullName: Cubusky.ShaderId.ToString()
+  nameWithType: ShaderId.ToString()
+- uid: Cubusky.ShaderId.ToString*
+  name: ToString
+  href: api/Cubusky.ShaderId.html#Cubusky_ShaderId_ToString_
+  commentId: Overload:Cubusky.ShaderId.ToString
+  isSpec: "True"
+  fullName: Cubusky.ShaderId.ToString
+  nameWithType: ShaderId.ToString
+- uid: Cubusky.ShaderId.id
+  name: id
+  href: api/Cubusky.ShaderId.html#Cubusky_ShaderId_id
+  commentId: P:Cubusky.ShaderId.id
+  fullName: Cubusky.ShaderId.id
+  nameWithType: ShaderId.id
+- uid: Cubusky.ShaderId.id*
+  name: id
+  href: api/Cubusky.ShaderId.html#Cubusky_ShaderId_id_
+  commentId: Overload:Cubusky.ShaderId.id
+  isSpec: "True"
+  fullName: Cubusky.ShaderId.id
+  nameWithType: ShaderId.id
+- uid: Cubusky.ShaderId.name
+  name: name
+  href: api/Cubusky.ShaderId.html#Cubusky_ShaderId_name
+  commentId: P:Cubusky.ShaderId.name
+  fullName: Cubusky.ShaderId.name
+  nameWithType: ShaderId.name
+- uid: Cubusky.ShaderId.name*
+  name: name
+  href: api/Cubusky.ShaderId.html#Cubusky_ShaderId_name_
+  commentId: Overload:Cubusky.ShaderId.name
+  isSpec: "True"
+  fullName: Cubusky.ShaderId.name
+  nameWithType: ShaderId.name
+- uid: Cubusky.ShaderId.op_Equality(Cubusky.ShaderId,Cubusky.ShaderId)
+  name: operator ==(ShaderId, ShaderId)
+  href: api/Cubusky.ShaderId.html#Cubusky_ShaderId_op_Equality_Cubusky_ShaderId_Cubusky_ShaderId_
+  commentId: M:Cubusky.ShaderId.op_Equality(Cubusky.ShaderId,Cubusky.ShaderId)
+  name.vb: =(ShaderId, ShaderId)
+  fullName: Cubusky.ShaderId.operator ==(Cubusky.ShaderId, Cubusky.ShaderId)
+  fullName.vb: Cubusky.ShaderId.=(Cubusky.ShaderId, Cubusky.ShaderId)
+  nameWithType: ShaderId.operator ==(ShaderId, ShaderId)
+  nameWithType.vb: ShaderId.=(ShaderId, ShaderId)
+- uid: Cubusky.ShaderId.op_Equality*
+  name: operator ==
+  href: api/Cubusky.ShaderId.html#Cubusky_ShaderId_op_Equality_
+  commentId: Overload:Cubusky.ShaderId.op_Equality
+  isSpec: "True"
+  name.vb: =
+  fullName: Cubusky.ShaderId.operator ==
+  fullName.vb: Cubusky.ShaderId.=
+  nameWithType: ShaderId.operator ==
+  nameWithType.vb: ShaderId.=
+- uid: Cubusky.ShaderId.op_Implicit(Cubusky.ShaderId)~System.Int32
+  name: implicit operator int(ShaderId)
+  href: api/Cubusky.ShaderId.html#Cubusky_ShaderId_op_Implicit_Cubusky_ShaderId__System_Int32
+  commentId: M:Cubusky.ShaderId.op_Implicit(Cubusky.ShaderId)~System.Int32
+  name.vb: CType(ShaderId)
+  fullName: Cubusky.ShaderId.implicit operator int(Cubusky.ShaderId)
+  fullName.vb: Cubusky.ShaderId.CType(Cubusky.ShaderId)
+  nameWithType: ShaderId.implicit operator int(ShaderId)
+  nameWithType.vb: ShaderId.CType(ShaderId)
+- uid: Cubusky.ShaderId.op_Implicit(System.String)~Cubusky.ShaderId
+  name: implicit operator ShaderId(string)
+  href: api/Cubusky.ShaderId.html#Cubusky_ShaderId_op_Implicit_System_String__Cubusky_ShaderId
+  commentId: M:Cubusky.ShaderId.op_Implicit(System.String)~Cubusky.ShaderId
+  name.vb: CType(String)
+  fullName: Cubusky.ShaderId.implicit operator Cubusky.ShaderId(string)
+  fullName.vb: Cubusky.ShaderId.CType(String)
+  nameWithType: ShaderId.implicit operator ShaderId(string)
+  nameWithType.vb: ShaderId.CType(String)
+- uid: Cubusky.ShaderId.op_Implicit*
+  name: implicit operator
+  href: api/Cubusky.ShaderId.html#Cubusky_ShaderId_op_Implicit_
+  commentId: Overload:Cubusky.ShaderId.op_Implicit
+  isSpec: "True"
+  name.vb: CType
+  fullName: Cubusky.ShaderId.implicit operator
+  fullName.vb: Cubusky.ShaderId.CType
+  nameWithType: ShaderId.implicit operator
+  nameWithType.vb: ShaderId.CType
+- uid: Cubusky.ShaderId.op_Inequality(Cubusky.ShaderId,Cubusky.ShaderId)
+  name: operator !=(ShaderId, ShaderId)
+  href: api/Cubusky.ShaderId.html#Cubusky_ShaderId_op_Inequality_Cubusky_ShaderId_Cubusky_ShaderId_
+  commentId: M:Cubusky.ShaderId.op_Inequality(Cubusky.ShaderId,Cubusky.ShaderId)
+  name.vb: <>(ShaderId, ShaderId)
+  fullName: Cubusky.ShaderId.operator !=(Cubusky.ShaderId, Cubusky.ShaderId)
+  fullName.vb: Cubusky.ShaderId.<>(Cubusky.ShaderId, Cubusky.ShaderId)
+  nameWithType: ShaderId.operator !=(ShaderId, ShaderId)
+  nameWithType.vb: ShaderId.<>(ShaderId, ShaderId)
+- uid: Cubusky.ShaderId.op_Inequality*
+  name: operator !=
+  href: api/Cubusky.ShaderId.html#Cubusky_ShaderId_op_Inequality_
+  commentId: Overload:Cubusky.ShaderId.op_Inequality
+  isSpec: "True"
+  name.vb: <>
+  fullName: Cubusky.ShaderId.operator !=
+  fullName.vb: Cubusky.ShaderId.<>
+  nameWithType: ShaderId.operator !=
+  nameWithType.vb: ShaderId.<>
+- uid: Cubusky.TimeSpanAttribute
+  name: TimeSpanAttribute
+  href: api/Cubusky.TimeSpanAttribute.html
+  commentId: T:Cubusky.TimeSpanAttribute
+  fullName: Cubusky.TimeSpanAttribute
+  nameWithType: TimeSpanAttribute
+- uid: Cubusky.UIElements
+  name: Cubusky.UIElements
+  href: api/Cubusky.UIElements.html
+  commentId: N:Cubusky.UIElements
+  fullName: Cubusky.UIElements
+  nameWithType: Cubusky.UIElements
+- uid: Cubusky.UIElements.TimeSpanField
+  name: TimeSpanField
+  href: api/Cubusky.UIElements.TimeSpanField.html
+  commentId: T:Cubusky.UIElements.TimeSpanField
+  fullName: Cubusky.UIElements.TimeSpanField
+  nameWithType: TimeSpanField
+- uid: Cubusky.UIElements.TimeSpanField.#ctor
+  name: TimeSpanField()
+  href: api/Cubusky.UIElements.TimeSpanField.html#Cubusky_UIElements_TimeSpanField__ctor
+  commentId: M:Cubusky.UIElements.TimeSpanField.#ctor
+  name.vb: New()
+  fullName: Cubusky.UIElements.TimeSpanField.TimeSpanField()
+  fullName.vb: Cubusky.UIElements.TimeSpanField.New()
+  nameWithType: TimeSpanField.TimeSpanField()
+  nameWithType.vb: TimeSpanField.New()
+- uid: Cubusky.UIElements.TimeSpanField.#ctor(System.String)
+  name: TimeSpanField(string)
+  href: api/Cubusky.UIElements.TimeSpanField.html#Cubusky_UIElements_TimeSpanField__ctor_System_String_
+  commentId: M:Cubusky.UIElements.TimeSpanField.#ctor(System.String)
+  name.vb: New(String)
+  fullName: Cubusky.UIElements.TimeSpanField.TimeSpanField(string)
+  fullName.vb: Cubusky.UIElements.TimeSpanField.New(String)
+  nameWithType: TimeSpanField.TimeSpanField(string)
+  nameWithType.vb: TimeSpanField.New(String)
+- uid: Cubusky.UIElements.TimeSpanField.#ctor*
+  name: TimeSpanField
+  href: api/Cubusky.UIElements.TimeSpanField.html#Cubusky_UIElements_TimeSpanField__ctor_
+  commentId: Overload:Cubusky.UIElements.TimeSpanField.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Cubusky.UIElements.TimeSpanField.TimeSpanField
+  fullName.vb: Cubusky.UIElements.TimeSpanField.New
+  nameWithType: TimeSpanField.TimeSpanField
+  nameWithType.vb: TimeSpanField.New
+- uid: Cubusky.UIElements.TimeSpanField.ApplyInputDeviceDelta(Vector3,DeltaSpeed,System.TimeSpan)
+  name: ApplyInputDeviceDelta(Vector3, DeltaSpeed, TimeSpan)
+  href: api/Cubusky.UIElements.TimeSpanField.html#Cubusky_UIElements_TimeSpanField_ApplyInputDeviceDelta_Vector3_DeltaSpeed_System_TimeSpan_
+  commentId: M:Cubusky.UIElements.TimeSpanField.ApplyInputDeviceDelta(Vector3,DeltaSpeed,System.TimeSpan)
+  fullName: Cubusky.UIElements.TimeSpanField.ApplyInputDeviceDelta(Vector3, DeltaSpeed, System.TimeSpan)
+  nameWithType: TimeSpanField.ApplyInputDeviceDelta(Vector3, DeltaSpeed, TimeSpan)
+- uid: Cubusky.UIElements.TimeSpanField.ApplyInputDeviceDelta*
+  name: ApplyInputDeviceDelta
+  href: api/Cubusky.UIElements.TimeSpanField.html#Cubusky_UIElements_TimeSpanField_ApplyInputDeviceDelta_
+  commentId: Overload:Cubusky.UIElements.TimeSpanField.ApplyInputDeviceDelta
+  isSpec: "True"
+  fullName: Cubusky.UIElements.TimeSpanField.ApplyInputDeviceDelta
+  nameWithType: TimeSpanField.ApplyInputDeviceDelta
+- uid: Cubusky.UIElements.TimeSpanField.StringToValue(System.String)
+  name: StringToValue(string)
+  href: api/Cubusky.UIElements.TimeSpanField.html#Cubusky_UIElements_TimeSpanField_StringToValue_System_String_
+  commentId: M:Cubusky.UIElements.TimeSpanField.StringToValue(System.String)
+  name.vb: StringToValue(String)
+  fullName: Cubusky.UIElements.TimeSpanField.StringToValue(string)
+  fullName.vb: Cubusky.UIElements.TimeSpanField.StringToValue(String)
+  nameWithType: TimeSpanField.StringToValue(string)
+  nameWithType.vb: TimeSpanField.StringToValue(String)
+- uid: Cubusky.UIElements.TimeSpanField.StringToValue*
+  name: StringToValue
+  href: api/Cubusky.UIElements.TimeSpanField.html#Cubusky_UIElements_TimeSpanField_StringToValue_
+  commentId: Overload:Cubusky.UIElements.TimeSpanField.StringToValue
+  isSpec: "True"
+  fullName: Cubusky.UIElements.TimeSpanField.StringToValue
+  nameWithType: TimeSpanField.StringToValue
+- uid: Cubusky.UIElements.TimeSpanField.ValueToString(System.TimeSpan)
+  name: ValueToString(TimeSpan)
+  href: api/Cubusky.UIElements.TimeSpanField.html#Cubusky_UIElements_TimeSpanField_ValueToString_System_TimeSpan_
+  commentId: M:Cubusky.UIElements.TimeSpanField.ValueToString(System.TimeSpan)
+  fullName: Cubusky.UIElements.TimeSpanField.ValueToString(System.TimeSpan)
+  nameWithType: TimeSpanField.ValueToString(TimeSpan)
+- uid: Cubusky.UIElements.TimeSpanField.ValueToString*
+  name: ValueToString
+  href: api/Cubusky.UIElements.TimeSpanField.html#Cubusky_UIElements_TimeSpanField_ValueToString_
+  commentId: Overload:Cubusky.UIElements.TimeSpanField.ValueToString
+  isSpec: "True"
+  fullName: Cubusky.UIElements.TimeSpanField.ValueToString
+  nameWithType: TimeSpanField.ValueToString
+- uid: Cubusky.UIElements.TimeSpanField.inputUssClassName
+  name: inputUssClassName
+  href: api/Cubusky.UIElements.TimeSpanField.html#Cubusky_UIElements_TimeSpanField_inputUssClassName
+  commentId: F:Cubusky.UIElements.TimeSpanField.inputUssClassName
+  fullName: Cubusky.UIElements.TimeSpanField.inputUssClassName
+  nameWithType: TimeSpanField.inputUssClassName
+- uid: Cubusky.UIElements.TimeSpanField.labelUssClassName
+  name: labelUssClassName
+  href: api/Cubusky.UIElements.TimeSpanField.html#Cubusky_UIElements_TimeSpanField_labelUssClassName
+  commentId: F:Cubusky.UIElements.TimeSpanField.labelUssClassName
+  fullName: Cubusky.UIElements.TimeSpanField.labelUssClassName
+  nameWithType: TimeSpanField.labelUssClassName
+- uid: Cubusky.UIElements.TimeSpanField.ussClassName
+  name: ussClassName
+  href: api/Cubusky.UIElements.TimeSpanField.html#Cubusky_UIElements_TimeSpanField_ussClassName
+  commentId: F:Cubusky.UIElements.TimeSpanField.ussClassName
+  fullName: Cubusky.UIElements.TimeSpanField.ussClassName
+  nameWithType: TimeSpanField.ussClassName
