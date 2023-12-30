@@ -1,16 +1,20 @@
 {
   "name": "com.cubusky.core",
-  "version": "0.1.0-exp",
+  "version": "0.9.0-pre",
   "displayName": "Cubusky Core",
   "description": "Cubusky Core contains reusable code spanning across the Cubusky organization including serialization features and utility functions. If you are creating a custom package based on the Cubusky organization, using Cubusky Core will save you time.",
   "unity": "2022.3",
   "hideInEditor": false,
+  "documentationUrl": "https://cubusky.github.io/com.cubusky.core/",
+  "changelogUrl": "https://cubusky.github.io/com.cubusky.core/changelog/CHANGELOG.html",
+  "licensesUrl": "https://cubusky.github.io/com.cubusky.core/license/LICENSE.html",
   "type": "library",
   "dependencies": {
+    "com.unity.2d.common": "1.0.0"
   },
   "keywords": [
-    "cubusky",
-    "core"
+    "Cubusky",
+    "Core"
   ],
   "author": {
     "name": "Cubusky",
