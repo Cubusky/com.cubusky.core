@@ -5,12 +5,12 @@ When you need to serialize a type in Unity that can be serialized through one of
 ```csharp
 public class MyMonoBehaviour : MonoBehaviour, ISerializationCallbackReceiver
 {
-	[SerializeField, Guid] private string _guid;
-	
-	public Guid guid { get; set; }
-	
-	void ISerializationCallbackReceiver.OnBeforeSerialize() => _guid = guid.ToString();
-	void ISerializationCallbackReceiver.OnAfterDeserialize() => guid = new(_guid);
+    [SerializeField, Guid] private string _guid;
+
+    public Guid guid { get; set; }
+
+    void ISerializationCallbackReceiver.OnBeforeSerialize() => _guid = guid.ToString();
+    void ISerializationCallbackReceiver.OnAfterDeserialize() => guid = new(_guid);
 }
 ```
 
