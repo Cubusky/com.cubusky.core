@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>OfType Attribute | Cubusky Core | 1.0.0 </title>
+      <title> | Cubusky Core | 1.0.0 </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="OfType Attribute | Cubusky Core | 1.0.0 ">
+      <meta name="title" content=" | Cubusky Core | 1.0.0 ">
       
       <link rel="icon" href="../manual/images/favicon.png">
       <link rel="stylesheet" href="../public/docfx.min.css">
@@ -84,17 +84,17 @@
         </div>
 
         <article data-uid="">
-<h1 id="oftype-attribute">OfType Attribute</h1>
 
+<h3 id="oftype-attribute">OfType Attribute</h3>
 <p>OfType was created to allow <a href="https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/interface">interface</a> specification inside an <a href="https://www.foundations.unity.com/components/object-field">Object Field</a>.</p>
 <pre><code class="lang-csharp">public class MyMonoBehaviour : MonoBehaviour, ISerializationCallbackReceiver
 {
-	[SerializeField, OfType(typeof(IConstraint))] private Component _constraint;
-	
-	public IConstraint constraint { get; set; }
-	
-	void ISerializationCallbackReceiver.OnBeforeSerialize() =&gt; _constraint = constraint as Component;
-	void ISerializationCallbackReceiver.OnAfterDeserialize() =&gt; constraint = _constraint as IConstraint;
+    [SerializeField, OfType(typeof(IConstraint))] private Component _constraint;
+
+    public IConstraint constraint { get; set; }
+
+    void ISerializationCallbackReceiver.OnBeforeSerialize() =&gt; _constraint = constraint as Component;
+    void ISerializationCallbackReceiver.OnAfterDeserialize() =&gt; constraint = _constraint as IConstraint;
 }
 </code></pre>
 

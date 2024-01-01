@@ -89,47 +89,47 @@
 <p>When you need to serialize a type in Unity that can be serialized through one of its underlying values, Attribute Serialization is a pattern that allows for rapid type coupling. It has zero performance cost at runtime and negligable performance cost in the editor.</p>
 <pre><code class="lang-csharp">public class MyMonoBehaviour : MonoBehaviour, ISerializationCallbackReceiver
 {
-	[SerializeField, Guid] private string _guid;
-	
-	public Guid guid { get; set; }
-	
-	void ISerializationCallbackReceiver.OnBeforeSerialize() =&gt; _guid = guid.ToString();
-	void ISerializationCallbackReceiver.OnAfterDeserialize() =&gt; guid = new(_guid);
+    [SerializeField, Guid] private string _guid;
+
+    public Guid guid { get; set; }
+
+    void ISerializationCallbackReceiver.OnBeforeSerialize() =&gt; _guid = guid.ToString();
+    void ISerializationCallbackReceiver.OnAfterDeserialize() =&gt; guid = new(_guid);
 }
 </code></pre>
 <p>It is not recommended to put this in a wrapper. While it may initially seem that a wrapper would make the developers job easier, it would actually complicate the access hierarchy within MyMonoBehaviour, accruing technical debt. For an easy way to implement the above, consider creating a <a href="https://learn.microsoft.com/en-us/visualstudio/ide/code-snippets?view=vs-2022">snippet</a> instead.</p>
-<h1 id="guid-attribute"><a href="https://learn.microsoft.com/en-us/dotnet/api/system.guid">Guid</a> Attribute</h1>
+<h3 id="guid-attribute"><a href="https://learn.microsoft.com/en-us/dotnet/api/system.guid">Guid</a> Attribute</h3>
 <pre><code class="lang-csharp">public class MyMonoBehaviour : MonoBehaviour, ISerializationCallbackReceiver
 {
-	[SerializeField, Guid] private string _guid;
-	
-	public Guid guid { get; set; }
-	
-	void ISerializationCallbackReceiver.OnBeforeSerialize() =&gt; _guid = guid.ToString();
-	void ISerializationCallbackReceiver.OnAfterDeserialize() =&gt; guid = new(_guid);
+    [SerializeField, Guid] private string _guid;
+
+    public Guid guid { get; set; }
+
+    void ISerializationCallbackReceiver.OnBeforeSerialize() =&gt; _guid = guid.ToString();
+    void ISerializationCallbackReceiver.OnAfterDeserialize() =&gt; guid = new(_guid);
 }
 </code></pre>
-<h1 id="oftype-attribute">OfType Attribute</h1>
+<h3 id="oftype-attribute">OfType Attribute</h3>
 <p>OfType was created to allow <a href="https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/interface">interface</a> specification inside an <a href="https://www.foundations.unity.com/components/object-field">Object Field</a>.</p>
 <pre><code class="lang-csharp">public class MyMonoBehaviour : MonoBehaviour, ISerializationCallbackReceiver
 {
-	[SerializeField, OfType(typeof(IConstraint))] private Component _constraint;
-	
-	public IConstraint constraint { get; set; }
-	
-	void ISerializationCallbackReceiver.OnBeforeSerialize() =&gt; _constraint = constraint as Component;
-	void ISerializationCallbackReceiver.OnAfterDeserialize() =&gt; constraint = _constraint as IConstraint;
+    [SerializeField, OfType(typeof(IConstraint))] private Component _constraint;
+
+    public IConstraint constraint { get; set; }
+
+    void ISerializationCallbackReceiver.OnBeforeSerialize() =&gt; _constraint = constraint as Component;
+    void ISerializationCallbackReceiver.OnAfterDeserialize() =&gt; constraint = _constraint as IConstraint;
 }
 </code></pre>
-<h1 id="timespan-attribute"><a href="https://learn.microsoft.com/en-us/dotnet/api/system.timespan">TimeSpan</a> Attribute</h1>
+<h3 id="timespan-attribute"><a href="https://learn.microsoft.com/en-us/dotnet/api/system.timespan">TimeSpan</a> Attribute</h3>
 <pre><code class="lang-csharp">public class MyMonoBehaviour : MonoBehaviour, ISerializationCallbackReceiver
 {
-	[SerializeField, TimeSpan] private long _timeSpan;
-	
-	public TimeSpan timeSpan { get; set; }
-	
-	void ISerializationCallbackReceiver.OnBeforeSerialize() =&gt; _timeSpan = timeSpan.Ticks;
-	void ISerializationCallbackReceiver.OnAfterDeserialize() =&gt; timeSpan = new(_timeSpan);
+    [SerializeField, TimeSpan] private long _timeSpan;
+
+    public TimeSpan timeSpan { get; set; }
+
+    void ISerializationCallbackReceiver.OnBeforeSerialize() =&gt; _timeSpan = timeSpan.Ticks;
+    void ISerializationCallbackReceiver.OnAfterDeserialize() =&gt; timeSpan = new(_timeSpan);
 }
 </code></pre>
 

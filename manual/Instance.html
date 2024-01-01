@@ -94,19 +94,19 @@
 <pre><code class="lang-csharp">[DisallowMultipleComponent]
 public class TimeScaleInstance : Instance&lt;TimeScaleInstance&gt;
 {
-	[field: SerializeField] public float timeScale { get; set; } = 1f;
-	
-	public override void OnCurrent()
-	{
-		Time.timeScale = timeScale;
-	}
+    [field: SerializeField] public float timeScale { get; set; } = 1f;
+
+    public override void OnCurrent()
+    {
+        Time.timeScale = timeScale;
+    }
 }
 </code></pre>
 <p><img src="images/Instance.png" alt=""></p>
-<p>When our game starts, the <code>TimeScaleInstance</code> on the camera is recognized and our time scale is set to 1. When our pause screen gets enabled however, our time scale is set to 0. Then, when our pause screen gets disabled, the <code>TimeScaleInstance</code> recognizes the current instance and resets the time scale back to 1.</p>
+<p>When our game starts, the <code>TimeScaleInstance</code> on the camera is recognized and our time scale is set to 1. When our pause screen gets enabled however, our time scale is set to 0. Then, when our pause screen gets disabled, the <code>TimeScaleInstance</code> recognizes the last known instance and resets the time scale back to 1.</p>
 <p>By virtue of implementation, it becomes trivial to make a weapon select menu that puts us in slowmotion rather than stopping time completely.</p>
 <p><img src="images/Instance%20Multiple.png" alt=""></p>
-<h2 id="singleton">Singleton</h2>
+<h3 id="singleton">Singleton</h3>
 <p>It is possible to derive from <code>Instance&lt;T&gt;</code> to create a true singleton implementation that only allows one instance at a time.</p>
 <pre><code class="lang-csharp">/// &lt;summary&gt;
 /// A singleton implementation where there will only ever exist 0 or 1 instances of the singleton.
@@ -126,7 +126,7 @@ public abstract class Singleton&lt;T&gt; : Instance&lt;T&gt; where T : Singleton
     }
 }
 </code></pre>
-<p>However, as Cubusky only uses the singleton pattern to set static state dynamically, the above would be the same as using <code>RuntimeInitializeOnLoadMethod</code>, which is strongly recommended over the use of singletons.</p>
+<p>However, as Cubusky only uses the singleton pattern to set static state dynamically, the above would be the same as using <a href="https://docs.unity3d.com/ScriptReference/RuntimeInitializeOnLoadMethodAttribute.html">RuntimeInitializeOnLoadMethod</a>, which is strongly recommended over the use of singletons.</p>
 
 </article>
 
