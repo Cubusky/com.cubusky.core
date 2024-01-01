@@ -4,6 +4,9 @@ All notable changes to this package will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com)
 and this project adheres to [Semantic Versioning](http://semver.org).
 
+## [1.0.0] - 2024-01-01
+- Add documentation.
+
 ## [0.9.0-pre] - 2023-12-30
 ### Added
 - Add documentation, license and changelog url.

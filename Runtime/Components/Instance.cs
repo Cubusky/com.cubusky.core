@@ -4,7 +4,10 @@ using UnityEngine;
 
 namespace Cubusky
 {
-    public abstract class Instance<T> : Instance where T : Instance<T>
+    /// <summary>
+    /// A singleton implementation where the last enabled instance is the current instance.
+    /// </summary>
+    public abstract class Instance<T> : MonoBehaviour where T : Instance<T>
     {
         [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.SubsystemRegistration)]
         private static void SubsystemRegistration()
@@ -19,10 +22,15 @@ namespace Cubusky
         /// </summary>
         public static T? current => instances.Count > 0 ? instances[^1] : null;
 
+        /// <summary>
+        /// Called after the instance is set to the current instance.
+        /// </summary>
+        public abstract void OnCurrent();
+
         protected virtual void OnEnable()
         {
             instances.Add((T)this);
-            SetState();
+            OnCurrent();
         }
 
         protected virtual void OnDisable()
@@ -31,7 +39,7 @@ namespace Cubusky
             instances.Remove((T)this);
             if (wasCurrent && current != null)
             {
-                current.SetState();
+                current.OnCurrent();
             }
         }
     }
