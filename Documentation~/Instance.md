@@ -14,24 +14,24 @@ A simple example is a time scale setter implemented through instances.
 [DisallowMultipleComponent]
 public class TimeScaleInstance : Instance<TimeScaleInstance>
 {
-	[field: SerializeField] public float timeScale { get; set; } = 1f;
-	
-	public override void OnCurrent()
-	{
-		Time.timeScale = timeScale;
-	}
+    [field: SerializeField] public float timeScale { get; set; } = 1f;
+
+    public override void OnCurrent()
+    {
+        Time.timeScale = timeScale;
+    }
 }
 ```
 
 ![](images/Instance.png)
 
-When our game starts, the `TimeScaleInstance` on the camera is recognized and our time scale is set to 1. When our pause screen gets enabled however, our time scale is set to 0. Then, when our pause screen gets disabled, the `TimeScaleInstance` recognizes the current instance and resets the time scale back to 1.
+When our game starts, the `TimeScaleInstance` on the camera is recognized and our time scale is set to 1. When our pause screen gets enabled however, our time scale is set to 0. Then, when our pause screen gets disabled, the `TimeScaleInstance` recognizes the last known instance and resets the time scale back to 1.
 
 By virtue of implementation, it becomes trivial to make a weapon select menu that puts us in slowmotion rather than stopping time completely.
 
 ![](images/Instance%20Multiple.png)
 
-## Singleton
+### Singleton
 
 It is possible to derive from `Instance<T>` to create a true singleton implementation that only allows one instance at a time.
 
@@ -55,4 +55,4 @@ public abstract class Singleton<T> : Instance<T> where T : Singleton<T>
 }
 ```
 
-However, as Cubusky only uses the singleton pattern to set static state dynamically, the above would be the same as using `RuntimeInitializeOnLoadMethod`, which is strongly recommended over the use of singletons.
+However, as Cubusky only uses the singleton pattern to set static state dynamically, the above would be the same as using [RuntimeInitializeOnLoadMethod](https://docs.unity3d.com/ScriptReference/RuntimeInitializeOnLoadMethodAttribute.html), which is strongly recommended over the use of singletons.
