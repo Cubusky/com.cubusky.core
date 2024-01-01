@@ -2,13 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class Instance
- | Cubusky Core | 0.9.0-pre </title>
+      <title>Guid Attribute | Cubusky Core | 1.0.0 </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class Instance
- | Cubusky Core | 0.9.0-pre ">
+      <meta name="title" content="Guid Attribute | Cubusky Core | 1.0.0 ">
       
-      <link rel="icon" href="../favicon.ico">
+      <link rel="icon" href="../manual/images/favicon.png">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
       <meta name="docfx:navrel" content="../toc.html">
@@ -17,7 +15,7 @@
       <meta name="docfx:rel" content="../">
       <meta name="docfx:disablenewtab" content="true">
       
-      <meta name="docfx:docurl" content="https://github.com/Cubusky/com.cubusky.core/new/main/apiSpec/new?filename=Cubusky_Instance.md&amp;value=---%0Auid%3A%20Cubusky.Instance%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/Cubusky/com.cubusky.core/blob/main/Documentation~/manual/GuidAttribute.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -40,12 +38,12 @@
   </script>
 
 
-  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
     <header class="bg-body border-bottom">
       <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
         <div class="container-xxl flex-nowrap">
           <a class="navbar-brand" href="../index.html">
-            <img id="logo" class="svg" src="../logo.svg" alt="">
+            <img id="logo" class="svg" src="../manual/images/logo.svg" alt="">
             
           </a>
           <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
@@ -85,86 +83,25 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="Cubusky.Instance">
+        <article data-uid="">
+<h1 id="guid-attribute"><a href="https://learn.microsoft.com/en-us/dotnet/api/system.guid">Guid</a> Attribute</h1>
 
-
-
-  <h1 id="Cubusky_Instance" data-uid="Cubusky.Instance" class="text-break">
-    Class Instance
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Cubusky/com.cubusky.core/blob/main/Internal/Components/Instance.cs/#L5"><i class="bi bi-code-slash"></i></a>
-  </h1>
-
-  <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="Cubusky.html">Cubusky</a></dd></dl>
-  
-  </div>
-
-  <div class="markdown summary"></div>
-  <div class="markdown conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class Instance : MonoBehaviour</code></pre>
-  </div>
-
-
-
-
-  <dl class="typelist inheritance">
-    <dt>Inheritance</dt>
-    <dd>
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><span class="xref">Instance</span></div>
-    </dd>
-  </dl>
-
-
-  <dl class="typelist derived">
-    <dt>Derived</dt>
-    <dd>
-      <div><a class="xref" href="Cubusky.Instance-1.html">Instance&lt;T&gt;</a></div>
-    </dd>
-  </dl>
-
-
-
-
-
-
-
-  <h2 class="section" id="methods">Methods
-</h2>
-
-
-  <a id="Cubusky_Instance_SetState_" data-uid="Cubusky.Instance.SetState*"></a>
-
-  <h3 id="Cubusky_Instance_SetState" data-uid="Cubusky.Instance.SetState">
-  SetState()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Cubusky/com.cubusky.core/blob/main/Internal/Components/Instance.cs/#L10"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Sets the instance state.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract void SetState()</code></pre>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
+<pre><code class="lang-csharp">public class MyMonoBehaviour : MonoBehaviour, ISerializationCallbackReceiver
+{
+	[SerializeField, Guid] private string _guid;
+	
+	public Guid guid { get; set; }
+	
+	void ISerializationCallbackReceiver.OnBeforeSerialize() =&gt; _guid = guid.ToString();
+	void ISerializationCallbackReceiver.OnAfterDeserialize() =&gt; guid = new(_guid);
+}
+</code></pre>
 
 </article>
 
+        <div class="contribution d-print-none">
+          <a href="https://github.com/Cubusky/com.cubusky.core/blob/main/Documentation~/manual/GuidAttribute.md/#L1" class="edit-link">Edit this page</a>
+        </div>
 
 
       </div>

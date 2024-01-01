@@ -2,133 +2,169 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://cubusky.github.io/com.cubusky.core/api/Cubusky.AnimatorHash.html</loc>
-    <lastmod>2023-12-30T12:09:38+00:00</lastmod>
+    <lastmod>2024-01-01T03:27:37+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://cubusky.github.io/com.cubusky.core/api/Cubusky.Editor.AnimatorHashDrawer.html</loc>
-    <lastmod>2023-12-30T12:09:38+00:00</lastmod>
+    <lastmod>2024-01-01T03:27:37+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://cubusky.github.io/com.cubusky.core/api/Cubusky.Editor.GuidDrawer.html</loc>
-    <lastmod>2023-12-30T12:09:38+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://cubusky.github.io/com.cubusky.core/api/Cubusky.Editor.Menus.html</loc>
-    <lastmod>2023-12-30T12:09:38+00:00</lastmod>
+    <lastmod>2024-01-01T03:27:37+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://cubusky.github.io/com.cubusky.core/api/Cubusky.Editor.OfTypeDrawer.html</loc>
-    <lastmod>2023-12-30T12:09:38+00:00</lastmod>
+    <lastmod>2024-01-01T03:27:37+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://cubusky.github.io/com.cubusky.core/api/Cubusky.Editor.ShaderIdDrawer.html</loc>
-    <lastmod>2023-12-30T12:09:38+00:00</lastmod>
+    <lastmod>2024-01-01T03:27:37+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://cubusky.github.io/com.cubusky.core/api/Cubusky.Editor.TimeSpanDrawer.html</loc>
-    <lastmod>2023-12-30T12:09:38+00:00</lastmod>
+    <lastmod>2024-01-01T03:27:37+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://cubusky.github.io/com.cubusky.core/api/Cubusky.Editor.html</loc>
-    <lastmod>2023-12-30T12:09:38+00:00</lastmod>
+    <lastmod>2024-01-01T03:27:37+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://cubusky.github.io/com.cubusky.core/api/Cubusky.GuidAttribute.html</loc>
-    <lastmod>2023-12-30T12:09:38+00:00</lastmod>
+    <lastmod>2024-01-01T03:27:37+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://cubusky.github.io/com.cubusky.core/api/Cubusky.Instance-1.html</loc>
-    <lastmod>2023-12-30T12:09:38+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://cubusky.github.io/com.cubusky.core/api/Cubusky.Instance.html</loc>
-    <lastmod>2023-12-30T12:09:38+00:00</lastmod>
+    <lastmod>2024-01-01T03:27:37+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://cubusky.github.io/com.cubusky.core/api/Cubusky.OfTypeAttribute.html</loc>
-    <lastmod>2023-12-30T12:09:38+00:00</lastmod>
+    <lastmod>2024-01-01T03:27:37+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://cubusky.github.io/com.cubusky.core/api/Cubusky.ShaderId.html</loc>
-    <lastmod>2023-12-30T12:09:38+00:00</lastmod>
+    <lastmod>2024-01-01T03:27:37+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://cubusky.github.io/com.cubusky.core/api/Cubusky.TimeSpanAttribute.html</loc>
-    <lastmod>2023-12-30T12:09:38+00:00</lastmod>
+    <lastmod>2024-01-01T03:27:37+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://cubusky.github.io/com.cubusky.core/api/Cubusky.UIElements.TimeSpanField.html</loc>
-    <lastmod>2023-12-30T12:09:38+00:00</lastmod>
+    <lastmod>2024-01-01T03:27:37+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://cubusky.github.io/com.cubusky.core/api/Cubusky.UIElements.html</loc>
-    <lastmod>2023-12-30T12:09:38+00:00</lastmod>
+    <lastmod>2024-01-01T03:27:37+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://cubusky.github.io/com.cubusky.core/api/Cubusky.html</loc>
-    <lastmod>2023-12-30T12:09:38+00:00</lastmod>
+    <lastmod>2024-01-01T03:27:37+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://cubusky.github.io/com.cubusky.core/api/index.html</loc>
-    <lastmod>2023-12-30T12:09:38+00:00</lastmod>
+    <lastmod>2024-01-01T03:27:37+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://cubusky.github.io/com.cubusky.core/changelog/CHANGELOG.html</loc>
-    <lastmod>2023-12-30T12:09:38+00:00</lastmod>
+    <lastmod>2024-01-01T03:27:37+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://cubusky.github.io/com.cubusky.core/index.html</loc>
-    <lastmod>2023-12-30T12:09:38+00:00</lastmod>
+    <lastmod>2024-01-01T03:27:37+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://cubusky.github.io/com.cubusky.core/license/LICENSE.html</loc>
-    <lastmod>2023-12-30T12:09:38+00:00</lastmod>
+    <lastmod>2024-01-01T03:27:37+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cubusky.github.io/com.cubusky.core/manual/AnimatorHash.html</loc>
+    <lastmod>2024-01-01T03:27:37+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cubusky.github.io/com.cubusky.core/manual/AttributeSerialization.html</loc>
+    <lastmod>2024-01-01T03:27:37+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cubusky.github.io/com.cubusky.core/manual/GuidAttribute.html</loc>
+    <lastmod>2024-01-01T03:27:37+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cubusky.github.io/com.cubusky.core/manual/Instance.html</loc>
+    <lastmod>2024-01-01T03:27:37+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cubusky.github.io/com.cubusky.core/manual/OfTypeAttribute.html</loc>
+    <lastmod>2024-01-01T03:27:37+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cubusky.github.io/com.cubusky.core/manual/SerializableValues.html</loc>
+    <lastmod>2024-01-01T03:27:37+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cubusky.github.io/com.cubusky.core/manual/ShaderId.html</loc>
+    <lastmod>2024-01-01T03:27:37+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cubusky.github.io/com.cubusky.core/manual/TimeSpanAttribute.html</loc>
+    <lastmod>2024-01-01T03:27:37+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://cubusky.github.io/com.cubusky.core/manual/index.html</loc>
-    <lastmod>2023-12-30T12:09:38+00:00</lastmod>
+    <lastmod>2024-01-01T03:27:37+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

@@ -216,25 +216,6 @@ references:
   isSpec: "True"
   fullName: Cubusky.Editor.GuidDrawer.CreatePropertyGUI
   nameWithType: GuidDrawer.CreatePropertyGUI
-- uid: Cubusky.Editor.Menus
-  name: Menus
-  href: api/Cubusky.Editor.Menus.html
-  commentId: T:Cubusky.Editor.Menus
-  fullName: Cubusky.Editor.Menus
-  nameWithType: Menus
-- uid: Cubusky.Editor.Menus.SetState(MenuCommand)
-  name: SetState(MenuCommand)
-  href: api/Cubusky.Editor.Menus.html#Cubusky_Editor_Menus_SetState_MenuCommand_
-  commentId: M:Cubusky.Editor.Menus.SetState(MenuCommand)
-  fullName: Cubusky.Editor.Menus.SetState(MenuCommand)
-  nameWithType: Menus.SetState(MenuCommand)
-- uid: Cubusky.Editor.Menus.SetState*
-  name: SetState
-  href: api/Cubusky.Editor.Menus.html#Cubusky_Editor_Menus_SetState_
-  commentId: Overload:Cubusky.Editor.Menus.SetState
-  isSpec: "True"
-  fullName: Cubusky.Editor.Menus.SetState
-  nameWithType: Menus.SetState
 - uid: Cubusky.Editor.OfTypeDrawer
   name: OfTypeDrawer
   href: api/Cubusky.Editor.OfTypeDrawer.html
@@ -298,25 +279,6 @@ references:
   commentId: T:Cubusky.GuidAttribute
   fullName: Cubusky.GuidAttribute
   nameWithType: GuidAttribute
-- uid: Cubusky.Instance
-  name: Instance
-  href: api/Cubusky.Instance.html
-  commentId: T:Cubusky.Instance
-  fullName: Cubusky.Instance
-  nameWithType: Instance
-- uid: Cubusky.Instance.SetState
-  name: SetState()
-  href: api/Cubusky.Instance.html#Cubusky_Instance_SetState
-  commentId: M:Cubusky.Instance.SetState
-  fullName: Cubusky.Instance.SetState()
-  nameWithType: Instance.SetState()
-- uid: Cubusky.Instance.SetState*
-  name: SetState
-  href: api/Cubusky.Instance.html#Cubusky_Instance_SetState_
-  commentId: Overload:Cubusky.Instance.SetState
-  isSpec: "True"
-  fullName: Cubusky.Instance.SetState
-  nameWithType: Instance.SetState
 - uid: Cubusky.Instance`1
   name: Instance<T>
   href: api/Cubusky.Instance-1.html
@@ -326,6 +288,23 @@ references:
   fullName.vb: Cubusky.Instance(Of T)
   nameWithType: Instance<T>
   nameWithType.vb: Instance(Of T)
+- uid: Cubusky.Instance`1.OnCurrent
+  name: OnCurrent()
+  href: api/Cubusky.Instance-1.html#Cubusky_Instance_1_OnCurrent
+  commentId: M:Cubusky.Instance`1.OnCurrent
+  fullName: Cubusky.Instance<T>.OnCurrent()
+  fullName.vb: Cubusky.Instance(Of T).OnCurrent()
+  nameWithType: Instance<T>.OnCurrent()
+  nameWithType.vb: Instance(Of T).OnCurrent()
+- uid: Cubusky.Instance`1.OnCurrent*
+  name: OnCurrent
+  href: api/Cubusky.Instance-1.html#Cubusky_Instance_1_OnCurrent_
+  commentId: Overload:Cubusky.Instance`1.OnCurrent
+  isSpec: "True"
+  fullName: Cubusky.Instance<T>.OnCurrent
+  fullName.vb: Cubusky.Instance(Of T).OnCurrent
+  nameWithType: Instance<T>.OnCurrent
+  nameWithType.vb: Instance(Of T).OnCurrent
 - uid: Cubusky.Instance`1.OnDisable
   name: OnDisable()
   href: api/Cubusky.Instance-1.html#Cubusky_Instance_1_OnDisable

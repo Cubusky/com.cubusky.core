@@ -45,16 +45,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Cubusky.Editor.Menus.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Cubusky.Editor.Menus.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/Cubusky.Editor.OfTypeDrawer.yml",
       "output": {
         ".html": {
@@ -109,16 +99,6 @@
       "output": {
         ".html": {
           "relative_path": "api/Cubusky.Instance-1.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Cubusky.Instance.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Cubusky.Instance.html"
         }
       },
       "version": ""
@@ -264,10 +244,143 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "manual/AnimatorHash.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/AnimatorHash.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/AttributeSerialization.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/AttributeSerialization.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/GuidAttribute.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/GuidAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/Instance.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/Instance.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/OfTypeAttribute.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/OfTypeAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/SerializableValues.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/SerializableValues.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/ShaderId.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/ShaderId.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/TimeSpanAttribute.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/TimeSpanAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/Instance Multiple.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/Instance Multiple.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/Instance.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/Instance.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/favicon.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/favicon.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/logo.svg",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/logo.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "manual/index.md",
       "output": {
         ".html": {
           "relative_path": "manual/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "manual/toc.md",
+      "output": {
+        ".json": {
+          "relative_path": "manual/toc.json"
+        },
+        ".html": {
+          "relative_path": "manual/toc.html"
         }
       },
       "version": ""
