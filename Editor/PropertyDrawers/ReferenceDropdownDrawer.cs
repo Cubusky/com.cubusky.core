@@ -86,8 +86,13 @@ namespace Cubusky.Editor
             return root;
 
             // Dropdown drawers.
-            string FormatSelectedValue(string value) => ObjectNames.NicifyVariableName(value == nullString ? value : choiceToType[value].Name);
-            string FormatListItem(string item) => item == nullString ? item : choiceToType[item].FullName;
+            string FormatSelectedValue(string value) => choiceToType.TryGetValue(value, out var type)
+                ? ObjectNames.NicifyVariableName(type.Name)
+                : nullString;
+            string FormatListItem(string item) => FormatSelectedValue(item) 
+                + (choiceToType.TryGetValue(item, out var type)
+                    ? $" ({type.FullName})"
+                    : string.Empty);
 
             // Redraw the dropdown when the property changes.
             void PropertyChanged(SerializedProperty changedProperty)
