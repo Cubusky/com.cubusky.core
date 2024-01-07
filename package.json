@@ -1,6 +1,6 @@
 {
   "name": "com.cubusky.core",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "displayName": "Cubusky Core",
   "description": "Cubusky Core contains reusable code spanning across the Cubusky organization including serialization features and utility functions. If you are creating a custom package based on the Cubusky organization, using Cubusky Core will save you time.",
   "unity": "2022.3",
