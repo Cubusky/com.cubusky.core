@@ -87,20 +87,6 @@
 <h1 id="serializable-values">Serializable Values</h1>
 
 <p>Some values in Unity require one set of input (usually string) but can provide a more optimized output (usually int). When working within a context where parsing these values may be desirable, consider using the provided Serializable Values.</p>
-<h3 id="animator-hash">Animator Hash</h3>
-<pre><code class="lang-csharp">public class MyMonoBehaviour : MonoBehaviour
-{
-    public AnimatorHash jump = &quot;Jump&quot;;                  // Takes string input.
-    public void DoJump() =&gt; animator.SetTrigger(jump);  // Returns int output.
-}
-</code></pre>
-<h3 id="shader-id">Shader Id</h3>
-<pre><code class="lang-csharp">public class MyMonoBehaviour : MonoBehaviour
-{
-    public ShaderId smoothness = &quot;_Glossiness&quot;;                 // Takes string input.
-    public float GetSmoothness() =&gt; mat.GetFloat(smoothness);   // Returns int output.
-}
-</code></pre>
 
 </article>
 

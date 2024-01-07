@@ -106,7 +106,7 @@
   },
   "manual/AnimatorHash.html": {
     "href": "manual/AnimatorHash.html",
-    "title": "| Cubusky Core | 1.1.0",
+    "title": "Animator Hash | Cubusky Core | 1.1.0",
     "keywords": "Animator Hash public class MyMonoBehaviour : MonoBehaviour { public AnimatorHash jump = \"Jump\"; // Takes string input. public void DoJump() => animator.SetTrigger(jump); // Returns int output. }"
   },
   "manual/AttributeSerialization.html": {
@@ -116,7 +116,7 @@
   },
   "manual/GuidAttribute.html": {
     "href": "manual/GuidAttribute.html",
-    "title": "| Cubusky Core | 1.1.0",
+    "title": "Guid Attribute | Cubusky Core | 1.1.0",
     "keywords": "Guid Attribute public class MyMonoBehaviour : MonoBehaviour, ISerializationCallbackReceiver { [SerializeField, Guid] private string _guid; public Guid guid { get; set; } void ISerializationCallbackReceiver.OnBeforeSerialize() => _guid = guid.ToString(); void ISerializationCallbackReceiver.OnAfterDeserialize() => guid = new(_guid); }"
   },
   "manual/Instance.html": {
@@ -126,27 +126,27 @@
   },
   "manual/OfTypeAttribute.html": {
     "href": "manual/OfTypeAttribute.html",
-    "title": "| Cubusky Core | 1.1.0",
+    "title": "OfType Attribute | Cubusky Core | 1.1.0",
     "keywords": "OfType Attribute OfType was created to allow interface specification inside an Object Field. public class MyMonoBehaviour : MonoBehaviour, ISerializationCallbackReceiver { [SerializeField, OfType(typeof(IConstraint))] private Component _constraint; public IConstraint constraint { get; set; } void ISerializationCallbackReceiver.OnBeforeSerialize() => _constraint = constraint as Component; void ISerializationCallbackReceiver.OnAfterDeserialize() => constraint = _constraint as IConstraint; }"
   },
   "manual/ReferenceDropdownAttribute.html": {
     "href": "manual/ReferenceDropdownAttribute.html",
-    "title": "| Cubusky Core | 1.1.0",
-    "keywords": "ReferenceDropdown Attribute ReferenceDropdown was created to allow selectable interface references inside of Unity Objects. They work together with SerializeReference to serialize your interface so you can use it in the inspector. public interface ITest {} public class StringTest : ITest { public string s; } public class IntTest : ITest { public int i; } public class MyMonoBehaviour : MonoBehaviour { [SerializeReference, ReferenceDropdown] public ITest test; } In order for an implementation to be selectable, it must adhere to the following rules: The implementation must have an empty constructor. The implementation must not be abstract. The implementation must not derive from UnityEngine.Object. You can specify your reference to be nullable through the following: public class MyMonoBehaviour : MonoBehaviour { [SerializeReference, ReferenceDropdown(nullable = true)] public ITest test; }"
+    "title": "ReferenceDropdown Attribute | Cubusky Core | 1.1.0",
+    "keywords": "ReferenceDropdown Attribute ReferenceDropdown was created to allow selectable interface references inside of Unity Objects. They work together with SerializeReference to serialize your interface so you can use it in the inspector. public interface ITest {} public class StringTest : ITest { public string s; } public class IntTest : ITest { public int i; } public class MyMonoBehaviour : MonoBehaviour { [SerializeReference, ReferenceDropdown] public ITest test; } Restrictions In order for an implementation to be selectable, it must adhere to the following rules: The implementation must have an empty constructor. The implementation must not be abstract. The implementation must not derive from UnityEngine.Object. Nullable You can specify your reference to be nullable through the following: public class MyMonoBehaviour : MonoBehaviour { [SerializeReference, ReferenceDropdown(nullable = true)] public ITest test; }"
   },
   "manual/SerializableValues.html": {
     "href": "manual/SerializableValues.html",
     "title": "Serializable Values | Cubusky Core | 1.1.0",
-    "keywords": "Serializable Values Some values in Unity require one set of input (usually string) but can provide a more optimized output (usually int). When working within a context where parsing these values may be desirable, consider using the provided Serializable Values. Animator Hash public class MyMonoBehaviour : MonoBehaviour { public AnimatorHash jump = \"Jump\"; // Takes string input. public void DoJump() => animator.SetTrigger(jump); // Returns int output. } Shader Id public class MyMonoBehaviour : MonoBehaviour { public ShaderId smoothness = \"_Glossiness\"; // Takes string input. public float GetSmoothness() => mat.GetFloat(smoothness); // Returns int output. }"
+    "keywords": "Serializable Values Some values in Unity require one set of input (usually string) but can provide a more optimized output (usually int). When working within a context where parsing these values may be desirable, consider using the provided Serializable Values."
   },
   "manual/ShaderId.html": {
     "href": "manual/ShaderId.html",
-    "title": "| Cubusky Core | 1.1.0",
+    "title": "Shader Id | Cubusky Core | 1.1.0",
     "keywords": "Shader Id public class MyMonoBehaviour : MonoBehaviour { public ShaderId smoothness = \"_Glossiness\"; // Takes string input. public float GetSmoothness() => mat.GetFloat(smoothness); // Returns int output. }"
   },
   "manual/TimeSpanAttribute.html": {
     "href": "manual/TimeSpanAttribute.html",
-    "title": "| Cubusky Core | 1.1.0",
+    "title": "TimeSpan Attribute | Cubusky Core | 1.1.0",
     "keywords": "TimeSpan Attribute public class MyMonoBehaviour : MonoBehaviour, ISerializationCallbackReceiver { [SerializeField, TimeSpan] private long _timeSpan; public TimeSpan timeSpan { get; set; } void ISerializationCallbackReceiver.OnBeforeSerialize() => _timeSpan = timeSpan.Ticks; void ISerializationCallbackReceiver.OnAfterDeserialize() => timeSpan = new(_timeSpan); }"
   },
   "manual/index.html": {

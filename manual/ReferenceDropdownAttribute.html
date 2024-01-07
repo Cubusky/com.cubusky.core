@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title> | Cubusky Core | 1.1.0 </title>
+      <title>ReferenceDropdown Attribute | Cubusky Core | 1.1.0 </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content=" | Cubusky Core | 1.1.0 ">
+      <meta name="title" content="ReferenceDropdown Attribute | Cubusky Core | 1.1.0 ">
       
       <link rel="icon" href="../manual/images/favicon.png">
       <link rel="stylesheet" href="../public/docfx.min.css">
@@ -84,8 +84,8 @@
         </div>
 
         <article data-uid="">
+<h1 id="referencedropdown-attribute">ReferenceDropdown Attribute</h1>
 
-<h3 id="referencedropdown-attribute">ReferenceDropdown Attribute</h3>
 <p>ReferenceDropdown was created to allow selectable <a href="https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/interface">interface</a> references inside of <a href="https://docs.unity3d.com/ScriptReference/Object.html">Unity Objects</a>. They work together with <a href="https://docs.unity3d.com/ScriptReference/SerializeReference.html">SerializeReference</a> to serialize your <a href="https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/interface">interface</a> so you can use it in the inspector.</p>
 <pre><code class="lang-csharp">public interface ITest {}
 
@@ -100,12 +100,14 @@ public class MyMonoBehaviour : MonoBehaviour
 </code></pre>
 <p><img src="images/ReferenceDropdown%20IntTest.png" alt=""></p>
 <p><img src="images/ReferenceDropdown%20StringTest.png" alt=""></p>
+<h2 id="restrictions">Restrictions</h2>
 <p>In order for an implementation to be selectable, it must adhere to the following rules:</p>
 <ul>
 <li>The implementation must have an empty constructor.</li>
 <li>The implementation must not be abstract.</li>
 <li>The implementation must not derive from <a href="https://docs.unity3d.com/ScriptReference/Object.html">UnityEngine.Object</a>.</li>
 </ul>
+<h2 id="nullable">Nullable</h2>
 <p>You can specify your reference to be nullable through the following:</p>
 <pre><code class="lang-csharp">public class MyMonoBehaviour : MonoBehaviour
 {
