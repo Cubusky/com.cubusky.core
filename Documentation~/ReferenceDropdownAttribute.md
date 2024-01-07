@@ -32,3 +32,5 @@ public class MyMonoBehaviour : MonoBehaviour
     [SerializeReference, ReferenceDropdown(nullable = true)] public ITest test;
 }
 ```
+
+![](images/ReferenceDropdown%20null.png)
