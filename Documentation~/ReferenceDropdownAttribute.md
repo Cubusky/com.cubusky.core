@@ -15,9 +15,9 @@ public class MyMonoBehaviour : MonoBehaviour
 }
 ```
 
-![](../images/ReferenceDropdown%20IntTest.png)
+![](images/ReferenceDropdown%20IntTest.png)
 
-![](../images/ReferenceDropdown%20StringTest.png)
+![](images/ReferenceDropdown%20StringTest.png)
 
 In order for an implementation to be selectable, it must adhere to the following rules:
 - The implementation must have an empty constructor.
