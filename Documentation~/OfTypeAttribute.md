@@ -1,4 +1,4 @@
-### OfType Attribute
+# OfType Attribute
 
 OfType was created to allow [interface](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/interface) specification inside an [Object Field](https://www.foundations.unity.com/components/object-field).
 
