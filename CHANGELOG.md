@@ -4,6 +4,9 @@ All notable changes to this package will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com)
 and this project adheres to [Semantic Versioning](http://semver.org).
 
+## [1.1.0] - 2024-01-07
+- Add `ReferenceDropdownAttribute` to allow for selectable references in `UnityEngine.Object`s. Useful for allowing the use of interfaces in code.
+
 ## [1.0.0] - 2024-01-01
 - Add documentation.
 

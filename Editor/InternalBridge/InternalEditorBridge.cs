@@ -8,5 +8,7 @@ namespace Cubusky.Editor
     {
         public static FieldInfo GetFieldInfoAndStaticTypeFromProperty(SerializedProperty property, out Type type) => ScriptAttributeUtility.GetFieldInfoAndStaticTypeFromProperty(property, out type);
         public static FieldInfo GetFieldInfoFromProperty(SerializedProperty property, out Type type) => ScriptAttributeUtility.GetFieldInfoFromProperty(property, out type);
+
+        public static bool GetTypeFromManagedReferenceFullTypeName(string managedReferenceFullTypename, out Type managedReferenceInstanceType) => ScriptAttributeUtility.GetTypeFromManagedReferenceFullTypeName(managedReferenceFullTypename, out managedReferenceInstanceType);
     }
 }
