@@ -5,4 +5,6 @@
 ** [ReferenceDropdown](ReferenceDropdownAttribute.md)
 ** [TimeSpan](TimeSpanAttribute.md)
 * [Serializable Values](SerializableValues.md)
+** [Animator Hash](AnimatorHash.md)
+** [Shader Id](ShaderId.md)
 * [Singleton Instances](Instance.md)

@@ -1,4 +1,4 @@
-### Animator Hash
+# Animator Hash
 
 ```csharp
 public class MyMonoBehaviour : MonoBehaviour

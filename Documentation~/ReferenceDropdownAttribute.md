@@ -1,4 +1,4 @@
-### ReferenceDropdown Attribute
+# ReferenceDropdown Attribute
 
 ReferenceDropdown was created to allow selectable [interface](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/interface) references inside of [Unity Objects](https://docs.unity3d.com/ScriptReference/Object.html). They work together with [SerializeReference](https://docs.unity3d.com/ScriptReference/SerializeReference.html) to serialize your [interface](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/interface) so you can use it in the inspector.
 
@@ -19,10 +19,14 @@ public class MyMonoBehaviour : MonoBehaviour
 
 ![](images/ReferenceDropdown%20StringTest.png)
 
+## Restrictions
+
 In order for an implementation to be selectable, it must adhere to the following rules:
 - The implementation must have an empty constructor.
 - The implementation must not be abstract.
 - The implementation must not derive from [UnityEngine.Object](https://docs.unity3d.com/ScriptReference/Object.html).
+
+## Nullable
 
 You can specify your reference to be nullable through the following:
 

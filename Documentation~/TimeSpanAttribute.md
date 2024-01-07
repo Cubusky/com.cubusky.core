@@ -1,4 +1,4 @@
-### [TimeSpan](https://learn.microsoft.com/en-us/dotnet/api/system.timespan) Attribute
+# [TimeSpan](https://learn.microsoft.com/en-us/dotnet/api/system.timespan) Attribute
 
 ```csharp
 public class MyMonoBehaviour : MonoBehaviour, ISerializationCallbackReceiver
