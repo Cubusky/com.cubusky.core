@@ -55,6 +55,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Cubusky.Editor.ReferenceDropdownDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cubusky.Editor.ReferenceDropdownDrawer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Cubusky.Editor.ShaderIdDrawer.yml",
       "output": {
         ".html": {
@@ -109,6 +119,16 @@
       "output": {
         ".html": {
           "relative_path": "api/Cubusky.OfTypeAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cubusky.ReferenceDropdownAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cubusky.ReferenceDropdownAttribute.html"
         }
       },
       "version": ""
@@ -254,40 +274,10 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "manual/AttributeSerialization.md",
-      "output": {
-        ".html": {
-          "relative_path": "manual/AttributeSerialization.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "manual/GuidAttribute.md",
-      "output": {
-        ".html": {
-          "relative_path": "manual/GuidAttribute.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
       "source_relative_path": "manual/Instance.md",
       "output": {
         ".html": {
           "relative_path": "manual/Instance.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "manual/OfTypeAttribute.md",
-      "output": {
-        ".html": {
-          "relative_path": "manual/OfTypeAttribute.html"
         }
       },
       "version": ""
@@ -313,16 +303,6 @@
       "version": ""
     },
     {
-      "type": "Conceptual",
-      "source_relative_path": "manual/TimeSpanAttribute.md",
-      "output": {
-        ".html": {
-          "relative_path": "manual/TimeSpanAttribute.html"
-        }
-      },
-      "version": ""
-    },
-    {
       "type": "Resource",
       "source_relative_path": "manual/images/Instance Multiple.png",
       "output": {
@@ -338,6 +318,26 @@
       "output": {
         "resource": {
           "relative_path": "manual/images/Instance.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/ReferenceDropdown IntTest.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/ReferenceDropdown IntTest.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/ReferenceDropdown StringTest.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/ReferenceDropdown StringTest.png"
         }
       },
       "version": ""

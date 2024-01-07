@@ -1,142 +1,132 @@
 {
   "api/Cubusky.AnimatorHash.html": {
     "href": "api/Cubusky.AnimatorHash.html",
-    "title": "Struct AnimatorHash | Cubusky Core | 1.0.0",
+    "title": "Struct AnimatorHash | Cubusky Core | 1.1.0",
     "keywords": "Struct AnimatorHash Namespace Cubusky A generated parameter id from a string. [Serializable] public struct AnimatorHash : ISerializationCallbackReceiver, IEquatable<AnimatorHash> Implements ISerializationCallbackReceiver IEquatable<AnimatorHash> Inherited Members object.Equals(object, object) object.GetType() object.ReferenceEquals(object, object) Constructors AnimatorHash(string) public AnimatorHash(string name) Parameters name string Properties id public readonly int id { get; } Property Value int name public string? name { get; set; } Property Value string Methods Equals(AnimatorHash) Indicates whether the current object is equal to another object of the same type. public bool Equals(AnimatorHash other) Parameters other AnimatorHash An object to compare with this object. Returns bool true if the current object is equal to the other parameter; otherwise, false. Equals(object?) Indicates whether this instance and a specified object are equal. public override bool Equals(object? obj) Parameters obj object The object to compare with the current instance. Returns bool true if obj and this instance are the same type and represent the same value; otherwise, false. GetHashCode() Returns the hash code for this instance. public override int GetHashCode() Returns int A 32-bit signed integer that is the hash code for this instance. ToString() Returns the fully qualified type name of this instance. public override string ToString() Returns string The fully qualified type name. Operators operator ==(AnimatorHash, AnimatorHash) public static bool operator ==(AnimatorHash left, AnimatorHash right) Parameters left AnimatorHash right AnimatorHash Returns bool implicit operator int(AnimatorHash) public static implicit operator int(AnimatorHash animatorHash) Parameters animatorHash AnimatorHash Returns int implicit operator AnimatorHash(string) public static implicit operator AnimatorHash(string name) Parameters name string Returns AnimatorHash operator !=(AnimatorHash, AnimatorHash) public static bool operator !=(AnimatorHash left, AnimatorHash right) Parameters left AnimatorHash right AnimatorHash Returns bool"
   },
   "api/Cubusky.Editor.AnimatorHashDrawer.html": {
     "href": "api/Cubusky.Editor.AnimatorHashDrawer.html",
-    "title": "Class AnimatorHashDrawer | Cubusky Core | 1.0.0",
+    "title": "Class AnimatorHashDrawer | Cubusky Core | 1.1.0",
     "keywords": "Class AnimatorHashDrawer Namespace Cubusky.Editor public class AnimatorHashDrawer : PropertyDrawer Inheritance object AnimatorHashDrawer Methods CreatePropertyGUI(SerializedProperty) public override VisualElement CreatePropertyGUI(SerializedProperty property) Parameters property SerializedProperty Returns VisualElement"
   },
   "api/Cubusky.Editor.GuidDrawer.html": {
     "href": "api/Cubusky.Editor.GuidDrawer.html",
-    "title": "Class GuidDrawer | Cubusky Core | 1.0.0",
+    "title": "Class GuidDrawer | Cubusky Core | 1.1.0",
     "keywords": "Class GuidDrawer Namespace Cubusky.Editor public class GuidDrawer : PropertyDrawer Inheritance object GuidDrawer Methods CreatePropertyGUI(SerializedProperty) public override VisualElement CreatePropertyGUI(SerializedProperty property) Parameters property SerializedProperty Returns VisualElement"
   },
   "api/Cubusky.Editor.OfTypeDrawer.html": {
     "href": "api/Cubusky.Editor.OfTypeDrawer.html",
-    "title": "Class OfTypeDrawer | Cubusky Core | 1.0.0",
+    "title": "Class OfTypeDrawer | Cubusky Core | 1.1.0",
     "keywords": "Class OfTypeDrawer Namespace Cubusky.Editor public class OfTypeDrawer : PropertyDrawer Inheritance object OfTypeDrawer Methods CreatePropertyGUI(SerializedProperty) public override VisualElement CreatePropertyGUI(SerializedProperty property) Parameters property SerializedProperty Returns VisualElement"
+  },
+  "api/Cubusky.Editor.ReferenceDropdownDrawer.html": {
+    "href": "api/Cubusky.Editor.ReferenceDropdownDrawer.html",
+    "title": "Class ReferenceDropdownDrawer | Cubusky Core | 1.1.0",
+    "keywords": "Class ReferenceDropdownDrawer Namespace Cubusky.Editor public class ReferenceDropdownDrawer : PropertyDrawer Inheritance object ReferenceDropdownDrawer Methods CreatePropertyGUI(SerializedProperty) public override VisualElement CreatePropertyGUI(SerializedProperty property) Parameters property SerializedProperty Returns VisualElement"
   },
   "api/Cubusky.Editor.ShaderIdDrawer.html": {
     "href": "api/Cubusky.Editor.ShaderIdDrawer.html",
-    "title": "Class ShaderIdDrawer | Cubusky Core | 1.0.0",
+    "title": "Class ShaderIdDrawer | Cubusky Core | 1.1.0",
     "keywords": "Class ShaderIdDrawer Namespace Cubusky.Editor public class ShaderIdDrawer : PropertyDrawer Inheritance object ShaderIdDrawer Methods CreatePropertyGUI(SerializedProperty) public override VisualElement CreatePropertyGUI(SerializedProperty property) Parameters property SerializedProperty Returns VisualElement"
   },
   "api/Cubusky.Editor.TimeSpanDrawer.html": {
     "href": "api/Cubusky.Editor.TimeSpanDrawer.html",
-    "title": "Class TimeSpanDrawer | Cubusky Core | 1.0.0",
+    "title": "Class TimeSpanDrawer | Cubusky Core | 1.1.0",
     "keywords": "Class TimeSpanDrawer Namespace Cubusky.Editor public class TimeSpanDrawer : PropertyDrawer Inheritance object TimeSpanDrawer Methods CreatePropertyGUI(SerializedProperty) public override VisualElement CreatePropertyGUI(SerializedProperty property) Parameters property SerializedProperty Returns VisualElement"
   },
   "api/Cubusky.Editor.html": {
     "href": "api/Cubusky.Editor.html",
-    "title": "Namespace Cubusky.Editor | Cubusky Core | 1.0.0",
-    "keywords": "Namespace Cubusky.Editor Classes AnimatorHashDrawer GuidDrawer OfTypeDrawer ShaderIdDrawer TimeSpanDrawer"
+    "title": "Namespace Cubusky.Editor | Cubusky Core | 1.1.0",
+    "keywords": "Namespace Cubusky.Editor Classes AnimatorHashDrawer GuidDrawer OfTypeDrawer ReferenceDropdownDrawer ShaderIdDrawer TimeSpanDrawer"
   },
   "api/Cubusky.GuidAttribute.html": {
     "href": "api/Cubusky.GuidAttribute.html",
-    "title": "Class GuidAttribute | Cubusky Core | 1.0.0",
+    "title": "Class GuidAttribute | Cubusky Core | 1.1.0",
     "keywords": "Class GuidAttribute Namespace Cubusky Serializes a string as a valid Guid. public class GuidAttribute : PropertyAttribute Inheritance object GuidAttribute"
   },
   "api/Cubusky.Instance-1.html": {
     "href": "api/Cubusky.Instance-1.html",
-    "title": "Class Instance<T> | Cubusky Core | 1.0.0",
+    "title": "Class Instance<T> | Cubusky Core | 1.1.0",
     "keywords": "Class Instance<T> Namespace Cubusky A singleton implementation where the last enabled instance is the current instance. public abstract class Instance<T> : MonoBehaviour where T : Instance<T> Type Parameters T Inheritance object Instance<T> Properties current Return the current instance. public static T? current { get; } Property Value T Methods OnCurrent() Called after the instance is set to the current instance. public abstract void OnCurrent() OnDisable() protected virtual void OnDisable() OnEnable() protected virtual void OnEnable()"
   },
   "api/Cubusky.OfTypeAttribute.html": {
     "href": "api/Cubusky.OfTypeAttribute.html",
-    "title": "Class OfTypeAttribute | Cubusky Core | 1.0.0",
+    "title": "Class OfTypeAttribute | Cubusky Core | 1.1.0",
     "keywords": "Class OfTypeAttribute Namespace Cubusky Specifies types that an Object needs to be of. Can be used to create an Object selector that allows interfaces. public class OfTypeAttribute : PropertyAttribute Inheritance object OfTypeAttribute Constructors OfTypeAttribute(Type) public OfTypeAttribute(Type type) Parameters type Type OfTypeAttribute(params Type[]) public OfTypeAttribute(params Type[] types) Parameters types Type[] Fields types public Type[] types Field Value Type[]"
+  },
+  "api/Cubusky.ReferenceDropdownAttribute.html": {
+    "href": "api/Cubusky.ReferenceDropdownAttribute.html",
+    "title": "Class ReferenceDropdownAttribute | Cubusky Core | 1.1.0",
+    "keywords": "Class ReferenceDropdownAttribute Namespace Cubusky Draws a selectable dropdown for SerializeReference fields. Can be used to instantiate references inside components. public class ReferenceDropdownAttribute : PropertyAttribute Inheritance object ReferenceDropdownAttribute Constructors ReferenceDropdownAttribute() public ReferenceDropdownAttribute() ReferenceDropdownAttribute(bool) public ReferenceDropdownAttribute(bool nullable) Parameters nullable bool Fields nullable public bool nullable Field Value bool"
   },
   "api/Cubusky.ShaderId.html": {
     "href": "api/Cubusky.ShaderId.html",
-    "title": "Struct ShaderId | Cubusky Core | 1.0.0",
+    "title": "Struct ShaderId | Cubusky Core | 1.1.0",
     "keywords": "Struct ShaderId Namespace Cubusky A unique identifier for a shader property name. [Serializable] public struct ShaderId : ISerializationCallbackReceiver, IEquatable<ShaderId> Implements ISerializationCallbackReceiver IEquatable<ShaderId> Inherited Members object.Equals(object, object) object.GetType() object.ReferenceEquals(object, object) Constructors ShaderId(string) public ShaderId(string name) Parameters name string Properties id public readonly int id { get; } Property Value int name public string? name { get; set; } Property Value string Methods Equals(ShaderId) Indicates whether the current object is equal to another object of the same type. public bool Equals(ShaderId other) Parameters other ShaderId An object to compare with this object. Returns bool true if the current object is equal to the other parameter; otherwise, false. Equals(object?) Indicates whether this instance and a specified object are equal. public override bool Equals(object? obj) Parameters obj object The object to compare with the current instance. Returns bool true if obj and this instance are the same type and represent the same value; otherwise, false. GetHashCode() Returns the hash code for this instance. public override int GetHashCode() Returns int A 32-bit signed integer that is the hash code for this instance. ToString() Returns the fully qualified type name of this instance. public override string ToString() Returns string The fully qualified type name. Operators operator ==(ShaderId, ShaderId) public static bool operator ==(ShaderId left, ShaderId right) Parameters left ShaderId right ShaderId Returns bool implicit operator int(ShaderId) public static implicit operator int(ShaderId id) Parameters id ShaderId Returns int implicit operator ShaderId(string) public static implicit operator ShaderId(string name) Parameters name string Returns ShaderId operator !=(ShaderId, ShaderId) public static bool operator !=(ShaderId left, ShaderId right) Parameters left ShaderId right ShaderId Returns bool"
   },
   "api/Cubusky.TimeSpanAttribute.html": {
     "href": "api/Cubusky.TimeSpanAttribute.html",
-    "title": "Class TimeSpanAttribute | Cubusky Core | 1.0.0",
+    "title": "Class TimeSpanAttribute | Cubusky Core | 1.1.0",
     "keywords": "Class TimeSpanAttribute Namespace Cubusky public class TimeSpanAttribute : PropertyAttribute Inheritance object TimeSpanAttribute"
   },
   "api/Cubusky.UIElements.TimeSpanField.html": {
     "href": "api/Cubusky.UIElements.TimeSpanField.html",
-    "title": "Class TimeSpanField | Cubusky Core | 1.0.0",
+    "title": "Class TimeSpanField | Cubusky Core | 1.1.0",
     "keywords": "Class TimeSpanField Namespace Cubusky.UIElements public class TimeSpanField : TextValueField<TimeSpan> Inheritance object TimeSpanField Constructors TimeSpanField() public TimeSpanField() TimeSpanField(string) public TimeSpanField(string label) Parameters label string Fields inputUssClassName public static readonly string inputUssClassName Field Value string labelUssClassName public static readonly string labelUssClassName Field Value string ussClassName public static readonly string ussClassName Field Value string Methods ApplyInputDeviceDelta(Vector3, DeltaSpeed, TimeSpan) public override void ApplyInputDeviceDelta(Vector3 delta, DeltaSpeed speed, TimeSpan startValue) Parameters delta Vector3 speed DeltaSpeed startValue TimeSpan StringToValue(string) protected override TimeSpan StringToValue(string str) Parameters str string Returns TimeSpan ValueToString(TimeSpan) protected override string ValueToString(TimeSpan v) Parameters v TimeSpan Returns string"
   },
   "api/Cubusky.UIElements.html": {
     "href": "api/Cubusky.UIElements.html",
-    "title": "Namespace Cubusky.UIElements | Cubusky Core | 1.0.0",
+    "title": "Namespace Cubusky.UIElements | Cubusky Core | 1.1.0",
     "keywords": "Namespace Cubusky.UIElements Classes TimeSpanField"
   },
   "api/Cubusky.html": {
     "href": "api/Cubusky.html",
-    "title": "Namespace Cubusky | Cubusky Core | 1.0.0",
-    "keywords": "Namespace Cubusky Classes GuidAttribute Serializes a string as a valid Guid. Instance<T> A singleton implementation where the last enabled instance is the current instance. OfTypeAttribute Specifies types that an Object needs to be of. Can be used to create an Object selector that allows interfaces. TimeSpanAttribute Structs AnimatorHash A generated parameter id from a string. ShaderId A unique identifier for a shader property name."
+    "title": "Namespace Cubusky | Cubusky Core | 1.1.0",
+    "keywords": "Namespace Cubusky Classes GuidAttribute Serializes a string as a valid Guid. Instance<T> A singleton implementation where the last enabled instance is the current instance. OfTypeAttribute Specifies types that an Object needs to be of. Can be used to create an Object selector that allows interfaces. ReferenceDropdownAttribute Draws a selectable dropdown for SerializeReference fields. Can be used to instantiate references inside components. TimeSpanAttribute Structs AnimatorHash A generated parameter id from a string. ShaderId A unique identifier for a shader property name."
   },
   "api/index.html": {
     "href": "api/index.html",
-    "title": "| Cubusky Core | 1.0.0",
+    "title": "| Cubusky Core | 1.1.0",
     "keywords": "This is the documentation for the Scripting APIs of this package."
   },
   "changelog/CHANGELOG.html": {
     "href": "changelog/CHANGELOG.html",
-    "title": "Changelog | Cubusky Core | 1.0.0",
-    "keywords": "Changelog All notable changes to this package will be documented in this file. The format is based on Keep a Changelog and this project adheres to Semantic Versioning. [1.0.0] - 2024-01-01 Add documentation. [0.9.0-pre] - 2023-12-30 Added Add documentation, license and changelog url. Add a UIElement TimeSpanField that may be used to draw a TimeSpan in the inspector. Add a TimeSpanAttribute to allow long to be drawn as TimeSpan in the inspector. Use like so: [TimeSpan] public long timeSpan; Add an OfTypeAttribute to allow Objects to specify which types they need to be of. Use like so: [OfType(typeof(IPointerClickHandler), typeof(ISubmitHandler))] public Selectable pointClickSubmitHandler; Removed Remove unused SerializedPropertyExtensions before version 1.0 as their integrety cannot be verified at this time. [0.1.0-exp] - 2023-05-15 This is the first release of Cubusky Core. Cubusky Core contains reusable code spanning across the Cubusky organization including serialization features and utility functions. If you are creating a custom package based on the Cubusky organization, using Cubusky Core will save you time."
+    "title": "Changelog | Cubusky Core | 1.1.0",
+    "keywords": "Changelog All notable changes to this package will be documented in this file. The format is based on Keep a Changelog and this project adheres to Semantic Versioning. [1.1.0] - 2024-01-07 Add ReferenceDropdownAttribute to allow for selectable references in UnityEngine.Objects. Useful for allowing the use of interfaces in code. [1.0.0] - 2024-01-01 Add documentation. [0.9.0-pre] - 2023-12-30 Added Add documentation, license and changelog url. Add a UIElement TimeSpanField that may be used to draw a TimeSpan in the inspector. Add a TimeSpanAttribute to allow long to be drawn as TimeSpan in the inspector. Use like so: [TimeSpan] public long timeSpan; Add an OfTypeAttribute to allow Objects to specify which types they need to be of. Use like so: [OfType(typeof(IPointerClickHandler), typeof(ISubmitHandler))] public Selectable pointClickSubmitHandler; Removed Remove unused SerializedPropertyExtensions before version 1.0 as their integrety cannot be verified at this time. [0.1.0-exp] - 2023-05-15 This is the first release of Cubusky Core. Cubusky Core contains reusable code spanning across the Cubusky organization including serialization features and utility functions. If you are creating a custom package based on the Cubusky organization, using Cubusky Core will save you time."
   },
   "index.html": {
     "href": "index.html",
-    "title": "| Cubusky Core | 1.0.0",
+    "title": "| Cubusky Core | 1.1.0",
     "keywords": "This page redirects to the manual."
   },
   "license/LICENSE.html": {
     "href": "license/LICENSE.html",
-    "title": "| Cubusky Core | 1.0.0",
+    "title": "| Cubusky Core | 1.1.0",
     "keywords": "MIT License Copyright (c) 2023 Cubusky Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
   },
   "manual/AnimatorHash.html": {
     "href": "manual/AnimatorHash.html",
-    "title": "| Cubusky Core | 1.0.0",
+    "title": "| Cubusky Core | 1.1.0",
     "keywords": "Animator Hash public class MyMonoBehaviour : MonoBehaviour { public AnimatorHash jump = \"Jump\"; // Takes string input. public void DoJump() => animator.SetTrigger(jump); // Returns int output. }"
-  },
-  "manual/AttributeSerialization.html": {
-    "href": "manual/AttributeSerialization.html",
-    "title": "Attribute Serialization | Cubusky Core | 1.0.0",
-    "keywords": "Attribute Serialization When you need to serialize a type in Unity that can be serialized through one of its underlying values, Attribute Serialization is a pattern that allows for rapid type coupling. It has zero performance cost at runtime and negligable performance cost in the editor. public class MyMonoBehaviour : MonoBehaviour, ISerializationCallbackReceiver { [SerializeField, Guid] private string _guid; public Guid guid { get; set; } void ISerializationCallbackReceiver.OnBeforeSerialize() => _guid = guid.ToString(); void ISerializationCallbackReceiver.OnAfterDeserialize() => guid = new(_guid); } It is not recommended to put this in a wrapper. While it may initially seem that a wrapper would make the developers job easier, it would actually complicate the access hierarchy within MyMonoBehaviour, accruing technical debt. For an easy way to implement the above, consider creating a snippet instead. Guid Attribute public class MyMonoBehaviour : MonoBehaviour, ISerializationCallbackReceiver { [SerializeField, Guid] private string _guid; public Guid guid { get; set; } void ISerializationCallbackReceiver.OnBeforeSerialize() => _guid = guid.ToString(); void ISerializationCallbackReceiver.OnAfterDeserialize() => guid = new(_guid); } OfType Attribute OfType was created to allow interface specification inside an Object Field. public class MyMonoBehaviour : MonoBehaviour, ISerializationCallbackReceiver { [SerializeField, OfType(typeof(IConstraint))] private Component _constraint; public IConstraint constraint { get; set; } void ISerializationCallbackReceiver.OnBeforeSerialize() => _constraint = constraint as Component; void ISerializationCallbackReceiver.OnAfterDeserialize() => constraint = _constraint as IConstraint; } TimeSpan Attribute public class MyMonoBehaviour : MonoBehaviour, ISerializationCallbackReceiver { [SerializeField, TimeSpan] private long _timeSpan; public TimeSpan timeSpan { get; set; } void ISerializationCallbackReceiver.OnBeforeSerialize() => _timeSpan = timeSpan.Ticks; void ISerializationCallbackReceiver.OnAfterDeserialize() => timeSpan = new(_timeSpan); }"
-  },
-  "manual/GuidAttribute.html": {
-    "href": "manual/GuidAttribute.html",
-    "title": "| Cubusky Core | 1.0.0",
-    "keywords": "Guid Attribute public class MyMonoBehaviour : MonoBehaviour, ISerializationCallbackReceiver { [SerializeField, Guid] private string _guid; public Guid guid { get; set; } void ISerializationCallbackReceiver.OnBeforeSerialize() => _guid = guid.ToString(); void ISerializationCallbackReceiver.OnAfterDeserialize() => guid = new(_guid); }"
   },
   "manual/Instance.html": {
     "href": "manual/Instance.html",
-    "title": "Instance | Cubusky Core | 1.0.0",
+    "title": "Instance | Cubusky Core | 1.1.0",
     "keywords": "Instance Singletons are a widely accepted anti-pattern within Unity, and their use is not recommended. There are however valid use cases for wanting to interact with static functions through Components. The Instance<T> type provides a singleton implementation that aims to adhere to the single responsibility principle by working independently from other types. Rather than referencing Instance<T> in other classes, it is used more like a state setter. An Instance<T> is supposed to manipulate static api values when it becomes the current instance. Similarly, the last known instance will set its state when the current instance is deactivated. Unlike most singleton implementations that allow only 1 instance, Instance<T> does not restrict the amount of instances. Note that the last enabled Instance<T> will be the current Instance<T>. Example A simple example is a time scale setter implemented through instances. [DisallowMultipleComponent] public class TimeScaleInstance : Instance<TimeScaleInstance> { [field: SerializeField] public float timeScale { get; set; } = 1f; public override void OnCurrent() { Time.timeScale = timeScale; } } When our game starts, the TimeScaleInstance on the camera is recognized and our time scale is set to 1. When our pause screen gets enabled however, our time scale is set to 0. Then, when our pause screen gets disabled, the TimeScaleInstance recognizes the last known instance and resets the time scale back to 1. By virtue of implementation, it becomes trivial to make a weapon select menu that puts us in slowmotion rather than stopping time completely. Singleton It is possible to derive from Instance<T> to create a true singleton implementation that only allows one instance at a time. /// <summary> /// A singleton implementation where there will only ever exist 0 or 1 instances of the singleton. /// </summary> public abstract class Singleton<T> : Instance<T> where T : Singleton<T> { protected virtual void Awake() { if (current) { Destroy(this); } else { DontDestroyOnLoad(this); } } } However, as Cubusky only uses the singleton pattern to set static state dynamically, the above would be the same as using RuntimeInitializeOnLoadMethod, which is strongly recommended over the use of singletons."
-  },
-  "manual/OfTypeAttribute.html": {
-    "href": "manual/OfTypeAttribute.html",
-    "title": "| Cubusky Core | 1.0.0",
-    "keywords": "OfType Attribute OfType was created to allow interface specification inside an Object Field. public class MyMonoBehaviour : MonoBehaviour, ISerializationCallbackReceiver { [SerializeField, OfType(typeof(IConstraint))] private Component _constraint; public IConstraint constraint { get; set; } void ISerializationCallbackReceiver.OnBeforeSerialize() => _constraint = constraint as Component; void ISerializationCallbackReceiver.OnAfterDeserialize() => constraint = _constraint as IConstraint; }"
   },
   "manual/SerializableValues.html": {
     "href": "manual/SerializableValues.html",
-    "title": "Serializable Values | Cubusky Core | 1.0.0",
+    "title": "Serializable Values | Cubusky Core | 1.1.0",
     "keywords": "Serializable Values Some values in Unity require one set of input (usually string) but can provide a more optimized output (usually int). When working within a context where parsing these values may be desirable, consider using the provided Serializable Values. Animator Hash public class MyMonoBehaviour : MonoBehaviour { public AnimatorHash jump = \"Jump\"; // Takes string input. public void DoJump() => animator.SetTrigger(jump); // Returns int output. } Shader Id public class MyMonoBehaviour : MonoBehaviour { public ShaderId smoothness = \"_Glossiness\"; // Takes string input. public float GetSmoothness() => mat.GetFloat(smoothness); // Returns int output. }"
   },
   "manual/ShaderId.html": {
     "href": "manual/ShaderId.html",
-    "title": "| Cubusky Core | 1.0.0",
+    "title": "| Cubusky Core | 1.1.0",
     "keywords": "Shader Id public class MyMonoBehaviour : MonoBehaviour { public ShaderId smoothness = \"_Glossiness\"; // Takes string input. public float GetSmoothness() => mat.GetFloat(smoothness); // Returns int output. }"
-  },
-  "manual/TimeSpanAttribute.html": {
-    "href": "manual/TimeSpanAttribute.html",
-    "title": "| Cubusky Core | 1.0.0",
-    "keywords": "TimeSpan Attribute public class MyMonoBehaviour : MonoBehaviour, ISerializationCallbackReceiver { [SerializeField, TimeSpan] private long _timeSpan; public TimeSpan timeSpan { get; set; } void ISerializationCallbackReceiver.OnBeforeSerialize() => _timeSpan = timeSpan.Ticks; void ISerializationCallbackReceiver.OnAfterDeserialize() => timeSpan = new(_timeSpan); }"
   },
   "manual/index.html": {
     "href": "manual/index.html",
-    "title": "About Cubusky Core | Cubusky Core | 1.0.0",
-    "keywords": "About Cubusky Core Cubusky Core contains core functionality spanning across the Cubusky organization. Installing Cubusky Core To install this package, follow the instructions on the Package Manager documentation Requirements This version of Cubusky Core is compatible with the following versions of the Unity Editor: 2022.3 and later (recommended) Known Limitations Cubusky Core 1.0.0 includes the following known limitations: TimeSpanField in the UIBuilder allows for weird string inputs. This may be improved using UxmlElementAttribute in a later Unity version."
+    "title": "About Cubusky Core | Cubusky Core | 1.1.0",
+    "keywords": "About Cubusky Core Cubusky Core contains core functionality spanning across the Cubusky organization. Installing Cubusky Core To install this package, follow the instructions on the Package Manager documentation Requirements This version of Cubusky Core is compatible with the following versions of the Unity Editor: 2022.3 and later (recommended) Known Limitations Cubusky Core 1.1.0 includes the following known limitations: TimeSpanField in the UIBuilder allows for weird string inputs. This may be improved using UxmlElementAttribute in a later Unity version. The OfType attribute does not single out objects shown in the Object Picker."
   }
 }

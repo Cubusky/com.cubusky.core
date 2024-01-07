@@ -235,6 +235,25 @@ references:
   isSpec: "True"
   fullName: Cubusky.Editor.OfTypeDrawer.CreatePropertyGUI
   nameWithType: OfTypeDrawer.CreatePropertyGUI
+- uid: Cubusky.Editor.ReferenceDropdownDrawer
+  name: ReferenceDropdownDrawer
+  href: api/Cubusky.Editor.ReferenceDropdownDrawer.html
+  commentId: T:Cubusky.Editor.ReferenceDropdownDrawer
+  fullName: Cubusky.Editor.ReferenceDropdownDrawer
+  nameWithType: ReferenceDropdownDrawer
+- uid: Cubusky.Editor.ReferenceDropdownDrawer.CreatePropertyGUI(SerializedProperty)
+  name: CreatePropertyGUI(SerializedProperty)
+  href: api/Cubusky.Editor.ReferenceDropdownDrawer.html#Cubusky_Editor_ReferenceDropdownDrawer_CreatePropertyGUI_SerializedProperty_
+  commentId: M:Cubusky.Editor.ReferenceDropdownDrawer.CreatePropertyGUI(SerializedProperty)
+  fullName: Cubusky.Editor.ReferenceDropdownDrawer.CreatePropertyGUI(SerializedProperty)
+  nameWithType: ReferenceDropdownDrawer.CreatePropertyGUI(SerializedProperty)
+- uid: Cubusky.Editor.ReferenceDropdownDrawer.CreatePropertyGUI*
+  name: CreatePropertyGUI
+  href: api/Cubusky.Editor.ReferenceDropdownDrawer.html#Cubusky_Editor_ReferenceDropdownDrawer_CreatePropertyGUI_
+  commentId: Overload:Cubusky.Editor.ReferenceDropdownDrawer.CreatePropertyGUI
+  isSpec: "True"
+  fullName: Cubusky.Editor.ReferenceDropdownDrawer.CreatePropertyGUI
+  nameWithType: ReferenceDropdownDrawer.CreatePropertyGUI
 - uid: Cubusky.Editor.ShaderIdDrawer
   name: ShaderIdDrawer
   href: api/Cubusky.Editor.ShaderIdDrawer.html
@@ -396,6 +415,46 @@ references:
   commentId: F:Cubusky.OfTypeAttribute.types
   fullName: Cubusky.OfTypeAttribute.types
   nameWithType: OfTypeAttribute.types
+- uid: Cubusky.ReferenceDropdownAttribute
+  name: ReferenceDropdownAttribute
+  href: api/Cubusky.ReferenceDropdownAttribute.html
+  commentId: T:Cubusky.ReferenceDropdownAttribute
+  fullName: Cubusky.ReferenceDropdownAttribute
+  nameWithType: ReferenceDropdownAttribute
+- uid: Cubusky.ReferenceDropdownAttribute.#ctor
+  name: ReferenceDropdownAttribute()
+  href: api/Cubusky.ReferenceDropdownAttribute.html#Cubusky_ReferenceDropdownAttribute__ctor
+  commentId: M:Cubusky.ReferenceDropdownAttribute.#ctor
+  name.vb: New()
+  fullName: Cubusky.ReferenceDropdownAttribute.ReferenceDropdownAttribute()
+  fullName.vb: Cubusky.ReferenceDropdownAttribute.New()
+  nameWithType: ReferenceDropdownAttribute.ReferenceDropdownAttribute()
+  nameWithType.vb: ReferenceDropdownAttribute.New()
+- uid: Cubusky.ReferenceDropdownAttribute.#ctor(System.Boolean)
+  name: ReferenceDropdownAttribute(bool)
+  href: api/Cubusky.ReferenceDropdownAttribute.html#Cubusky_ReferenceDropdownAttribute__ctor_System_Boolean_
+  commentId: M:Cubusky.ReferenceDropdownAttribute.#ctor(System.Boolean)
+  name.vb: New(Boolean)
+  fullName: Cubusky.ReferenceDropdownAttribute.ReferenceDropdownAttribute(bool)
+  fullName.vb: Cubusky.ReferenceDropdownAttribute.New(Boolean)
+  nameWithType: ReferenceDropdownAttribute.ReferenceDropdownAttribute(bool)
+  nameWithType.vb: ReferenceDropdownAttribute.New(Boolean)
+- uid: Cubusky.ReferenceDropdownAttribute.#ctor*
+  name: ReferenceDropdownAttribute
+  href: api/Cubusky.ReferenceDropdownAttribute.html#Cubusky_ReferenceDropdownAttribute__ctor_
+  commentId: Overload:Cubusky.ReferenceDropdownAttribute.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Cubusky.ReferenceDropdownAttribute.ReferenceDropdownAttribute
+  fullName.vb: Cubusky.ReferenceDropdownAttribute.New
+  nameWithType: ReferenceDropdownAttribute.ReferenceDropdownAttribute
+  nameWithType.vb: ReferenceDropdownAttribute.New
+- uid: Cubusky.ReferenceDropdownAttribute.nullable
+  name: nullable
+  href: api/Cubusky.ReferenceDropdownAttribute.html#Cubusky_ReferenceDropdownAttribute_nullable
+  commentId: F:Cubusky.ReferenceDropdownAttribute.nullable
+  fullName: Cubusky.ReferenceDropdownAttribute.nullable
+  nameWithType: ReferenceDropdownAttribute.nullable
 - uid: Cubusky.ShaderId
   name: ShaderId
   href: api/Cubusky.ShaderId.html
