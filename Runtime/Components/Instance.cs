@@ -9,18 +9,12 @@ namespace Cubusky
     /// </summary>
     public abstract class Instance<T> : MonoBehaviour where T : Instance<T>
     {
-        [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.SubsystemRegistration)]
-        private static void SubsystemRegistration()
-        {
-            instances.Clear();
-        }
-
         private static readonly List<T> instances = new();
 
         /// <summary>
         /// Return the current instance.
         /// </summary>
-        public static T? current => instances.Count > 0 ? instances[^1] : null;
+        public static T? current { get; private set; }
 
         /// <summary>
         /// Called after the instance is set to the current instance.
@@ -29,17 +23,16 @@ namespace Cubusky
 
         protected virtual void OnEnable()
         {
-            instances.Add((T)this);
+            instances.Add(current = (T)this);
             OnCurrent();
         }
 
         protected virtual void OnDisable()
         {
-            var wasCurrent = current == this;
-            instances.Remove((T)this);
-            if (wasCurrent && current != null)
+            if (instances.Remove((T)this) 
+                && current == this)
             {
-                current.OnCurrent();
+                (current = instances.Count > 0 ? instances[^1] : null)?.OnCurrent();
             }
         }
     }
