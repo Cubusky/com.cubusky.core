@@ -10,10 +10,7 @@ namespace Cubusky.Editor
     {
         public override VisualElement CreatePropertyGUI(SerializedProperty property)
         {
-            if (property.propertyType != SerializedPropertyType.String)
-            {
-                throw new ArgumentException("This attribute is not supported on properties of this property type.", nameof(property.propertyType));
-            }
+            property.ThrowIfNotPropertyType(SerializedPropertyType.String);
 
             var textField = new TextField(property.displayName)
             {
@@ -24,6 +21,11 @@ namespace Cubusky.Editor
 
             textField.RegisterValueChangedCallback(changed =>
             {
+                if (property.hasMultipleDifferentValues)
+                {
+                    return;
+                }
+
                 if (string.IsNullOrEmpty(changed.newValue)
                     || (!Guid.TryParse(changed.newValue, out var guid)
                         && !Guid.TryParse(changed.previousValue, out guid)))

@@ -11,14 +11,23 @@ namespace Cubusky.Editor
     public class ReferenceDropdownDrawer : PropertyDrawer
     {
         private const string nullString = "null";
+        private static readonly Type unityObjectType = typeof(UnityEngine.Object);
 
         public override VisualElement CreatePropertyGUI(SerializedProperty property)
         {
-            // Check if the property type is of a managed reference.
-            if (property.propertyType != SerializedPropertyType.ManagedReference)
+            property.ThrowIfNotPropertyType(SerializedPropertyType.ManagedReference);
+
+            foreach (var targetObject in property.serializedObject.targetObjects)
             {
-                throw new ArgumentException("This attribute is not supported on properties of this property type.", nameof(property.propertyType));
+                SerializationUtility.ClearAllManagedReferencesWithMissingTypes(targetObject);
             }
+
+            if (property.hasMultipleDifferentValues)
+            {
+                return new MultivalueEditingNotSupported(property.displayName);
+            }
+
+            var referenceDropdownAttribute = attribute as ReferenceDropdownAttribute;
 
             // Set up the property field and collect all derived types where Activators can instantiate them.
             var propertyField = new PropertyField(property);
@@ -26,11 +35,12 @@ namespace Cubusky.Editor
             var derivedTypes = (from derivedType in TypeCache.GetTypesDerivedFrom(fieldType)
                                 where !derivedType.IsAbstract
                                 where derivedType.GetConstructor(Type.EmptyTypes) != null
-                                where !typeof(UnityEngine.Object).IsAssignableFrom(derivedType)  // Cannot assign an object deriving from UnityEngine.Object to a managed reference. This is not supported.
+                                where !unityObjectType.IsAssignableFrom(derivedType)  // Cannot assign an object deriving from UnityEngine.Object to a managed reference. This is not supported.
+                                where referenceDropdownAttribute.types.All(type => type.IsAssignableFrom(derivedType))
                                 orderby derivedType.Name
                                 select derivedType).ToList();
 
-            var isNullable = (attribute as ReferenceDropdownAttribute).nullable // TODO: Use "or NullabilityInfoContext" in .NET 6 to determine nullability of a type.
+            var isNullable = referenceDropdownAttribute.nullable // TODO: Use "or NullabilityInfoContext" in .NET 6 to determine nullability of a type.
                 || derivedTypes.Count == 0;
 
             // Create choices based on nullability.
@@ -53,25 +63,27 @@ namespace Cubusky.Editor
             choices.AddRange(choiceToType.Keys);
 
             // Set up the dropdown field.
-            var dropdown = new DropdownField(property.displayName, choices, 0, FormatSelectedValue, FormatListItem);
+            var dropdown = new DropdownField(property.displayName, choices, 0, FormatSelectedValue, FormatListItem)
+            {
+                showMixedValue = property.hasMultipleDifferentValues,
+            };
             dropdown.AddToClassList(DropdownField.alignedFieldUssClassName);
             dropdown.TrackPropertyValue(property, PropertyChanged);
             dropdown.RegisterValueChangedCallback(changed =>
             {
+                if (property.hasMultipleDifferentValues)
+                {
+                    return;
+                }
+
                 // Unbind our property as to not trigger a property changed event.
                 propertyField.Unbind();
 
                 // Change the property.
-                if (isNullable)
-                {
-                    property.managedReferenceValue = dropdown.index == 0 ? null : Activator.CreateInstance(derivedTypes[dropdown.index - 1]); // Decrement to account for "Null" option.
-                }
-                else
-                {
-                    property.managedReferenceValue = Activator.CreateInstance(derivedTypes[dropdown.index]);
-                }
-                property.serializedObject.ApplyModifiedProperties();
-                
+                property.managedReferenceValue = choiceToType.TryGetValue(changed.newValue, out var type)
+                    ? Activator.CreateInstance(type)
+                    : null;
+
                 // Trigger the property changed event, which will rebind the property.
                 PropertyChanged(property);
             });
@@ -112,8 +124,7 @@ namespace Cubusky.Editor
                 }
 
                 InternalEditorBridge.GetTypeFromManagedReferenceFullTypeName(changedProperty.managedReferenceFullTypename, out var valueType);
-                var changedIndex = derivedTypes.IndexOf(valueType);
-                changedIndex += isNullable ? 1 : 0; // Increment to account for "Null" option.
+                var changedIndex = Math.Max(derivedTypes.IndexOf(valueType) + (isNullable ? 1 : 0), 0); // Increment to account for "Null" option.
                 dropdown.SetValueWithoutNotify(choices[changedIndex]);
             }
         }
