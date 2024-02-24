@@ -38,3 +38,22 @@ public class MyMonoBehaviour : MonoBehaviour
 ```
 
 ![](images/ReferenceDropdown%20null.png)
+
+## Types
+
+Whilst [SerializeReference](https://docs.unity3d.com/ScriptReference/SerializeReference.html) can serialize [interfaces](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/interface), it cannot serialize generics. In order to circumvent this issue, you can specify [types](https://learn.microsoft.com/en-us/dotnet/api/system.type) that the reference needs to be [assignable from](https://learn.microsoft.com/en-us/dotnet/api/system.type.isassignablefrom).
+
+```csharp
+public interface ITest<T> {}
+
+public class Text : ITest<string> {}
+
+public class Password : ITest<string> {}
+
+public class MyMonoBehaviour : MonoBehaviour
+{
+    [SerializeReference, ReferenceDropdown] public ITest<string> invalid; // invalid
+
+    [SerializeReference, ReferenceDropdown(typeof(ITest<string>))] public object valid; // valid
+}
+```

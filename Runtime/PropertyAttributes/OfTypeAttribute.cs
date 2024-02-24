@@ -1,11 +1,18 @@
 using System;
 using UnityEngine;
+using Object = UnityEngine.Object;
 
 namespace Cubusky
 {
     /// <summary>
-    /// Specifies types that an Object needs to be of. Can be used to create an Object selector that allows interfaces.
+    /// Specifies <see cref="Type"/> in an <see cref="Object"/> selector.
     /// </summary>
+    /// <remarks>
+    /// Can be used to create <see cref="Object"/> selectors that allow interfaces:
+    /// <code>
+    /// [<see cref="OfTypeAttribute">OfType</see>(<see langword="typeof"/>(<see cref="UnityEngine.Animations.IConstraint"/>))] <see langword="public"/> <see cref="Object"/> constraint;
+    /// </code>
+    /// </remarks>
     public class OfTypeAttribute : PropertyAttribute
     {
         public Type[] types;

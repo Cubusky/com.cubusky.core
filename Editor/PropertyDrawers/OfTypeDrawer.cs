@@ -11,12 +11,7 @@ namespace Cubusky.Editor
     {
         public override VisualElement CreatePropertyGUI(SerializedProperty property)
         {
-            // Check if the property type is of an object reference.
-            if (property.propertyType != SerializedPropertyType.ObjectReference
-                && property.propertyType != SerializedPropertyType.ExposedReference)
-            {
-                throw new System.ArgumentException("This attribute is not supported on properties of this property type.", nameof(property.propertyType));
-            }
+            property.ThrowIfNotPropertyType(SerializedPropertyType.ObjectReference, SerializedPropertyType.ExposedReference);
 
             // Set up the type variables.
             InternalEditorBridge.GetFieldInfoFromProperty(property, out var type);

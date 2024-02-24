@@ -14,16 +14,13 @@ namespace Cubusky.Editor
     {
         public override VisualElement CreatePropertyGUI(SerializedProperty property)
         {
-            // Check if property is of type long.
-            if (property.numericType != SerializedPropertyNumericType.Int64)
-            {
-                return base.CreatePropertyGUI(property);
-            }
+            property.ThrowIfNotNumericType(SerializedPropertyNumericType.Int64);
 
             // Create the TimeSpanField.
             var timeSpanField = new TimeSpanField(preferredLabel)
             {
                 isDelayed = fieldInfo.GetCustomAttribute<DelayedAttribute>(true) != null,
+                showMixedValue = property.hasMultipleDifferentValues,
             };
 
             // Bind the property.

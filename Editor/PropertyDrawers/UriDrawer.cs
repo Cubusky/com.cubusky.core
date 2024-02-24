@@ -5,12 +5,14 @@ using UnityEngine.UIElements;
 
 namespace Cubusky.Editor
 {
-    [CustomPropertyDrawer(typeof(GuidAttribute))]
-    public class GuidDrawer : PropertyDrawer
+    [CustomPropertyDrawer(typeof(UriAttribute))]
+    public class UriDrawer : PropertyDrawer
     {
         public override VisualElement CreatePropertyGUI(SerializedProperty property)
         {
             property.ThrowIfNotPropertyType(SerializedPropertyType.String);
+
+            var uriAttribute = attribute as UriAttribute;
 
             var textField = new TextField(property.displayName)
             {
@@ -26,14 +28,14 @@ namespace Cubusky.Editor
                     return;
                 }
 
-                if (string.IsNullOrEmpty(changed.newValue)
-                    || (!Guid.TryParse(changed.newValue, out var guid)
-                        && !Guid.TryParse(changed.previousValue, out guid)))
+                if ((!Uri.TryCreate(changed.newValue, uriAttribute.uriKind, out var uri)
+                        && !Uri.TryCreate(changed.previousValue, uriAttribute.uriKind, out uri))
+                        || string.IsNullOrEmpty(changed.newValue))
                 {
-                    guid = Guid.NewGuid();
+                    uri = UriAttribute.EmptyUri;
                 }
 
-                textField.SetValueWithoutNotify(property.stringValue = guid.ToString());
+                textField.SetValueWithoutNotify(property.stringValue = uri.ToString());
                 property.serializedObject.ApplyModifiedProperties();
             });
 
