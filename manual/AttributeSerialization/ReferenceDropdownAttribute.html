@@ -99,8 +99,8 @@ public class MyMonoBehaviour : MonoBehaviour
     [SerializeReference, ReferenceDropdown] public ITest test;
 }
 </code></pre>
-<p><img src="images/ReferenceDropdown%20IntTest.png" alt=""></p>
-<p><img src="images/ReferenceDropdown%20StringTest.png" alt=""></p>
+<p><img src="../images/ReferenceDropdown%20IntTest.png" alt=""></p>
+<p><img src="../images/ReferenceDropdown%20StringTest.png" alt=""></p>
 <h2 id="restrictions">Restrictions</h2>
 <p>In order for an implementation to be selectable, it must adhere to the following rules:</p>
 <ul>
@@ -115,7 +115,7 @@ public class MyMonoBehaviour : MonoBehaviour
     [SerializeReference, ReferenceDropdown(nullable = true)] public ITest test;
 }
 </code></pre>
-<p><img src="images/ReferenceDropdown%20null.png" alt=""></p>
+<p><img src="../images/ReferenceDropdown%20null.png" alt=""></p>
 <h2 id="types">Types</h2>
 <p>Whilst <a href="https://docs.unity3d.com/ScriptReference/SerializeReference.html">SerializeReference</a> can serialize <a href="https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/interface">interfaces</a>, it cannot serialize generics. In order to circumvent this issue, you can specify <a href="https://learn.microsoft.com/en-us/dotnet/api/system.type">types</a> that the reference needs to be <a href="https://learn.microsoft.com/en-us/dotnet/api/system.type.isassignablefrom">assignable from</a>.</p>
 <pre><code class="lang-csharp">public interface ITest&lt;T&gt; {}
