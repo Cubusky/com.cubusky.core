@@ -83,6 +83,7 @@ namespace Cubusky.Editor
                 property.managedReferenceValue = choiceToType.TryGetValue(changed.newValue, out var type)
                     ? Activator.CreateInstance(type)
                     : null;
+                property.serializedObject.ApplyModifiedProperties();
 
                 // Trigger the property changed event, which will rebind the property.
                 PropertyChanged(property);
