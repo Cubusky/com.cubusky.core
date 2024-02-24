@@ -92,7 +92,7 @@ namespace Cubusky
     }
 
     [Serializable]
-    public class DirectorySaverLoader : UnityPath, IDirectorySaver, IDirectoryLoader
+    public class DirectorySaverLoader : UnityPath, IDirectorySaver, IDirectoryLoader, IEnumerableSaverLoader, IEnumerableSaverLoader<string[]>
     {
         [field: SerializeField, Path(withoutExtension = true)] public override string relativePath { get; set; }
         [field: SerializeField] public string extension { get; set; } = "json";

@@ -10,6 +10,8 @@ and this project adheres to [Semantic Versioning](http://semver.org).
 - Add `ILoader` to allow loading data from a single location.
 - Add `IEnumerableSaver` to allow saving a collection of data to multiple locations.
 - Add `IEnumerableLoader` to allow loading a collection of data from multiple locations.
+- Add `ISaverLoader` to conveniently implement and reference `ISaver` & `ILoader` through the same interface.
+- Add `IEnumerableSaverLoader` to conveniently implement and reference `IEnumerableSaver` & `IEnumerableLoader` through the same interface.
 - Add `IFileSaver` to allow saving data to a file.
 - Add `IFileLoader` to allow loading data from a file.
 - Add `IDirectorySaver` to allow saving (a collection of) data to a directory under random file names.
@@ -26,7 +28,7 @@ and this project adheres to [Semantic Versioning](http://semver.org).
     Solution: `[SerializeReference, ReferenceDropdown(typeof(ISaver<Vector3>))] public object saver;`
 - Add `UpdaterService` which provides callbacks to `onUpdate`, `onLateUpdate` and `onFixedUpdate`.
 - Add `Timer` implementation that can be serialized by the inspector. A Timer can be used to call an event every x amount of seconds. This is useful for e.g. optimizing operations outside of Unity's update loop.
-- Add `UpdateSynchronizer` to allow synchronizating with Unity's Update loop. `Timer` example: `public Timer timer = new() { SynchronizationObject = new UpdateSynchronizer() };`
+- Add `UpdateSynchronizer` to allow synchronizating with Unity's Update loop. `Timer` example: `public Timer timer = new() { SynchronizingObject = new UpdateSynchronizer() };`
 
 ### Fixed
 - Fixed some mixed value errors:

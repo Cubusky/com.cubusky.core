@@ -69,4 +69,18 @@ namespace Cubusky
         IEnumerable<byte[]> ILoader<IEnumerable<byte[]>>.Load<TData>() => Load<IEnumerable<string>>().Select(Encoding.UTF8.GetBytes);
     }
     #endregion
+
+    #region QoL Interfaces
+    /// <summary>Saves and loads a <typeparamref name="TInputOutput"/> to and from a single location.</summary>
+    public interface ISaverLoader<TInputOutput> : ISaver<TInputOutput>, ILoader<TInputOutput> { }
+
+    /// <inheritdoc/>
+    public interface ISaverLoader : ISaverLoader<string>, ISaverLoader<byte[]>, ISaver, ILoader { }
+
+    /// <summary>Saves and loads a <see cref="IEnumerable{TInputOutput}">IEnumerable</see>&lt;<typeparamref name="TInputOutput"/>&gt; to and from multiple locations.</summary>
+    public interface IEnumerableSaverLoader<TInputOutput> : IEnumerableSaver<TInputOutput>, IEnumerableLoader<TInputOutput> { }
+
+    /// <inheritdoc/>
+    public interface IEnumerableSaverLoader : IEnumerableSaverLoader<string>, IEnumerableSaverLoader<byte[]>, IEnumerableSaver, IEnumerableLoader { }
+    #endregion
 }

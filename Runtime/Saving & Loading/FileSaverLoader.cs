@@ -57,7 +57,7 @@ namespace Cubusky
     }
 
     [Serializable]
-    public class FileSaverLoader : UnityPath, IFileSaver, IFileLoader
+    public class FileSaverLoader : UnityPath, IFileSaver, IFileLoader, ISaverLoader, ISaverLoader<string[]>
     {
         [field: SerializeField, Path] public override string relativePath { get; set; }
     }

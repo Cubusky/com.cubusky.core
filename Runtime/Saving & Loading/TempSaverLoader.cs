@@ -31,7 +31,7 @@ namespace Cubusky
     }
 
     [Serializable]
-    public class TempSaverLoader : ITempSaver, ITempLoader
+    public class TempSaverLoader : ITempSaver, ITempLoader, ISaverLoader, ISaverLoader<object>
     {
         [field: SerializeField] public string key { get; set; }
     }
