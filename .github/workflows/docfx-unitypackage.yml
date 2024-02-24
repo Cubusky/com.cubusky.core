@@ -19,7 +19,7 @@ jobs:
           submodules: true
 
       - name: Build
-        uses: CaseyHofland/docfx-unitypackage@subfolders-not-documented-fix
+        uses: CaseyHofland/docfx-unitypackage@v1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
 

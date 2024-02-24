@@ -2,4 +2,4 @@
 
 DirectorySaverLoader saves and loads collections of data to and from a directory.
 
-![](images/DirectorySaverLoader.png)
+![](../images/DirectorySaverLoader.png)

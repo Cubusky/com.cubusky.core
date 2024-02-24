@@ -15,9 +15,9 @@ public class MyMonoBehaviour : MonoBehaviour
 }
 ```
 
-![](images/ReferenceDropdown%20IntTest.png)
+![](../images/ReferenceDropdown%20IntTest.png)
 
-![](images/ReferenceDropdown%20StringTest.png)
+![](../images/ReferenceDropdown%20StringTest.png)
 
 ## Restrictions
 
@@ -37,7 +37,7 @@ public class MyMonoBehaviour : MonoBehaviour
 }
 ```
 
-![](images/ReferenceDropdown%20null.png)
+![](../images/ReferenceDropdown%20null.png)
 
 ## Types
 
