@@ -279,10 +279,90 @@
     "title": "| Cubusky Core | 1.2.0",
     "keywords": "MIT License Copyright (c) 2023 Cubusky Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
   },
+  "manual/AttributeSerialization/AttributeSerialization.html": {
+    "href": "manual/AttributeSerialization/AttributeSerialization.html",
+    "title": "Attribute Serialization | Cubusky Core | 1.2.0",
+    "keywords": "Attribute Serialization When you need to serialize a type in Unity that can be serialized through one of its underlying values, Attribute Serialization is a pattern that allows for rapid type coupling. It has zero performance cost at runtime and negligable performance cost in the editor. It is not recommended to put Attribute Serialization in a wrapper. While it may initially seem that a wrapper would make the developers job easier, it would actually complicate the access hierarchy, accruing technical debt. For an easy way to implement Attribute Serialization easily, consider creating a snippet instead."
+  },
+  "manual/AttributeSerialization/GuidAttribute.html": {
+    "href": "manual/AttributeSerialization/GuidAttribute.html",
+    "title": "Guid Attribute | Cubusky Core | 1.2.0",
+    "keywords": "Guid Attribute public class MyMonoBehaviour : MonoBehaviour, ISerializationCallbackReceiver { [SerializeField, Guid] private string _guid; public Guid guid { get; set; } void ISerializationCallbackReceiver.OnBeforeSerialize() => _guid = guid.ToString(); void ISerializationCallbackReceiver.OnAfterDeserialize() => guid = new(_guid); }"
+  },
+  "manual/AttributeSerialization/OfTypeAttribute.html": {
+    "href": "manual/AttributeSerialization/OfTypeAttribute.html",
+    "title": "OfType Attribute | Cubusky Core | 1.2.0",
+    "keywords": "OfType Attribute OfType was created to allow interface specification inside an Object Field. public class MyMonoBehaviour : MonoBehaviour, ISerializationCallbackReceiver { [SerializeField, OfType(typeof(IConstraint))] private Component _constraint; public IConstraint constraint { get; set; } void ISerializationCallbackReceiver.OnBeforeSerialize() => _constraint = constraint as Component; void ISerializationCallbackReceiver.OnAfterDeserialize() => constraint = _constraint as IConstraint; }"
+  },
+  "manual/AttributeSerialization/PathAttribute.html": {
+    "href": "manual/AttributeSerialization/PathAttribute.html",
+    "title": "Path Attribute | Cubusky Core | 1.2.0",
+    "keywords": "Path Attribute See also Application Path. public class MyMonoBehaviour : MonoBehaviour, ISerializationCallbackReceiver { public ApplicationPath applicationPath; public string relativePath; public string path => Path.Combine(applicationPath.GetPath(), relativePath); }"
+  },
+  "manual/AttributeSerialization/ReferenceDropdownAttribute.html": {
+    "href": "manual/AttributeSerialization/ReferenceDropdownAttribute.html",
+    "title": "ReferenceDropdown Attribute | Cubusky Core | 1.2.0",
+    "keywords": "ReferenceDropdown Attribute ReferenceDropdown was created to allow selectable interface references inside of Unity Objects. They work together with SerializeReference to serialize your interface so you can use it in the inspector. public interface ITest {} public class StringTest : ITest { public string s; } public class IntTest : ITest { public int i; } public class MyMonoBehaviour : MonoBehaviour { [SerializeReference, ReferenceDropdown] public ITest test; } Restrictions In order for an implementation to be selectable, it must adhere to the following rules: The implementation must have an empty constructor. The implementation must not be abstract. The implementation must not derive from UnityEngine.Object. Nullable You can specify your reference to be nullable through the following: public class MyMonoBehaviour : MonoBehaviour { [SerializeReference, ReferenceDropdown(nullable = true)] public ITest test; } Types Whilst SerializeReference can serialize interfaces, it cannot serialize generics. In order to circumvent this issue, you can specify types that the reference needs to be assignable from. public interface ITest<T> {} public class Text : ITest<string> {} public class Password : ITest<string> {} public class MyMonoBehaviour : MonoBehaviour { [SerializeReference, ReferenceDropdown] public ITest<string> invalid; // invalid [SerializeReference, ReferenceDropdown(typeof(ITest<string>))] public object valid; // valid }"
+  },
+  "manual/AttributeSerialization/TimeSpanAttribute.html": {
+    "href": "manual/AttributeSerialization/TimeSpanAttribute.html",
+    "title": "TimeSpan Attribute | Cubusky Core | 1.2.0",
+    "keywords": "TimeSpan Attribute public class MyMonoBehaviour : MonoBehaviour, ISerializationCallbackReceiver { [SerializeField, TimeSpan] private long _timeSpan; public TimeSpan timeSpan { get; set; } void ISerializationCallbackReceiver.OnBeforeSerialize() => _timeSpan = timeSpan.Ticks; void ISerializationCallbackReceiver.OnAfterDeserialize() => timeSpan = new(_timeSpan); }"
+  },
+  "manual/AttributeSerialization/UriAttribute.html": {
+    "href": "manual/AttributeSerialization/UriAttribute.html",
+    "title": "Uri Attribute | Cubusky Core | 1.2.0",
+    "keywords": "Uri Attribute public class MyMonoBehaviour : MonoBehaviour, ISerializationCallbackReceiver { [SerializeField, Uri] private string _uri; public Uri uri { get; set; } void ISerializationCallbackReceiver.OnBeforeSerialize() => _uri = uri.ToString(); void ISerializationCallbackReceiver.OnAfterDeserialize() => uri = new(_uri); }"
+  },
   "manual/Instance.html": {
     "href": "manual/Instance.html",
     "title": "Instance | Cubusky Core | 1.2.0",
     "keywords": "Instance Singletons are a widely accepted anti-pattern within Unity, and their use is not recommended. There are however valid use cases for wanting to interact with static functions through Components. The Instance<T> type provides a singleton implementation that aims to adhere to the single responsibility principle by working independently from other types. Rather than referencing Instance<T> in other classes, it is used more like a state setter. An Instance<T> is supposed to manipulate static api values when it becomes the current instance. Similarly, the last known instance will set its state when the current instance is deactivated. Unlike most singleton implementations that allow only 1 instance, Instance<T> does not restrict the amount of instances. Note that the last enabled Instance<T> will be the current Instance<T>. Example A simple example is a time scale setter implemented through instances. [DisallowMultipleComponent] public class TimeScaleInstance : Instance<TimeScaleInstance> { [field: SerializeField] public float timeScale { get; set; } = 1f; public override void OnCurrent() { Time.timeScale = timeScale; } } When our game starts, the TimeScaleInstance on the camera is recognized and our time scale is set to 1. When our pause screen gets enabled however, our time scale is set to 0. Then, when our pause screen gets disabled, the TimeScaleInstance recognizes the last known instance and resets the time scale back to 1. By virtue of implementation, it becomes trivial to make a weapon select menu that puts us in slowmotion rather than stopping time completely. Singleton It is possible to derive from Instance<T> to create a true singleton implementation that only allows one instance at a time. /// <summary> /// A singleton implementation where there will only ever exist 0 or 1 instances of the singleton. /// </summary> public abstract class Singleton<T> : Instance<T> where T : Singleton<T> { protected virtual void Awake() { if (current) { Destroy(this); } else { DontDestroyOnLoad(this); } } } However, as Cubusky only uses the singleton pattern to set static state dynamically, the above would be the same as using RuntimeInitializeOnLoadMethod, which is strongly recommended over the use of singletons."
+  },
+  "manual/SavingAndLoading/DirectorySaverLoader.html": {
+    "href": "manual/SavingAndLoading/DirectorySaverLoader.html",
+    "title": "Directory Saver Loader | Cubusky Core | 1.2.0",
+    "keywords": "Directory Saver Loader DirectorySaverLoader saves and loads collections of data to and from a directory."
+  },
+  "manual/SavingAndLoading/FileSaverLoader.html": {
+    "href": "manual/SavingAndLoading/FileSaverLoader.html",
+    "title": "File Saver Loader | Cubusky Core | 1.2.0",
+    "keywords": "File Saver Loader FileSaverLoader saves and loads data to and from a file."
+  },
+  "manual/SavingAndLoading/SavingAndLoading.html": {
+    "href": "manual/SavingAndLoading/SavingAndLoading.html",
+    "title": "Saving & Loading | Cubusky Core | 1.2.0",
+    "keywords": "Saving & Loading How you save and load files can be a complicated subject. There can be a lot of different methods of saving and loading your data, and all of them are valid. Cubusky therefor exposes interfaces to abstract all possible implementations to a few simple methods. This allows anyone to easily integrate their own solution for saving and loading based on their needs, which can be used in any scripts that reference these interfaces free of charge. Implementation To use saving & loading in code, reference an ISaverLoader using ReferenceDropdown and start using it. public class MyMonoBehaviour : MonoBehaviour { [SerializeReference, ReferenceDropdown] public ISaverLoader saverLoader; private void Start() => var json = saverLoader.Load<string>(); private void OnDestroy() => saverLoader.Save(\"{ \\\"name\\\": \\\"My Json!\\\" }\"); } If you only want to use saving or loading capabilities, simply specify the desired implementation. public class MyMonoBehaviour : MonoBehaviour { [SerializeReference, ReferenceDropdown] public ISaver saver; [SerializeReference, ReferenceDropdown] public ILoader loader; private void Start() { saver.Load<string>(); // compiler error! loader.Save(\"{ \\\"name\\\": \\\"My Json!\\\" }\"); // compiler error! } } If you need save and/or load collections of data, use the IEnumerableSaverLoader interfaces. public class MyMonoBehaviour : MonoBehaviour { [SerializeReference, ReferenceDropdown] public IEnumerableSaver saver; [SerializeReference, ReferenceDropdown] public IEnumerableLoader loader; [SerializeReference, ReferenceDropdown] public IEnumerableSaverLoader saverLoader; private void Start() { saver.Save(new [] { \"{ \\\"name\\\": \\\"My First Json!\\\" }\", \"{ \\\"name\\\": \\\"My Second Json!\\\" }\" }); var jsons = loader.Load<IEnumerable<string>>(); } } Although it is not recommended, if you want to save and/or load data of a generic type, use the generic interfaces. public class MyMonoBehaviour : MonoBehaviour, ISerializationCallbackReceiver { [SerializeReference, ReferenceDropdown(typeof(ISaverLoader<State>))] private object _stateSaverLoader; public ISaverLoader<State> stateSaverLoader { get; set; } void ISerializationCallbackReceiver.OnBeforeSerialize() => _stateSaverLoader = stateSaverLoader as object; void ISerializationCallbackReceiver.OnAfterDeserialize() => stateSaverLoader = _stateSaverLoader as ISaverLoader<State>; State state; private void Start() { state = stateSaverLoader.Load<State>(); } private void OnDestroy() { stateSaverLoader.Save(state); } } Asynchronous Saving & Loading ISaverLoader and friends come with async implementations as well since saving & loading is an operation that in most cases can be savely performed on a different thread. It is especially useful for e.g. saving & loading from a server, which may otherwise block the editor for a noticable amount of time. public class MyMonoBehaviour : MonoBehaviour { [SerializeReference, ReferenceDropdown] public ISaverLoader saverLoader; private async void Start() => var json = await saverLoader.LoadAsync<string>(); private void OnDestroy() => saverLoader.SaveAsync(\"{ \\\"name\\\": \\\"My Json!\\\" }\"); } Saving & Serialization It is important to note that saving is NOT the same as serialization. Serialization translates state into a format, usually json, that can be stored and reconstructed. Saving is used to store data, usually json, to a location, usually a file or a server. Loading is used to retrieve data, usually json, from a location, usually a file or a server. Whenever you work with ISaverLoader, you will need to serialize and deserialize the data before saving and loading. Keeping these steps apart allows them both to be implemented generically. public class MyMonoBehaviour : MonoBehaviour { [SerializeReference, ReferenceDropdown] public ISaverLoader saverLoader; private State state; private void Start() { var json = saverLoader.Load<string>(); state = JsonUtility.FromJson<State>(json); } private void OnDestroy() { var json = JsonUtility.ToJson(state); saverLoader.Save(json); } }"
+  },
+  "manual/SavingAndLoading/TempSaverLoader.html": {
+    "href": "manual/SavingAndLoading/TempSaverLoader.html",
+    "title": "Temp Saver Loader | Cubusky Core | 1.2.0",
+    "keywords": "Temp Saver Loader TempSaverLoader keeps data in memory for as long as the memory persists."
+  },
+  "manual/SerializableValues/AnimatorHash.html": {
+    "href": "manual/SerializableValues/AnimatorHash.html",
+    "title": "Animator Hash | Cubusky Core | 1.2.0",
+    "keywords": "Animator Hash public class MyMonoBehaviour : MonoBehaviour { public AnimatorHash jump = \"Jump\"; // Takes string input. public void DoJump() => animator.SetTrigger(jump); // Returns int output. }"
+  },
+  "manual/SerializableValues/ApplicationPath.html": {
+    "href": "manual/SerializableValues/ApplicationPath.html",
+    "title": "Application Path | Cubusky Core | 1.2.0",
+    "keywords": "Application Path See also Application.dataPath, Application.persistentDataPath, Application.streamingAssetsPath, Application.temporaryCachePath, Application.consoleLogPath. public class MyMonoBehaviour : MonoBehaviour { public ApplicationPath applicationPath = ApplicationPath.DataPath; public string path => applicationPath.GetPath(); // Will return Application.dataPath }"
+  },
+  "manual/SerializableValues/SerializableValues.html": {
+    "href": "manual/SerializableValues/SerializableValues.html",
+    "title": "Serializable Values | Cubusky Core | 1.2.0",
+    "keywords": "Serializable Values Some values in Unity require one set of input (usually string) but can provide a more optimized output (usually int). When working within a context where parsing these values may be desirable, consider using the provided Serializable Values."
+  },
+  "manual/SerializableValues/ShaderId.html": {
+    "href": "manual/SerializableValues/ShaderId.html",
+    "title": "Shader Id | Cubusky Core | 1.2.0",
+    "keywords": "Shader Id public class MyMonoBehaviour : MonoBehaviour { public ShaderId smoothness = \"_Glossiness\"; // Takes string input. public float GetSmoothness() => mat.GetFloat(smoothness); // Returns int output. }"
+  },
+  "manual/SerializableValues/TimeMode.html": {
+    "href": "manual/SerializableValues/TimeMode.html",
+    "title": "Time Mode | Cubusky Core | 1.2.0",
+    "keywords": "Time Mode public class MyMonoBehaviour : MonoBehaviour { public float time => TimeMode.Time.GetTime(); // Same as Time.time public float unscaledTime => TimeMode.UnscaledTime.GetTime(); // Same as Time.unscaledTime public float fixedDeltaTime => TimeMode.FixedTime.GetDeltaTime(); // Same as Time.fixedDeltaTime }"
   },
   "manual/Timer.html": {
     "href": "manual/Timer.html",

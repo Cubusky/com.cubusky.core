@@ -614,10 +614,170 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "manual/AttributeSerialization/AttributeSerialization.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/AttributeSerialization/AttributeSerialization.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/AttributeSerialization/GuidAttribute.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/AttributeSerialization/GuidAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/AttributeSerialization/OfTypeAttribute.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/AttributeSerialization/OfTypeAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/AttributeSerialization/PathAttribute.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/AttributeSerialization/PathAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/AttributeSerialization/ReferenceDropdownAttribute.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/AttributeSerialization/ReferenceDropdownAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/AttributeSerialization/TimeSpanAttribute.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/AttributeSerialization/TimeSpanAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/AttributeSerialization/UriAttribute.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/AttributeSerialization/UriAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "manual/Instance.md",
       "output": {
         ".html": {
           "relative_path": "manual/Instance.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/SavingAndLoading/DirectorySaverLoader.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/SavingAndLoading/DirectorySaverLoader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/SavingAndLoading/FileSaverLoader.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/SavingAndLoading/FileSaverLoader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/SavingAndLoading/SavingAndLoading.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/SavingAndLoading/SavingAndLoading.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/SavingAndLoading/TempSaverLoader.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/SavingAndLoading/TempSaverLoader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/SerializableValues/AnimatorHash.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/SerializableValues/AnimatorHash.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/SerializableValues/ApplicationPath.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/SerializableValues/ApplicationPath.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/SerializableValues/SerializableValues.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/SerializableValues/SerializableValues.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/SerializableValues/ShaderId.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/SerializableValues/ShaderId.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/SerializableValues/TimeMode.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/SerializableValues/TimeMode.html"
         }
       },
       "version": ""
