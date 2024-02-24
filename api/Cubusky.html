@@ -2,11 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Namespace Cubusky
- | Cubusky Core | 1.1.0 </title>
+      <title>Namespace Cubusky | Cubusky Core | 1.2.0 </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Namespace Cubusky
- | Cubusky Core | 1.1.0 ">
+      <meta name="title" content="Namespace Cubusky | Cubusky Core | 1.2.0 ">
+      
       
       <link rel="icon" href="../manual/images/favicon.png">
       <link rel="stylesheet" href="../public/docfx.min.css">
@@ -87,8 +86,7 @@
 
         <article data-uid="Cubusky">
 
-  <h1 id="Cubusky" data-uid="Cubusky" class="text-break">Namespace Cubusky
-</h1>
+  <h1 id="Cubusky" data-uid="Cubusky" class="text-break">Namespace Cubusky</h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="markdown level0 remarks"></div>
@@ -97,8 +95,20 @@
 Classes
 </h3>
     <dl class="jumplist">
+      <dt><a class="xref" href="Cubusky.ApplicationPathExtensions.html">ApplicationPathExtensions</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Cubusky.DirectorySaverLoader.html">DirectorySaverLoader</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Cubusky.FileSaverLoader.html">FileSaverLoader</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
       <dt><a class="xref" href="Cubusky.GuidAttribute.html">GuidAttribute</a></dt>
-      <dd><p>Serializes a string as a valid Guid.</p>
+      <dd><p>Serializes a <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a> as a valid <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a>.</p>
 </dd>
     </dl>
     <dl class="jumplist">
@@ -108,17 +118,57 @@ Classes
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="Cubusky.OfTypeAttribute.html">OfTypeAttribute</a></dt>
-      <dd><p>Specifies types that an Object needs to be of. Can be used to create an Object selector that allows interfaces.</p>
+      <dd><p>Specifies <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a> in an UnityEngine.Object selector.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Cubusky.PathAttribute.html">PathAttribute</a></dt>
+      <dd><p>Serializes a <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a> as a valid path.</p>
 </dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="Cubusky.ReferenceDropdownAttribute.html">ReferenceDropdownAttribute</a></dt>
-      <dd><p>Draws a selectable dropdown for SerializeReference fields. Can be used to instantiate references inside components.</p>
+      <dd><p>Draws a selectable dropdown for SerializeReference fields.</p>
 </dd>
     </dl>
     <dl class="jumplist">
-      <dt><a class="xref" href="Cubusky.TimeSpanAttribute.html">TimeSpanAttribute</a></dt>
+      <dt><a class="xref" href="Cubusky.SharedTimer.html">SharedTimer</a></dt>
       <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Cubusky.TempSaverLoader.html">TempSaverLoader</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Cubusky.TimeModeExtensions.html">TimeModeExtensions</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Cubusky.TimeSpanAttribute.html">TimeSpanAttribute</a></dt>
+      <dd><p>Serializes a <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a> as a valid <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.timespan">TimeSpan</a>.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Cubusky.Timer.html">Timer</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Cubusky.UnityPath.html">UnityPath</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Cubusky.UpdateSynchronizer.html">UpdateSynchronizer</a></dt>
+      <dd><p>Synchronizes calls with Unity's Update() method.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Cubusky.UpdaterService.html">UpdaterService</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Cubusky.UriAttribute.html">UriAttribute</a></dt>
+      <dd><p>Serializes a <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a> as a valid <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>.</p>
+</dd>
     </dl>
     <h3 id="structs">
 Structs
@@ -132,6 +182,110 @@ Structs
       <dt><a class="xref" href="Cubusky.ShaderId.html">ShaderId</a></dt>
       <dd><p>A unique identifier for a shader property name.</p>
 </dd>
+    </dl>
+    <h3 id="interfaces">
+Interfaces
+</h3>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Cubusky.IDirectoryLoader.html">IDirectoryLoader</a></dt>
+      <dd><p>Loads data from a directory.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Cubusky.IDirectorySaver.html">IDirectorySaver</a></dt>
+      <dd><p>Saves data to a directory.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Cubusky.IEnumerableLoader.html">IEnumerableLoader</a></dt>
+      <dd><p>Loads a <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt; from multiple locations.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Cubusky.IEnumerableLoader-1.html">IEnumerableLoader&lt;TOutput&gt;</a></dt>
+      <dd><p>Loads a <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<code class="typeparamref">TOutput</code>&gt; from multiple locations.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Cubusky.IEnumerableSaver.html">IEnumerableSaver</a></dt>
+      <dd><p>Saves a <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt; to multiple locations.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Cubusky.IEnumerableSaverLoader.html">IEnumerableSaverLoader</a></dt>
+      <dd><p>Saves and loads a <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt; to and from multiple locations.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Cubusky.IEnumerableSaverLoader-1.html">IEnumerableSaverLoader&lt;TInputOutput&gt;</a></dt>
+      <dd><p>Saves and loads a <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<code class="typeparamref">TInputOutput</code>&gt; to and from multiple locations.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Cubusky.IEnumerableSaver-1.html">IEnumerableSaver&lt;TInput&gt;</a></dt>
+      <dd><p>Saves a <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<code class="typeparamref">TInput</code>&gt; to multiple locations.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Cubusky.IFileLoader.html">IFileLoader</a></dt>
+      <dd><p>Loads data from a filepath.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Cubusky.IFileSaver.html">IFileSaver</a></dt>
+      <dd><p>Saves data to a filepath.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Cubusky.ILoader.html">ILoader</a></dt>
+      <dd><p>Loads a <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a> from a single location.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Cubusky.ILoader-1.html">ILoader&lt;TOutput&gt;</a></dt>
+      <dd><p>Loads a <code class="typeparamref">TOutput</code> from a single location.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Cubusky.ISaver.html">ISaver</a></dt>
+      <dd><p>Saves a <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a> to a single location.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Cubusky.ISaverLoader.html">ISaverLoader</a></dt>
+      <dd><p>Saves and loads a <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a> to and from a single location.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Cubusky.ISaverLoader-1.html">ISaverLoader&lt;TInputOutput&gt;</a></dt>
+      <dd><p>Saves and loads a <code class="typeparamref">TInputOutput</code> to and from a single location.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Cubusky.ISaver-1.html">ISaver&lt;TInput&gt;</a></dt>
+      <dd><p>Saves a <code class="typeparamref">TInput</code> to a single location.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Cubusky.ITempLoader.html">ITempLoader</a></dt>
+      <dd><p>Loads data from temporary saves.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Cubusky.ITempSaver.html">ITempSaver</a></dt>
+      <dd><p>Saves data temporarily until the end of the session.</p>
+</dd>
+    </dl>
+    <h3 id="enums">
+Enums
+</h3>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Cubusky.ApplicationPath.html">ApplicationPath</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Cubusky.TimeMode.html">TimeMode</a></dt>
+      <dd></dd>
     </dl>
 
 

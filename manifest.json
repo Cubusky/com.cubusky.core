@@ -25,6 +25,36 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Cubusky.ApplicationPath.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cubusky.ApplicationPath.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cubusky.ApplicationPathExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cubusky.ApplicationPathExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cubusky.DirectorySaverLoader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cubusky.DirectorySaverLoader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Cubusky.Editor.AnimatorHashDrawer.yml",
       "output": {
         ".html": {
@@ -55,10 +85,30 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Cubusky.Editor.PathDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cubusky.Editor.PathDrawer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Cubusky.Editor.ReferenceDropdownDrawer.yml",
       "output": {
         ".html": {
           "relative_path": "api/Cubusky.Editor.ReferenceDropdownDrawer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cubusky.Editor.SerializedPropertyExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cubusky.Editor.SerializedPropertyExtensions.html"
         }
       },
       "version": ""
@@ -85,6 +135,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Cubusky.Editor.UriDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cubusky.Editor.UriDrawer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Cubusky.Editor.yml",
       "output": {
         ".html": {
@@ -95,10 +155,200 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Cubusky.FileSaverLoader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cubusky.FileSaverLoader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Cubusky.GuidAttribute.yml",
       "output": {
         ".html": {
           "relative_path": "api/Cubusky.GuidAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cubusky.IDirectoryLoader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cubusky.IDirectoryLoader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cubusky.IDirectorySaver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cubusky.IDirectorySaver.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cubusky.IEnumerableLoader-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cubusky.IEnumerableLoader-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cubusky.IEnumerableLoader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cubusky.IEnumerableLoader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cubusky.IEnumerableSaver-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cubusky.IEnumerableSaver-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cubusky.IEnumerableSaver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cubusky.IEnumerableSaver.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cubusky.IEnumerableSaverLoader-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cubusky.IEnumerableSaverLoader-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cubusky.IEnumerableSaverLoader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cubusky.IEnumerableSaverLoader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cubusky.IFileLoader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cubusky.IFileLoader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cubusky.IFileSaver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cubusky.IFileSaver.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cubusky.ILoader-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cubusky.ILoader-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cubusky.ILoader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cubusky.ILoader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cubusky.ISaver-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cubusky.ISaver-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cubusky.ISaver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cubusky.ISaver.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cubusky.ISaverLoader-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cubusky.ISaverLoader-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cubusky.ISaverLoader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cubusky.ISaverLoader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cubusky.ITempLoader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cubusky.ITempLoader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cubusky.ITempSaver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cubusky.ITempSaver.html"
         }
       },
       "version": ""
@@ -125,6 +375,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Cubusky.PathAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cubusky.PathAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Cubusky.ReferenceDropdownAttribute.yml",
       "output": {
         ".html": {
@@ -145,10 +405,60 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Cubusky.SharedTimer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cubusky.SharedTimer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cubusky.TempSaverLoader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cubusky.TempSaverLoader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cubusky.TimeMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cubusky.TimeMode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cubusky.TimeModeExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cubusky.TimeModeExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Cubusky.TimeSpanAttribute.yml",
       "output": {
         ".html": {
           "relative_path": "api/Cubusky.TimeSpanAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cubusky.Timer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cubusky.Timer.html"
         }
       },
       "version": ""
@@ -169,6 +479,46 @@
       "output": {
         ".html": {
           "relative_path": "api/Cubusky.UIElements.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cubusky.UnityPath.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cubusky.UnityPath.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cubusky.UpdateSynchronizer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cubusky.UpdateSynchronizer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cubusky.UpdaterService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cubusky.UpdaterService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cubusky.UriAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cubusky.UriAttribute.html"
         }
       },
       "version": ""
@@ -197,11 +547,11 @@
       "type": "Toc",
       "source_relative_path": "api/toc.yml",
       "output": {
-        ".json": {
-          "relative_path": "api/toc.json"
-        },
         ".html": {
           "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
         }
       },
       "version": ""
@@ -220,11 +570,11 @@
       "type": "Toc",
       "source_relative_path": "changelog/toc.md",
       "output": {
-        ".json": {
-          "relative_path": "changelog/toc.json"
-        },
         ".html": {
           "relative_path": "changelog/toc.html"
+        },
+        ".json": {
+          "relative_path": "changelog/toc.json"
         }
       },
       "version": ""
@@ -253,41 +603,11 @@
       "type": "Toc",
       "source_relative_path": "license/toc.md",
       "output": {
-        ".json": {
-          "relative_path": "license/toc.json"
-        },
         ".html": {
           "relative_path": "license/toc.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "manual/AnimatorHash.md",
-      "output": {
-        ".html": {
-          "relative_path": "manual/AnimatorHash.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "manual/AttributeSerialization.md",
-      "output": {
-        ".html": {
-          "relative_path": "manual/AttributeSerialization.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "manual/GuidAttribute.md",
-      "output": {
-        ".html": {
-          "relative_path": "manual/GuidAttribute.html"
+        },
+        ".json": {
+          "relative_path": "license/toc.json"
         }
       },
       "version": ""
@@ -304,50 +624,40 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "manual/OfTypeAttribute.md",
+      "source_relative_path": "manual/Timer.md",
       "output": {
         ".html": {
-          "relative_path": "manual/OfTypeAttribute.html"
+          "relative_path": "manual/Timer.html"
         }
       },
       "version": ""
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "manual/ReferenceDropdownAttribute.md",
+      "source_relative_path": "manual/UpdaterService.md",
       "output": {
         ".html": {
-          "relative_path": "manual/ReferenceDropdownAttribute.html"
+          "relative_path": "manual/UpdaterService.html"
         }
       },
       "version": ""
     },
     {
-      "type": "Conceptual",
-      "source_relative_path": "manual/SerializableValues.md",
+      "type": "Resource",
+      "source_relative_path": "manual/images/DirectorySaverLoader.png",
       "output": {
-        ".html": {
-          "relative_path": "manual/SerializableValues.html"
+        "resource": {
+          "relative_path": "manual/images/DirectorySaverLoader.png"
         }
       },
       "version": ""
     },
     {
-      "type": "Conceptual",
-      "source_relative_path": "manual/ShaderId.md",
+      "type": "Resource",
+      "source_relative_path": "manual/images/FileSaverLoader.png",
       "output": {
-        ".html": {
-          "relative_path": "manual/ShaderId.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "manual/TimeSpanAttribute.md",
-      "output": {
-        ".html": {
-          "relative_path": "manual/TimeSpanAttribute.html"
+        "resource": {
+          "relative_path": "manual/images/FileSaverLoader.png"
         }
       },
       "version": ""
@@ -404,6 +714,16 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "manual/images/TempSaverLoader.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/TempSaverLoader.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "manual/images/favicon.png",
       "output": {
         "resource": {
@@ -436,11 +756,11 @@
       "type": "Toc",
       "source_relative_path": "manual/toc.md",
       "output": {
-        ".json": {
-          "relative_path": "manual/toc.json"
-        },
         ".html": {
           "relative_path": "manual/toc.html"
+        },
+        ".json": {
+          "relative_path": "manual/toc.json"
         }
       },
       "version": ""
@@ -449,11 +769,11 @@
       "type": "Toc",
       "source_relative_path": "toc.yml",
       "output": {
-        ".json": {
-          "relative_path": "toc.json"
-        },
         ".html": {
           "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
         }
       },
       "version": ""

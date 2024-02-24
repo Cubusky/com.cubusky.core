@@ -2,9 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Changelog | Cubusky Core | 1.1.0 </title>
+      <title>Changelog | Cubusky Core | 1.2.0 </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Changelog | Cubusky Core | 1.1.0 ">
+      <meta name="title" content="Changelog | Cubusky Core | 1.2.0 ">
+      
       
       <link rel="icon" href="../manual/images/favicon.png">
       <link rel="stylesheet" href="../public/docfx.min.css">
@@ -89,6 +90,42 @@
 <p>All notable changes to this package will be documented in this file.</p>
 <p>The format is based on <a href="http://keepachangelog.com">Keep a Changelog</a>
 and this project adheres to <a href="http://semver.org">Semantic Versioning</a>.</p>
+<h2 id="120---2024-02-23">[1.2.0] - 2024-02-23</h2>
+<h3 id="added">Added</h3>
+<ul>
+<li>Add <code>ISaver</code> to allow saving data to a single location.</li>
+<li>Add <code>ILoader</code> to allow loading data from a single location.</li>
+<li>Add <code>IEnumerableSaver</code> to allow saving a collection of data to multiple locations.</li>
+<li>Add <code>IEnumerableLoader</code> to allow loading a collection of data from multiple locations.</li>
+<li>Add <code>ISaverLoader</code> to conveniently implement and reference <code>ISaver</code> &amp; <code>ILoader</code> through the same interface.</li>
+<li>Add <code>IEnumerableSaverLoader</code> to conveniently implement and reference <code>IEnumerableSaver</code> &amp; <code>IEnumerableLoader</code> through the same interface.</li>
+<li>Add <code>IFileSaver</code> to allow saving data to a file.</li>
+<li>Add <code>IFileLoader</code> to allow loading data from a file.</li>
+<li>Add <code>IDirectorySaver</code> to allow saving (a collection of) data to a directory under random file names.</li>
+<li>Add <code>IDirectoryLoader</code> to allow loading a collection of data from a directory.</li>
+<li>Add <code>ITempSaver</code> to allow saving data to memory.</li>
+<li>Add <code>ITempLoader</code> to allow loading data from memory.</li>
+<li>Add <code>PathAttribute</code> to serialize <code>string</code> as a valid path.</li>
+<li>Add <code>UriAttribute</code> to serialize <code>string</code> as a valid <code>Uri</code>.</li>
+<li>Add <code>ApplicationPath</code> to select an <code>Application.*Path</code> via <code>Enum</code>.</li>
+<li>Add <code>UnityPath</code> as an abstract class for returning a path connected to one of Unity's <code>Application.*Path</code>.</li>
+<li>Add <code>TimeMode</code> to select a <code>Time.(fixed)(Unscaled)(Delta)(Time)</code> via <code>Enum</code>.</li>
+<li>Add an optional <code>Type[] types</code> to <code>ReferenceDropdown</code> to allow for creating a dropdown for generic types.
+Invalid: <code>[SerializeReference, ReferenceDropdown] public ISaver&lt;Vector3&gt; saver; // SerializeReference cannot serialize generics.</code>
+Solution: <code>[SerializeReference, ReferenceDropdown(typeof(ISaver&lt;Vector3&gt;))] public object saver;</code></li>
+<li>Add <code>UpdaterService</code> which provides callbacks to <code>onUpdate</code>, <code>onLateUpdate</code> and <code>onFixedUpdate</code>.</li>
+<li>Add <code>Timer</code> implementation that can be serialized by the inspector. A Timer can be used to call an event every x amount of seconds. This is useful for e.g. optimizing operations outside of Unity's update loop.</li>
+<li>Add <code>UpdateSynchronizer</code> to allow synchronizating with Unity's Update loop. <code>Timer</code> example: <code>public Timer timer = new() { SynchronizingObject = new UpdateSynchronizer() };</code></li>
+</ul>
+<h3 id="fixed">Fixed</h3>
+<ul>
+<li>Fixed some mixed value errors:
+<ul>
+<li><code>ReferenceDropdownAttribute</code> could get stuck in an infinite loop when changing a mixed value. It now correctly disallows multi-value editing.</li>
+<li><code>GuidAttribute</code> would change its <code>Guid</code> when selecting multiple values at once. It now allows you to edit, but doesn't automatically destroy your <code>Guid</code>.</li>
+</ul>
+</li>
+</ul>
 <h2 id="110---2024-01-07">[1.1.0] - 2024-01-07</h2>
 <ul>
 <li>Add <code>ReferenceDropdownAttribute</code> to allow for selectable references in <code>UnityEngine.Object</code>s. Useful for allowing the use of interfaces in code.</li>
@@ -98,7 +135,7 @@ and this project adheres to <a href="http://semver.org">Semantic Versioning</a>.
 <li>Add documentation.</li>
 </ul>
 <h2 id="090-pre---2023-12-30">[0.9.0-pre] - 2023-12-30</h2>
-<h3 id="added">Added</h3>
+<h3 id="added-1">Added</h3>
 <ul>
 <li>Add documentation, license and changelog url.</li>
 <li>Add a UIElement <code>TimeSpanField</code> that may be used to draw a <code>TimeSpan</code> in the inspector.</li>

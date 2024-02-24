@@ -2,12 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class ReferenceDropdownAttribute
- | Cubusky Core | 1.1.0 </title>
+      <title>Class ReferenceDropdownAttribute | Cubusky Core | 1.2.0 </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class ReferenceDropdownAttribute
- | Cubusky Core | 1.1.0 ">
+      <meta name="title" content="Class ReferenceDropdownAttribute | Cubusky Core | 1.2.0 ">
       
+      <meta name="description" content="Draws a selectable dropdown for SerializeReference fields.">
       <link rel="icon" href="../manual/images/favicon.png">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -90,8 +89,7 @@
 
 
   <h1 id="Cubusky_ReferenceDropdownAttribute" data-uid="Cubusky.ReferenceDropdownAttribute" class="text-break">
-    Class ReferenceDropdownAttribute
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Cubusky/com.cubusky.core/blob/main/Runtime/PropertyAttributes/ReferenceDropdownAttribute.cs/#L8"><i class="bi bi-code-slash"></i></a>
+Class ReferenceDropdownAttribute  <a class="header-action link-secondary" title="View source" href="https://github.com/Cubusky/com.cubusky.core/blob/main/Runtime/PropertyAttributes/ReferenceDropdownAttribute.cs/#L9"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -99,7 +97,7 @@
   
   </div>
 
-  <div class="markdown summary"><p>Draws a selectable dropdown for SerializeReference fields. Can be used to instantiate references inside components.</p>
+  <div class="markdown summary"><p>Draws a selectable dropdown for SerializeReference fields.</p>
 </div>
   <div class="markdown conceptual"></div>
 
@@ -132,18 +130,25 @@
 
   <a id="Cubusky_ReferenceDropdownAttribute__ctor_" data-uid="Cubusky.ReferenceDropdownAttribute.#ctor*"></a>
 
-  <h3 id="Cubusky_ReferenceDropdownAttribute__ctor" data-uid="Cubusky.ReferenceDropdownAttribute.#ctor">
-  ReferenceDropdownAttribute()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Cubusky/com.cubusky.core/blob/main/Runtime/PropertyAttributes/ReferenceDropdownAttribute.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Cubusky_ReferenceDropdownAttribute__ctor_System_Boolean_System_Type___" data-uid="Cubusky.ReferenceDropdownAttribute.#ctor(System.Boolean,System.Type[])">
+  ReferenceDropdownAttribute(bool, params Type[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Cubusky/com.cubusky.core/blob/main/Runtime/PropertyAttributes/ReferenceDropdownAttribute.cs/#L15"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ReferenceDropdownAttribute()</code></pre>
+    <pre><code class="lang-csharp hljs">public ReferenceDropdownAttribute(bool nullable, params Type[] types)</code></pre>
   </div>
 
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>nullable</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>types</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a>[]</dt>
+    <dd></dd>
+  </dl>
 
 
 
@@ -158,21 +163,21 @@
 
   <a id="Cubusky_ReferenceDropdownAttribute__ctor_" data-uid="Cubusky.ReferenceDropdownAttribute.#ctor*"></a>
 
-  <h3 id="Cubusky_ReferenceDropdownAttribute__ctor_System_Boolean_" data-uid="Cubusky.ReferenceDropdownAttribute.#ctor(System.Boolean)">
-  ReferenceDropdownAttribute(bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Cubusky/com.cubusky.core/blob/main/Runtime/PropertyAttributes/ReferenceDropdownAttribute.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Cubusky_ReferenceDropdownAttribute__ctor_System_Type___" data-uid="Cubusky.ReferenceDropdownAttribute.#ctor(System.Type[])">
+  ReferenceDropdownAttribute(params Type[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Cubusky/com.cubusky.core/blob/main/Runtime/PropertyAttributes/ReferenceDropdownAttribute.cs/#L14"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ReferenceDropdownAttribute(bool nullable)</code></pre>
+    <pre><code class="lang-csharp hljs">public ReferenceDropdownAttribute(params Type[] types)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>nullable</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dt><code>types</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a>[]</dt>
     <dd></dd>
   </dl>
 
@@ -194,7 +199,7 @@
 
   <h3 id="Cubusky_ReferenceDropdownAttribute_nullable" data-uid="Cubusky.ReferenceDropdownAttribute.nullable">
   nullable
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Cubusky/com.cubusky.core/blob/main/Runtime/PropertyAttributes/ReferenceDropdownAttribute.cs/#L10"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Cubusky/com.cubusky.core/blob/main/Runtime/PropertyAttributes/ReferenceDropdownAttribute.cs/#L11"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -210,6 +215,36 @@
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Cubusky_ReferenceDropdownAttribute_types" data-uid="Cubusky.ReferenceDropdownAttribute.types">
+  types
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Cubusky/com.cubusky.core/blob/main/Runtime/PropertyAttributes/ReferenceDropdownAttribute.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Type[] types</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a>[]</dt>
     <dd></dd>
   </dl>
 

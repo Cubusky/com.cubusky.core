@@ -172,6 +172,125 @@ references:
   fullName.vb: Cubusky.AnimatorHash.<>
   nameWithType: AnimatorHash.operator !=
   nameWithType.vb: AnimatorHash.<>
+- uid: Cubusky.ApplicationPath
+  name: ApplicationPath
+  href: api/Cubusky.ApplicationPath.html
+  commentId: T:Cubusky.ApplicationPath
+  fullName: Cubusky.ApplicationPath
+  nameWithType: ApplicationPath
+- uid: Cubusky.ApplicationPath.ConsoleLogPath
+  name: ConsoleLogPath
+  href: api/Cubusky.ApplicationPath.html#Cubusky_ApplicationPath_ConsoleLogPath
+  commentId: F:Cubusky.ApplicationPath.ConsoleLogPath
+  fullName: Cubusky.ApplicationPath.ConsoleLogPath
+  nameWithType: ApplicationPath.ConsoleLogPath
+- uid: Cubusky.ApplicationPath.DataPath
+  name: DataPath
+  href: api/Cubusky.ApplicationPath.html#Cubusky_ApplicationPath_DataPath
+  commentId: F:Cubusky.ApplicationPath.DataPath
+  fullName: Cubusky.ApplicationPath.DataPath
+  nameWithType: ApplicationPath.DataPath
+- uid: Cubusky.ApplicationPath.None
+  name: None
+  href: api/Cubusky.ApplicationPath.html#Cubusky_ApplicationPath_None
+  commentId: F:Cubusky.ApplicationPath.None
+  fullName: Cubusky.ApplicationPath.None
+  nameWithType: ApplicationPath.None
+- uid: Cubusky.ApplicationPath.PersistentDataPath
+  name: PersistentDataPath
+  href: api/Cubusky.ApplicationPath.html#Cubusky_ApplicationPath_PersistentDataPath
+  commentId: F:Cubusky.ApplicationPath.PersistentDataPath
+  fullName: Cubusky.ApplicationPath.PersistentDataPath
+  nameWithType: ApplicationPath.PersistentDataPath
+- uid: Cubusky.ApplicationPath.StreamingAssetsPath
+  name: StreamingAssetsPath
+  href: api/Cubusky.ApplicationPath.html#Cubusky_ApplicationPath_StreamingAssetsPath
+  commentId: F:Cubusky.ApplicationPath.StreamingAssetsPath
+  fullName: Cubusky.ApplicationPath.StreamingAssetsPath
+  nameWithType: ApplicationPath.StreamingAssetsPath
+- uid: Cubusky.ApplicationPath.TemporaryCachePath
+  name: TemporaryCachePath
+  href: api/Cubusky.ApplicationPath.html#Cubusky_ApplicationPath_TemporaryCachePath
+  commentId: F:Cubusky.ApplicationPath.TemporaryCachePath
+  fullName: Cubusky.ApplicationPath.TemporaryCachePath
+  nameWithType: ApplicationPath.TemporaryCachePath
+- uid: Cubusky.ApplicationPathExtensions
+  name: ApplicationPathExtensions
+  href: api/Cubusky.ApplicationPathExtensions.html
+  commentId: T:Cubusky.ApplicationPathExtensions
+  fullName: Cubusky.ApplicationPathExtensions
+  nameWithType: ApplicationPathExtensions
+- uid: Cubusky.ApplicationPathExtensions.GetPath(Cubusky.ApplicationPath)
+  name: GetPath(ApplicationPath)
+  href: api/Cubusky.ApplicationPathExtensions.html#Cubusky_ApplicationPathExtensions_GetPath_Cubusky_ApplicationPath_
+  commentId: M:Cubusky.ApplicationPathExtensions.GetPath(Cubusky.ApplicationPath)
+  fullName: Cubusky.ApplicationPathExtensions.GetPath(Cubusky.ApplicationPath)
+  nameWithType: ApplicationPathExtensions.GetPath(ApplicationPath)
+- uid: Cubusky.ApplicationPathExtensions.GetPath*
+  name: GetPath
+  href: api/Cubusky.ApplicationPathExtensions.html#Cubusky_ApplicationPathExtensions_GetPath_
+  commentId: Overload:Cubusky.ApplicationPathExtensions.GetPath
+  isSpec: "True"
+  fullName: Cubusky.ApplicationPathExtensions.GetPath
+  nameWithType: ApplicationPathExtensions.GetPath
+- uid: Cubusky.DirectorySaverLoader
+  name: DirectorySaverLoader
+  href: api/Cubusky.DirectorySaverLoader.html
+  commentId: T:Cubusky.DirectorySaverLoader
+  fullName: Cubusky.DirectorySaverLoader
+  nameWithType: DirectorySaverLoader
+- uid: Cubusky.DirectorySaverLoader.extension
+  name: extension
+  href: api/Cubusky.DirectorySaverLoader.html#Cubusky_DirectorySaverLoader_extension
+  commentId: P:Cubusky.DirectorySaverLoader.extension
+  fullName: Cubusky.DirectorySaverLoader.extension
+  nameWithType: DirectorySaverLoader.extension
+- uid: Cubusky.DirectorySaverLoader.extension*
+  name: extension
+  href: api/Cubusky.DirectorySaverLoader.html#Cubusky_DirectorySaverLoader_extension_
+  commentId: Overload:Cubusky.DirectorySaverLoader.extension
+  isSpec: "True"
+  fullName: Cubusky.DirectorySaverLoader.extension
+  nameWithType: DirectorySaverLoader.extension
+- uid: Cubusky.DirectorySaverLoader.relativePath
+  name: relativePath
+  href: api/Cubusky.DirectorySaverLoader.html#Cubusky_DirectorySaverLoader_relativePath
+  commentId: P:Cubusky.DirectorySaverLoader.relativePath
+  fullName: Cubusky.DirectorySaverLoader.relativePath
+  nameWithType: DirectorySaverLoader.relativePath
+- uid: Cubusky.DirectorySaverLoader.relativePath*
+  name: relativePath
+  href: api/Cubusky.DirectorySaverLoader.html#Cubusky_DirectorySaverLoader_relativePath_
+  commentId: Overload:Cubusky.DirectorySaverLoader.relativePath
+  isSpec: "True"
+  fullName: Cubusky.DirectorySaverLoader.relativePath
+  nameWithType: DirectorySaverLoader.relativePath
+- uid: Cubusky.DirectorySaverLoader.searchOption
+  name: searchOption
+  href: api/Cubusky.DirectorySaverLoader.html#Cubusky_DirectorySaverLoader_searchOption
+  commentId: P:Cubusky.DirectorySaverLoader.searchOption
+  fullName: Cubusky.DirectorySaverLoader.searchOption
+  nameWithType: DirectorySaverLoader.searchOption
+- uid: Cubusky.DirectorySaverLoader.searchOption*
+  name: searchOption
+  href: api/Cubusky.DirectorySaverLoader.html#Cubusky_DirectorySaverLoader_searchOption_
+  commentId: Overload:Cubusky.DirectorySaverLoader.searchOption
+  isSpec: "True"
+  fullName: Cubusky.DirectorySaverLoader.searchOption
+  nameWithType: DirectorySaverLoader.searchOption
+- uid: Cubusky.DirectorySaverLoader.searchPattern
+  name: searchPattern
+  href: api/Cubusky.DirectorySaverLoader.html#Cubusky_DirectorySaverLoader_searchPattern
+  commentId: P:Cubusky.DirectorySaverLoader.searchPattern
+  fullName: Cubusky.DirectorySaverLoader.searchPattern
+  nameWithType: DirectorySaverLoader.searchPattern
+- uid: Cubusky.DirectorySaverLoader.searchPattern*
+  name: searchPattern
+  href: api/Cubusky.DirectorySaverLoader.html#Cubusky_DirectorySaverLoader_searchPattern_
+  commentId: Overload:Cubusky.DirectorySaverLoader.searchPattern
+  isSpec: "True"
+  fullName: Cubusky.DirectorySaverLoader.searchPattern
+  nameWithType: DirectorySaverLoader.searchPattern
 - uid: Cubusky.Editor
   name: Cubusky.Editor
   href: api/Cubusky.Editor.html
@@ -235,6 +354,25 @@ references:
   isSpec: "True"
   fullName: Cubusky.Editor.OfTypeDrawer.CreatePropertyGUI
   nameWithType: OfTypeDrawer.CreatePropertyGUI
+- uid: Cubusky.Editor.PathDrawer
+  name: PathDrawer
+  href: api/Cubusky.Editor.PathDrawer.html
+  commentId: T:Cubusky.Editor.PathDrawer
+  fullName: Cubusky.Editor.PathDrawer
+  nameWithType: PathDrawer
+- uid: Cubusky.Editor.PathDrawer.CreatePropertyGUI(SerializedProperty)
+  name: CreatePropertyGUI(SerializedProperty)
+  href: api/Cubusky.Editor.PathDrawer.html#Cubusky_Editor_PathDrawer_CreatePropertyGUI_SerializedProperty_
+  commentId: M:Cubusky.Editor.PathDrawer.CreatePropertyGUI(SerializedProperty)
+  fullName: Cubusky.Editor.PathDrawer.CreatePropertyGUI(SerializedProperty)
+  nameWithType: PathDrawer.CreatePropertyGUI(SerializedProperty)
+- uid: Cubusky.Editor.PathDrawer.CreatePropertyGUI*
+  name: CreatePropertyGUI
+  href: api/Cubusky.Editor.PathDrawer.html#Cubusky_Editor_PathDrawer_CreatePropertyGUI_
+  commentId: Overload:Cubusky.Editor.PathDrawer.CreatePropertyGUI
+  isSpec: "True"
+  fullName: Cubusky.Editor.PathDrawer.CreatePropertyGUI
+  nameWithType: PathDrawer.CreatePropertyGUI
 - uid: Cubusky.Editor.ReferenceDropdownDrawer
   name: ReferenceDropdownDrawer
   href: api/Cubusky.Editor.ReferenceDropdownDrawer.html
@@ -254,6 +392,76 @@ references:
   isSpec: "True"
   fullName: Cubusky.Editor.ReferenceDropdownDrawer.CreatePropertyGUI
   nameWithType: ReferenceDropdownDrawer.CreatePropertyGUI
+- uid: Cubusky.Editor.SerializedPropertyExtensions
+  name: SerializedPropertyExtensions
+  href: api/Cubusky.Editor.SerializedPropertyExtensions.html
+  commentId: T:Cubusky.Editor.SerializedPropertyExtensions
+  fullName: Cubusky.Editor.SerializedPropertyExtensions
+  nameWithType: SerializedPropertyExtensions
+- uid: Cubusky.Editor.SerializedPropertyExtensions.ThrowIfNotNumericType(SerializedProperty,SerializedPropertyNumericType[])
+  name: ThrowIfNotNumericType(SerializedProperty, params SerializedPropertyNumericType[])
+  href: api/Cubusky.Editor.SerializedPropertyExtensions.html#Cubusky_Editor_SerializedPropertyExtensions_ThrowIfNotNumericType_SerializedProperty_SerializedPropertyNumericType___
+  commentId: M:Cubusky.Editor.SerializedPropertyExtensions.ThrowIfNotNumericType(SerializedProperty,SerializedPropertyNumericType[])
+  name.vb: ThrowIfNotNumericType(SerializedProperty, ParamArray SerializedPropertyNumericType())
+  fullName: Cubusky.Editor.SerializedPropertyExtensions.ThrowIfNotNumericType(SerializedProperty, params SerializedPropertyNumericType[])
+  fullName.vb: Cubusky.Editor.SerializedPropertyExtensions.ThrowIfNotNumericType(SerializedProperty, ParamArray SerializedPropertyNumericType())
+  nameWithType: SerializedPropertyExtensions.ThrowIfNotNumericType(SerializedProperty, params SerializedPropertyNumericType[])
+  nameWithType.vb: SerializedPropertyExtensions.ThrowIfNotNumericType(SerializedProperty, ParamArray SerializedPropertyNumericType())
+- uid: Cubusky.Editor.SerializedPropertyExtensions.ThrowIfNotNumericType*
+  name: ThrowIfNotNumericType
+  href: api/Cubusky.Editor.SerializedPropertyExtensions.html#Cubusky_Editor_SerializedPropertyExtensions_ThrowIfNotNumericType_
+  commentId: Overload:Cubusky.Editor.SerializedPropertyExtensions.ThrowIfNotNumericType
+  isSpec: "True"
+  fullName: Cubusky.Editor.SerializedPropertyExtensions.ThrowIfNotNumericType
+  nameWithType: SerializedPropertyExtensions.ThrowIfNotNumericType
+- uid: Cubusky.Editor.SerializedPropertyExtensions.ThrowIfNotPropertyType(SerializedProperty,SerializedPropertyType[])
+  name: ThrowIfNotPropertyType(SerializedProperty, params SerializedPropertyType[])
+  href: api/Cubusky.Editor.SerializedPropertyExtensions.html#Cubusky_Editor_SerializedPropertyExtensions_ThrowIfNotPropertyType_SerializedProperty_SerializedPropertyType___
+  commentId: M:Cubusky.Editor.SerializedPropertyExtensions.ThrowIfNotPropertyType(SerializedProperty,SerializedPropertyType[])
+  name.vb: ThrowIfNotPropertyType(SerializedProperty, ParamArray SerializedPropertyType())
+  fullName: Cubusky.Editor.SerializedPropertyExtensions.ThrowIfNotPropertyType(SerializedProperty, params SerializedPropertyType[])
+  fullName.vb: Cubusky.Editor.SerializedPropertyExtensions.ThrowIfNotPropertyType(SerializedProperty, ParamArray SerializedPropertyType())
+  nameWithType: SerializedPropertyExtensions.ThrowIfNotPropertyType(SerializedProperty, params SerializedPropertyType[])
+  nameWithType.vb: SerializedPropertyExtensions.ThrowIfNotPropertyType(SerializedProperty, ParamArray SerializedPropertyType())
+- uid: Cubusky.Editor.SerializedPropertyExtensions.ThrowIfNotPropertyType*
+  name: ThrowIfNotPropertyType
+  href: api/Cubusky.Editor.SerializedPropertyExtensions.html#Cubusky_Editor_SerializedPropertyExtensions_ThrowIfNotPropertyType_
+  commentId: Overload:Cubusky.Editor.SerializedPropertyExtensions.ThrowIfNotPropertyType
+  isSpec: "True"
+  fullName: Cubusky.Editor.SerializedPropertyExtensions.ThrowIfNotPropertyType
+  nameWithType: SerializedPropertyExtensions.ThrowIfNotPropertyType
+- uid: Cubusky.Editor.SerializedPropertyExtensions.ThrowIfNumericType(SerializedProperty,SerializedPropertyNumericType[])
+  name: ThrowIfNumericType(SerializedProperty, params SerializedPropertyNumericType[])
+  href: api/Cubusky.Editor.SerializedPropertyExtensions.html#Cubusky_Editor_SerializedPropertyExtensions_ThrowIfNumericType_SerializedProperty_SerializedPropertyNumericType___
+  commentId: M:Cubusky.Editor.SerializedPropertyExtensions.ThrowIfNumericType(SerializedProperty,SerializedPropertyNumericType[])
+  name.vb: ThrowIfNumericType(SerializedProperty, ParamArray SerializedPropertyNumericType())
+  fullName: Cubusky.Editor.SerializedPropertyExtensions.ThrowIfNumericType(SerializedProperty, params SerializedPropertyNumericType[])
+  fullName.vb: Cubusky.Editor.SerializedPropertyExtensions.ThrowIfNumericType(SerializedProperty, ParamArray SerializedPropertyNumericType())
+  nameWithType: SerializedPropertyExtensions.ThrowIfNumericType(SerializedProperty, params SerializedPropertyNumericType[])
+  nameWithType.vb: SerializedPropertyExtensions.ThrowIfNumericType(SerializedProperty, ParamArray SerializedPropertyNumericType())
+- uid: Cubusky.Editor.SerializedPropertyExtensions.ThrowIfNumericType*
+  name: ThrowIfNumericType
+  href: api/Cubusky.Editor.SerializedPropertyExtensions.html#Cubusky_Editor_SerializedPropertyExtensions_ThrowIfNumericType_
+  commentId: Overload:Cubusky.Editor.SerializedPropertyExtensions.ThrowIfNumericType
+  isSpec: "True"
+  fullName: Cubusky.Editor.SerializedPropertyExtensions.ThrowIfNumericType
+  nameWithType: SerializedPropertyExtensions.ThrowIfNumericType
+- uid: Cubusky.Editor.SerializedPropertyExtensions.ThrowIfPropertyType(SerializedProperty,SerializedPropertyType[])
+  name: ThrowIfPropertyType(SerializedProperty, params SerializedPropertyType[])
+  href: api/Cubusky.Editor.SerializedPropertyExtensions.html#Cubusky_Editor_SerializedPropertyExtensions_ThrowIfPropertyType_SerializedProperty_SerializedPropertyType___
+  commentId: M:Cubusky.Editor.SerializedPropertyExtensions.ThrowIfPropertyType(SerializedProperty,SerializedPropertyType[])
+  name.vb: ThrowIfPropertyType(SerializedProperty, ParamArray SerializedPropertyType())
+  fullName: Cubusky.Editor.SerializedPropertyExtensions.ThrowIfPropertyType(SerializedProperty, params SerializedPropertyType[])
+  fullName.vb: Cubusky.Editor.SerializedPropertyExtensions.ThrowIfPropertyType(SerializedProperty, ParamArray SerializedPropertyType())
+  nameWithType: SerializedPropertyExtensions.ThrowIfPropertyType(SerializedProperty, params SerializedPropertyType[])
+  nameWithType.vb: SerializedPropertyExtensions.ThrowIfPropertyType(SerializedProperty, ParamArray SerializedPropertyType())
+- uid: Cubusky.Editor.SerializedPropertyExtensions.ThrowIfPropertyType*
+  name: ThrowIfPropertyType
+  href: api/Cubusky.Editor.SerializedPropertyExtensions.html#Cubusky_Editor_SerializedPropertyExtensions_ThrowIfPropertyType_
+  commentId: Overload:Cubusky.Editor.SerializedPropertyExtensions.ThrowIfPropertyType
+  isSpec: "True"
+  fullName: Cubusky.Editor.SerializedPropertyExtensions.ThrowIfPropertyType
+  nameWithType: SerializedPropertyExtensions.ThrowIfPropertyType
 - uid: Cubusky.Editor.ShaderIdDrawer
   name: ShaderIdDrawer
   href: api/Cubusky.Editor.ShaderIdDrawer.html
@@ -292,12 +500,405 @@ references:
   isSpec: "True"
   fullName: Cubusky.Editor.TimeSpanDrawer.CreatePropertyGUI
   nameWithType: TimeSpanDrawer.CreatePropertyGUI
+- uid: Cubusky.Editor.UriDrawer
+  name: UriDrawer
+  href: api/Cubusky.Editor.UriDrawer.html
+  commentId: T:Cubusky.Editor.UriDrawer
+  fullName: Cubusky.Editor.UriDrawer
+  nameWithType: UriDrawer
+- uid: Cubusky.Editor.UriDrawer.CreatePropertyGUI(SerializedProperty)
+  name: CreatePropertyGUI(SerializedProperty)
+  href: api/Cubusky.Editor.UriDrawer.html#Cubusky_Editor_UriDrawer_CreatePropertyGUI_SerializedProperty_
+  commentId: M:Cubusky.Editor.UriDrawer.CreatePropertyGUI(SerializedProperty)
+  fullName: Cubusky.Editor.UriDrawer.CreatePropertyGUI(SerializedProperty)
+  nameWithType: UriDrawer.CreatePropertyGUI(SerializedProperty)
+- uid: Cubusky.Editor.UriDrawer.CreatePropertyGUI*
+  name: CreatePropertyGUI
+  href: api/Cubusky.Editor.UriDrawer.html#Cubusky_Editor_UriDrawer_CreatePropertyGUI_
+  commentId: Overload:Cubusky.Editor.UriDrawer.CreatePropertyGUI
+  isSpec: "True"
+  fullName: Cubusky.Editor.UriDrawer.CreatePropertyGUI
+  nameWithType: UriDrawer.CreatePropertyGUI
+- uid: Cubusky.FileSaverLoader
+  name: FileSaverLoader
+  href: api/Cubusky.FileSaverLoader.html
+  commentId: T:Cubusky.FileSaverLoader
+  fullName: Cubusky.FileSaverLoader
+  nameWithType: FileSaverLoader
+- uid: Cubusky.FileSaverLoader.relativePath
+  name: relativePath
+  href: api/Cubusky.FileSaverLoader.html#Cubusky_FileSaverLoader_relativePath
+  commentId: P:Cubusky.FileSaverLoader.relativePath
+  fullName: Cubusky.FileSaverLoader.relativePath
+  nameWithType: FileSaverLoader.relativePath
+- uid: Cubusky.FileSaverLoader.relativePath*
+  name: relativePath
+  href: api/Cubusky.FileSaverLoader.html#Cubusky_FileSaverLoader_relativePath_
+  commentId: Overload:Cubusky.FileSaverLoader.relativePath
+  isSpec: "True"
+  fullName: Cubusky.FileSaverLoader.relativePath
+  nameWithType: FileSaverLoader.relativePath
 - uid: Cubusky.GuidAttribute
   name: GuidAttribute
   href: api/Cubusky.GuidAttribute.html
   commentId: T:Cubusky.GuidAttribute
   fullName: Cubusky.GuidAttribute
   nameWithType: GuidAttribute
+- uid: Cubusky.IDirectoryLoader
+  name: IDirectoryLoader
+  href: api/Cubusky.IDirectoryLoader.html
+  commentId: T:Cubusky.IDirectoryLoader
+  fullName: Cubusky.IDirectoryLoader
+  nameWithType: IDirectoryLoader
+- uid: Cubusky.IDirectoryLoader.path
+  name: path
+  href: api/Cubusky.IDirectoryLoader.html#Cubusky_IDirectoryLoader_path
+  commentId: P:Cubusky.IDirectoryLoader.path
+  fullName: Cubusky.IDirectoryLoader.path
+  nameWithType: IDirectoryLoader.path
+- uid: Cubusky.IDirectoryLoader.path*
+  name: path
+  href: api/Cubusky.IDirectoryLoader.html#Cubusky_IDirectoryLoader_path_
+  commentId: Overload:Cubusky.IDirectoryLoader.path
+  isSpec: "True"
+  fullName: Cubusky.IDirectoryLoader.path
+  nameWithType: IDirectoryLoader.path
+- uid: Cubusky.IDirectoryLoader.searchOption
+  name: searchOption
+  href: api/Cubusky.IDirectoryLoader.html#Cubusky_IDirectoryLoader_searchOption
+  commentId: P:Cubusky.IDirectoryLoader.searchOption
+  fullName: Cubusky.IDirectoryLoader.searchOption
+  nameWithType: IDirectoryLoader.searchOption
+- uid: Cubusky.IDirectoryLoader.searchOption*
+  name: searchOption
+  href: api/Cubusky.IDirectoryLoader.html#Cubusky_IDirectoryLoader_searchOption_
+  commentId: Overload:Cubusky.IDirectoryLoader.searchOption
+  isSpec: "True"
+  fullName: Cubusky.IDirectoryLoader.searchOption
+  nameWithType: IDirectoryLoader.searchOption
+- uid: Cubusky.IDirectoryLoader.searchPattern
+  name: searchPattern
+  href: api/Cubusky.IDirectoryLoader.html#Cubusky_IDirectoryLoader_searchPattern
+  commentId: P:Cubusky.IDirectoryLoader.searchPattern
+  fullName: Cubusky.IDirectoryLoader.searchPattern
+  nameWithType: IDirectoryLoader.searchPattern
+- uid: Cubusky.IDirectoryLoader.searchPattern*
+  name: searchPattern
+  href: api/Cubusky.IDirectoryLoader.html#Cubusky_IDirectoryLoader_searchPattern_
+  commentId: Overload:Cubusky.IDirectoryLoader.searchPattern
+  isSpec: "True"
+  fullName: Cubusky.IDirectoryLoader.searchPattern
+  nameWithType: IDirectoryLoader.searchPattern
+- uid: Cubusky.IDirectorySaver
+  name: IDirectorySaver
+  href: api/Cubusky.IDirectorySaver.html
+  commentId: T:Cubusky.IDirectorySaver
+  fullName: Cubusky.IDirectorySaver
+  nameWithType: IDirectorySaver
+- uid: Cubusky.IDirectorySaver.extension
+  name: extension
+  href: api/Cubusky.IDirectorySaver.html#Cubusky_IDirectorySaver_extension
+  commentId: P:Cubusky.IDirectorySaver.extension
+  fullName: Cubusky.IDirectorySaver.extension
+  nameWithType: IDirectorySaver.extension
+- uid: Cubusky.IDirectorySaver.extension*
+  name: extension
+  href: api/Cubusky.IDirectorySaver.html#Cubusky_IDirectorySaver_extension_
+  commentId: Overload:Cubusky.IDirectorySaver.extension
+  isSpec: "True"
+  fullName: Cubusky.IDirectorySaver.extension
+  nameWithType: IDirectorySaver.extension
+- uid: Cubusky.IDirectorySaver.path
+  name: path
+  href: api/Cubusky.IDirectorySaver.html#Cubusky_IDirectorySaver_path
+  commentId: P:Cubusky.IDirectorySaver.path
+  fullName: Cubusky.IDirectorySaver.path
+  nameWithType: IDirectorySaver.path
+- uid: Cubusky.IDirectorySaver.path*
+  name: path
+  href: api/Cubusky.IDirectorySaver.html#Cubusky_IDirectorySaver_path_
+  commentId: Overload:Cubusky.IDirectorySaver.path
+  isSpec: "True"
+  fullName: Cubusky.IDirectorySaver.path
+  nameWithType: IDirectorySaver.path
+- uid: Cubusky.IEnumerableLoader
+  name: IEnumerableLoader
+  href: api/Cubusky.IEnumerableLoader.html
+  commentId: T:Cubusky.IEnumerableLoader
+  fullName: Cubusky.IEnumerableLoader
+  nameWithType: IEnumerableLoader
+- uid: Cubusky.IEnumerableLoader`1
+  name: IEnumerableLoader<TOutput>
+  href: api/Cubusky.IEnumerableLoader-1.html
+  commentId: T:Cubusky.IEnumerableLoader`1
+  name.vb: IEnumerableLoader(Of TOutput)
+  fullName: Cubusky.IEnumerableLoader<TOutput>
+  fullName.vb: Cubusky.IEnumerableLoader(Of TOutput)
+  nameWithType: IEnumerableLoader<TOutput>
+  nameWithType.vb: IEnumerableLoader(Of TOutput)
+- uid: Cubusky.IEnumerableLoader`1.LoadAsyncEnumerable*
+  name: LoadAsyncEnumerable
+  href: api/Cubusky.IEnumerableLoader-1.html#Cubusky_IEnumerableLoader_1_LoadAsyncEnumerable_
+  commentId: Overload:Cubusky.IEnumerableLoader`1.LoadAsyncEnumerable
+  isSpec: "True"
+  fullName: Cubusky.IEnumerableLoader<TOutput>.LoadAsyncEnumerable
+  fullName.vb: Cubusky.IEnumerableLoader(Of TOutput).LoadAsyncEnumerable
+  nameWithType: IEnumerableLoader<TOutput>.LoadAsyncEnumerable
+  nameWithType.vb: IEnumerableLoader(Of TOutput).LoadAsyncEnumerable
+- uid: Cubusky.IEnumerableLoader`1.LoadAsyncEnumerable``1(System.Threading.CancellationToken)
+  name: LoadAsyncEnumerable<TData>(CancellationToken)
+  href: api/Cubusky.IEnumerableLoader-1.html#Cubusky_IEnumerableLoader_1_LoadAsyncEnumerable__1_System_Threading_CancellationToken_
+  commentId: M:Cubusky.IEnumerableLoader`1.LoadAsyncEnumerable``1(System.Threading.CancellationToken)
+  name.vb: LoadAsyncEnumerable(Of TData)(CancellationToken)
+  fullName: Cubusky.IEnumerableLoader<TOutput>.LoadAsyncEnumerable<TData>(System.Threading.CancellationToken)
+  fullName.vb: Cubusky.IEnumerableLoader(Of TOutput).LoadAsyncEnumerable(Of TData)(System.Threading.CancellationToken)
+  nameWithType: IEnumerableLoader<TOutput>.LoadAsyncEnumerable<TData>(CancellationToken)
+  nameWithType.vb: IEnumerableLoader(Of TOutput).LoadAsyncEnumerable(Of TData)(CancellationToken)
+- uid: Cubusky.IEnumerableSaver
+  name: IEnumerableSaver
+  href: api/Cubusky.IEnumerableSaver.html
+  commentId: T:Cubusky.IEnumerableSaver
+  fullName: Cubusky.IEnumerableSaver
+  nameWithType: IEnumerableSaver
+- uid: Cubusky.IEnumerableSaverLoader
+  name: IEnumerableSaverLoader
+  href: api/Cubusky.IEnumerableSaverLoader.html
+  commentId: T:Cubusky.IEnumerableSaverLoader
+  fullName: Cubusky.IEnumerableSaverLoader
+  nameWithType: IEnumerableSaverLoader
+- uid: Cubusky.IEnumerableSaverLoader`1
+  name: IEnumerableSaverLoader<TInputOutput>
+  href: api/Cubusky.IEnumerableSaverLoader-1.html
+  commentId: T:Cubusky.IEnumerableSaverLoader`1
+  name.vb: IEnumerableSaverLoader(Of TInputOutput)
+  fullName: Cubusky.IEnumerableSaverLoader<TInputOutput>
+  fullName.vb: Cubusky.IEnumerableSaverLoader(Of TInputOutput)
+  nameWithType: IEnumerableSaverLoader<TInputOutput>
+  nameWithType.vb: IEnumerableSaverLoader(Of TInputOutput)
+- uid: Cubusky.IEnumerableSaver`1
+  name: IEnumerableSaver<TInput>
+  href: api/Cubusky.IEnumerableSaver-1.html
+  commentId: T:Cubusky.IEnumerableSaver`1
+  name.vb: IEnumerableSaver(Of TInput)
+  fullName: Cubusky.IEnumerableSaver<TInput>
+  fullName.vb: Cubusky.IEnumerableSaver(Of TInput)
+  nameWithType: IEnumerableSaver<TInput>
+  nameWithType.vb: IEnumerableSaver(Of TInput)
+- uid: Cubusky.IEnumerableSaver`1.SaveAsyncEnumrable(System.Collections.Generic.IEnumerable{`0},System.Threading.CancellationToken)
+  name: SaveAsyncEnumrable(IEnumerable<TInput>, CancellationToken)
+  href: api/Cubusky.IEnumerableSaver-1.html#Cubusky_IEnumerableSaver_1_SaveAsyncEnumrable_System_Collections_Generic_IEnumerable__0__System_Threading_CancellationToken_
+  commentId: M:Cubusky.IEnumerableSaver`1.SaveAsyncEnumrable(System.Collections.Generic.IEnumerable{`0},System.Threading.CancellationToken)
+  name.vb: SaveAsyncEnumrable(IEnumerable(Of TInput), CancellationToken)
+  fullName: Cubusky.IEnumerableSaver<TInput>.SaveAsyncEnumrable(System.Collections.Generic.IEnumerable<TInput>, System.Threading.CancellationToken)
+  fullName.vb: Cubusky.IEnumerableSaver(Of TInput).SaveAsyncEnumrable(System.Collections.Generic.IEnumerable(Of TInput), System.Threading.CancellationToken)
+  nameWithType: IEnumerableSaver<TInput>.SaveAsyncEnumrable(IEnumerable<TInput>, CancellationToken)
+  nameWithType.vb: IEnumerableSaver(Of TInput).SaveAsyncEnumrable(IEnumerable(Of TInput), CancellationToken)
+- uid: Cubusky.IEnumerableSaver`1.SaveAsyncEnumrable*
+  name: SaveAsyncEnumrable
+  href: api/Cubusky.IEnumerableSaver-1.html#Cubusky_IEnumerableSaver_1_SaveAsyncEnumrable_
+  commentId: Overload:Cubusky.IEnumerableSaver`1.SaveAsyncEnumrable
+  isSpec: "True"
+  fullName: Cubusky.IEnumerableSaver<TInput>.SaveAsyncEnumrable
+  fullName.vb: Cubusky.IEnumerableSaver(Of TInput).SaveAsyncEnumrable
+  nameWithType: IEnumerableSaver<TInput>.SaveAsyncEnumrable
+  nameWithType.vb: IEnumerableSaver(Of TInput).SaveAsyncEnumrable
+- uid: Cubusky.IFileLoader
+  name: IFileLoader
+  href: api/Cubusky.IFileLoader.html
+  commentId: T:Cubusky.IFileLoader
+  fullName: Cubusky.IFileLoader
+  nameWithType: IFileLoader
+- uid: Cubusky.IFileLoader.path
+  name: path
+  href: api/Cubusky.IFileLoader.html#Cubusky_IFileLoader_path
+  commentId: P:Cubusky.IFileLoader.path
+  fullName: Cubusky.IFileLoader.path
+  nameWithType: IFileLoader.path
+- uid: Cubusky.IFileLoader.path*
+  name: path
+  href: api/Cubusky.IFileLoader.html#Cubusky_IFileLoader_path_
+  commentId: Overload:Cubusky.IFileLoader.path
+  isSpec: "True"
+  fullName: Cubusky.IFileLoader.path
+  nameWithType: IFileLoader.path
+- uid: Cubusky.IFileSaver
+  name: IFileSaver
+  href: api/Cubusky.IFileSaver.html
+  commentId: T:Cubusky.IFileSaver
+  fullName: Cubusky.IFileSaver
+  nameWithType: IFileSaver
+- uid: Cubusky.IFileSaver.path
+  name: path
+  href: api/Cubusky.IFileSaver.html#Cubusky_IFileSaver_path
+  commentId: P:Cubusky.IFileSaver.path
+  fullName: Cubusky.IFileSaver.path
+  nameWithType: IFileSaver.path
+- uid: Cubusky.IFileSaver.path*
+  name: path
+  href: api/Cubusky.IFileSaver.html#Cubusky_IFileSaver_path_
+  commentId: Overload:Cubusky.IFileSaver.path
+  isSpec: "True"
+  fullName: Cubusky.IFileSaver.path
+  nameWithType: IFileSaver.path
+- uid: Cubusky.ILoader
+  name: ILoader
+  href: api/Cubusky.ILoader.html
+  commentId: T:Cubusky.ILoader
+  fullName: Cubusky.ILoader
+  nameWithType: ILoader
+- uid: Cubusky.ILoader`1
+  name: ILoader<TOutput>
+  href: api/Cubusky.ILoader-1.html
+  commentId: T:Cubusky.ILoader`1
+  name.vb: ILoader(Of TOutput)
+  fullName: Cubusky.ILoader<TOutput>
+  fullName.vb: Cubusky.ILoader(Of TOutput)
+  nameWithType: ILoader<TOutput>
+  nameWithType.vb: ILoader(Of TOutput)
+- uid: Cubusky.ILoader`1.Load*
+  name: Load
+  href: api/Cubusky.ILoader-1.html#Cubusky_ILoader_1_Load_
+  commentId: Overload:Cubusky.ILoader`1.Load
+  isSpec: "True"
+  fullName: Cubusky.ILoader<TOutput>.Load
+  fullName.vb: Cubusky.ILoader(Of TOutput).Load
+  nameWithType: ILoader<TOutput>.Load
+  nameWithType.vb: ILoader(Of TOutput).Load
+- uid: Cubusky.ILoader`1.LoadAsync*
+  name: LoadAsync
+  href: api/Cubusky.ILoader-1.html#Cubusky_ILoader_1_LoadAsync_
+  commentId: Overload:Cubusky.ILoader`1.LoadAsync
+  isSpec: "True"
+  fullName: Cubusky.ILoader<TOutput>.LoadAsync
+  fullName.vb: Cubusky.ILoader(Of TOutput).LoadAsync
+  nameWithType: ILoader<TOutput>.LoadAsync
+  nameWithType.vb: ILoader(Of TOutput).LoadAsync
+- uid: Cubusky.ILoader`1.LoadAsync``1(System.Threading.CancellationToken)
+  name: LoadAsync<TData>(CancellationToken)
+  href: api/Cubusky.ILoader-1.html#Cubusky_ILoader_1_LoadAsync__1_System_Threading_CancellationToken_
+  commentId: M:Cubusky.ILoader`1.LoadAsync``1(System.Threading.CancellationToken)
+  name.vb: LoadAsync(Of TData)(CancellationToken)
+  fullName: Cubusky.ILoader<TOutput>.LoadAsync<TData>(System.Threading.CancellationToken)
+  fullName.vb: Cubusky.ILoader(Of TOutput).LoadAsync(Of TData)(System.Threading.CancellationToken)
+  nameWithType: ILoader<TOutput>.LoadAsync<TData>(CancellationToken)
+  nameWithType.vb: ILoader(Of TOutput).LoadAsync(Of TData)(CancellationToken)
+- uid: Cubusky.ILoader`1.Load``1
+  name: Load<TData>()
+  href: api/Cubusky.ILoader-1.html#Cubusky_ILoader_1_Load__1
+  commentId: M:Cubusky.ILoader`1.Load``1
+  name.vb: Load(Of TData)()
+  fullName: Cubusky.ILoader<TOutput>.Load<TData>()
+  fullName.vb: Cubusky.ILoader(Of TOutput).Load(Of TData)()
+  nameWithType: ILoader<TOutput>.Load<TData>()
+  nameWithType.vb: ILoader(Of TOutput).Load(Of TData)()
+- uid: Cubusky.ISaver
+  name: ISaver
+  href: api/Cubusky.ISaver.html
+  commentId: T:Cubusky.ISaver
+  fullName: Cubusky.ISaver
+  nameWithType: ISaver
+- uid: Cubusky.ISaverLoader
+  name: ISaverLoader
+  href: api/Cubusky.ISaverLoader.html
+  commentId: T:Cubusky.ISaverLoader
+  fullName: Cubusky.ISaverLoader
+  nameWithType: ISaverLoader
+- uid: Cubusky.ISaverLoader`1
+  name: ISaverLoader<TInputOutput>
+  href: api/Cubusky.ISaverLoader-1.html
+  commentId: T:Cubusky.ISaverLoader`1
+  name.vb: ISaverLoader(Of TInputOutput)
+  fullName: Cubusky.ISaverLoader<TInputOutput>
+  fullName.vb: Cubusky.ISaverLoader(Of TInputOutput)
+  nameWithType: ISaverLoader<TInputOutput>
+  nameWithType.vb: ISaverLoader(Of TInputOutput)
+- uid: Cubusky.ISaver`1
+  name: ISaver<TInput>
+  href: api/Cubusky.ISaver-1.html
+  commentId: T:Cubusky.ISaver`1
+  name.vb: ISaver(Of TInput)
+  fullName: Cubusky.ISaver<TInput>
+  fullName.vb: Cubusky.ISaver(Of TInput)
+  nameWithType: ISaver<TInput>
+  nameWithType.vb: ISaver(Of TInput)
+- uid: Cubusky.ISaver`1.Save(`0)
+  name: Save(TInput)
+  href: api/Cubusky.ISaver-1.html#Cubusky_ISaver_1_Save__0_
+  commentId: M:Cubusky.ISaver`1.Save(`0)
+  fullName: Cubusky.ISaver<TInput>.Save(TInput)
+  fullName.vb: Cubusky.ISaver(Of TInput).Save(TInput)
+  nameWithType: ISaver<TInput>.Save(TInput)
+  nameWithType.vb: ISaver(Of TInput).Save(TInput)
+- uid: Cubusky.ISaver`1.Save*
+  name: Save
+  href: api/Cubusky.ISaver-1.html#Cubusky_ISaver_1_Save_
+  commentId: Overload:Cubusky.ISaver`1.Save
+  isSpec: "True"
+  fullName: Cubusky.ISaver<TInput>.Save
+  fullName.vb: Cubusky.ISaver(Of TInput).Save
+  nameWithType: ISaver<TInput>.Save
+  nameWithType.vb: ISaver(Of TInput).Save
+- uid: Cubusky.ISaver`1.SaveAsync(`0,System.Threading.CancellationToken)
+  name: SaveAsync(TInput, CancellationToken)
+  href: api/Cubusky.ISaver-1.html#Cubusky_ISaver_1_SaveAsync__0_System_Threading_CancellationToken_
+  commentId: M:Cubusky.ISaver`1.SaveAsync(`0,System.Threading.CancellationToken)
+  fullName: Cubusky.ISaver<TInput>.SaveAsync(TInput, System.Threading.CancellationToken)
+  fullName.vb: Cubusky.ISaver(Of TInput).SaveAsync(TInput, System.Threading.CancellationToken)
+  nameWithType: ISaver<TInput>.SaveAsync(TInput, CancellationToken)
+  nameWithType.vb: ISaver(Of TInput).SaveAsync(TInput, CancellationToken)
+- uid: Cubusky.ISaver`1.SaveAsync*
+  name: SaveAsync
+  href: api/Cubusky.ISaver-1.html#Cubusky_ISaver_1_SaveAsync_
+  commentId: Overload:Cubusky.ISaver`1.SaveAsync
+  isSpec: "True"
+  fullName: Cubusky.ISaver<TInput>.SaveAsync
+  fullName.vb: Cubusky.ISaver(Of TInput).SaveAsync
+  nameWithType: ISaver<TInput>.SaveAsync
+  nameWithType.vb: ISaver(Of TInput).SaveAsync
+- uid: Cubusky.ITempLoader
+  name: ITempLoader
+  href: api/Cubusky.ITempLoader.html
+  commentId: T:Cubusky.ITempLoader
+  fullName: Cubusky.ITempLoader
+  nameWithType: ITempLoader
+- uid: Cubusky.ITempLoader.key
+  name: key
+  href: api/Cubusky.ITempLoader.html#Cubusky_ITempLoader_key
+  commentId: P:Cubusky.ITempLoader.key
+  fullName: Cubusky.ITempLoader.key
+  nameWithType: ITempLoader.key
+- uid: Cubusky.ITempLoader.key*
+  name: key
+  href: api/Cubusky.ITempLoader.html#Cubusky_ITempLoader_key_
+  commentId: Overload:Cubusky.ITempLoader.key
+  isSpec: "True"
+  fullName: Cubusky.ITempLoader.key
+  nameWithType: ITempLoader.key
+- uid: Cubusky.ITempSaver
+  name: ITempSaver
+  href: api/Cubusky.ITempSaver.html
+  commentId: T:Cubusky.ITempSaver
+  fullName: Cubusky.ITempSaver
+  nameWithType: ITempSaver
+- uid: Cubusky.ITempSaver.key
+  name: key
+  href: api/Cubusky.ITempSaver.html#Cubusky_ITempSaver_key
+  commentId: P:Cubusky.ITempSaver.key
+  fullName: Cubusky.ITempSaver.key
+  nameWithType: ITempSaver.key
+- uid: Cubusky.ITempSaver.key*
+  name: key
+  href: api/Cubusky.ITempSaver.html#Cubusky_ITempSaver_key_
+  commentId: Overload:Cubusky.ITempSaver.key
+  isSpec: "True"
+  fullName: Cubusky.ITempSaver.key
+  nameWithType: ITempSaver.key
+- uid: Cubusky.ITempSaver.tempSaves
+  name: tempSaves
+  href: api/Cubusky.ITempSaver.html#Cubusky_ITempSaver_tempSaves
+  commentId: F:Cubusky.ITempSaver.tempSaves
+  fullName: Cubusky.ITempSaver.tempSaves
+  nameWithType: ITempSaver.tempSaves
 - uid: Cubusky.Instance`1
   name: Instance<T>
   href: api/Cubusky.Instance-1.html
@@ -415,30 +1016,70 @@ references:
   commentId: F:Cubusky.OfTypeAttribute.types
   fullName: Cubusky.OfTypeAttribute.types
   nameWithType: OfTypeAttribute.types
+- uid: Cubusky.PathAttribute
+  name: PathAttribute
+  href: api/Cubusky.PathAttribute.html
+  commentId: T:Cubusky.PathAttribute
+  fullName: Cubusky.PathAttribute
+  nameWithType: PathAttribute
+- uid: Cubusky.PathAttribute.#ctor
+  name: PathAttribute()
+  href: api/Cubusky.PathAttribute.html#Cubusky_PathAttribute__ctor
+  commentId: M:Cubusky.PathAttribute.#ctor
+  name.vb: New()
+  fullName: Cubusky.PathAttribute.PathAttribute()
+  fullName.vb: Cubusky.PathAttribute.New()
+  nameWithType: PathAttribute.PathAttribute()
+  nameWithType.vb: PathAttribute.New()
+- uid: Cubusky.PathAttribute.#ctor(System.Boolean)
+  name: PathAttribute(bool)
+  href: api/Cubusky.PathAttribute.html#Cubusky_PathAttribute__ctor_System_Boolean_
+  commentId: M:Cubusky.PathAttribute.#ctor(System.Boolean)
+  name.vb: New(Boolean)
+  fullName: Cubusky.PathAttribute.PathAttribute(bool)
+  fullName.vb: Cubusky.PathAttribute.New(Boolean)
+  nameWithType: PathAttribute.PathAttribute(bool)
+  nameWithType.vb: PathAttribute.New(Boolean)
+- uid: Cubusky.PathAttribute.#ctor*
+  name: PathAttribute
+  href: api/Cubusky.PathAttribute.html#Cubusky_PathAttribute__ctor_
+  commentId: Overload:Cubusky.PathAttribute.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Cubusky.PathAttribute.PathAttribute
+  fullName.vb: Cubusky.PathAttribute.New
+  nameWithType: PathAttribute.PathAttribute
+  nameWithType.vb: PathAttribute.New
+- uid: Cubusky.PathAttribute.withoutExtension
+  name: withoutExtension
+  href: api/Cubusky.PathAttribute.html#Cubusky_PathAttribute_withoutExtension
+  commentId: F:Cubusky.PathAttribute.withoutExtension
+  fullName: Cubusky.PathAttribute.withoutExtension
+  nameWithType: PathAttribute.withoutExtension
 - uid: Cubusky.ReferenceDropdownAttribute
   name: ReferenceDropdownAttribute
   href: api/Cubusky.ReferenceDropdownAttribute.html
   commentId: T:Cubusky.ReferenceDropdownAttribute
   fullName: Cubusky.ReferenceDropdownAttribute
   nameWithType: ReferenceDropdownAttribute
-- uid: Cubusky.ReferenceDropdownAttribute.#ctor
-  name: ReferenceDropdownAttribute()
-  href: api/Cubusky.ReferenceDropdownAttribute.html#Cubusky_ReferenceDropdownAttribute__ctor
-  commentId: M:Cubusky.ReferenceDropdownAttribute.#ctor
-  name.vb: New()
-  fullName: Cubusky.ReferenceDropdownAttribute.ReferenceDropdownAttribute()
-  fullName.vb: Cubusky.ReferenceDropdownAttribute.New()
-  nameWithType: ReferenceDropdownAttribute.ReferenceDropdownAttribute()
-  nameWithType.vb: ReferenceDropdownAttribute.New()
-- uid: Cubusky.ReferenceDropdownAttribute.#ctor(System.Boolean)
-  name: ReferenceDropdownAttribute(bool)
-  href: api/Cubusky.ReferenceDropdownAttribute.html#Cubusky_ReferenceDropdownAttribute__ctor_System_Boolean_
-  commentId: M:Cubusky.ReferenceDropdownAttribute.#ctor(System.Boolean)
-  name.vb: New(Boolean)
-  fullName: Cubusky.ReferenceDropdownAttribute.ReferenceDropdownAttribute(bool)
-  fullName.vb: Cubusky.ReferenceDropdownAttribute.New(Boolean)
-  nameWithType: ReferenceDropdownAttribute.ReferenceDropdownAttribute(bool)
-  nameWithType.vb: ReferenceDropdownAttribute.New(Boolean)
+- uid: Cubusky.ReferenceDropdownAttribute.#ctor(System.Boolean,System.Type[])
+  name: ReferenceDropdownAttribute(bool, params Type[])
+  href: api/Cubusky.ReferenceDropdownAttribute.html#Cubusky_ReferenceDropdownAttribute__ctor_System_Boolean_System_Type___
+  commentId: M:Cubusky.ReferenceDropdownAttribute.#ctor(System.Boolean,System.Type[])
+  name.vb: New(Boolean, ParamArray Type())
+  fullName: Cubusky.ReferenceDropdownAttribute.ReferenceDropdownAttribute(bool, params System.Type[])
+  fullName.vb: Cubusky.ReferenceDropdownAttribute.New(Boolean, ParamArray System.Type())
+  nameWithType: ReferenceDropdownAttribute.ReferenceDropdownAttribute(bool, params Type[])
+  nameWithType.vb: ReferenceDropdownAttribute.New(Boolean, ParamArray Type())
+- uid: Cubusky.ReferenceDropdownAttribute.#ctor(System.Type[])
+  name: ReferenceDropdownAttribute(params Type[])
+  href: api/Cubusky.ReferenceDropdownAttribute.html#Cubusky_ReferenceDropdownAttribute__ctor_System_Type___
+  commentId: M:Cubusky.ReferenceDropdownAttribute.#ctor(System.Type[])
+  name.vb: New(ParamArray Type())
+  fullName: Cubusky.ReferenceDropdownAttribute.ReferenceDropdownAttribute(params System.Type[])
+  fullName.vb: Cubusky.ReferenceDropdownAttribute.New(ParamArray System.Type())
+  nameWithType: ReferenceDropdownAttribute.ReferenceDropdownAttribute(params Type[])
+  nameWithType.vb: ReferenceDropdownAttribute.New(ParamArray Type())
 - uid: Cubusky.ReferenceDropdownAttribute.#ctor*
   name: ReferenceDropdownAttribute
   href: api/Cubusky.ReferenceDropdownAttribute.html#Cubusky_ReferenceDropdownAttribute__ctor_
@@ -455,6 +1096,12 @@ references:
   commentId: F:Cubusky.ReferenceDropdownAttribute.nullable
   fullName: Cubusky.ReferenceDropdownAttribute.nullable
   nameWithType: ReferenceDropdownAttribute.nullable
+- uid: Cubusky.ReferenceDropdownAttribute.types
+  name: types
+  href: api/Cubusky.ReferenceDropdownAttribute.html#Cubusky_ReferenceDropdownAttribute_types
+  commentId: F:Cubusky.ReferenceDropdownAttribute.types
+  fullName: Cubusky.ReferenceDropdownAttribute.types
+  nameWithType: ReferenceDropdownAttribute.types
 - uid: Cubusky.ShaderId
   name: ShaderId
   href: api/Cubusky.ShaderId.html
@@ -620,12 +1267,223 @@ references:
   fullName.vb: Cubusky.ShaderId.<>
   nameWithType: ShaderId.operator !=
   nameWithType.vb: ShaderId.<>
+- uid: Cubusky.SharedTimer
+  name: SharedTimer
+  href: api/Cubusky.SharedTimer.html
+  commentId: T:Cubusky.SharedTimer
+  fullName: Cubusky.SharedTimer
+  nameWithType: SharedTimer
+- uid: Cubusky.SharedTimer.op_Implicit(Cubusky.SharedTimer)~Cubusky.Timer
+  name: implicit operator Timer(SharedTimer)
+  href: api/Cubusky.SharedTimer.html#Cubusky_SharedTimer_op_Implicit_Cubusky_SharedTimer__Cubusky_Timer
+  commentId: M:Cubusky.SharedTimer.op_Implicit(Cubusky.SharedTimer)~Cubusky.Timer
+  name.vb: CType(SharedTimer)
+  fullName: Cubusky.SharedTimer.implicit operator Cubusky.Timer(Cubusky.SharedTimer)
+  fullName.vb: Cubusky.SharedTimer.CType(Cubusky.SharedTimer)
+  nameWithType: SharedTimer.implicit operator Timer(SharedTimer)
+  nameWithType.vb: SharedTimer.CType(SharedTimer)
+- uid: Cubusky.SharedTimer.op_Implicit*
+  name: implicit operator
+  href: api/Cubusky.SharedTimer.html#Cubusky_SharedTimer_op_Implicit_
+  commentId: Overload:Cubusky.SharedTimer.op_Implicit
+  isSpec: "True"
+  name.vb: CType
+  fullName: Cubusky.SharedTimer.implicit operator
+  fullName.vb: Cubusky.SharedTimer.CType
+  nameWithType: SharedTimer.implicit operator
+  nameWithType.vb: SharedTimer.CType
+- uid: Cubusky.SharedTimer.timer
+  name: timer
+  href: api/Cubusky.SharedTimer.html#Cubusky_SharedTimer_timer
+  commentId: P:Cubusky.SharedTimer.timer
+  fullName: Cubusky.SharedTimer.timer
+  nameWithType: SharedTimer.timer
+- uid: Cubusky.SharedTimer.timer*
+  name: timer
+  href: api/Cubusky.SharedTimer.html#Cubusky_SharedTimer_timer_
+  commentId: Overload:Cubusky.SharedTimer.timer
+  isSpec: "True"
+  fullName: Cubusky.SharedTimer.timer
+  nameWithType: SharedTimer.timer
+- uid: Cubusky.TempSaverLoader
+  name: TempSaverLoader
+  href: api/Cubusky.TempSaverLoader.html
+  commentId: T:Cubusky.TempSaverLoader
+  fullName: Cubusky.TempSaverLoader
+  nameWithType: TempSaverLoader
+- uid: Cubusky.TempSaverLoader.key
+  name: key
+  href: api/Cubusky.TempSaverLoader.html#Cubusky_TempSaverLoader_key
+  commentId: P:Cubusky.TempSaverLoader.key
+  fullName: Cubusky.TempSaverLoader.key
+  nameWithType: TempSaverLoader.key
+- uid: Cubusky.TempSaverLoader.key*
+  name: key
+  href: api/Cubusky.TempSaverLoader.html#Cubusky_TempSaverLoader_key_
+  commentId: Overload:Cubusky.TempSaverLoader.key
+  isSpec: "True"
+  fullName: Cubusky.TempSaverLoader.key
+  nameWithType: TempSaverLoader.key
+- uid: Cubusky.TimeMode
+  name: TimeMode
+  href: api/Cubusky.TimeMode.html
+  commentId: T:Cubusky.TimeMode
+  fullName: Cubusky.TimeMode
+  nameWithType: TimeMode
+- uid: Cubusky.TimeMode.FixedTime
+  name: FixedTime
+  href: api/Cubusky.TimeMode.html#Cubusky_TimeMode_FixedTime
+  commentId: F:Cubusky.TimeMode.FixedTime
+  fullName: Cubusky.TimeMode.FixedTime
+  nameWithType: TimeMode.FixedTime
+- uid: Cubusky.TimeMode.FixedUnscaledTime
+  name: FixedUnscaledTime
+  href: api/Cubusky.TimeMode.html#Cubusky_TimeMode_FixedUnscaledTime
+  commentId: F:Cubusky.TimeMode.FixedUnscaledTime
+  fullName: Cubusky.TimeMode.FixedUnscaledTime
+  nameWithType: TimeMode.FixedUnscaledTime
+- uid: Cubusky.TimeMode.Time
+  name: Time
+  href: api/Cubusky.TimeMode.html#Cubusky_TimeMode_Time
+  commentId: F:Cubusky.TimeMode.Time
+  fullName: Cubusky.TimeMode.Time
+  nameWithType: TimeMode.Time
+- uid: Cubusky.TimeMode.UnscaledTime
+  name: UnscaledTime
+  href: api/Cubusky.TimeMode.html#Cubusky_TimeMode_UnscaledTime
+  commentId: F:Cubusky.TimeMode.UnscaledTime
+  fullName: Cubusky.TimeMode.UnscaledTime
+  nameWithType: TimeMode.UnscaledTime
+- uid: Cubusky.TimeModeExtensions
+  name: TimeModeExtensions
+  href: api/Cubusky.TimeModeExtensions.html
+  commentId: T:Cubusky.TimeModeExtensions
+  fullName: Cubusky.TimeModeExtensions
+  nameWithType: TimeModeExtensions
+- uid: Cubusky.TimeModeExtensions.GetDeltaTime(Cubusky.TimeMode)
+  name: GetDeltaTime(TimeMode)
+  href: api/Cubusky.TimeModeExtensions.html#Cubusky_TimeModeExtensions_GetDeltaTime_Cubusky_TimeMode_
+  commentId: M:Cubusky.TimeModeExtensions.GetDeltaTime(Cubusky.TimeMode)
+  fullName: Cubusky.TimeModeExtensions.GetDeltaTime(Cubusky.TimeMode)
+  nameWithType: TimeModeExtensions.GetDeltaTime(TimeMode)
+- uid: Cubusky.TimeModeExtensions.GetDeltaTime*
+  name: GetDeltaTime
+  href: api/Cubusky.TimeModeExtensions.html#Cubusky_TimeModeExtensions_GetDeltaTime_
+  commentId: Overload:Cubusky.TimeModeExtensions.GetDeltaTime
+  isSpec: "True"
+  fullName: Cubusky.TimeModeExtensions.GetDeltaTime
+  nameWithType: TimeModeExtensions.GetDeltaTime
+- uid: Cubusky.TimeModeExtensions.GetTime(Cubusky.TimeMode)
+  name: GetTime(TimeMode)
+  href: api/Cubusky.TimeModeExtensions.html#Cubusky_TimeModeExtensions_GetTime_Cubusky_TimeMode_
+  commentId: M:Cubusky.TimeModeExtensions.GetTime(Cubusky.TimeMode)
+  fullName: Cubusky.TimeModeExtensions.GetTime(Cubusky.TimeMode)
+  nameWithType: TimeModeExtensions.GetTime(TimeMode)
+- uid: Cubusky.TimeModeExtensions.GetTime*
+  name: GetTime
+  href: api/Cubusky.TimeModeExtensions.html#Cubusky_TimeModeExtensions_GetTime_
+  commentId: Overload:Cubusky.TimeModeExtensions.GetTime
+  isSpec: "True"
+  fullName: Cubusky.TimeModeExtensions.GetTime
+  nameWithType: TimeModeExtensions.GetTime
+- uid: Cubusky.TimeModeExtensions.GetTimeAsDouble(Cubusky.TimeMode)
+  name: GetTimeAsDouble(TimeMode)
+  href: api/Cubusky.TimeModeExtensions.html#Cubusky_TimeModeExtensions_GetTimeAsDouble_Cubusky_TimeMode_
+  commentId: M:Cubusky.TimeModeExtensions.GetTimeAsDouble(Cubusky.TimeMode)
+  fullName: Cubusky.TimeModeExtensions.GetTimeAsDouble(Cubusky.TimeMode)
+  nameWithType: TimeModeExtensions.GetTimeAsDouble(TimeMode)
+- uid: Cubusky.TimeModeExtensions.GetTimeAsDouble*
+  name: GetTimeAsDouble
+  href: api/Cubusky.TimeModeExtensions.html#Cubusky_TimeModeExtensions_GetTimeAsDouble_
+  commentId: Overload:Cubusky.TimeModeExtensions.GetTimeAsDouble
+  isSpec: "True"
+  fullName: Cubusky.TimeModeExtensions.GetTimeAsDouble
+  nameWithType: TimeModeExtensions.GetTimeAsDouble
 - uid: Cubusky.TimeSpanAttribute
   name: TimeSpanAttribute
   href: api/Cubusky.TimeSpanAttribute.html
   commentId: T:Cubusky.TimeSpanAttribute
   fullName: Cubusky.TimeSpanAttribute
   nameWithType: TimeSpanAttribute
+- uid: Cubusky.Timer
+  name: Timer
+  href: api/Cubusky.Timer.html
+  commentId: T:Cubusky.Timer
+  fullName: Cubusky.Timer
+  nameWithType: Timer
+- uid: Cubusky.Timer.#ctor
+  name: Timer()
+  href: api/Cubusky.Timer.html#Cubusky_Timer__ctor
+  commentId: M:Cubusky.Timer.#ctor
+  name.vb: New()
+  fullName: Cubusky.Timer.Timer()
+  fullName.vb: Cubusky.Timer.New()
+  nameWithType: Timer.Timer()
+  nameWithType.vb: Timer.New()
+- uid: Cubusky.Timer.#ctor(System.Double)
+  name: Timer(double)
+  href: api/Cubusky.Timer.html#Cubusky_Timer__ctor_System_Double_
+  commentId: M:Cubusky.Timer.#ctor(System.Double)
+  name.vb: New(Double)
+  fullName: Cubusky.Timer.Timer(double)
+  fullName.vb: Cubusky.Timer.New(Double)
+  nameWithType: Timer.Timer(double)
+  nameWithType.vb: Timer.New(Double)
+- uid: Cubusky.Timer.#ctor*
+  name: Timer
+  href: api/Cubusky.Timer.html#Cubusky_Timer__ctor_
+  commentId: Overload:Cubusky.Timer.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Cubusky.Timer.Timer
+  fullName.vb: Cubusky.Timer.New
+  nameWithType: Timer.Timer
+  nameWithType.vb: Timer.New
+- uid: Cubusky.Timer.Elapsed
+  name: Elapsed
+  href: api/Cubusky.Timer.html#Cubusky_Timer_Elapsed
+  commentId: E:Cubusky.Timer.Elapsed
+  fullName: Cubusky.Timer.Elapsed
+  nameWithType: Timer.Elapsed
+- uid: Cubusky.Timer.Interval
+  name: Interval
+  href: api/Cubusky.Timer.html#Cubusky_Timer_Interval
+  commentId: P:Cubusky.Timer.Interval
+  fullName: Cubusky.Timer.Interval
+  nameWithType: Timer.Interval
+- uid: Cubusky.Timer.Interval*
+  name: Interval
+  href: api/Cubusky.Timer.html#Cubusky_Timer_Interval_
+  commentId: Overload:Cubusky.Timer.Interval
+  isSpec: "True"
+  fullName: Cubusky.Timer.Interval
+  nameWithType: Timer.Interval
+- uid: Cubusky.Timer.Start
+  name: Start()
+  href: api/Cubusky.Timer.html#Cubusky_Timer_Start
+  commentId: M:Cubusky.Timer.Start
+  fullName: Cubusky.Timer.Start()
+  nameWithType: Timer.Start()
+- uid: Cubusky.Timer.Start*
+  name: Start
+  href: api/Cubusky.Timer.html#Cubusky_Timer_Start_
+  commentId: Overload:Cubusky.Timer.Start
+  isSpec: "True"
+  fullName: Cubusky.Timer.Start
+  nameWithType: Timer.Start
+- uid: Cubusky.Timer.StartTime
+  name: StartTime
+  href: api/Cubusky.Timer.html#Cubusky_Timer_StartTime
+  commentId: P:Cubusky.Timer.StartTime
+  fullName: Cubusky.Timer.StartTime
+  nameWithType: Timer.StartTime
+- uid: Cubusky.Timer.StartTime*
+  name: StartTime
+  href: api/Cubusky.Timer.html#Cubusky_Timer_StartTime_
+  commentId: Overload:Cubusky.Timer.StartTime
+  isSpec: "True"
+  fullName: Cubusky.Timer.StartTime
+  nameWithType: Timer.StartTime
 - uid: Cubusky.UIElements
   name: Cubusky.UIElements
   href: api/Cubusky.UIElements.html
@@ -726,3 +1584,249 @@ references:
   commentId: F:Cubusky.UIElements.TimeSpanField.ussClassName
   fullName: Cubusky.UIElements.TimeSpanField.ussClassName
   nameWithType: TimeSpanField.ussClassName
+- uid: Cubusky.UnityPath
+  name: UnityPath
+  href: api/Cubusky.UnityPath.html
+  commentId: T:Cubusky.UnityPath
+  fullName: Cubusky.UnityPath
+  nameWithType: UnityPath
+- uid: Cubusky.UnityPath.applicationPath
+  name: applicationPath
+  href: api/Cubusky.UnityPath.html#Cubusky_UnityPath_applicationPath
+  commentId: P:Cubusky.UnityPath.applicationPath
+  fullName: Cubusky.UnityPath.applicationPath
+  nameWithType: UnityPath.applicationPath
+- uid: Cubusky.UnityPath.applicationPath*
+  name: applicationPath
+  href: api/Cubusky.UnityPath.html#Cubusky_UnityPath_applicationPath_
+  commentId: Overload:Cubusky.UnityPath.applicationPath
+  isSpec: "True"
+  fullName: Cubusky.UnityPath.applicationPath
+  nameWithType: UnityPath.applicationPath
+- uid: Cubusky.UnityPath.op_Implicit(Cubusky.UnityPath)~System.String
+  name: implicit operator string(UnityPath)
+  href: api/Cubusky.UnityPath.html#Cubusky_UnityPath_op_Implicit_Cubusky_UnityPath__System_String
+  commentId: M:Cubusky.UnityPath.op_Implicit(Cubusky.UnityPath)~System.String
+  name.vb: CType(UnityPath)
+  fullName: Cubusky.UnityPath.implicit operator string(Cubusky.UnityPath)
+  fullName.vb: Cubusky.UnityPath.CType(Cubusky.UnityPath)
+  nameWithType: UnityPath.implicit operator string(UnityPath)
+  nameWithType.vb: UnityPath.CType(UnityPath)
+- uid: Cubusky.UnityPath.op_Implicit*
+  name: implicit operator
+  href: api/Cubusky.UnityPath.html#Cubusky_UnityPath_op_Implicit_
+  commentId: Overload:Cubusky.UnityPath.op_Implicit
+  isSpec: "True"
+  name.vb: CType
+  fullName: Cubusky.UnityPath.implicit operator
+  fullName.vb: Cubusky.UnityPath.CType
+  nameWithType: UnityPath.implicit operator
+  nameWithType.vb: UnityPath.CType
+- uid: Cubusky.UnityPath.path
+  name: path
+  href: api/Cubusky.UnityPath.html#Cubusky_UnityPath_path
+  commentId: P:Cubusky.UnityPath.path
+  fullName: Cubusky.UnityPath.path
+  nameWithType: UnityPath.path
+- uid: Cubusky.UnityPath.path*
+  name: path
+  href: api/Cubusky.UnityPath.html#Cubusky_UnityPath_path_
+  commentId: Overload:Cubusky.UnityPath.path
+  isSpec: "True"
+  fullName: Cubusky.UnityPath.path
+  nameWithType: UnityPath.path
+- uid: Cubusky.UnityPath.relativePath
+  name: relativePath
+  href: api/Cubusky.UnityPath.html#Cubusky_UnityPath_relativePath
+  commentId: P:Cubusky.UnityPath.relativePath
+  fullName: Cubusky.UnityPath.relativePath
+  nameWithType: UnityPath.relativePath
+- uid: Cubusky.UnityPath.relativePath*
+  name: relativePath
+  href: api/Cubusky.UnityPath.html#Cubusky_UnityPath_relativePath_
+  commentId: Overload:Cubusky.UnityPath.relativePath
+  isSpec: "True"
+  fullName: Cubusky.UnityPath.relativePath
+  nameWithType: UnityPath.relativePath
+- uid: Cubusky.UpdateSynchronizer
+  name: UpdateSynchronizer
+  href: api/Cubusky.UpdateSynchronizer.html
+  commentId: T:Cubusky.UpdateSynchronizer
+  fullName: Cubusky.UpdateSynchronizer
+  nameWithType: UpdateSynchronizer
+- uid: Cubusky.UpdateSynchronizer.#ctor
+  name: UpdateSynchronizer()
+  href: api/Cubusky.UpdateSynchronizer.html#Cubusky_UpdateSynchronizer__ctor
+  commentId: M:Cubusky.UpdateSynchronizer.#ctor
+  name.vb: New()
+  fullName: Cubusky.UpdateSynchronizer.UpdateSynchronizer()
+  fullName.vb: Cubusky.UpdateSynchronizer.New()
+  nameWithType: UpdateSynchronizer.UpdateSynchronizer()
+  nameWithType.vb: UpdateSynchronizer.New()
+- uid: Cubusky.UpdateSynchronizer.#ctor*
+  name: UpdateSynchronizer
+  href: api/Cubusky.UpdateSynchronizer.html#Cubusky_UpdateSynchronizer__ctor_
+  commentId: Overload:Cubusky.UpdateSynchronizer.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Cubusky.UpdateSynchronizer.UpdateSynchronizer
+  fullName.vb: Cubusky.UpdateSynchronizer.New
+  nameWithType: UpdateSynchronizer.UpdateSynchronizer
+  nameWithType.vb: UpdateSynchronizer.New
+- uid: Cubusky.UpdateSynchronizer.BeginInvoke(System.Delegate,System.Object[])
+  name: BeginInvoke(Delegate, object[])
+  href: api/Cubusky.UpdateSynchronizer.html#Cubusky_UpdateSynchronizer_BeginInvoke_System_Delegate_System_Object___
+  commentId: M:Cubusky.UpdateSynchronizer.BeginInvoke(System.Delegate,System.Object[])
+  name.vb: BeginInvoke(Delegate, Object())
+  fullName: Cubusky.UpdateSynchronizer.BeginInvoke(System.Delegate, object[])
+  fullName.vb: Cubusky.UpdateSynchronizer.BeginInvoke(System.Delegate, Object())
+  nameWithType: UpdateSynchronizer.BeginInvoke(Delegate, object[])
+  nameWithType.vb: UpdateSynchronizer.BeginInvoke(Delegate, Object())
+- uid: Cubusky.UpdateSynchronizer.BeginInvoke*
+  name: BeginInvoke
+  href: api/Cubusky.UpdateSynchronizer.html#Cubusky_UpdateSynchronizer_BeginInvoke_
+  commentId: Overload:Cubusky.UpdateSynchronizer.BeginInvoke
+  isSpec: "True"
+  fullName: Cubusky.UpdateSynchronizer.BeginInvoke
+  nameWithType: UpdateSynchronizer.BeginInvoke
+- uid: Cubusky.UpdateSynchronizer.EndInvoke(System.IAsyncResult)
+  name: EndInvoke(IAsyncResult)
+  href: api/Cubusky.UpdateSynchronizer.html#Cubusky_UpdateSynchronizer_EndInvoke_System_IAsyncResult_
+  commentId: M:Cubusky.UpdateSynchronizer.EndInvoke(System.IAsyncResult)
+  fullName: Cubusky.UpdateSynchronizer.EndInvoke(System.IAsyncResult)
+  nameWithType: UpdateSynchronizer.EndInvoke(IAsyncResult)
+- uid: Cubusky.UpdateSynchronizer.EndInvoke*
+  name: EndInvoke
+  href: api/Cubusky.UpdateSynchronizer.html#Cubusky_UpdateSynchronizer_EndInvoke_
+  commentId: Overload:Cubusky.UpdateSynchronizer.EndInvoke
+  isSpec: "True"
+  fullName: Cubusky.UpdateSynchronizer.EndInvoke
+  nameWithType: UpdateSynchronizer.EndInvoke
+- uid: Cubusky.UpdateSynchronizer.Finalize
+  name: ~UpdateSynchronizer()
+  href: api/Cubusky.UpdateSynchronizer.html#Cubusky_UpdateSynchronizer_Finalize
+  commentId: M:Cubusky.UpdateSynchronizer.Finalize
+  name.vb: ''
+  fullName: Cubusky.UpdateSynchronizer.~UpdateSynchronizer()
+  fullName.vb: ''
+  nameWithType: UpdateSynchronizer.~UpdateSynchronizer()
+  nameWithType.vb: ''
+- uid: Cubusky.UpdateSynchronizer.Finalize*
+  name: ~UpdateSynchronizer
+  href: api/Cubusky.UpdateSynchronizer.html#Cubusky_UpdateSynchronizer_Finalize_
+  commentId: Overload:Cubusky.UpdateSynchronizer.Finalize
+  isSpec: "True"
+  fullName: Cubusky.UpdateSynchronizer.~UpdateSynchronizer
+  nameWithType: UpdateSynchronizer.~UpdateSynchronizer
+- uid: Cubusky.UpdateSynchronizer.Invoke(System.Delegate,System.Object[])
+  name: Invoke(Delegate, object[])
+  href: api/Cubusky.UpdateSynchronizer.html#Cubusky_UpdateSynchronizer_Invoke_System_Delegate_System_Object___
+  commentId: M:Cubusky.UpdateSynchronizer.Invoke(System.Delegate,System.Object[])
+  name.vb: Invoke(Delegate, Object())
+  fullName: Cubusky.UpdateSynchronizer.Invoke(System.Delegate, object[])
+  fullName.vb: Cubusky.UpdateSynchronizer.Invoke(System.Delegate, Object())
+  nameWithType: UpdateSynchronizer.Invoke(Delegate, object[])
+  nameWithType.vb: UpdateSynchronizer.Invoke(Delegate, Object())
+- uid: Cubusky.UpdateSynchronizer.Invoke*
+  name: Invoke
+  href: api/Cubusky.UpdateSynchronizer.html#Cubusky_UpdateSynchronizer_Invoke_
+  commentId: Overload:Cubusky.UpdateSynchronizer.Invoke
+  isSpec: "True"
+  fullName: Cubusky.UpdateSynchronizer.Invoke
+  nameWithType: UpdateSynchronizer.Invoke
+- uid: Cubusky.UpdateSynchronizer.InvokeRequired
+  name: InvokeRequired
+  href: api/Cubusky.UpdateSynchronizer.html#Cubusky_UpdateSynchronizer_InvokeRequired
+  commentId: P:Cubusky.UpdateSynchronizer.InvokeRequired
+  fullName: Cubusky.UpdateSynchronizer.InvokeRequired
+  nameWithType: UpdateSynchronizer.InvokeRequired
+- uid: Cubusky.UpdateSynchronizer.InvokeRequired*
+  name: InvokeRequired
+  href: api/Cubusky.UpdateSynchronizer.html#Cubusky_UpdateSynchronizer_InvokeRequired_
+  commentId: Overload:Cubusky.UpdateSynchronizer.InvokeRequired
+  isSpec: "True"
+  fullName: Cubusky.UpdateSynchronizer.InvokeRequired
+  nameWithType: UpdateSynchronizer.InvokeRequired
+- uid: Cubusky.UpdateSynchronizer.ProcessQueue
+  name: ProcessQueue()
+  href: api/Cubusky.UpdateSynchronizer.html#Cubusky_UpdateSynchronizer_ProcessQueue
+  commentId: M:Cubusky.UpdateSynchronizer.ProcessQueue
+  fullName: Cubusky.UpdateSynchronizer.ProcessQueue()
+  nameWithType: UpdateSynchronizer.ProcessQueue()
+- uid: Cubusky.UpdateSynchronizer.ProcessQueue*
+  name: ProcessQueue
+  href: api/Cubusky.UpdateSynchronizer.html#Cubusky_UpdateSynchronizer_ProcessQueue_
+  commentId: Overload:Cubusky.UpdateSynchronizer.ProcessQueue
+  isSpec: "True"
+  fullName: Cubusky.UpdateSynchronizer.ProcessQueue
+  nameWithType: UpdateSynchronizer.ProcessQueue
+- uid: Cubusky.UpdaterService
+  name: UpdaterService
+  href: api/Cubusky.UpdaterService.html
+  commentId: T:Cubusky.UpdaterService
+  fullName: Cubusky.UpdaterService
+  nameWithType: UpdaterService
+- uid: Cubusky.UpdaterService.onFixedUpdate
+  name: onFixedUpdate
+  href: api/Cubusky.UpdaterService.html#Cubusky_UpdaterService_onFixedUpdate
+  commentId: E:Cubusky.UpdaterService.onFixedUpdate
+  fullName: Cubusky.UpdaterService.onFixedUpdate
+  nameWithType: UpdaterService.onFixedUpdate
+- uid: Cubusky.UpdaterService.onLateUpdate
+  name: onLateUpdate
+  href: api/Cubusky.UpdaterService.html#Cubusky_UpdaterService_onLateUpdate
+  commentId: E:Cubusky.UpdaterService.onLateUpdate
+  fullName: Cubusky.UpdaterService.onLateUpdate
+  nameWithType: UpdaterService.onLateUpdate
+- uid: Cubusky.UpdaterService.onUpdate
+  name: onUpdate
+  href: api/Cubusky.UpdaterService.html#Cubusky_UpdaterService_onUpdate
+  commentId: E:Cubusky.UpdaterService.onUpdate
+  fullName: Cubusky.UpdaterService.onUpdate
+  nameWithType: UpdaterService.onUpdate
+- uid: Cubusky.UriAttribute
+  name: UriAttribute
+  href: api/Cubusky.UriAttribute.html
+  commentId: T:Cubusky.UriAttribute
+  fullName: Cubusky.UriAttribute
+  nameWithType: UriAttribute
+- uid: Cubusky.UriAttribute.#ctor
+  name: UriAttribute()
+  href: api/Cubusky.UriAttribute.html#Cubusky_UriAttribute__ctor
+  commentId: M:Cubusky.UriAttribute.#ctor
+  name.vb: New()
+  fullName: Cubusky.UriAttribute.UriAttribute()
+  fullName.vb: Cubusky.UriAttribute.New()
+  nameWithType: UriAttribute.UriAttribute()
+  nameWithType.vb: UriAttribute.New()
+- uid: Cubusky.UriAttribute.#ctor(System.UriKind)
+  name: UriAttribute(UriKind)
+  href: api/Cubusky.UriAttribute.html#Cubusky_UriAttribute__ctor_System_UriKind_
+  commentId: M:Cubusky.UriAttribute.#ctor(System.UriKind)
+  name.vb: New(UriKind)
+  fullName: Cubusky.UriAttribute.UriAttribute(System.UriKind)
+  fullName.vb: Cubusky.UriAttribute.New(System.UriKind)
+  nameWithType: UriAttribute.UriAttribute(UriKind)
+  nameWithType.vb: UriAttribute.New(UriKind)
+- uid: Cubusky.UriAttribute.#ctor*
+  name: UriAttribute
+  href: api/Cubusky.UriAttribute.html#Cubusky_UriAttribute__ctor_
+  commentId: Overload:Cubusky.UriAttribute.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Cubusky.UriAttribute.UriAttribute
+  fullName.vb: Cubusky.UriAttribute.New
+  nameWithType: UriAttribute.UriAttribute
+  nameWithType.vb: UriAttribute.New
+- uid: Cubusky.UriAttribute.EmptyUri
+  name: EmptyUri
+  href: api/Cubusky.UriAttribute.html#Cubusky_UriAttribute_EmptyUri
+  commentId: F:Cubusky.UriAttribute.EmptyUri
+  fullName: Cubusky.UriAttribute.EmptyUri
+  nameWithType: UriAttribute.EmptyUri
+- uid: Cubusky.UriAttribute.uriKind
+  name: uriKind
+  href: api/Cubusky.UriAttribute.html#Cubusky_UriAttribute_uriKind
+  commentId: F:Cubusky.UriAttribute.uriKind
+  fullName: Cubusky.UriAttribute.uriKind
+  nameWithType: UriAttribute.uriKind
