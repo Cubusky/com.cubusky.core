@@ -98,5 +98,8 @@ namespace Cubusky
         [field: SerializeField] public string extension { get; set; } = "json";
         [field: SerializeField] public string searchPattern { get; set; } = "*.json";
         [field: SerializeField] public SearchOption searchOption { get; set; }
+
+        string IDirectorySaver.path => fullPath;
+        string IDirectoryLoader.path => fullPath;
     }
 }

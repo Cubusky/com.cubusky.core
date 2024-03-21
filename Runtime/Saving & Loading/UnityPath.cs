@@ -10,8 +10,10 @@ namespace Cubusky
         [field: SerializeField] public ApplicationPath applicationPath { get; set; } = ApplicationPath.PersistentDataPath;
 
         public abstract string relativePath { get; set; }
-        public string path => Path.Combine(applicationPath.GetPath(), relativePath);
+        public string fullPath => Path.Combine(applicationPath.GetPath(), relativePath);
 
-        public static implicit operator string(UnityPath unityPath) => unityPath.path;
+        public static implicit operator string(UnityPath unityPath) => unityPath.fullPath;
+
+        public override string ToString() => fullPath;
     }
 }
