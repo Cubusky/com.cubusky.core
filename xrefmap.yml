@@ -1590,6 +1590,19 @@ references:
   commentId: T:Cubusky.UnityPath
   fullName: Cubusky.UnityPath
   nameWithType: UnityPath
+- uid: Cubusky.UnityPath.ToString
+  name: ToString()
+  href: api/Cubusky.UnityPath.html#Cubusky_UnityPath_ToString
+  commentId: M:Cubusky.UnityPath.ToString
+  fullName: Cubusky.UnityPath.ToString()
+  nameWithType: UnityPath.ToString()
+- uid: Cubusky.UnityPath.ToString*
+  name: ToString
+  href: api/Cubusky.UnityPath.html#Cubusky_UnityPath_ToString_
+  commentId: Overload:Cubusky.UnityPath.ToString
+  isSpec: "True"
+  fullName: Cubusky.UnityPath.ToString
+  nameWithType: UnityPath.ToString
 - uid: Cubusky.UnityPath.applicationPath
   name: applicationPath
   href: api/Cubusky.UnityPath.html#Cubusky_UnityPath_applicationPath
@@ -1603,6 +1616,19 @@ references:
   isSpec: "True"
   fullName: Cubusky.UnityPath.applicationPath
   nameWithType: UnityPath.applicationPath
+- uid: Cubusky.UnityPath.fullPath
+  name: fullPath
+  href: api/Cubusky.UnityPath.html#Cubusky_UnityPath_fullPath
+  commentId: P:Cubusky.UnityPath.fullPath
+  fullName: Cubusky.UnityPath.fullPath
+  nameWithType: UnityPath.fullPath
+- uid: Cubusky.UnityPath.fullPath*
+  name: fullPath
+  href: api/Cubusky.UnityPath.html#Cubusky_UnityPath_fullPath_
+  commentId: Overload:Cubusky.UnityPath.fullPath
+  isSpec: "True"
+  fullName: Cubusky.UnityPath.fullPath
+  nameWithType: UnityPath.fullPath
 - uid: Cubusky.UnityPath.op_Implicit(Cubusky.UnityPath)~System.String
   name: implicit operator string(UnityPath)
   href: api/Cubusky.UnityPath.html#Cubusky_UnityPath_op_Implicit_Cubusky_UnityPath__System_String
@@ -1622,19 +1648,6 @@ references:
   fullName.vb: Cubusky.UnityPath.CType
   nameWithType: UnityPath.implicit operator
   nameWithType.vb: UnityPath.CType
-- uid: Cubusky.UnityPath.path
-  name: path
-  href: api/Cubusky.UnityPath.html#Cubusky_UnityPath_path
-  commentId: P:Cubusky.UnityPath.path
-  fullName: Cubusky.UnityPath.path
-  nameWithType: UnityPath.path
-- uid: Cubusky.UnityPath.path*
-  name: path
-  href: api/Cubusky.UnityPath.html#Cubusky_UnityPath_path_
-  commentId: Overload:Cubusky.UnityPath.path
-  isSpec: "True"
-  fullName: Cubusky.UnityPath.path
-  nameWithType: UnityPath.path
 - uid: Cubusky.UnityPath.relativePath
   name: relativePath
   href: api/Cubusky.UnityPath.html#Cubusky_UnityPath_relativePath
