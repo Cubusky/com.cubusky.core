@@ -4,6 +4,11 @@ All notable changes to this package will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com)
 and this project adheres to [Semantic Versioning](http://semver.org).
 
+## [1.2.1] - 2024-03-21
+### Added
+- Add `PasswordAttribute` to mask a string field in the inspector for screen share. Note that it doesn't actually encrypt or otherwise protect your string.
+- Add `HelpBoxAttribute` to decorate your property with a useful help box.
+
 ## [1.2.0] - 2024-02-23
 ### Added
 - Add `ISaver` to allow saving data to a single location.
