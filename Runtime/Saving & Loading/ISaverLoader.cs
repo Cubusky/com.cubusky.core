@@ -32,7 +32,7 @@ namespace Cubusky
     /// <summary>Loads a <see cref="IEnumerable{TOutput}">IEnumerable</see>&lt;<typeparamref name="TOutput"/>&gt; from multiple locations.</summary>
     public interface IEnumerableLoader<TOutput> : ILoader<IEnumerable<TOutput>>
     {
-        async IAsyncEnumerable<TOutput> LoadAsyncEnumerable<TData>([EnumeratorCancellation] CancellationToken cancellationToken = default) where TData : IEnumerable<TOutput>
+        async IAsyncEnumerable<TOutput> LoadAsyncEnumerable<TData>([EnumeratorCancellation] CancellationToken cancellationToken = default) where TData : TOutput
         {
             using var enumerator = Load<IEnumerable<TOutput>>().GetEnumerator();
             while (await Task.Run(enumerator.MoveNext, cancellationToken).ConfigureAwait(false))
