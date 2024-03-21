@@ -335,6 +335,25 @@ references:
   isSpec: "True"
   fullName: Cubusky.Editor.GuidDrawer.CreatePropertyGUI
   nameWithType: GuidDrawer.CreatePropertyGUI
+- uid: Cubusky.Editor.HelpBoxDrawer
+  name: HelpBoxDrawer
+  href: api/Cubusky.Editor.HelpBoxDrawer.html
+  commentId: T:Cubusky.Editor.HelpBoxDrawer
+  fullName: Cubusky.Editor.HelpBoxDrawer
+  nameWithType: HelpBoxDrawer
+- uid: Cubusky.Editor.HelpBoxDrawer.CreatePropertyGUI
+  name: CreatePropertyGUI()
+  href: api/Cubusky.Editor.HelpBoxDrawer.html#Cubusky_Editor_HelpBoxDrawer_CreatePropertyGUI
+  commentId: M:Cubusky.Editor.HelpBoxDrawer.CreatePropertyGUI
+  fullName: Cubusky.Editor.HelpBoxDrawer.CreatePropertyGUI()
+  nameWithType: HelpBoxDrawer.CreatePropertyGUI()
+- uid: Cubusky.Editor.HelpBoxDrawer.CreatePropertyGUI*
+  name: CreatePropertyGUI
+  href: api/Cubusky.Editor.HelpBoxDrawer.html#Cubusky_Editor_HelpBoxDrawer_CreatePropertyGUI_
+  commentId: Overload:Cubusky.Editor.HelpBoxDrawer.CreatePropertyGUI
+  isSpec: "True"
+  fullName: Cubusky.Editor.HelpBoxDrawer.CreatePropertyGUI
+  nameWithType: HelpBoxDrawer.CreatePropertyGUI
 - uid: Cubusky.Editor.OfTypeDrawer
   name: OfTypeDrawer
   href: api/Cubusky.Editor.OfTypeDrawer.html
@@ -354,6 +373,25 @@ references:
   isSpec: "True"
   fullName: Cubusky.Editor.OfTypeDrawer.CreatePropertyGUI
   nameWithType: OfTypeDrawer.CreatePropertyGUI
+- uid: Cubusky.Editor.PasswordDrawer
+  name: PasswordDrawer
+  href: api/Cubusky.Editor.PasswordDrawer.html
+  commentId: T:Cubusky.Editor.PasswordDrawer
+  fullName: Cubusky.Editor.PasswordDrawer
+  nameWithType: PasswordDrawer
+- uid: Cubusky.Editor.PasswordDrawer.CreatePropertyGUI(SerializedProperty)
+  name: CreatePropertyGUI(SerializedProperty)
+  href: api/Cubusky.Editor.PasswordDrawer.html#Cubusky_Editor_PasswordDrawer_CreatePropertyGUI_SerializedProperty_
+  commentId: M:Cubusky.Editor.PasswordDrawer.CreatePropertyGUI(SerializedProperty)
+  fullName: Cubusky.Editor.PasswordDrawer.CreatePropertyGUI(SerializedProperty)
+  nameWithType: PasswordDrawer.CreatePropertyGUI(SerializedProperty)
+- uid: Cubusky.Editor.PasswordDrawer.CreatePropertyGUI*
+  name: CreatePropertyGUI
+  href: api/Cubusky.Editor.PasswordDrawer.html#Cubusky_Editor_PasswordDrawer_CreatePropertyGUI_
+  commentId: Overload:Cubusky.Editor.PasswordDrawer.CreatePropertyGUI
+  isSpec: "True"
+  fullName: Cubusky.Editor.PasswordDrawer.CreatePropertyGUI
+  nameWithType: PasswordDrawer.CreatePropertyGUI
 - uid: Cubusky.Editor.PathDrawer
   name: PathDrawer
   href: api/Cubusky.Editor.PathDrawer.html
@@ -544,6 +582,52 @@ references:
   commentId: T:Cubusky.GuidAttribute
   fullName: Cubusky.GuidAttribute
   nameWithType: GuidAttribute
+- uid: Cubusky.HelpBoxAttribute
+  name: HelpBoxAttribute
+  href: api/Cubusky.HelpBoxAttribute.html
+  commentId: T:Cubusky.HelpBoxAttribute
+  fullName: Cubusky.HelpBoxAttribute
+  nameWithType: HelpBoxAttribute
+- uid: Cubusky.HelpBoxAttribute.#ctor(System.String)
+  name: HelpBoxAttribute(string)
+  href: api/Cubusky.HelpBoxAttribute.html#Cubusky_HelpBoxAttribute__ctor_System_String_
+  commentId: M:Cubusky.HelpBoxAttribute.#ctor(System.String)
+  name.vb: New(String)
+  fullName: Cubusky.HelpBoxAttribute.HelpBoxAttribute(string)
+  fullName.vb: Cubusky.HelpBoxAttribute.New(String)
+  nameWithType: HelpBoxAttribute.HelpBoxAttribute(string)
+  nameWithType.vb: HelpBoxAttribute.New(String)
+- uid: Cubusky.HelpBoxAttribute.#ctor(System.String,HelpBoxMessageType)
+  name: HelpBoxAttribute(string, HelpBoxMessageType)
+  href: api/Cubusky.HelpBoxAttribute.html#Cubusky_HelpBoxAttribute__ctor_System_String_HelpBoxMessageType_
+  commentId: M:Cubusky.HelpBoxAttribute.#ctor(System.String,HelpBoxMessageType)
+  name.vb: New(String, HelpBoxMessageType)
+  fullName: Cubusky.HelpBoxAttribute.HelpBoxAttribute(string, HelpBoxMessageType)
+  fullName.vb: Cubusky.HelpBoxAttribute.New(String, HelpBoxMessageType)
+  nameWithType: HelpBoxAttribute.HelpBoxAttribute(string, HelpBoxMessageType)
+  nameWithType.vb: HelpBoxAttribute.New(String, HelpBoxMessageType)
+- uid: Cubusky.HelpBoxAttribute.#ctor*
+  name: HelpBoxAttribute
+  href: api/Cubusky.HelpBoxAttribute.html#Cubusky_HelpBoxAttribute__ctor_
+  commentId: Overload:Cubusky.HelpBoxAttribute.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Cubusky.HelpBoxAttribute.HelpBoxAttribute
+  fullName.vb: Cubusky.HelpBoxAttribute.New
+  nameWithType: HelpBoxAttribute.HelpBoxAttribute
+  nameWithType.vb: HelpBoxAttribute.New
+- uid: Cubusky.HelpBoxAttribute.messageType
+  name: messageType
+  href: api/Cubusky.HelpBoxAttribute.html#Cubusky_HelpBoxAttribute_messageType
+  commentId: F:Cubusky.HelpBoxAttribute.messageType
+  fullName: Cubusky.HelpBoxAttribute.messageType
+  nameWithType: HelpBoxAttribute.messageType
+- uid: Cubusky.HelpBoxAttribute.text
+  name: text
+  href: api/Cubusky.HelpBoxAttribute.html#Cubusky_HelpBoxAttribute_text
+  commentId: F:Cubusky.HelpBoxAttribute.text
+  fullName: Cubusky.HelpBoxAttribute.text
+  nameWithType: HelpBoxAttribute.text
 - uid: Cubusky.IDirectoryLoader
   name: IDirectoryLoader
   href: api/Cubusky.IDirectoryLoader.html
@@ -1016,6 +1100,12 @@ references:
   commentId: F:Cubusky.OfTypeAttribute.types
   fullName: Cubusky.OfTypeAttribute.types
   nameWithType: OfTypeAttribute.types
+- uid: Cubusky.PasswordAttribute
+  name: PasswordAttribute
+  href: api/Cubusky.PasswordAttribute.html
+  commentId: T:Cubusky.PasswordAttribute
+  fullName: Cubusky.PasswordAttribute
+  nameWithType: PasswordAttribute
 - uid: Cubusky.PathAttribute
   name: PathAttribute
   href: api/Cubusky.PathAttribute.html

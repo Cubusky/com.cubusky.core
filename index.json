@@ -1,382 +1,402 @@
 {
   "api/Cubusky.AnimatorHash.html": {
     "href": "api/Cubusky.AnimatorHash.html",
-    "title": "Struct AnimatorHash | Cubusky Core | 1.2.0",
+    "title": "Struct AnimatorHash | Cubusky Core | 1.2.1",
     "keywords": "Struct AnimatorHash Namespace Cubusky A generated parameter id from a string. [Serializable] public struct AnimatorHash : ISerializationCallbackReceiver, IEquatable<AnimatorHash> Implements ISerializationCallbackReceiver IEquatable<AnimatorHash> Inherited Members object.Equals(object, object) object.GetType() object.ReferenceEquals(object, object) Constructors AnimatorHash(string) public AnimatorHash(string name) Parameters name string Properties id public readonly int id { get; } Property Value int name public string? name { get; set; } Property Value string Methods Equals(AnimatorHash) Indicates whether the current object is equal to another object of the same type. public bool Equals(AnimatorHash other) Parameters other AnimatorHash An object to compare with this object. Returns bool true if the current object is equal to the other parameter; otherwise, false. Equals(object?) Indicates whether this instance and a specified object are equal. public override bool Equals(object? obj) Parameters obj object The object to compare with the current instance. Returns bool true if obj and this instance are the same type and represent the same value; otherwise, false. GetHashCode() Returns the hash code for this instance. public override int GetHashCode() Returns int A 32-bit signed integer that is the hash code for this instance. ToString() Returns the fully qualified type name of this instance. public override string ToString() Returns string The fully qualified type name. Operators operator ==(AnimatorHash, AnimatorHash) public static bool operator ==(AnimatorHash left, AnimatorHash right) Parameters left AnimatorHash right AnimatorHash Returns bool implicit operator int(AnimatorHash) public static implicit operator int(AnimatorHash animatorHash) Parameters animatorHash AnimatorHash Returns int implicit operator AnimatorHash(string) public static implicit operator AnimatorHash(string name) Parameters name string Returns AnimatorHash operator !=(AnimatorHash, AnimatorHash) public static bool operator !=(AnimatorHash left, AnimatorHash right) Parameters left AnimatorHash right AnimatorHash Returns bool"
   },
   "api/Cubusky.ApplicationPath.html": {
     "href": "api/Cubusky.ApplicationPath.html",
-    "title": "Enum ApplicationPath | Cubusky Core | 1.2.0",
+    "title": "Enum ApplicationPath | Cubusky Core | 1.2.1",
     "keywords": "Enum ApplicationPath Namespace Cubusky public enum ApplicationPath Extension Methods ApplicationPathExtensions.GetPath(ApplicationPath) Fields ConsoleLogPath = 5 DataPath = 1 None = 0 PersistentDataPath = 2 StreamingAssetsPath = 3 TemporaryCachePath = 4"
   },
   "api/Cubusky.ApplicationPathExtensions.html": {
     "href": "api/Cubusky.ApplicationPathExtensions.html",
-    "title": "Class ApplicationPathExtensions | Cubusky Core | 1.2.0",
+    "title": "Class ApplicationPathExtensions | Cubusky Core | 1.2.1",
     "keywords": "Class ApplicationPathExtensions Namespace Cubusky public static class ApplicationPathExtensions Inheritance object ApplicationPathExtensions Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods GetPath(ApplicationPath) public static string GetPath(this ApplicationPath applicationPath) Parameters applicationPath ApplicationPath Returns string"
   },
   "api/Cubusky.DirectorySaverLoader.html": {
     "href": "api/Cubusky.DirectorySaverLoader.html",
-    "title": "Class DirectorySaverLoader | Cubusky Core | 1.2.0",
+    "title": "Class DirectorySaverLoader | Cubusky Core | 1.2.1",
     "keywords": "Class DirectorySaverLoader Namespace Cubusky [Serializable] public class DirectorySaverLoader : UnityPath, IDirectorySaver, IFileSaver, ISaver, ISaver<string>, ISaver<byte[]>, ISaver<string[]>, IEnumerableSaver<IEnumerable<string>>, ISaver<IEnumerable<IEnumerable<string>>>, IDirectoryLoader, IEnumerableSaverLoader, IEnumerableSaverLoader<string>, IEnumerableSaverLoader<byte[]>, IEnumerableSaver, IEnumerableSaver<string>, ISaver<IEnumerable<string>>, IEnumerableSaver<byte[]>, ISaver<IEnumerable<byte[]>>, IEnumerableLoader, IEnumerableLoader<string>, ILoader<IEnumerable<string>>, IEnumerableLoader<byte[]>, ILoader<IEnumerable<byte[]>>, IEnumerableSaverLoader<string[]>, IEnumerableSaver<string[]>, ISaver<IEnumerable<string[]>>, IEnumerableLoader<string[]>, ILoader<IEnumerable<string[]>> Inheritance object UnityPath DirectorySaverLoader Implements IDirectorySaver IFileSaver ISaver ISaver<string> ISaver<byte[]> ISaver<string[]> IEnumerableSaver<IEnumerable<string>> ISaver<IEnumerable<IEnumerable<string>>> IDirectoryLoader IEnumerableSaverLoader IEnumerableSaverLoader<string> IEnumerableSaverLoader<byte[]> IEnumerableSaver IEnumerableSaver<string> ISaver<IEnumerable<string>> IEnumerableSaver<byte[]> ISaver<IEnumerable<byte[]>> IEnumerableLoader IEnumerableLoader<string> ILoader<IEnumerable<string>> IEnumerableLoader<byte[]> ILoader<IEnumerable<byte[]>> IEnumerableSaverLoader<string[]> IEnumerableSaver<string[]> ISaver<IEnumerable<string[]>> IEnumerableLoader<string[]> ILoader<IEnumerable<string[]>> Inherited Members UnityPath.applicationPath UnityPath.fullPath UnityPath.ToString() object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) Properties extension public string extension { get; set; } Property Value string relativePath public override string relativePath { get; set; } Property Value string searchOption public SearchOption searchOption { get; set; } Property Value SearchOption searchPattern public string searchPattern { get; set; } Property Value string"
   },
   "api/Cubusky.Editor.AnimatorHashDrawer.html": {
     "href": "api/Cubusky.Editor.AnimatorHashDrawer.html",
-    "title": "Class AnimatorHashDrawer | Cubusky Core | 1.2.0",
+    "title": "Class AnimatorHashDrawer | Cubusky Core | 1.2.1",
     "keywords": "Class AnimatorHashDrawer Namespace Cubusky.Editor public class AnimatorHashDrawer : PropertyDrawer Inheritance object AnimatorHashDrawer Methods CreatePropertyGUI(SerializedProperty) public override VisualElement CreatePropertyGUI(SerializedProperty property) Parameters property SerializedProperty Returns VisualElement"
   },
   "api/Cubusky.Editor.GuidDrawer.html": {
     "href": "api/Cubusky.Editor.GuidDrawer.html",
-    "title": "Class GuidDrawer | Cubusky Core | 1.2.0",
+    "title": "Class GuidDrawer | Cubusky Core | 1.2.1",
     "keywords": "Class GuidDrawer Namespace Cubusky.Editor public class GuidDrawer : PropertyDrawer Inheritance object GuidDrawer Methods CreatePropertyGUI(SerializedProperty) public override VisualElement CreatePropertyGUI(SerializedProperty property) Parameters property SerializedProperty Returns VisualElement"
+  },
+  "api/Cubusky.Editor.HelpBoxDrawer.html": {
+    "href": "api/Cubusky.Editor.HelpBoxDrawer.html",
+    "title": "Class HelpBoxDrawer | Cubusky Core | 1.2.1",
+    "keywords": "Class HelpBoxDrawer Namespace Cubusky.Editor public class HelpBoxDrawer : DecoratorDrawer Inheritance object HelpBoxDrawer Methods CreatePropertyGUI() public override VisualElement CreatePropertyGUI() Returns VisualElement"
   },
   "api/Cubusky.Editor.OfTypeDrawer.html": {
     "href": "api/Cubusky.Editor.OfTypeDrawer.html",
-    "title": "Class OfTypeDrawer | Cubusky Core | 1.2.0",
+    "title": "Class OfTypeDrawer | Cubusky Core | 1.2.1",
     "keywords": "Class OfTypeDrawer Namespace Cubusky.Editor public class OfTypeDrawer : PropertyDrawer Inheritance object OfTypeDrawer Methods CreatePropertyGUI(SerializedProperty) public override VisualElement CreatePropertyGUI(SerializedProperty property) Parameters property SerializedProperty Returns VisualElement"
+  },
+  "api/Cubusky.Editor.PasswordDrawer.html": {
+    "href": "api/Cubusky.Editor.PasswordDrawer.html",
+    "title": "Class PasswordDrawer | Cubusky Core | 1.2.1",
+    "keywords": "Class PasswordDrawer Namespace Cubusky.Editor public class PasswordDrawer : PropertyDrawer Inheritance object PasswordDrawer Methods CreatePropertyGUI(SerializedProperty) public override VisualElement CreatePropertyGUI(SerializedProperty property) Parameters property SerializedProperty Returns VisualElement"
   },
   "api/Cubusky.Editor.PathDrawer.html": {
     "href": "api/Cubusky.Editor.PathDrawer.html",
-    "title": "Class PathDrawer | Cubusky Core | 1.2.0",
+    "title": "Class PathDrawer | Cubusky Core | 1.2.1",
     "keywords": "Class PathDrawer Namespace Cubusky.Editor public class PathDrawer : PropertyDrawer Inheritance object PathDrawer Methods CreatePropertyGUI(SerializedProperty) public override VisualElement CreatePropertyGUI(SerializedProperty property) Parameters property SerializedProperty Returns VisualElement"
   },
   "api/Cubusky.Editor.ReferenceDropdownDrawer.html": {
     "href": "api/Cubusky.Editor.ReferenceDropdownDrawer.html",
-    "title": "Class ReferenceDropdownDrawer | Cubusky Core | 1.2.0",
+    "title": "Class ReferenceDropdownDrawer | Cubusky Core | 1.2.1",
     "keywords": "Class ReferenceDropdownDrawer Namespace Cubusky.Editor public class ReferenceDropdownDrawer : PropertyDrawer Inheritance object ReferenceDropdownDrawer Methods CreatePropertyGUI(SerializedProperty) public override VisualElement CreatePropertyGUI(SerializedProperty property) Parameters property SerializedProperty Returns VisualElement"
   },
   "api/Cubusky.Editor.SerializedPropertyExtensions.html": {
     "href": "api/Cubusky.Editor.SerializedPropertyExtensions.html",
-    "title": "Class SerializedPropertyExtensions | Cubusky Core | 1.2.0",
+    "title": "Class SerializedPropertyExtensions | Cubusky Core | 1.2.1",
     "keywords": "Class SerializedPropertyExtensions Namespace Cubusky.Editor public static class SerializedPropertyExtensions Inheritance object SerializedPropertyExtensions Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods ThrowIfNotNumericType(SerializedProperty, params SerializedPropertyNumericType[]) public static void ThrowIfNotNumericType(this SerializedProperty property, params SerializedPropertyNumericType[] validNumericTypes) Parameters property SerializedProperty validNumericTypes SerializedPropertyNumericType[] ThrowIfNotPropertyType(SerializedProperty, params SerializedPropertyType[]) public static void ThrowIfNotPropertyType(this SerializedProperty property, params SerializedPropertyType[] validPropertyTypes) Parameters property SerializedProperty validPropertyTypes SerializedPropertyType[] ThrowIfNumericType(SerializedProperty, params SerializedPropertyNumericType[]) public static void ThrowIfNumericType(this SerializedProperty property, params SerializedPropertyNumericType[] invalidNumericTypes) Parameters property SerializedProperty invalidNumericTypes SerializedPropertyNumericType[] ThrowIfPropertyType(SerializedProperty, params SerializedPropertyType[]) public static void ThrowIfPropertyType(this SerializedProperty property, params SerializedPropertyType[] invalidPropertyTypes) Parameters property SerializedProperty invalidPropertyTypes SerializedPropertyType[]"
   },
   "api/Cubusky.Editor.ShaderIdDrawer.html": {
     "href": "api/Cubusky.Editor.ShaderIdDrawer.html",
-    "title": "Class ShaderIdDrawer | Cubusky Core | 1.2.0",
+    "title": "Class ShaderIdDrawer | Cubusky Core | 1.2.1",
     "keywords": "Class ShaderIdDrawer Namespace Cubusky.Editor public class ShaderIdDrawer : PropertyDrawer Inheritance object ShaderIdDrawer Methods CreatePropertyGUI(SerializedProperty) public override VisualElement CreatePropertyGUI(SerializedProperty property) Parameters property SerializedProperty Returns VisualElement"
   },
   "api/Cubusky.Editor.TimeSpanDrawer.html": {
     "href": "api/Cubusky.Editor.TimeSpanDrawer.html",
-    "title": "Class TimeSpanDrawer | Cubusky Core | 1.2.0",
+    "title": "Class TimeSpanDrawer | Cubusky Core | 1.2.1",
     "keywords": "Class TimeSpanDrawer Namespace Cubusky.Editor public class TimeSpanDrawer : PropertyDrawer Inheritance object TimeSpanDrawer Methods CreatePropertyGUI(SerializedProperty) public override VisualElement CreatePropertyGUI(SerializedProperty property) Parameters property SerializedProperty Returns VisualElement"
   },
   "api/Cubusky.Editor.UriDrawer.html": {
     "href": "api/Cubusky.Editor.UriDrawer.html",
-    "title": "Class UriDrawer | Cubusky Core | 1.2.0",
+    "title": "Class UriDrawer | Cubusky Core | 1.2.1",
     "keywords": "Class UriDrawer Namespace Cubusky.Editor public class UriDrawer : PropertyDrawer Inheritance object UriDrawer Methods CreatePropertyGUI(SerializedProperty) public override VisualElement CreatePropertyGUI(SerializedProperty property) Parameters property SerializedProperty Returns VisualElement"
   },
   "api/Cubusky.Editor.html": {
     "href": "api/Cubusky.Editor.html",
-    "title": "Namespace Cubusky.Editor | Cubusky Core | 1.2.0",
-    "keywords": "Namespace Cubusky.Editor Classes AnimatorHashDrawer GuidDrawer OfTypeDrawer PathDrawer ReferenceDropdownDrawer SerializedPropertyExtensions ShaderIdDrawer TimeSpanDrawer UriDrawer"
+    "title": "Namespace Cubusky.Editor | Cubusky Core | 1.2.1",
+    "keywords": "Namespace Cubusky.Editor Classes AnimatorHashDrawer GuidDrawer HelpBoxDrawer OfTypeDrawer PasswordDrawer PathDrawer ReferenceDropdownDrawer SerializedPropertyExtensions ShaderIdDrawer TimeSpanDrawer UriDrawer"
   },
   "api/Cubusky.FileSaverLoader.html": {
     "href": "api/Cubusky.FileSaverLoader.html",
-    "title": "Class FileSaverLoader | Cubusky Core | 1.2.0",
+    "title": "Class FileSaverLoader | Cubusky Core | 1.2.1",
     "keywords": "Class FileSaverLoader Namespace Cubusky [Serializable] public class FileSaverLoader : UnityPath, IFileSaver, ISaver<IEnumerable<string>>, IFileLoader, ISaverLoader, ISaverLoader<string>, ISaverLoader<byte[]>, ISaver, ISaver<string>, ISaver<byte[]>, ILoader, ILoader<string>, ILoader<byte[]>, ISaverLoader<string[]>, ISaver<string[]>, ILoader<string[]> Inheritance object UnityPath FileSaverLoader Implements IFileSaver ISaver<IEnumerable<string>> IFileLoader ISaverLoader ISaverLoader<string> ISaverLoader<byte[]> ISaver ISaver<string> ISaver<byte[]> ILoader ILoader<string> ILoader<byte[]> ISaverLoader<string[]> ISaver<string[]> ILoader<string[]> Inherited Members UnityPath.applicationPath UnityPath.fullPath UnityPath.ToString() object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) Properties relativePath public override string relativePath { get; set; } Property Value string"
   },
   "api/Cubusky.GuidAttribute.html": {
     "href": "api/Cubusky.GuidAttribute.html",
-    "title": "Class GuidAttribute | Cubusky Core | 1.2.0",
+    "title": "Class GuidAttribute | Cubusky Core | 1.2.1",
     "keywords": "Class GuidAttribute Namespace Cubusky Serializes a string as a valid Guid. public class GuidAttribute : PropertyAttribute Inheritance object GuidAttribute"
+  },
+  "api/Cubusky.HelpBoxAttribute.html": {
+    "href": "api/Cubusky.HelpBoxAttribute.html",
+    "title": "Class HelpBoxAttribute | Cubusky Core | 1.2.1",
+    "keywords": "Class HelpBoxAttribute Namespace Cubusky public class HelpBoxAttribute : PropertyAttribute Inheritance object HelpBoxAttribute Constructors HelpBoxAttribute(string) public HelpBoxAttribute(string text) Parameters text string HelpBoxAttribute(string, HelpBoxMessageType) public HelpBoxAttribute(string text, HelpBoxMessageType messageType) Parameters text string messageType HelpBoxMessageType Fields messageType public HelpBoxMessageType messageType Field Value HelpBoxMessageType text public string text Field Value string"
   },
   "api/Cubusky.IDirectoryLoader.html": {
     "href": "api/Cubusky.IDirectoryLoader.html",
-    "title": "Interface IDirectoryLoader | Cubusky Core | 1.2.0",
+    "title": "Interface IDirectoryLoader | Cubusky Core | 1.2.1",
     "keywords": "Interface IDirectoryLoader Namespace Cubusky Loads data from a directory. public interface IDirectoryLoader : IEnumerableLoader, IEnumerableLoader<string>, ILoader<IEnumerable<string>>, IEnumerableLoader<byte[]>, ILoader<IEnumerable<byte[]>>, IEnumerableLoader<string[]>, ILoader<IEnumerable<string[]>> Inherited Members IEnumerableLoader<string>.LoadAsyncEnumerable<TData>(CancellationToken) ILoader<IEnumerable<string>>.Load<TData>() ILoader<IEnumerable<string>>.LoadAsync<TData>(CancellationToken) IEnumerableLoader<byte[]>.LoadAsyncEnumerable<TData>(CancellationToken) ILoader<IEnumerable<byte[]>>.Load<TData>() ILoader<IEnumerable<byte[]>>.LoadAsync<TData>(CancellationToken) IEnumerableLoader<string[]>.LoadAsyncEnumerable<TData>(CancellationToken) ILoader<IEnumerable<string[]>>.Load<TData>() ILoader<IEnumerable<string[]>>.LoadAsync<TData>(CancellationToken) Properties path string path { get; } Property Value string searchOption SearchOption searchOption { get; } Property Value SearchOption searchPattern string searchPattern { get; } Property Value string"
   },
   "api/Cubusky.IDirectorySaver.html": {
     "href": "api/Cubusky.IDirectorySaver.html",
-    "title": "Interface IDirectorySaver | Cubusky Core | 1.2.0",
+    "title": "Interface IDirectorySaver | Cubusky Core | 1.2.1",
     "keywords": "Interface IDirectorySaver Namespace Cubusky Saves data to a directory. public interface IDirectorySaver : IFileSaver, ISaver, ISaver<string>, ISaver<byte[]>, ISaver<string[]>, IEnumerableSaver, IEnumerableSaver<string>, ISaver<IEnumerable<string>>, IEnumerableSaver<byte[]>, ISaver<IEnumerable<byte[]>>, IEnumerableSaver<string[]>, ISaver<IEnumerable<string[]>>, IEnumerableSaver<IEnumerable<string>>, ISaver<IEnumerable<IEnumerable<string>>> Inherited Members ISaver<string>.Save(string) ISaver<string>.SaveAsync(string, CancellationToken) ISaver<byte[]>.Save(byte[]) ISaver<byte[]>.SaveAsync(byte[], CancellationToken) ISaver<string[]>.Save(string[]) ISaver<string[]>.SaveAsync(string[], CancellationToken) IEnumerableSaver<string>.SaveAsyncEnumrable(IEnumerable<string>, CancellationToken) ISaver<IEnumerable<string>>.Save(IEnumerable<string>) ISaver<IEnumerable<string>>.SaveAsync(IEnumerable<string>, CancellationToken) IEnumerableSaver<byte[]>.SaveAsyncEnumrable(IEnumerable<byte[]>, CancellationToken) ISaver<IEnumerable<byte[]>>.Save(IEnumerable<byte[]>) ISaver<IEnumerable<byte[]>>.SaveAsync(IEnumerable<byte[]>, CancellationToken) IEnumerableSaver<string[]>.SaveAsyncEnumrable(IEnumerable<string[]>, CancellationToken) ISaver<IEnumerable<string[]>>.Save(IEnumerable<string[]>) ISaver<IEnumerable<string[]>>.SaveAsync(IEnumerable<string[]>, CancellationToken) IEnumerableSaver<IEnumerable<string>>.SaveAsyncEnumrable(IEnumerable<IEnumerable<string>>, CancellationToken) ISaver<IEnumerable<IEnumerable<string>>>.Save(IEnumerable<IEnumerable<string>>) ISaver<IEnumerable<IEnumerable<string>>>.SaveAsync(IEnumerable<IEnumerable<string>>, CancellationToken) Properties extension string extension { get; } Property Value string path string path { get; } Property Value string"
   },
   "api/Cubusky.IEnumerableLoader-1.html": {
     "href": "api/Cubusky.IEnumerableLoader-1.html",
-    "title": "Interface IEnumerableLoader<TOutput> | Cubusky Core | 1.2.0",
+    "title": "Interface IEnumerableLoader<TOutput> | Cubusky Core | 1.2.1",
     "keywords": "Interface IEnumerableLoader<TOutput> Namespace Cubusky Loads a IEnumerable<TOutput> from multiple locations. public interface IEnumerableLoader<TOutput> : ILoader<IEnumerable<TOutput>> Type Parameters TOutput Loads a <TOutput> from multiple locations. Inherited Members ILoader<IEnumerable<TOutput>>.Load<TData>() ILoader<IEnumerable<TOutput>>.LoadAsync<TData>(CancellationToken) Methods LoadAsyncEnumerable<TData>(CancellationToken) IAsyncEnumerable<TOutput> LoadAsyncEnumerable<TData>(CancellationToken cancellationToken = default) where TData : TOutput Parameters cancellationToken CancellationToken Returns IAsyncEnumerable<TOutput> Type Parameters TData"
   },
   "api/Cubusky.IEnumerableLoader.html": {
     "href": "api/Cubusky.IEnumerableLoader.html",
-    "title": "Interface IEnumerableLoader | Cubusky Core | 1.2.0",
+    "title": "Interface IEnumerableLoader | Cubusky Core | 1.2.1",
     "keywords": "Interface IEnumerableLoader Namespace Cubusky Loads a IEnumerable<string> from multiple locations. public interface IEnumerableLoader : IEnumerableLoader<string>, ILoader<IEnumerable<string>>, IEnumerableLoader<byte[]>, ILoader<IEnumerable<byte[]>> Inherited Members IEnumerableLoader<string>.LoadAsyncEnumerable<TData>(CancellationToken) ILoader<IEnumerable<string>>.Load<TData>() ILoader<IEnumerable<string>>.LoadAsync<TData>(CancellationToken) IEnumerableLoader<byte[]>.LoadAsyncEnumerable<TData>(CancellationToken) ILoader<IEnumerable<byte[]>>.Load<TData>() ILoader<IEnumerable<byte[]>>.LoadAsync<TData>(CancellationToken)"
   },
   "api/Cubusky.IEnumerableSaver-1.html": {
     "href": "api/Cubusky.IEnumerableSaver-1.html",
-    "title": "Interface IEnumerableSaver<TInput> | Cubusky Core | 1.2.0",
+    "title": "Interface IEnumerableSaver<TInput> | Cubusky Core | 1.2.1",
     "keywords": "Interface IEnumerableSaver<TInput> Namespace Cubusky Saves a IEnumerable<TInput> to multiple locations. public interface IEnumerableSaver<in TInput> : ISaver<IEnumerable<TInput>> Type Parameters TInput Saves a <TInput> to multiple locations. Inherited Members ISaver<IEnumerable<TInput>>.Save(IEnumerable<TInput>) ISaver<IEnumerable<TInput>>.SaveAsync(IEnumerable<TInput>, CancellationToken) Methods SaveAsyncEnumrable(IEnumerable<TInput>, CancellationToken) IEnumerable<Task> SaveAsyncEnumrable(IEnumerable<in TInput> data, CancellationToken cancellationToken = default) Parameters data IEnumerable<TInput> cancellationToken CancellationToken Returns IEnumerable<Task>"
   },
   "api/Cubusky.IEnumerableSaver.html": {
     "href": "api/Cubusky.IEnumerableSaver.html",
-    "title": "Interface IEnumerableSaver | Cubusky Core | 1.2.0",
+    "title": "Interface IEnumerableSaver | Cubusky Core | 1.2.1",
     "keywords": "Interface IEnumerableSaver Namespace Cubusky Saves a IEnumerable<string> to multiple locations. public interface IEnumerableSaver : IEnumerableSaver<string>, ISaver<IEnumerable<string>>, IEnumerableSaver<byte[]>, ISaver<IEnumerable<byte[]>> Inherited Members IEnumerableSaver<string>.SaveAsyncEnumrable(IEnumerable<string>, CancellationToken) ISaver<IEnumerable<string>>.Save(IEnumerable<string>) ISaver<IEnumerable<string>>.SaveAsync(IEnumerable<string>, CancellationToken) IEnumerableSaver<byte[]>.SaveAsyncEnumrable(IEnumerable<byte[]>, CancellationToken) ISaver<IEnumerable<byte[]>>.Save(IEnumerable<byte[]>) ISaver<IEnumerable<byte[]>>.SaveAsync(IEnumerable<byte[]>, CancellationToken)"
   },
   "api/Cubusky.IEnumerableSaverLoader-1.html": {
     "href": "api/Cubusky.IEnumerableSaverLoader-1.html",
-    "title": "Interface IEnumerableSaverLoader<TInputOutput> | Cubusky Core | 1.2.0",
+    "title": "Interface IEnumerableSaverLoader<TInputOutput> | Cubusky Core | 1.2.1",
     "keywords": "Interface IEnumerableSaverLoader<TInputOutput> Namespace Cubusky Saves and loads a IEnumerable<TInputOutput> to and from multiple locations. public interface IEnumerableSaverLoader<TInputOutput> : IEnumerableSaver<TInputOutput>, ISaver<IEnumerable<TInputOutput>>, IEnumerableLoader<TInputOutput>, ILoader<IEnumerable<TInputOutput>> Type Parameters TInputOutput Saves and loads a <TInputOutput> to and from multiple locations. Inherited Members IEnumerableSaver<TInputOutput>.SaveAsyncEnumrable(IEnumerable<TInputOutput>, CancellationToken) ISaver<IEnumerable<TInputOutput>>.Save(IEnumerable<TInputOutput>) ISaver<IEnumerable<TInputOutput>>.SaveAsync(IEnumerable<TInputOutput>, CancellationToken) IEnumerableLoader<TInputOutput>.LoadAsyncEnumerable<TData>(CancellationToken) ILoader<IEnumerable<TInputOutput>>.Load<TData>() ILoader<IEnumerable<TInputOutput>>.LoadAsync<TData>(CancellationToken)"
   },
   "api/Cubusky.IEnumerableSaverLoader.html": {
     "href": "api/Cubusky.IEnumerableSaverLoader.html",
-    "title": "Interface IEnumerableSaverLoader | Cubusky Core | 1.2.0",
+    "title": "Interface IEnumerableSaverLoader | Cubusky Core | 1.2.1",
     "keywords": "Interface IEnumerableSaverLoader Namespace Cubusky Saves and loads a IEnumerable<string> to and from multiple locations. public interface IEnumerableSaverLoader : IEnumerableSaverLoader<string>, IEnumerableSaverLoader<byte[]>, IEnumerableSaver, IEnumerableSaver<string>, ISaver<IEnumerable<string>>, IEnumerableSaver<byte[]>, ISaver<IEnumerable<byte[]>>, IEnumerableLoader, IEnumerableLoader<string>, ILoader<IEnumerable<string>>, IEnumerableLoader<byte[]>, ILoader<IEnumerable<byte[]>> Inherited Members IEnumerableSaver<string>.SaveAsyncEnumrable(IEnumerable<string>, CancellationToken) ISaver<IEnumerable<string>>.Save(IEnumerable<string>) ISaver<IEnumerable<string>>.SaveAsync(IEnumerable<string>, CancellationToken) IEnumerableSaver<byte[]>.SaveAsyncEnumrable(IEnumerable<byte[]>, CancellationToken) ISaver<IEnumerable<byte[]>>.Save(IEnumerable<byte[]>) ISaver<IEnumerable<byte[]>>.SaveAsync(IEnumerable<byte[]>, CancellationToken) IEnumerableLoader<string>.LoadAsyncEnumerable<TData>(CancellationToken) ILoader<IEnumerable<string>>.Load<TData>() ILoader<IEnumerable<string>>.LoadAsync<TData>(CancellationToken) IEnumerableLoader<byte[]>.LoadAsyncEnumerable<TData>(CancellationToken) ILoader<IEnumerable<byte[]>>.Load<TData>() ILoader<IEnumerable<byte[]>>.LoadAsync<TData>(CancellationToken)"
   },
   "api/Cubusky.IFileLoader.html": {
     "href": "api/Cubusky.IFileLoader.html",
-    "title": "Interface IFileLoader | Cubusky Core | 1.2.0",
+    "title": "Interface IFileLoader | Cubusky Core | 1.2.1",
     "keywords": "Interface IFileLoader Namespace Cubusky Loads data from a filepath. public interface IFileLoader : ILoader, ILoader<string>, ILoader<byte[]>, ILoader<string[]> Inherited Members ILoader<string>.Load<TData>() ILoader<string>.LoadAsync<TData>(CancellationToken) ILoader<byte[]>.Load<TData>() ILoader<byte[]>.LoadAsync<TData>(CancellationToken) ILoader<string[]>.Load<TData>() ILoader<string[]>.LoadAsync<TData>(CancellationToken) Properties path string path { get; } Property Value string"
   },
   "api/Cubusky.IFileSaver.html": {
     "href": "api/Cubusky.IFileSaver.html",
-    "title": "Interface IFileSaver | Cubusky Core | 1.2.0",
+    "title": "Interface IFileSaver | Cubusky Core | 1.2.1",
     "keywords": "Interface IFileSaver Namespace Cubusky Saves data to a filepath. public interface IFileSaver : ISaver, ISaver<string>, ISaver<byte[]>, ISaver<string[]>, ISaver<IEnumerable<string>> Inherited Members ISaver<string>.Save(string) ISaver<string>.SaveAsync(string, CancellationToken) ISaver<byte[]>.Save(byte[]) ISaver<byte[]>.SaveAsync(byte[], CancellationToken) ISaver<string[]>.Save(string[]) ISaver<string[]>.SaveAsync(string[], CancellationToken) ISaver<IEnumerable<string>>.Save(IEnumerable<string>) ISaver<IEnumerable<string>>.SaveAsync(IEnumerable<string>, CancellationToken) Properties path string path { get; } Property Value string"
   },
   "api/Cubusky.ILoader-1.html": {
     "href": "api/Cubusky.ILoader-1.html",
-    "title": "Interface ILoader<TOutput> | Cubusky Core | 1.2.0",
+    "title": "Interface ILoader<TOutput> | Cubusky Core | 1.2.1",
     "keywords": "Interface ILoader<TOutput> Namespace Cubusky Loads a TOutput from a single location. public interface ILoader<TOutput> Type Parameters TOutput Loads a TOutput from a single location. Methods LoadAsync<TData>(CancellationToken) Task<TOutput> LoadAsync<TData>(CancellationToken cancellationToken = default) where TData : TOutput Parameters cancellationToken CancellationToken Returns Task<TOutput> Type Parameters TData Load<TData>() TOutput Load<TData>() where TData : TOutput Returns TOutput Type Parameters TData"
   },
   "api/Cubusky.ILoader.html": {
     "href": "api/Cubusky.ILoader.html",
-    "title": "Interface ILoader | Cubusky Core | 1.2.0",
+    "title": "Interface ILoader | Cubusky Core | 1.2.1",
     "keywords": "Interface ILoader Namespace Cubusky Loads a string from a single location. public interface ILoader : ILoader<string>, ILoader<byte[]> Inherited Members ILoader<string>.Load<TData>() ILoader<string>.LoadAsync<TData>(CancellationToken) ILoader<byte[]>.Load<TData>() ILoader<byte[]>.LoadAsync<TData>(CancellationToken)"
   },
   "api/Cubusky.ISaver-1.html": {
     "href": "api/Cubusky.ISaver-1.html",
-    "title": "Interface ISaver<TInput> | Cubusky Core | 1.2.0",
+    "title": "Interface ISaver<TInput> | Cubusky Core | 1.2.1",
     "keywords": "Interface ISaver<TInput> Namespace Cubusky Saves a TInput to a single location. public interface ISaver<in TInput> Type Parameters TInput Saves a TInput to a single location. Methods Save(TInput) void Save(TInput data) Parameters data TInput SaveAsync(TInput, CancellationToken) Task SaveAsync(TInput data, CancellationToken cancellationToken = default) Parameters data TInput cancellationToken CancellationToken Returns Task"
   },
   "api/Cubusky.ISaver.html": {
     "href": "api/Cubusky.ISaver.html",
-    "title": "Interface ISaver | Cubusky Core | 1.2.0",
+    "title": "Interface ISaver | Cubusky Core | 1.2.1",
     "keywords": "Interface ISaver Namespace Cubusky Saves a string to a single location. public interface ISaver : ISaver<string>, ISaver<byte[]> Inherited Members ISaver<string>.Save(string) ISaver<string>.SaveAsync(string, CancellationToken) ISaver<byte[]>.Save(byte[]) ISaver<byte[]>.SaveAsync(byte[], CancellationToken)"
   },
   "api/Cubusky.ISaverLoader-1.html": {
     "href": "api/Cubusky.ISaverLoader-1.html",
-    "title": "Interface ISaverLoader<TInputOutput> | Cubusky Core | 1.2.0",
+    "title": "Interface ISaverLoader<TInputOutput> | Cubusky Core | 1.2.1",
     "keywords": "Interface ISaverLoader<TInputOutput> Namespace Cubusky Saves and loads a TInputOutput to and from a single location. public interface ISaverLoader<TInputOutput> : ISaver<TInputOutput>, ILoader<TInputOutput> Type Parameters TInputOutput Saves and loads a TInputOutput to and from a single location. Inherited Members ISaver<TInputOutput>.Save(TInputOutput) ISaver<TInputOutput>.SaveAsync(TInputOutput, CancellationToken) ILoader<TInputOutput>.Load<TData>() ILoader<TInputOutput>.LoadAsync<TData>(CancellationToken)"
   },
   "api/Cubusky.ISaverLoader.html": {
     "href": "api/Cubusky.ISaverLoader.html",
-    "title": "Interface ISaverLoader | Cubusky Core | 1.2.0",
+    "title": "Interface ISaverLoader | Cubusky Core | 1.2.1",
     "keywords": "Interface ISaverLoader Namespace Cubusky Saves and loads a string to and from a single location. public interface ISaverLoader : ISaverLoader<string>, ISaverLoader<byte[]>, ISaver, ISaver<string>, ISaver<byte[]>, ILoader, ILoader<string>, ILoader<byte[]> Inherited Members ISaver<string>.Save(string) ISaver<string>.SaveAsync(string, CancellationToken) ISaver<byte[]>.Save(byte[]) ISaver<byte[]>.SaveAsync(byte[], CancellationToken) ILoader<string>.Load<TData>() ILoader<string>.LoadAsync<TData>(CancellationToken) ILoader<byte[]>.Load<TData>() ILoader<byte[]>.LoadAsync<TData>(CancellationToken)"
   },
   "api/Cubusky.ITempLoader.html": {
     "href": "api/Cubusky.ITempLoader.html",
-    "title": "Interface ITempLoader | Cubusky Core | 1.2.0",
+    "title": "Interface ITempLoader | Cubusky Core | 1.2.1",
     "keywords": "Interface ITempLoader Namespace Cubusky Loads data from temporary saves. public interface ITempLoader : ILoader, ILoader<string>, ILoader<byte[]>, ILoader<object> Inherited Members ILoader<string>.Load<TData>() ILoader<string>.LoadAsync<TData>(CancellationToken) ILoader<byte[]>.Load<TData>() ILoader<byte[]>.LoadAsync<TData>(CancellationToken) Properties key string key { get; } Property Value string"
   },
   "api/Cubusky.ITempSaver.html": {
     "href": "api/Cubusky.ITempSaver.html",
-    "title": "Interface ITempSaver | Cubusky Core | 1.2.0",
+    "title": "Interface ITempSaver | Cubusky Core | 1.2.1",
     "keywords": "Interface ITempSaver Namespace Cubusky Saves data temporarily until the end of the session. public interface ITempSaver : ISaver, ISaver<string>, ISaver<byte[]>, ISaver<object> Inherited Members ISaver<string>.Save(string) ISaver<string>.SaveAsync(string, CancellationToken) ISaver<byte[]>.Save(byte[]) ISaver<byte[]>.SaveAsync(byte[], CancellationToken) ISaver<object>.Save(object) ISaver<object>.SaveAsync(object, CancellationToken) Fields tempSaves public static Dictionary<string, object> tempSaves Field Value Dictionary<string, object> Properties key string key { get; } Property Value string"
   },
   "api/Cubusky.Instance-1.html": {
     "href": "api/Cubusky.Instance-1.html",
-    "title": "Class Instance<T> | Cubusky Core | 1.2.0",
+    "title": "Class Instance<T> | Cubusky Core | 1.2.1",
     "keywords": "Class Instance<T> Namespace Cubusky A singleton implementation where the last enabled instance is the current instance. public abstract class Instance<T> : MonoBehaviour where T : Instance<T> Type Parameters T A singleton implementation where the last enabled instance is the current instance. Inheritance object Instance<T> Properties current Return the current instance. public static T? current { get; } Property Value T Methods OnCurrent() Called after the instance is set to the current instance. public abstract void OnCurrent() OnDisable() protected virtual void OnDisable() OnEnable() protected virtual void OnEnable()"
   },
   "api/Cubusky.OfTypeAttribute.html": {
     "href": "api/Cubusky.OfTypeAttribute.html",
-    "title": "Class OfTypeAttribute | Cubusky Core | 1.2.0",
+    "title": "Class OfTypeAttribute | Cubusky Core | 1.2.1",
     "keywords": "Class OfTypeAttribute Namespace Cubusky Specifies Type in an UnityEngine.Object selector. public class OfTypeAttribute : PropertyAttribute Inheritance object OfTypeAttribute Remarks Can be used to create UnityEngine.Object selectors that allow interfaces: [(typeof(UnityEngine.Animations.IConstraint))] public UnityEngine.Object constraint; Constructors OfTypeAttribute(Type) public OfTypeAttribute(Type type) Parameters type Type OfTypeAttribute(params Type[]) public OfTypeAttribute(params Type[] types) Parameters types Type[] Fields types public Type[] types Field Value Type[]"
+  },
+  "api/Cubusky.PasswordAttribute.html": {
+    "href": "api/Cubusky.PasswordAttribute.html",
+    "title": "Class PasswordAttribute | Cubusky Core | 1.2.1",
+    "keywords": "Class PasswordAttribute Namespace Cubusky public class PasswordAttribute : PropertyAttribute Inheritance object PasswordAttribute"
   },
   "api/Cubusky.PathAttribute.html": {
     "href": "api/Cubusky.PathAttribute.html",
-    "title": "Class PathAttribute | Cubusky Core | 1.2.0",
+    "title": "Class PathAttribute | Cubusky Core | 1.2.1",
     "keywords": "Class PathAttribute Namespace Cubusky Serializes a string as a valid path. public class PathAttribute : PropertyAttribute Inheritance object PathAttribute Constructors PathAttribute() public PathAttribute() PathAttribute(bool) public PathAttribute(bool withoutExtension) Parameters withoutExtension bool Fields withoutExtension public bool withoutExtension Field Value bool"
   },
   "api/Cubusky.ReferenceDropdownAttribute.html": {
     "href": "api/Cubusky.ReferenceDropdownAttribute.html",
-    "title": "Class ReferenceDropdownAttribute | Cubusky Core | 1.2.0",
+    "title": "Class ReferenceDropdownAttribute | Cubusky Core | 1.2.1",
     "keywords": "Class ReferenceDropdownAttribute Namespace Cubusky Draws a selectable dropdown for SerializeReference fields. public class ReferenceDropdownAttribute : PropertyAttribute Inheritance object ReferenceDropdownAttribute Constructors ReferenceDropdownAttribute(bool, params Type[]) public ReferenceDropdownAttribute(bool nullable, params Type[] types) Parameters nullable bool types Type[] ReferenceDropdownAttribute(params Type[]) public ReferenceDropdownAttribute(params Type[] types) Parameters types Type[] Fields nullable public bool nullable Field Value bool types public Type[] types Field Value Type[]"
   },
   "api/Cubusky.ShaderId.html": {
     "href": "api/Cubusky.ShaderId.html",
-    "title": "Struct ShaderId | Cubusky Core | 1.2.0",
+    "title": "Struct ShaderId | Cubusky Core | 1.2.1",
     "keywords": "Struct ShaderId Namespace Cubusky A unique identifier for a shader property name. [Serializable] public struct ShaderId : ISerializationCallbackReceiver, IEquatable<ShaderId> Implements ISerializationCallbackReceiver IEquatable<ShaderId> Inherited Members object.Equals(object, object) object.GetType() object.ReferenceEquals(object, object) Constructors ShaderId(string) public ShaderId(string name) Parameters name string Properties id public readonly int id { get; } Property Value int name public string? name { get; set; } Property Value string Methods Equals(ShaderId) Indicates whether the current object is equal to another object of the same type. public bool Equals(ShaderId other) Parameters other ShaderId An object to compare with this object. Returns bool true if the current object is equal to the other parameter; otherwise, false. Equals(object?) Indicates whether this instance and a specified object are equal. public override bool Equals(object? obj) Parameters obj object The object to compare with the current instance. Returns bool true if obj and this instance are the same type and represent the same value; otherwise, false. GetHashCode() Returns the hash code for this instance. public override int GetHashCode() Returns int A 32-bit signed integer that is the hash code for this instance. ToString() Returns the fully qualified type name of this instance. public override string ToString() Returns string The fully qualified type name. Operators operator ==(ShaderId, ShaderId) public static bool operator ==(ShaderId left, ShaderId right) Parameters left ShaderId right ShaderId Returns bool implicit operator int(ShaderId) public static implicit operator int(ShaderId id) Parameters id ShaderId Returns int implicit operator ShaderId(string) public static implicit operator ShaderId(string name) Parameters name string Returns ShaderId operator !=(ShaderId, ShaderId) public static bool operator !=(ShaderId left, ShaderId right) Parameters left ShaderId right ShaderId Returns bool"
   },
   "api/Cubusky.SharedTimer.html": {
     "href": "api/Cubusky.SharedTimer.html",
-    "title": "Class SharedTimer | Cubusky Core | 1.2.0",
+    "title": "Class SharedTimer | Cubusky Core | 1.2.1",
     "keywords": "Class SharedTimer Namespace Cubusky public class SharedTimer : ScriptableObject Inheritance object SharedTimer Properties timer public Timer timer { get; set; } Property Value Timer Operators implicit operator Timer(SharedTimer) public static implicit operator Timer(SharedTimer sharedTimer) Parameters sharedTimer SharedTimer Returns Timer"
   },
   "api/Cubusky.TempSaverLoader.html": {
     "href": "api/Cubusky.TempSaverLoader.html",
-    "title": "Class TempSaverLoader | Cubusky Core | 1.2.0",
+    "title": "Class TempSaverLoader | Cubusky Core | 1.2.1",
     "keywords": "Class TempSaverLoader Namespace Cubusky [Serializable] public class TempSaverLoader : ITempSaver, ITempLoader, ISaverLoader, ISaverLoader<string>, ISaverLoader<byte[]>, ISaver, ISaver<string>, ISaver<byte[]>, ILoader, ILoader<string>, ILoader<byte[]>, ISaverLoader<object>, ISaver<object>, ILoader<object> Inheritance object TempSaverLoader Implements ITempSaver ITempLoader ISaverLoader ISaverLoader<string> ISaverLoader<byte[]> ISaver ISaver<string> ISaver<byte[]> ILoader ILoader<string> ILoader<byte[]> ISaverLoader<object> ISaver<object> ILoader<object> Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties key public string key { get; set; } Property Value string"
   },
   "api/Cubusky.TimeMode.html": {
     "href": "api/Cubusky.TimeMode.html",
-    "title": "Enum TimeMode | Cubusky Core | 1.2.0",
+    "title": "Enum TimeMode | Cubusky Core | 1.2.1",
     "keywords": "Enum TimeMode Namespace Cubusky public enum TimeMode Extension Methods TimeModeExtensions.GetDeltaTime(TimeMode) TimeModeExtensions.GetTime(TimeMode) TimeModeExtensions.GetTimeAsDouble(TimeMode) Fields FixedTime = 1 FixedUnscaledTime = 3 Time = 0 UnscaledTime = 2"
   },
   "api/Cubusky.TimeModeExtensions.html": {
     "href": "api/Cubusky.TimeModeExtensions.html",
-    "title": "Class TimeModeExtensions | Cubusky Core | 1.2.0",
+    "title": "Class TimeModeExtensions | Cubusky Core | 1.2.1",
     "keywords": "Class TimeModeExtensions Namespace Cubusky public static class TimeModeExtensions Inheritance object TimeModeExtensions Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods GetDeltaTime(TimeMode) public static float GetDeltaTime(this TimeMode timeMode) Parameters timeMode TimeMode Returns float GetTime(TimeMode) public static float GetTime(this TimeMode timeMode) Parameters timeMode TimeMode Returns float GetTimeAsDouble(TimeMode) public static double GetTimeAsDouble(this TimeMode timeMode) Parameters timeMode TimeMode Returns double"
   },
   "api/Cubusky.TimeSpanAttribute.html": {
     "href": "api/Cubusky.TimeSpanAttribute.html",
-    "title": "Class TimeSpanAttribute | Cubusky Core | 1.2.0",
+    "title": "Class TimeSpanAttribute | Cubusky Core | 1.2.1",
     "keywords": "Class TimeSpanAttribute Namespace Cubusky Serializes a long as a valid TimeSpan. public class TimeSpanAttribute : PropertyAttribute Inheritance object TimeSpanAttribute"
   },
   "api/Cubusky.Timer.html": {
     "href": "api/Cubusky.Timer.html",
-    "title": "Class Timer | Cubusky Core | 1.2.0",
+    "title": "Class Timer | Cubusky Core | 1.2.1",
     "keywords": "Class Timer Namespace Cubusky [Serializable] public class Timer : Timer, IComponent, IDisposable, ISupportInitialize, ISerializationCallbackReceiver Inheritance object MarshalByRefObject Component Timer Timer Implements IComponent IDisposable ISupportInitialize ISerializationCallbackReceiver Inherited Members Timer.BeginInit() Timer.Close() Timer.Dispose(bool) Timer.EndInit() Timer.Stop() Timer.AutoReset Timer.Enabled Timer.Site Timer.SynchronizingObject Component.Dispose() Component.GetService(Type) Component.ToString() Component.CanRaiseEvents Component.Container Component.DesignMode Component.Events Component.Disposed MarshalByRefObject.GetLifetimeService() MarshalByRefObject.InitializeLifetimeService() MarshalByRefObject.MemberwiseClone(bool) object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) Constructors Timer() public Timer() Timer(double) public Timer(double interval) Parameters interval double Properties Interval public double Interval { get; set; } Property Value double StartTime public DateTime StartTime { get; set; } Property Value DateTime Methods Start() public void Start() Events Elapsed public event Action<double> Elapsed Event Type Action<double>"
   },
   "api/Cubusky.UIElements.TimeSpanField.html": {
     "href": "api/Cubusky.UIElements.TimeSpanField.html",
-    "title": "Class TimeSpanField | Cubusky Core | 1.2.0",
+    "title": "Class TimeSpanField | Cubusky Core | 1.2.1",
     "keywords": "Class TimeSpanField Namespace Cubusky.UIElements public class TimeSpanField : TextValueField<TimeSpan> Inheritance object TimeSpanField Constructors TimeSpanField() public TimeSpanField() TimeSpanField(string) public TimeSpanField(string label) Parameters label string Fields inputUssClassName public static readonly string inputUssClassName Field Value string labelUssClassName public static readonly string labelUssClassName Field Value string ussClassName public static readonly string ussClassName Field Value string Methods ApplyInputDeviceDelta(Vector3, DeltaSpeed, TimeSpan) public override void ApplyInputDeviceDelta(Vector3 delta, DeltaSpeed speed, TimeSpan startValue) Parameters delta Vector3 speed DeltaSpeed startValue TimeSpan StringToValue(string) protected override TimeSpan StringToValue(string str) Parameters str string Returns TimeSpan ValueToString(TimeSpan) protected override string ValueToString(TimeSpan v) Parameters v TimeSpan Returns string"
   },
   "api/Cubusky.UIElements.html": {
     "href": "api/Cubusky.UIElements.html",
-    "title": "Namespace Cubusky.UIElements | Cubusky Core | 1.2.0",
+    "title": "Namespace Cubusky.UIElements | Cubusky Core | 1.2.1",
     "keywords": "Namespace Cubusky.UIElements Classes TimeSpanField"
   },
   "api/Cubusky.UnityPath.html": {
     "href": "api/Cubusky.UnityPath.html",
-    "title": "Class UnityPath | Cubusky Core | 1.2.0",
+    "title": "Class UnityPath | Cubusky Core | 1.2.1",
     "keywords": "Class UnityPath Namespace Cubusky [Serializable] public abstract class UnityPath Inheritance object UnityPath Derived DirectorySaverLoader FileSaverLoader Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) Properties applicationPath public ApplicationPath applicationPath { get; set; } Property Value ApplicationPath fullPath public string fullPath { get; } Property Value string relativePath public abstract string relativePath { get; set; } Property Value string Methods ToString() Returns a string that represents the current object. public override string ToString() Returns string A string that represents the current object. Operators implicit operator string(UnityPath) public static implicit operator string(UnityPath unityPath) Parameters unityPath UnityPath Returns string"
   },
   "api/Cubusky.UpdateSynchronizer.html": {
     "href": "api/Cubusky.UpdateSynchronizer.html",
-    "title": "Class UpdateSynchronizer | Cubusky Core | 1.2.0",
+    "title": "Class UpdateSynchronizer | Cubusky Core | 1.2.1",
     "keywords": "Class UpdateSynchronizer Namespace Cubusky Synchronizes calls with Unity's Update() method. public class UpdateSynchronizer : ISynchronizeInvoke Inheritance object UpdateSynchronizer Implements ISynchronizeInvoke Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors UpdateSynchronizer() public UpdateSynchronizer() Properties InvokeRequired Gets a value indicating whether the caller must call Invoke(Delegate, object[]) when calling an object that implements this interface. public bool InvokeRequired { get; } Property Value bool true if the caller must call Invoke(Delegate, object[]); otherwise, false. Methods BeginInvoke(Delegate, object[]) Asynchronously executes the delegate on the thread that created this object. public IAsyncResult BeginInvoke(Delegate method, object[] args) Parameters method Delegate A Delegate to a method that takes parameters of the same number and type that are contained in args. args object[] An array of type object to pass as arguments to the given method. This can be null if no arguments are needed. Returns IAsyncResult An IAsyncResult interface that represents the asynchronous operation started by calling this method. EndInvoke(IAsyncResult) Waits until the process started by calling BeginInvoke(Delegate, object[]) completes, and then returns the value generated by the process. public object EndInvoke(IAsyncResult result) Parameters result IAsyncResult An IAsyncResult interface that represents the asynchronous operation started by calling BeginInvoke(Delegate, object[]). Returns object An object that represents the return value generated by the asynchronous operation. ~UpdateSynchronizer() protected ~UpdateSynchronizer() Invoke(Delegate, object[]) Synchronously executes the delegate on the thread that created this object and marshals the call to the creating thread. public object Invoke(Delegate method, object[] args) Parameters method Delegate A Delegate that contains a method to call, in the context of the thread for the control. args object[] An array of type object that represents the arguments to pass to the given method. This can be null if no arguments are needed. Returns object An object that represents the return value from the delegate being invoked, or null if the delegate has no return value. ProcessQueue() public void ProcessQueue()"
   },
   "api/Cubusky.UpdaterService.html": {
     "href": "api/Cubusky.UpdaterService.html",
-    "title": "Class UpdaterService | Cubusky Core | 1.2.0",
+    "title": "Class UpdaterService | Cubusky Core | 1.2.1",
     "keywords": "Class UpdaterService Namespace Cubusky public static class UpdaterService Inheritance object UpdaterService Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Events onFixedUpdate public static event Action onFixedUpdate Event Type Action onLateUpdate public static event Action onLateUpdate Event Type Action onUpdate public static event Action onUpdate Event Type Action"
   },
   "api/Cubusky.UriAttribute.html": {
     "href": "api/Cubusky.UriAttribute.html",
-    "title": "Class UriAttribute | Cubusky Core | 1.2.0",
+    "title": "Class UriAttribute | Cubusky Core | 1.2.1",
     "keywords": "Class UriAttribute Namespace Cubusky Serializes a string as a valid Uri. public class UriAttribute : PropertyAttribute Inheritance object UriAttribute Constructors UriAttribute() public UriAttribute() UriAttribute(UriKind) public UriAttribute(UriKind uriKind) Parameters uriKind UriKind Fields EmptyUri public static readonly Uri EmptyUri Field Value Uri uriKind public UriKind uriKind Field Value UriKind"
   },
   "api/Cubusky.html": {
     "href": "api/Cubusky.html",
-    "title": "Namespace Cubusky | Cubusky Core | 1.2.0",
-    "keywords": "Namespace Cubusky Classes ApplicationPathExtensions DirectorySaverLoader FileSaverLoader GuidAttribute Serializes a string as a valid Guid. Instance<T> A singleton implementation where the last enabled instance is the current instance. OfTypeAttribute Specifies Type in an UnityEngine.Object selector. PathAttribute Serializes a string as a valid path. ReferenceDropdownAttribute Draws a selectable dropdown for SerializeReference fields. SharedTimer TempSaverLoader TimeModeExtensions TimeSpanAttribute Serializes a long as a valid TimeSpan. Timer UnityPath UpdateSynchronizer Synchronizes calls with Unity's Update() method. UpdaterService UriAttribute Serializes a string as a valid Uri. Structs AnimatorHash A generated parameter id from a string. ShaderId A unique identifier for a shader property name. Interfaces IDirectoryLoader Loads data from a directory. IDirectorySaver Saves data to a directory. IEnumerableLoader Loads a IEnumerable<string> from multiple locations. IEnumerableLoader<TOutput> Loads a IEnumerable<TOutput> from multiple locations. IEnumerableSaver Saves a IEnumerable<string> to multiple locations. IEnumerableSaverLoader Saves and loads a IEnumerable<string> to and from multiple locations. IEnumerableSaverLoader<TInputOutput> Saves and loads a IEnumerable<TInputOutput> to and from multiple locations. IEnumerableSaver<TInput> Saves a IEnumerable<TInput> to multiple locations. IFileLoader Loads data from a filepath. IFileSaver Saves data to a filepath. ILoader Loads a string from a single location. ILoader<TOutput> Loads a TOutput from a single location. ISaver Saves a string to a single location. ISaverLoader Saves and loads a string to and from a single location. ISaverLoader<TInputOutput> Saves and loads a TInputOutput to and from a single location. ISaver<TInput> Saves a TInput to a single location. ITempLoader Loads data from temporary saves. ITempSaver Saves data temporarily until the end of the session. Enums ApplicationPath TimeMode"
+    "title": "Namespace Cubusky | Cubusky Core | 1.2.1",
+    "keywords": "Namespace Cubusky Classes ApplicationPathExtensions DirectorySaverLoader FileSaverLoader GuidAttribute Serializes a string as a valid Guid. HelpBoxAttribute Instance<T> A singleton implementation where the last enabled instance is the current instance. OfTypeAttribute Specifies Type in an UnityEngine.Object selector. PasswordAttribute PathAttribute Serializes a string as a valid path. ReferenceDropdownAttribute Draws a selectable dropdown for SerializeReference fields. SharedTimer TempSaverLoader TimeModeExtensions TimeSpanAttribute Serializes a long as a valid TimeSpan. Timer UnityPath UpdateSynchronizer Synchronizes calls with Unity's Update() method. UpdaterService UriAttribute Serializes a string as a valid Uri. Structs AnimatorHash A generated parameter id from a string. ShaderId A unique identifier for a shader property name. Interfaces IDirectoryLoader Loads data from a directory. IDirectorySaver Saves data to a directory. IEnumerableLoader Loads a IEnumerable<string> from multiple locations. IEnumerableLoader<TOutput> Loads a IEnumerable<TOutput> from multiple locations. IEnumerableSaver Saves a IEnumerable<string> to multiple locations. IEnumerableSaverLoader Saves and loads a IEnumerable<string> to and from multiple locations. IEnumerableSaverLoader<TInputOutput> Saves and loads a IEnumerable<TInputOutput> to and from multiple locations. IEnumerableSaver<TInput> Saves a IEnumerable<TInput> to multiple locations. IFileLoader Loads data from a filepath. IFileSaver Saves data to a filepath. ILoader Loads a string from a single location. ILoader<TOutput> Loads a TOutput from a single location. ISaver Saves a string to a single location. ISaverLoader Saves and loads a string to and from a single location. ISaverLoader<TInputOutput> Saves and loads a TInputOutput to and from a single location. ISaver<TInput> Saves a TInput to a single location. ITempLoader Loads data from temporary saves. ITempSaver Saves data temporarily until the end of the session. Enums ApplicationPath TimeMode"
   },
   "api/index.html": {
     "href": "api/index.html",
-    "title": "| Cubusky Core | 1.2.0",
+    "title": "| Cubusky Core | 1.2.1",
     "keywords": "This is the documentation for the Scripting APIs of this package."
   },
   "changelog/CHANGELOG.html": {
     "href": "changelog/CHANGELOG.html",
-    "title": "Changelog | Cubusky Core | 1.2.0",
-    "keywords": "Changelog All notable changes to this package will be documented in this file. The format is based on Keep a Changelog and this project adheres to Semantic Versioning. [1.2.0] - 2024-02-23 Added Add ISaver to allow saving data to a single location. Add ILoader to allow loading data from a single location. Add IEnumerableSaver to allow saving a collection of data to multiple locations. Add IEnumerableLoader to allow loading a collection of data from multiple locations. Add ISaverLoader to conveniently implement and reference ISaver & ILoader through the same interface. Add IEnumerableSaverLoader to conveniently implement and reference IEnumerableSaver & IEnumerableLoader through the same interface. Add IFileSaver to allow saving data to a file. Add IFileLoader to allow loading data from a file. Add IDirectorySaver to allow saving (a collection of) data to a directory under random file names. Add IDirectoryLoader to allow loading a collection of data from a directory. Add ITempSaver to allow saving data to memory. Add ITempLoader to allow loading data from memory. Add PathAttribute to serialize string as a valid path. Add UriAttribute to serialize string as a valid Uri. Add ApplicationPath to select an Application.*Path via Enum. Add UnityPath as an abstract class for returning a path connected to one of Unity's Application.*Path. Add TimeMode to select a Time.(fixed)(Unscaled)(Delta)(Time) via Enum. Add an optional Type[] types to ReferenceDropdown to allow for creating a dropdown for generic types. Invalid: [SerializeReference, ReferenceDropdown] public ISaver<Vector3> saver; // SerializeReference cannot serialize generics. Solution: [SerializeReference, ReferenceDropdown(typeof(ISaver<Vector3>))] public object saver; Add UpdaterService which provides callbacks to onUpdate, onLateUpdate and onFixedUpdate. Add Timer implementation that can be serialized by the inspector. A Timer can be used to call an event every x amount of seconds. This is useful for e.g. optimizing operations outside of Unity's update loop. Add UpdateSynchronizer to allow synchronizating with Unity's Update loop. Timer example: public Timer timer = new() { SynchronizingObject = new UpdateSynchronizer() }; Fixed Fixed some mixed value errors: ReferenceDropdownAttribute could get stuck in an infinite loop when changing a mixed value. It now correctly disallows multi-value editing. GuidAttribute would change its Guid when selecting multiple values at once. It now allows you to edit, but doesn't automatically destroy your Guid. [1.1.0] - 2024-01-07 Add ReferenceDropdownAttribute to allow for selectable references in UnityEngine.Objects. Useful for allowing the use of interfaces in code. [1.0.0] - 2024-01-01 Add documentation. [0.9.0-pre] - 2023-12-30 Added Add documentation, license and changelog url. Add a UIElement TimeSpanField that may be used to draw a TimeSpan in the inspector. Add a TimeSpanAttribute to allow long to be drawn as TimeSpan in the inspector. Use like so: [TimeSpan] public long timeSpan; Add an OfTypeAttribute to allow Objects to specify which types they need to be of. Use like so: [OfType(typeof(IPointerClickHandler), typeof(ISubmitHandler))] public Selectable pointClickSubmitHandler; Removed Remove unused SerializedPropertyExtensions before version 1.0 as their integrety cannot be verified at this time. [0.1.0-exp] - 2023-05-15 This is the first release of Cubusky Core. Cubusky Core contains reusable code spanning across the Cubusky organization including serialization features and utility functions. If you are creating a custom package based on the Cubusky organization, using Cubusky Core will save you time."
+    "title": "Changelog | Cubusky Core | 1.2.1",
+    "keywords": "Changelog All notable changes to this package will be documented in this file. The format is based on Keep a Changelog and this project adheres to Semantic Versioning. [1.2.1] - 2024-03-21 Added Add PasswordAttribute to mask a string field in the inspector for screen share. Note that it doesn't actually encrypt or otherwise protect your string. Add HelpBoxAttribute to decorate your property with a useful help box. [1.2.0] - 2024-02-23 Added Add ISaver to allow saving data to a single location. Add ILoader to allow loading data from a single location. Add IEnumerableSaver to allow saving a collection of data to multiple locations. Add IEnumerableLoader to allow loading a collection of data from multiple locations. Add ISaverLoader to conveniently implement and reference ISaver & ILoader through the same interface. Add IEnumerableSaverLoader to conveniently implement and reference IEnumerableSaver & IEnumerableLoader through the same interface. Add IFileSaver to allow saving data to a file. Add IFileLoader to allow loading data from a file. Add IDirectorySaver to allow saving (a collection of) data to a directory under random file names. Add IDirectoryLoader to allow loading a collection of data from a directory. Add ITempSaver to allow saving data to memory. Add ITempLoader to allow loading data from memory. Add PathAttribute to serialize string as a valid path. Add UriAttribute to serialize string as a valid Uri. Add ApplicationPath to select an Application.*Path via Enum. Add UnityPath as an abstract class for returning a path connected to one of Unity's Application.*Path. Add TimeMode to select a Time.(fixed)(Unscaled)(Delta)(Time) via Enum. Add an optional Type[] types to ReferenceDropdown to allow for creating a dropdown for generic types. Invalid: [SerializeReference, ReferenceDropdown] public ISaver<Vector3> saver; // SerializeReference cannot serialize generics. Solution: [SerializeReference, ReferenceDropdown(typeof(ISaver<Vector3>))] public object saver; Add UpdaterService which provides callbacks to onUpdate, onLateUpdate and onFixedUpdate. Add Timer implementation that can be serialized by the inspector. A Timer can be used to call an event every x amount of seconds. This is useful for e.g. optimizing operations outside of Unity's update loop. Add UpdateSynchronizer to allow synchronizating with Unity's Update loop. Timer example: public Timer timer = new() { SynchronizingObject = new UpdateSynchronizer() }; Fixed Fixed some mixed value errors: ReferenceDropdownAttribute could get stuck in an infinite loop when changing a mixed value. It now correctly disallows multi-value editing. GuidAttribute would change its Guid when selecting multiple values at once. It now allows you to edit, but doesn't automatically destroy your Guid. [1.1.0] - 2024-01-07 Add ReferenceDropdownAttribute to allow for selectable references in UnityEngine.Objects. Useful for allowing the use of interfaces in code. [1.0.0] - 2024-01-01 Add documentation. [0.9.0-pre] - 2023-12-30 Added Add documentation, license and changelog url. Add a UIElement TimeSpanField that may be used to draw a TimeSpan in the inspector. Add a TimeSpanAttribute to allow long to be drawn as TimeSpan in the inspector. Use like so: [TimeSpan] public long timeSpan; Add an OfTypeAttribute to allow Objects to specify which types they need to be of. Use like so: [OfType(typeof(IPointerClickHandler), typeof(ISubmitHandler))] public Selectable pointClickSubmitHandler; Removed Remove unused SerializedPropertyExtensions before version 1.0 as their integrety cannot be verified at this time. [0.1.0-exp] - 2023-05-15 This is the first release of Cubusky Core. Cubusky Core contains reusable code spanning across the Cubusky organization including serialization features and utility functions. If you are creating a custom package based on the Cubusky organization, using Cubusky Core will save you time."
   },
   "index.html": {
     "href": "index.html",
-    "title": "| Cubusky Core | 1.2.0",
+    "title": "| Cubusky Core | 1.2.1",
     "keywords": "This page redirects to the manual."
   },
   "license/LICENSE.html": {
     "href": "license/LICENSE.html",
-    "title": "| Cubusky Core | 1.2.0",
+    "title": "| Cubusky Core | 1.2.1",
     "keywords": "MIT License Copyright (c) 2023 Cubusky Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
   },
   "manual/AttributeSerialization/AttributeSerialization.html": {
     "href": "manual/AttributeSerialization/AttributeSerialization.html",
-    "title": "Attribute Serialization | Cubusky Core | 1.2.0",
+    "title": "Attribute Serialization | Cubusky Core | 1.2.1",
     "keywords": "Attribute Serialization When you need to serialize a type in Unity that can be serialized through one of its underlying values, Attribute Serialization is a pattern that allows for rapid type coupling. It has zero performance cost at runtime and negligable performance cost in the editor. It is not recommended to put Attribute Serialization in a wrapper. While it may initially seem that a wrapper would make the developers job easier, it would actually complicate the access hierarchy, accruing technical debt. For an easy way to implement Attribute Serialization easily, consider creating a snippet instead."
   },
   "manual/AttributeSerialization/GuidAttribute.html": {
     "href": "manual/AttributeSerialization/GuidAttribute.html",
-    "title": "Guid Attribute | Cubusky Core | 1.2.0",
+    "title": "Guid Attribute | Cubusky Core | 1.2.1",
     "keywords": "Guid Attribute public class MyMonoBehaviour : MonoBehaviour, ISerializationCallbackReceiver { [SerializeField, Guid] private string _guid; public Guid guid { get; set; } void ISerializationCallbackReceiver.OnBeforeSerialize() => _guid = guid.ToString(); void ISerializationCallbackReceiver.OnAfterDeserialize() => guid = new(_guid); }"
   },
   "manual/AttributeSerialization/OfTypeAttribute.html": {
     "href": "manual/AttributeSerialization/OfTypeAttribute.html",
-    "title": "OfType Attribute | Cubusky Core | 1.2.0",
+    "title": "OfType Attribute | Cubusky Core | 1.2.1",
     "keywords": "OfType Attribute OfType was created to allow interface specification inside an Object Field. public class MyMonoBehaviour : MonoBehaviour, ISerializationCallbackReceiver { [SerializeField, OfType(typeof(IConstraint))] private Component _constraint; public IConstraint constraint { get; set; } void ISerializationCallbackReceiver.OnBeforeSerialize() => _constraint = constraint as Component; void ISerializationCallbackReceiver.OnAfterDeserialize() => constraint = _constraint as IConstraint; }"
   },
   "manual/AttributeSerialization/PathAttribute.html": {
     "href": "manual/AttributeSerialization/PathAttribute.html",
-    "title": "Path Attribute | Cubusky Core | 1.2.0",
+    "title": "Path Attribute | Cubusky Core | 1.2.1",
     "keywords": "Path Attribute See also Application Path. public class MyMonoBehaviour : MonoBehaviour, ISerializationCallbackReceiver { public ApplicationPath applicationPath; public string relativePath; public string path => Path.Combine(applicationPath.GetPath(), relativePath); }"
   },
   "manual/AttributeSerialization/ReferenceDropdownAttribute.html": {
     "href": "manual/AttributeSerialization/ReferenceDropdownAttribute.html",
-    "title": "ReferenceDropdown Attribute | Cubusky Core | 1.2.0",
+    "title": "ReferenceDropdown Attribute | Cubusky Core | 1.2.1",
     "keywords": "ReferenceDropdown Attribute ReferenceDropdown was created to allow selectable interface references inside of Unity Objects. They work together with SerializeReference to serialize your interface so you can use it in the inspector. public interface ITest {} public class StringTest : ITest { public string s; } public class IntTest : ITest { public int i; } public class MyMonoBehaviour : MonoBehaviour { [SerializeReference, ReferenceDropdown] public ITest test; } Restrictions In order for an implementation to be selectable, it must adhere to the following rules: The implementation must have an empty constructor. The implementation must not be abstract. The implementation must not derive from UnityEngine.Object. Nullable You can specify your reference to be nullable through the following: public class MyMonoBehaviour : MonoBehaviour { [SerializeReference, ReferenceDropdown(nullable = true)] public ITest test; } Types Whilst SerializeReference can serialize interfaces, it cannot serialize generics. In order to circumvent this issue, you can specify types that the reference needs to be assignable from. public interface ITest<T> {} public class Text : ITest<string> {} public class Password : ITest<string> {} public class MyMonoBehaviour : MonoBehaviour { [SerializeReference, ReferenceDropdown] public ITest<string> invalid; // invalid [SerializeReference, ReferenceDropdown(typeof(ITest<string>))] public object valid; // valid }"
   },
   "manual/AttributeSerialization/TimeSpanAttribute.html": {
     "href": "manual/AttributeSerialization/TimeSpanAttribute.html",
-    "title": "TimeSpan Attribute | Cubusky Core | 1.2.0",
+    "title": "TimeSpan Attribute | Cubusky Core | 1.2.1",
     "keywords": "TimeSpan Attribute public class MyMonoBehaviour : MonoBehaviour, ISerializationCallbackReceiver { [SerializeField, TimeSpan] private long _timeSpan; public TimeSpan timeSpan { get; set; } void ISerializationCallbackReceiver.OnBeforeSerialize() => _timeSpan = timeSpan.Ticks; void ISerializationCallbackReceiver.OnAfterDeserialize() => timeSpan = new(_timeSpan); }"
   },
   "manual/AttributeSerialization/UriAttribute.html": {
     "href": "manual/AttributeSerialization/UriAttribute.html",
-    "title": "Uri Attribute | Cubusky Core | 1.2.0",
+    "title": "Uri Attribute | Cubusky Core | 1.2.1",
     "keywords": "Uri Attribute public class MyMonoBehaviour : MonoBehaviour, ISerializationCallbackReceiver { [SerializeField, Uri] private string _uri; public Uri uri { get; set; } void ISerializationCallbackReceiver.OnBeforeSerialize() => _uri = uri.ToString(); void ISerializationCallbackReceiver.OnAfterDeserialize() => uri = new(_uri); }"
   },
   "manual/Instance.html": {
     "href": "manual/Instance.html",
-    "title": "Instance | Cubusky Core | 1.2.0",
+    "title": "Instance | Cubusky Core | 1.2.1",
     "keywords": "Instance Singletons are a widely accepted anti-pattern within Unity, and their use is not recommended. There are however valid use cases for wanting to interact with static functions through Components. The Instance<T> type provides a singleton implementation that aims to adhere to the single responsibility principle by working independently from other types. Rather than referencing Instance<T> in other classes, it is used more like a state setter. An Instance<T> is supposed to manipulate static api values when it becomes the current instance. Similarly, the last known instance will set its state when the current instance is deactivated. Unlike most singleton implementations that allow only 1 instance, Instance<T> does not restrict the amount of instances. Note that the last enabled Instance<T> will be the current Instance<T>. Example A simple example is a time scale setter implemented through instances. [DisallowMultipleComponent] public class TimeScaleInstance : Instance<TimeScaleInstance> { [field: SerializeField] public float timeScale { get; set; } = 1f; public override void OnCurrent() { Time.timeScale = timeScale; } } When our game starts, the TimeScaleInstance on the camera is recognized and our time scale is set to 1. When our pause screen gets enabled however, our time scale is set to 0. Then, when our pause screen gets disabled, the TimeScaleInstance recognizes the last known instance and resets the time scale back to 1. By virtue of implementation, it becomes trivial to make a weapon select menu that puts us in slowmotion rather than stopping time completely. Singleton It is possible to derive from Instance<T> to create a true singleton implementation that only allows one instance at a time. /// <summary> /// A singleton implementation where there will only ever exist 0 or 1 instances of the singleton. /// </summary> public abstract class Singleton<T> : Instance<T> where T : Singleton<T> { protected virtual void Awake() { if (current) { Destroy(this); } else { DontDestroyOnLoad(this); } } } However, as Cubusky only uses the singleton pattern to set static state dynamically, the above would be the same as using RuntimeInitializeOnLoadMethod, which is strongly recommended over the use of singletons."
   },
   "manual/SavingAndLoading/DirectorySaverLoader.html": {
     "href": "manual/SavingAndLoading/DirectorySaverLoader.html",
-    "title": "Directory Saver Loader | Cubusky Core | 1.2.0",
+    "title": "Directory Saver Loader | Cubusky Core | 1.2.1",
     "keywords": "Directory Saver Loader DirectorySaverLoader saves and loads collections of data to and from a directory."
   },
   "manual/SavingAndLoading/FileSaverLoader.html": {
     "href": "manual/SavingAndLoading/FileSaverLoader.html",
-    "title": "File Saver Loader | Cubusky Core | 1.2.0",
+    "title": "File Saver Loader | Cubusky Core | 1.2.1",
     "keywords": "File Saver Loader FileSaverLoader saves and loads data to and from a file."
   },
   "manual/SavingAndLoading/SavingAndLoading.html": {
     "href": "manual/SavingAndLoading/SavingAndLoading.html",
-    "title": "Saving & Loading | Cubusky Core | 1.2.0",
+    "title": "Saving & Loading | Cubusky Core | 1.2.1",
     "keywords": "Saving & Loading How you save and load files can be a complicated subject. There can be a lot of different methods of saving and loading your data, and all of them are valid. Cubusky therefor exposes interfaces to abstract all possible implementations to a few simple methods. This allows anyone to easily integrate their own solution for saving and loading based on their needs, which can be used in any scripts that reference these interfaces free of charge. Implementation To use saving & loading in code, reference an ISaverLoader using ReferenceDropdown and start using it. public class MyMonoBehaviour : MonoBehaviour { [SerializeReference, ReferenceDropdown] public ISaverLoader saverLoader; private void Start() => var json = saverLoader.Load<string>(); private void OnDestroy() => saverLoader.Save(\"{ \\\"name\\\": \\\"My Json!\\\" }\"); } If you only want to use saving or loading capabilities, simply specify the desired implementation. public class MyMonoBehaviour : MonoBehaviour { [SerializeReference, ReferenceDropdown] public ISaver saver; [SerializeReference, ReferenceDropdown] public ILoader loader; private void Start() { saver.Load<string>(); // compiler error! loader.Save(\"{ \\\"name\\\": \\\"My Json!\\\" }\"); // compiler error! } } If you need save and/or load collections of data, use the IEnumerableSaverLoader interfaces. public class MyMonoBehaviour : MonoBehaviour { [SerializeReference, ReferenceDropdown] public IEnumerableSaver saver; [SerializeReference, ReferenceDropdown] public IEnumerableLoader loader; [SerializeReference, ReferenceDropdown] public IEnumerableSaverLoader saverLoader; private void Start() { saver.Save(new [] { \"{ \\\"name\\\": \\\"My First Json!\\\" }\", \"{ \\\"name\\\": \\\"My Second Json!\\\" }\" }); var jsons = loader.Load<IEnumerable<string>>(); } } Although it is not recommended, if you want to save and/or load data of a generic type, use the generic interfaces. public class MyMonoBehaviour : MonoBehaviour, ISerializationCallbackReceiver { [SerializeReference, ReferenceDropdown(typeof(ISaverLoader<State>))] private object _stateSaverLoader; public ISaverLoader<State> stateSaverLoader { get; set; } void ISerializationCallbackReceiver.OnBeforeSerialize() => _stateSaverLoader = stateSaverLoader as object; void ISerializationCallbackReceiver.OnAfterDeserialize() => stateSaverLoader = _stateSaverLoader as ISaverLoader<State>; State state; private void Start() { state = stateSaverLoader.Load<State>(); } private void OnDestroy() { stateSaverLoader.Save(state); } } Asynchronous Saving & Loading ISaverLoader and friends come with async implementations as well since saving & loading is an operation that in most cases can be savely performed on a different thread. It is especially useful for e.g. saving & loading from a server, which may otherwise block the editor for a noticable amount of time. public class MyMonoBehaviour : MonoBehaviour { [SerializeReference, ReferenceDropdown] public ISaverLoader saverLoader; private async void Start() => var json = await saverLoader.LoadAsync<string>(); private void OnDestroy() => saverLoader.SaveAsync(\"{ \\\"name\\\": \\\"My Json!\\\" }\"); } Saving & Serialization It is important to note that saving is NOT the same as serialization. Serialization translates state into a format, usually json, that can be stored and reconstructed. Saving is used to store data, usually json, to a location, usually a file or a server. Loading is used to retrieve data, usually json, from a location, usually a file or a server. Whenever you work with ISaverLoader, you will need to serialize and deserialize the data before saving and loading. Keeping these steps apart allows them both to be implemented generically. public class MyMonoBehaviour : MonoBehaviour { [SerializeReference, ReferenceDropdown] public ISaverLoader saverLoader; private State state; private void Start() { var json = saverLoader.Load<string>(); state = JsonUtility.FromJson<State>(json); } private void OnDestroy() { var json = JsonUtility.ToJson(state); saverLoader.Save(json); } }"
   },
   "manual/SavingAndLoading/TempSaverLoader.html": {
     "href": "manual/SavingAndLoading/TempSaverLoader.html",
-    "title": "Temp Saver Loader | Cubusky Core | 1.2.0",
+    "title": "Temp Saver Loader | Cubusky Core | 1.2.1",
     "keywords": "Temp Saver Loader TempSaverLoader keeps data in memory for as long as the memory persists."
   },
   "manual/SerializableValues/AnimatorHash.html": {
     "href": "manual/SerializableValues/AnimatorHash.html",
-    "title": "Animator Hash | Cubusky Core | 1.2.0",
+    "title": "Animator Hash | Cubusky Core | 1.2.1",
     "keywords": "Animator Hash public class MyMonoBehaviour : MonoBehaviour { public AnimatorHash jump = \"Jump\"; // Takes string input. public void DoJump() => animator.SetTrigger(jump); // Returns int output. }"
   },
   "manual/SerializableValues/ApplicationPath.html": {
     "href": "manual/SerializableValues/ApplicationPath.html",
-    "title": "Application Path | Cubusky Core | 1.2.0",
+    "title": "Application Path | Cubusky Core | 1.2.1",
     "keywords": "Application Path See also Application.dataPath, Application.persistentDataPath, Application.streamingAssetsPath, Application.temporaryCachePath, Application.consoleLogPath. public class MyMonoBehaviour : MonoBehaviour { public ApplicationPath applicationPath = ApplicationPath.DataPath; public string path => applicationPath.GetPath(); // Will return Application.dataPath }"
   },
   "manual/SerializableValues/SerializableValues.html": {
     "href": "manual/SerializableValues/SerializableValues.html",
-    "title": "Serializable Values | Cubusky Core | 1.2.0",
+    "title": "Serializable Values | Cubusky Core | 1.2.1",
     "keywords": "Serializable Values Some values in Unity require one set of input (usually string) but can provide a more optimized output (usually int). When working within a context where parsing these values may be desirable, consider using the provided Serializable Values."
   },
   "manual/SerializableValues/ShaderId.html": {
     "href": "manual/SerializableValues/ShaderId.html",
-    "title": "Shader Id | Cubusky Core | 1.2.0",
+    "title": "Shader Id | Cubusky Core | 1.2.1",
     "keywords": "Shader Id public class MyMonoBehaviour : MonoBehaviour { public ShaderId smoothness = \"_Glossiness\"; // Takes string input. public float GetSmoothness() => mat.GetFloat(smoothness); // Returns int output. }"
   },
   "manual/SerializableValues/TimeMode.html": {
     "href": "manual/SerializableValues/TimeMode.html",
-    "title": "Time Mode | Cubusky Core | 1.2.0",
+    "title": "Time Mode | Cubusky Core | 1.2.1",
     "keywords": "Time Mode public class MyMonoBehaviour : MonoBehaviour { public float time => TimeMode.Time.GetTime(); // Same as Time.time public float unscaledTime => TimeMode.UnscaledTime.GetTime(); // Same as Time.unscaledTime public float fixedDeltaTime => TimeMode.FixedTime.GetDeltaTime(); // Same as Time.fixedDeltaTime }"
   },
   "manual/Timer.html": {
     "href": "manual/Timer.html",
-    "title": "Timer | Cubusky Core | 1.2.0",
+    "title": "Timer | Cubusky Core | 1.2.1",
     "keywords": "Timer UpdateSynchronizer A common usecase might be to synchronize the Timer with Unity's Update loop. This can be easily achieved by adding an UpdateSynchronizer to the SynchronizingObject. public class MyMonoBehaviour { public Timer timer = new(0.1) { SynchronizingObject = new UpdateSynchronizer(); }; private void Start() { // Note that without the UpdateSynchronizer, this code wouldn't run because // the transform is only accessible from the main thread. timer.Elapsed += elapsedTime => transform.localScale = Vector3.one * elapsedTime; timer.Start(); } private void OnDestroy() { timer.Stop(); } }"
   },
   "manual/UpdaterService.html": {
     "href": "manual/UpdaterService.html",
-    "title": "Updater Service | Cubusky Core | 1.2.0",
+    "title": "Updater Service | Cubusky Core | 1.2.1",
     "keywords": "Updater Service The UpdaterService provides callbacks to the Update, LateUpdate and FixedUpdate loop. This is used in order to e.g. synchronize asynchronous calls with Unity functionality, which can usually only run on the main thread. public static class MyStaticClass { [RuntimeInitializeOnLoad] private static void Initialize() { UpdaterService.onUpdate += () => Debug.Log(Time.time); } }"
   },
   "manual/index.html": {
     "href": "manual/index.html",
-    "title": "About Cubusky Core | Cubusky Core | 1.2.0",
+    "title": "About Cubusky Core | Cubusky Core | 1.2.1",
     "keywords": "About Cubusky Core Cubusky Core contains core functionality spanning across the Cubusky organization. Installing Cubusky Core To install this package, follow the instructions on the Package Manager documentation Requirements This version of Cubusky Core is compatible with the following versions of the Unity Editor: 2022.3 and later (recommended) Known Limitations Cubusky Core 1.2.0 includes the following known limitations: TimeSpanField in the UIBuilder allows for weird string inputs. This may be improved using UxmlElementAttribute in a later Unity version. The OfType attribute does not single out objects shown in the Object Picker. The ReferenceDropdown attribute hides away when you reset a Component."
   }
 }

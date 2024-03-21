@@ -75,10 +75,30 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Cubusky.Editor.HelpBoxDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cubusky.Editor.HelpBoxDrawer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Cubusky.Editor.OfTypeDrawer.yml",
       "output": {
         ".html": {
           "relative_path": "api/Cubusky.Editor.OfTypeDrawer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cubusky.Editor.PasswordDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cubusky.Editor.PasswordDrawer.html"
         }
       },
       "version": ""
@@ -169,6 +189,16 @@
       "output": {
         ".html": {
           "relative_path": "api/Cubusky.GuidAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cubusky.HelpBoxAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cubusky.HelpBoxAttribute.html"
         }
       },
       "version": ""
@@ -369,6 +399,16 @@
       "output": {
         ".html": {
           "relative_path": "api/Cubusky.OfTypeAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cubusky.PasswordAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cubusky.PasswordAttribute.html"
         }
       },
       "version": ""
