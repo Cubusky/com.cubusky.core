@@ -12,6 +12,7 @@ namespace Cubusky.Editor
     [CustomPropertyDrawer(typeof(TimeSpanAttribute), true)]
     public class TimeSpanDrawer : PropertyDrawer
     {
+#if UNITY_2022_3_OR_NEWER
         public override VisualElement CreatePropertyGUI(SerializedProperty property)
         {
             property.ThrowIfNotNumericType(SerializedPropertyNumericType.Int64);
@@ -44,5 +45,38 @@ namespace Cubusky.Editor
                 timeSpanField.SetValueWithoutNotify(new TimeSpan(property.longValue));
             }
         }
+#else
+        public override void OnGUI(Rect position, SerializedProperty property, GUIContent label)
+        {
+            property.ThrowIfNotPropertyType(SerializedPropertyType.Integer);
+
+            using var propertyScope = new EditorGUI.PropertyScope(position, label, property);
+            using var changeCheckScope = new EditorGUI.ChangeCheckScope();
+
+            const float minLongWidth = 160f;
+            const float timeSpanWidth = 100f;
+            const int ticksPerMillisecond = (int)TimeSpan.TicksPerMillisecond;
+
+            var width = position.width;
+            position.width = MathF.Max(position.width - timeSpanWidth - 2f, EditorGUIUtility.labelWidth + minLongWidth);
+            if (fieldInfo.GetCustomAttribute<DelayedAttribute>(true) != null)
+            {
+                property.intValue = EditorGUI.DelayedIntField(position, label, property.intValue / ticksPerMillisecond) * ticksPerMillisecond;
+            }
+            else
+            {
+                property.intValue = EditorGUI.IntField(position, label, property.intValue / ticksPerMillisecond) * ticksPerMillisecond;
+            }
+
+            position.x += position.width + 2f;
+            position.width = timeSpanWidth;
+            EditorGUI.LabelField(position, new TimeSpan(property.intValue).ToString("g"));
+
+            if (changeCheckScope.changed)
+            {
+                property.serializedObject.ApplyModifiedProperties();
+            }
+        }
+#endif
     }
 }

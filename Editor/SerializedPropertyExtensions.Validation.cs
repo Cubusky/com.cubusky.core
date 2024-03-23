@@ -21,6 +21,7 @@ namespace Cubusky.Editor
             }
         }
 
+#if UNITY_2022_3_OR_NEWER
         public static void ThrowIfNumericType(this SerializedProperty property, params SerializedPropertyNumericType[] invalidNumericTypes)
         {
             if (Array.IndexOf(invalidNumericTypes, property.numericType) != -1)
@@ -36,5 +37,6 @@ namespace Cubusky.Editor
                 throw new ArgumentException($"This property has invalid property type {property.numericType}.", nameof(property.numericType));
             }
         }
+#endif
     }
 }

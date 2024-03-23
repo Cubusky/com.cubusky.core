@@ -3,7 +3,7 @@
   "version": "1.2.1",
   "displayName": "Cubusky Core",
   "description": "Cubusky Core contains reusable code spanning across the Cubusky organization including serialization features and utility functions. If you are creating a custom package based on the Cubusky organization, using Cubusky Core will save you time.",
-  "unity": "2022.3",
+  "unity": "2021.2",
   "hideInEditor": false,
   "documentationUrl": "https://cubusky.github.io/com.cubusky.core/",
   "changelogUrl": "https://cubusky.github.io/com.cubusky.core/changelog/CHANGELOG.html",

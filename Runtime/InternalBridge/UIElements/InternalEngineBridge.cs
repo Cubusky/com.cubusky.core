@@ -5,6 +5,7 @@ namespace Cubusky.UIElements
 {
     internal static class InternalEngineBridge
     {
+#if UNITY_2022_3_OR_NEWER
         public static float Acceleration(bool shiftPressed, bool altPressed) => NumericFieldDraggerUtility.Acceleration(shiftPressed, altPressed);
         public static double CalculateFloatDragSensitivity(double value) => NumericFieldDraggerUtility.CalculateFloatDragSensitivity(value);
         public static double CalculateFloatDragSensitivity(double value, double minValue, double maxValue) => NumericFieldDraggerUtility.CalculateFloatDragSensitivity(value, minValue, maxValue);
@@ -20,5 +21,6 @@ namespace Cubusky.UIElements
         public static bool TryConvertStringToLong(string str, out long value) => UINumericFieldsUtils.TryConvertStringToLong(str, out value);
         public static bool TryConvertStringToLong(string str, out long value, out ExpressionEvaluator.Expression expr) => UINumericFieldsUtils.TryConvertStringToLong(str, out value, out expr);
         public static bool TryConvertStringToLong(string str, string initialValueAsString, out long value) => UINumericFieldsUtils.TryConvertStringToLong(str, initialValueAsString, out value);
+#endif
     }
 }

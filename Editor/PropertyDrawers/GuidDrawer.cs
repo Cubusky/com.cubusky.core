@@ -1,6 +1,7 @@
 using System;
 using UnityEditor;
 using UnityEditor.UIElements;
+using UnityEngine;
 using UnityEngine.UIElements;
 
 namespace Cubusky.Editor
@@ -16,7 +17,9 @@ namespace Cubusky.Editor
             {
                 isDelayed = true,
             };
+#if UNITY_2022_3_OR_NEWER
             textField.AddToClassList(TextField.alignedFieldUssClassName);
+#endif
             textField.BindProperty(property);
 
             textField.RegisterValueChangedCallback(changed =>
@@ -38,6 +41,35 @@ namespace Cubusky.Editor
             });
 
             return textField;
+        }
+
+        public override void OnGUI(Rect position, SerializedProperty property, GUIContent label)
+        {
+            property.ThrowIfNotPropertyType(SerializedPropertyType.String);
+
+            using var propertyScope = new EditorGUI.PropertyScope(position, label, property);
+            using var changeCheckScope = new EditorGUI.ChangeCheckScope();
+            var previousValue = property.stringValue;
+            EditorGUI.DelayedTextField(position, property, label);
+            var newValue = property.stringValue;
+
+            if (changeCheckScope.changed || string.IsNullOrEmpty(newValue))
+            {
+                if (property.hasMultipleDifferentValues)
+                {
+                    return;
+                }
+
+                if (string.IsNullOrEmpty(newValue)
+                    || (!Guid.TryParse(newValue, out var guid)
+                        && !Guid.TryParse(previousValue, out guid)))
+                {
+                    guid = Guid.NewGuid();
+                }
+
+                property.stringValue = guid.ToString();
+                property.serializedObject.ApplyModifiedProperties();
+            }
         }
     }
 }

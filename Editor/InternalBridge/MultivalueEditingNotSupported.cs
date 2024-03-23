@@ -8,7 +8,10 @@ namespace Cubusky.Editor
         public MultivalueEditingNotSupported(string label) : base(label)
         {
             value = "Multi-value editing not supported.";
+
+#if UNITY_2022_3_OR_NEWER
             AddToClassList(alignedFieldUssClassName);
+#endif
             SetEnabled(false);
 
             textInputBase.style.marginTop = textInputBase.resolvedStyle.marginTop;
