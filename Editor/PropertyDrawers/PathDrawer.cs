@@ -34,17 +34,19 @@ namespace Cubusky.Editor
                 var directoryName = new ReadOnlySpan<char>(changed.newValue.Where(valueChar => !invalidPathChars.Contains(valueChar)).ToArray());
 
                 ReadOnlySpan<char> fileName;
-                ReadOnlySpan<char> value = string.Empty;
+                string value = string.Empty;
                 var invalidFileNameChars = Path.GetInvalidFileNameChars();
-                while (!directoryName.IsEmpty)
+                ReadOnlySpan<char> pathRoot = Path.IsPathRooted(directoryName) ? Path.GetPathRoot(directoryName) : string.Empty;
+                while (directoryName.Length > pathRoot.Length)
                 {
                     fileName = Path.GetFileName(directoryName);
+                    directoryName = directoryName[..^Math.Min(fileName.Length + 1, directoryName.Length)];
                     fileName = fileName.ToArray().Where(fileNameChar => !invalidFileNameChars.Contains(fileNameChar)).ToArray();
                     value = Path.Join(fileName, value);
-                    directoryName = Path.GetDirectoryName(directoryName);
                 }
+                value = pathRoot.ToString() + value;
 
-                if (pathAttribute.withoutExtension && !value.IsEmpty)
+                if (pathAttribute.withoutExtension && value.Length > 0)
                 {
                     directoryName = Path.GetDirectoryName(value);
 
