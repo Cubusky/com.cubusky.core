@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Changelog | Cubusky Core | 1.2.1 </title>
+      <title>Changelog | Cubusky Core | 1.3.0 </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Changelog | Cubusky Core | 1.2.1 ">
+      <meta name="title" content="Changelog | Cubusky Core | 1.3.0 ">
       
       
       <link rel="icon" href="../manual/images/favicon.png">
@@ -90,14 +90,34 @@
 <p>All notable changes to this package will be documented in this file.</p>
 <p>The format is based on <a href="http://keepachangelog.com">Keep a Changelog</a>
 and this project adheres to <a href="http://semver.org">Semantic Versioning</a>.</p>
-<h2 id="121---2024-03-21">[1.2.1] - 2024-03-21</h2>
+<h2 id="130---2024-04-02">[1.3.0] - 2024-04-02</h2>
 <h3 id="added">Added</h3>
+<ul>
+<li>Add the <code>ICompressor</code> interface for file compression / decompression. Compression often leads to a 50-75% file reduction.</li>
+<li>Add <code>DeflateCompressor</code> for compressing files using Deflate compression.</li>
+<li>Add <code>GZipCompressor</code> for compressing files using GZip compression.</li>
+<li>Add <code>ISaver.encoding</code> to make <code>ISaver</code>'s encoding publically available.</li>
+<li>Add <code>IEnumerableSaver.encoding</code> to make <code>IEnumerableSaver</code>'s encoding publically available.</li>
+<li>Add <code>ILoader.encoding</code> to make <code>ILoader</code>'s encoding publically available.</li>
+<li>Add <code>IEnumerableLoader.encoding</code> to make <code>IEnumerableLoader</code>'s encoding publically available.</li>
+</ul>
+<h3 id="changed">Changed</h3>
+<ul>
+<li>Replace <code>UpdateSynchronizer</code> with <code>ManualSynchronizer</code>. Due to the unreliable nature of destructors, <code>UpdateSynchronizer</code>'s subscription to <code>UpdaterService</code> may not always be removed, leaking code with the ability to cause unintended consequences. You must now process <code>ManualSynchronizer</code> queue manually by calling <code>ManualSynchronizer.ProcessQueue()</code>.</li>
+<li>Change <code>Timer</code> to return its full timestep. Previously it would return a rounded-off timestep for convenience, but if this rounding is desired, it should be done on the receivers end.</li>
+</ul>
+<h3 id="removed">Removed</h3>
+<ul>
+<li>Remove <code>UpdaterService</code> as <code>Cubusky.Core</code> should contain no scripts running in the background, and with the replacement from <code>UpdateSynchronizer</code> to <code>ManualSynchronizer</code>, this service is no longer needed.</li>
+</ul>
+<h2 id="121---2024-03-21">[1.2.1] - 2024-03-21</h2>
+<h3 id="added-1">Added</h3>
 <ul>
 <li>Add <code>PasswordAttribute</code> to mask a string field in the inspector for screen share. Note that it doesn't actually encrypt or otherwise protect your string.</li>
 <li>Add <code>HelpBoxAttribute</code> to decorate your property with a useful help box.</li>
 </ul>
 <h2 id="120---2024-02-23">[1.2.0] - 2024-02-23</h2>
-<h3 id="added-1">Added</h3>
+<h3 id="added-2">Added</h3>
 <ul>
 <li>Add <code>ISaver</code> to allow saving data to a single location.</li>
 <li>Add <code>ILoader</code> to allow loading data from a single location.</li>
@@ -141,14 +161,14 @@ Solution: <code>[SerializeReference, ReferenceDropdown(typeof(ISaver&lt;Vector3&
 <li>Add documentation.</li>
 </ul>
 <h2 id="090-pre---2023-12-30">[0.9.0-pre] - 2023-12-30</h2>
-<h3 id="added-2">Added</h3>
+<h3 id="added-3">Added</h3>
 <ul>
 <li>Add documentation, license and changelog url.</li>
 <li>Add a UIElement <code>TimeSpanField</code> that may be used to draw a <code>TimeSpan</code> in the inspector.</li>
 <li>Add a <code>TimeSpanAttribute</code> to allow <code>long</code> to be drawn as <code>TimeSpan</code> in the inspector. Use like so: <code>[TimeSpan] public long timeSpan;</code></li>
 <li>Add an <code>OfTypeAttribute</code> to allow <code>Object</code>s to specify which types they need to be of. Use like so: <code>[OfType(typeof(IPointerClickHandler), typeof(ISubmitHandler))] public Selectable pointClickSubmitHandler;</code></li>
 </ul>
-<h3 id="removed">Removed</h3>
+<h3 id="removed-1">Removed</h3>
 <ul>
 <li>Remove unused <code>SerializedPropertyExtensions</code> before version 1.0 as their integrety cannot be verified at this time.</li>
 </ul>

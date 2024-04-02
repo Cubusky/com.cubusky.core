@@ -233,6 +233,44 @@ references:
   isSpec: "True"
   fullName: Cubusky.ApplicationPathExtensions.GetPath
   nameWithType: ApplicationPathExtensions.GetPath
+- uid: Cubusky.DeflateCompressor
+  name: DeflateCompressor
+  href: api/Cubusky.DeflateCompressor.html
+  commentId: T:Cubusky.DeflateCompressor
+  fullName: Cubusky.DeflateCompressor
+  nameWithType: DeflateCompressor
+- uid: Cubusky.DeflateCompressor.CompressAsync(System.Byte[],System.Threading.CancellationToken)
+  name: CompressAsync(byte[], CancellationToken)
+  href: api/Cubusky.DeflateCompressor.html#Cubusky_DeflateCompressor_CompressAsync_System_Byte___System_Threading_CancellationToken_
+  commentId: M:Cubusky.DeflateCompressor.CompressAsync(System.Byte[],System.Threading.CancellationToken)
+  name.vb: CompressAsync(Byte(), CancellationToken)
+  fullName: Cubusky.DeflateCompressor.CompressAsync(byte[], System.Threading.CancellationToken)
+  fullName.vb: Cubusky.DeflateCompressor.CompressAsync(Byte(), System.Threading.CancellationToken)
+  nameWithType: DeflateCompressor.CompressAsync(byte[], CancellationToken)
+  nameWithType.vb: DeflateCompressor.CompressAsync(Byte(), CancellationToken)
+- uid: Cubusky.DeflateCompressor.CompressAsync*
+  name: CompressAsync
+  href: api/Cubusky.DeflateCompressor.html#Cubusky_DeflateCompressor_CompressAsync_
+  commentId: Overload:Cubusky.DeflateCompressor.CompressAsync
+  isSpec: "True"
+  fullName: Cubusky.DeflateCompressor.CompressAsync
+  nameWithType: DeflateCompressor.CompressAsync
+- uid: Cubusky.DeflateCompressor.DecompressAsync(System.Byte[],System.Threading.CancellationToken)
+  name: DecompressAsync(byte[], CancellationToken)
+  href: api/Cubusky.DeflateCompressor.html#Cubusky_DeflateCompressor_DecompressAsync_System_Byte___System_Threading_CancellationToken_
+  commentId: M:Cubusky.DeflateCompressor.DecompressAsync(System.Byte[],System.Threading.CancellationToken)
+  name.vb: DecompressAsync(Byte(), CancellationToken)
+  fullName: Cubusky.DeflateCompressor.DecompressAsync(byte[], System.Threading.CancellationToken)
+  fullName.vb: Cubusky.DeflateCompressor.DecompressAsync(Byte(), System.Threading.CancellationToken)
+  nameWithType: DeflateCompressor.DecompressAsync(byte[], CancellationToken)
+  nameWithType.vb: DeflateCompressor.DecompressAsync(Byte(), CancellationToken)
+- uid: Cubusky.DeflateCompressor.DecompressAsync*
+  name: DecompressAsync
+  href: api/Cubusky.DeflateCompressor.html#Cubusky_DeflateCompressor_DecompressAsync_
+  commentId: Overload:Cubusky.DeflateCompressor.DecompressAsync
+  isSpec: "True"
+  fullName: Cubusky.DeflateCompressor.DecompressAsync
+  nameWithType: DeflateCompressor.DecompressAsync
 - uid: Cubusky.DirectorySaverLoader
   name: DirectorySaverLoader
   href: api/Cubusky.DirectorySaverLoader.html
@@ -576,6 +614,44 @@ references:
   isSpec: "True"
   fullName: Cubusky.FileSaverLoader.relativePath
   nameWithType: FileSaverLoader.relativePath
+- uid: Cubusky.GZipCompressor
+  name: GZipCompressor
+  href: api/Cubusky.GZipCompressor.html
+  commentId: T:Cubusky.GZipCompressor
+  fullName: Cubusky.GZipCompressor
+  nameWithType: GZipCompressor
+- uid: Cubusky.GZipCompressor.CompressAsync(System.Byte[],System.Threading.CancellationToken)
+  name: CompressAsync(byte[], CancellationToken)
+  href: api/Cubusky.GZipCompressor.html#Cubusky_GZipCompressor_CompressAsync_System_Byte___System_Threading_CancellationToken_
+  commentId: M:Cubusky.GZipCompressor.CompressAsync(System.Byte[],System.Threading.CancellationToken)
+  name.vb: CompressAsync(Byte(), CancellationToken)
+  fullName: Cubusky.GZipCompressor.CompressAsync(byte[], System.Threading.CancellationToken)
+  fullName.vb: Cubusky.GZipCompressor.CompressAsync(Byte(), System.Threading.CancellationToken)
+  nameWithType: GZipCompressor.CompressAsync(byte[], CancellationToken)
+  nameWithType.vb: GZipCompressor.CompressAsync(Byte(), CancellationToken)
+- uid: Cubusky.GZipCompressor.CompressAsync*
+  name: CompressAsync
+  href: api/Cubusky.GZipCompressor.html#Cubusky_GZipCompressor_CompressAsync_
+  commentId: Overload:Cubusky.GZipCompressor.CompressAsync
+  isSpec: "True"
+  fullName: Cubusky.GZipCompressor.CompressAsync
+  nameWithType: GZipCompressor.CompressAsync
+- uid: Cubusky.GZipCompressor.DecompressAsync(System.Byte[],System.Threading.CancellationToken)
+  name: DecompressAsync(byte[], CancellationToken)
+  href: api/Cubusky.GZipCompressor.html#Cubusky_GZipCompressor_DecompressAsync_System_Byte___System_Threading_CancellationToken_
+  commentId: M:Cubusky.GZipCompressor.DecompressAsync(System.Byte[],System.Threading.CancellationToken)
+  name.vb: DecompressAsync(Byte(), CancellationToken)
+  fullName: Cubusky.GZipCompressor.DecompressAsync(byte[], System.Threading.CancellationToken)
+  fullName.vb: Cubusky.GZipCompressor.DecompressAsync(Byte(), System.Threading.CancellationToken)
+  nameWithType: GZipCompressor.DecompressAsync(byte[], CancellationToken)
+  nameWithType.vb: GZipCompressor.DecompressAsync(Byte(), CancellationToken)
+- uid: Cubusky.GZipCompressor.DecompressAsync*
+  name: DecompressAsync
+  href: api/Cubusky.GZipCompressor.html#Cubusky_GZipCompressor_DecompressAsync_
+  commentId: Overload:Cubusky.GZipCompressor.DecompressAsync
+  isSpec: "True"
+  fullName: Cubusky.GZipCompressor.DecompressAsync
+  nameWithType: GZipCompressor.DecompressAsync
 - uid: Cubusky.GuidAttribute
   name: GuidAttribute
   href: api/Cubusky.GuidAttribute.html
@@ -628,6 +704,89 @@ references:
   commentId: F:Cubusky.HelpBoxAttribute.text
   fullName: Cubusky.HelpBoxAttribute.text
   nameWithType: HelpBoxAttribute.text
+- uid: Cubusky.ICompressor
+  name: ICompressor
+  href: api/Cubusky.ICompressor.html
+  commentId: T:Cubusky.ICompressor
+  fullName: Cubusky.ICompressor
+  nameWithType: ICompressor
+- uid: Cubusky.ICompressor`1
+  name: ICompressor<T>
+  href: api/Cubusky.ICompressor-1.html
+  commentId: T:Cubusky.ICompressor`1
+  name.vb: ICompressor(Of T)
+  fullName: Cubusky.ICompressor<T>
+  fullName.vb: Cubusky.ICompressor(Of T)
+  nameWithType: ICompressor<T>
+  nameWithType.vb: ICompressor(Of T)
+- uid: Cubusky.ICompressor`1.Compress(`0)
+  name: Compress(T)
+  href: api/Cubusky.ICompressor-1.html#Cubusky_ICompressor_1_Compress__0_
+  commentId: M:Cubusky.ICompressor`1.Compress(`0)
+  fullName: Cubusky.ICompressor<T>.Compress(T)
+  fullName.vb: Cubusky.ICompressor(Of T).Compress(T)
+  nameWithType: ICompressor<T>.Compress(T)
+  nameWithType.vb: ICompressor(Of T).Compress(T)
+- uid: Cubusky.ICompressor`1.Compress*
+  name: Compress
+  href: api/Cubusky.ICompressor-1.html#Cubusky_ICompressor_1_Compress_
+  commentId: Overload:Cubusky.ICompressor`1.Compress
+  isSpec: "True"
+  fullName: Cubusky.ICompressor<T>.Compress
+  fullName.vb: Cubusky.ICompressor(Of T).Compress
+  nameWithType: ICompressor<T>.Compress
+  nameWithType.vb: ICompressor(Of T).Compress
+- uid: Cubusky.ICompressor`1.CompressAsync(`0,System.Threading.CancellationToken)
+  name: CompressAsync(T, CancellationToken)
+  href: api/Cubusky.ICompressor-1.html#Cubusky_ICompressor_1_CompressAsync__0_System_Threading_CancellationToken_
+  commentId: M:Cubusky.ICompressor`1.CompressAsync(`0,System.Threading.CancellationToken)
+  fullName: Cubusky.ICompressor<T>.CompressAsync(T, System.Threading.CancellationToken)
+  fullName.vb: Cubusky.ICompressor(Of T).CompressAsync(T, System.Threading.CancellationToken)
+  nameWithType: ICompressor<T>.CompressAsync(T, CancellationToken)
+  nameWithType.vb: ICompressor(Of T).CompressAsync(T, CancellationToken)
+- uid: Cubusky.ICompressor`1.CompressAsync*
+  name: CompressAsync
+  href: api/Cubusky.ICompressor-1.html#Cubusky_ICompressor_1_CompressAsync_
+  commentId: Overload:Cubusky.ICompressor`1.CompressAsync
+  isSpec: "True"
+  fullName: Cubusky.ICompressor<T>.CompressAsync
+  fullName.vb: Cubusky.ICompressor(Of T).CompressAsync
+  nameWithType: ICompressor<T>.CompressAsync
+  nameWithType.vb: ICompressor(Of T).CompressAsync
+- uid: Cubusky.ICompressor`1.Decompress(`0)
+  name: Decompress(T)
+  href: api/Cubusky.ICompressor-1.html#Cubusky_ICompressor_1_Decompress__0_
+  commentId: M:Cubusky.ICompressor`1.Decompress(`0)
+  fullName: Cubusky.ICompressor<T>.Decompress(T)
+  fullName.vb: Cubusky.ICompressor(Of T).Decompress(T)
+  nameWithType: ICompressor<T>.Decompress(T)
+  nameWithType.vb: ICompressor(Of T).Decompress(T)
+- uid: Cubusky.ICompressor`1.Decompress*
+  name: Decompress
+  href: api/Cubusky.ICompressor-1.html#Cubusky_ICompressor_1_Decompress_
+  commentId: Overload:Cubusky.ICompressor`1.Decompress
+  isSpec: "True"
+  fullName: Cubusky.ICompressor<T>.Decompress
+  fullName.vb: Cubusky.ICompressor(Of T).Decompress
+  nameWithType: ICompressor<T>.Decompress
+  nameWithType.vb: ICompressor(Of T).Decompress
+- uid: Cubusky.ICompressor`1.DecompressAsync(`0,System.Threading.CancellationToken)
+  name: DecompressAsync(T, CancellationToken)
+  href: api/Cubusky.ICompressor-1.html#Cubusky_ICompressor_1_DecompressAsync__0_System_Threading_CancellationToken_
+  commentId: M:Cubusky.ICompressor`1.DecompressAsync(`0,System.Threading.CancellationToken)
+  fullName: Cubusky.ICompressor<T>.DecompressAsync(T, System.Threading.CancellationToken)
+  fullName.vb: Cubusky.ICompressor(Of T).DecompressAsync(T, System.Threading.CancellationToken)
+  nameWithType: ICompressor<T>.DecompressAsync(T, CancellationToken)
+  nameWithType.vb: ICompressor(Of T).DecompressAsync(T, CancellationToken)
+- uid: Cubusky.ICompressor`1.DecompressAsync*
+  name: DecompressAsync
+  href: api/Cubusky.ICompressor-1.html#Cubusky_ICompressor_1_DecompressAsync_
+  commentId: Overload:Cubusky.ICompressor`1.DecompressAsync
+  isSpec: "True"
+  fullName: Cubusky.ICompressor<T>.DecompressAsync
+  fullName.vb: Cubusky.ICompressor(Of T).DecompressAsync
+  nameWithType: ICompressor<T>.DecompressAsync
+  nameWithType.vb: ICompressor(Of T).DecompressAsync
 - uid: Cubusky.IDirectoryLoader
   name: IDirectoryLoader
   href: api/Cubusky.IDirectoryLoader.html
@@ -711,6 +870,19 @@ references:
   commentId: T:Cubusky.IEnumerableLoader
   fullName: Cubusky.IEnumerableLoader
   nameWithType: IEnumerableLoader
+- uid: Cubusky.IEnumerableLoader.encoding
+  name: encoding
+  href: api/Cubusky.IEnumerableLoader.html#Cubusky_IEnumerableLoader_encoding
+  commentId: P:Cubusky.IEnumerableLoader.encoding
+  fullName: Cubusky.IEnumerableLoader.encoding
+  nameWithType: IEnumerableLoader.encoding
+- uid: Cubusky.IEnumerableLoader.encoding*
+  name: encoding
+  href: api/Cubusky.IEnumerableLoader.html#Cubusky_IEnumerableLoader_encoding_
+  commentId: Overload:Cubusky.IEnumerableLoader.encoding
+  isSpec: "True"
+  fullName: Cubusky.IEnumerableLoader.encoding
+  nameWithType: IEnumerableLoader.encoding
 - uid: Cubusky.IEnumerableLoader`1
   name: IEnumerableLoader<TOutput>
   href: api/Cubusky.IEnumerableLoader-1.html
@@ -744,6 +916,19 @@ references:
   commentId: T:Cubusky.IEnumerableSaver
   fullName: Cubusky.IEnumerableSaver
   nameWithType: IEnumerableSaver
+- uid: Cubusky.IEnumerableSaver.encoding
+  name: encoding
+  href: api/Cubusky.IEnumerableSaver.html#Cubusky_IEnumerableSaver_encoding
+  commentId: P:Cubusky.IEnumerableSaver.encoding
+  fullName: Cubusky.IEnumerableSaver.encoding
+  nameWithType: IEnumerableSaver.encoding
+- uid: Cubusky.IEnumerableSaver.encoding*
+  name: encoding
+  href: api/Cubusky.IEnumerableSaver.html#Cubusky_IEnumerableSaver_encoding_
+  commentId: Overload:Cubusky.IEnumerableSaver.encoding
+  isSpec: "True"
+  fullName: Cubusky.IEnumerableSaver.encoding
+  nameWithType: IEnumerableSaver.encoding
 - uid: Cubusky.IEnumerableSaverLoader
   name: IEnumerableSaverLoader
   href: api/Cubusky.IEnumerableSaverLoader.html
@@ -830,6 +1015,19 @@ references:
   commentId: T:Cubusky.ILoader
   fullName: Cubusky.ILoader
   nameWithType: ILoader
+- uid: Cubusky.ILoader.encoding
+  name: encoding
+  href: api/Cubusky.ILoader.html#Cubusky_ILoader_encoding
+  commentId: P:Cubusky.ILoader.encoding
+  fullName: Cubusky.ILoader.encoding
+  nameWithType: ILoader.encoding
+- uid: Cubusky.ILoader.encoding*
+  name: encoding
+  href: api/Cubusky.ILoader.html#Cubusky_ILoader_encoding_
+  commentId: Overload:Cubusky.ILoader.encoding
+  isSpec: "True"
+  fullName: Cubusky.ILoader.encoding
+  nameWithType: ILoader.encoding
 - uid: Cubusky.ILoader`1
   name: ILoader<TOutput>
   href: api/Cubusky.ILoader-1.html
@@ -881,6 +1079,19 @@ references:
   commentId: T:Cubusky.ISaver
   fullName: Cubusky.ISaver
   nameWithType: ISaver
+- uid: Cubusky.ISaver.encoding
+  name: encoding
+  href: api/Cubusky.ISaver.html#Cubusky_ISaver_encoding
+  commentId: P:Cubusky.ISaver.encoding
+  fullName: Cubusky.ISaver.encoding
+  nameWithType: ISaver.encoding
+- uid: Cubusky.ISaver.encoding*
+  name: encoding
+  href: api/Cubusky.ISaver.html#Cubusky_ISaver_encoding_
+  commentId: Overload:Cubusky.ISaver.encoding
+  isSpec: "True"
+  fullName: Cubusky.ISaver.encoding
+  nameWithType: ISaver.encoding
 - uid: Cubusky.ISaverLoader
   name: ISaverLoader
   href: api/Cubusky.ISaverLoader.html
@@ -1060,6 +1271,83 @@ references:
   fullName.vb: Cubusky.Instance(Of T).current
   nameWithType: Instance<T>.current
   nameWithType.vb: Instance(Of T).current
+- uid: Cubusky.ManualSynchronizer
+  name: ManualSynchronizer
+  href: api/Cubusky.ManualSynchronizer.html
+  commentId: T:Cubusky.ManualSynchronizer
+  fullName: Cubusky.ManualSynchronizer
+  nameWithType: ManualSynchronizer
+- uid: Cubusky.ManualSynchronizer.BeginInvoke(System.Delegate,System.Object[])
+  name: BeginInvoke(Delegate, object[])
+  href: api/Cubusky.ManualSynchronizer.html#Cubusky_ManualSynchronizer_BeginInvoke_System_Delegate_System_Object___
+  commentId: M:Cubusky.ManualSynchronizer.BeginInvoke(System.Delegate,System.Object[])
+  name.vb: BeginInvoke(Delegate, Object())
+  fullName: Cubusky.ManualSynchronizer.BeginInvoke(System.Delegate, object[])
+  fullName.vb: Cubusky.ManualSynchronizer.BeginInvoke(System.Delegate, Object())
+  nameWithType: ManualSynchronizer.BeginInvoke(Delegate, object[])
+  nameWithType.vb: ManualSynchronizer.BeginInvoke(Delegate, Object())
+- uid: Cubusky.ManualSynchronizer.BeginInvoke*
+  name: BeginInvoke
+  href: api/Cubusky.ManualSynchronizer.html#Cubusky_ManualSynchronizer_BeginInvoke_
+  commentId: Overload:Cubusky.ManualSynchronizer.BeginInvoke
+  isSpec: "True"
+  fullName: Cubusky.ManualSynchronizer.BeginInvoke
+  nameWithType: ManualSynchronizer.BeginInvoke
+- uid: Cubusky.ManualSynchronizer.EndInvoke(System.IAsyncResult)
+  name: EndInvoke(IAsyncResult)
+  href: api/Cubusky.ManualSynchronizer.html#Cubusky_ManualSynchronizer_EndInvoke_System_IAsyncResult_
+  commentId: M:Cubusky.ManualSynchronizer.EndInvoke(System.IAsyncResult)
+  fullName: Cubusky.ManualSynchronizer.EndInvoke(System.IAsyncResult)
+  nameWithType: ManualSynchronizer.EndInvoke(IAsyncResult)
+- uid: Cubusky.ManualSynchronizer.EndInvoke*
+  name: EndInvoke
+  href: api/Cubusky.ManualSynchronizer.html#Cubusky_ManualSynchronizer_EndInvoke_
+  commentId: Overload:Cubusky.ManualSynchronizer.EndInvoke
+  isSpec: "True"
+  fullName: Cubusky.ManualSynchronizer.EndInvoke
+  nameWithType: ManualSynchronizer.EndInvoke
+- uid: Cubusky.ManualSynchronizer.Invoke(System.Delegate,System.Object[])
+  name: Invoke(Delegate, object[])
+  href: api/Cubusky.ManualSynchronizer.html#Cubusky_ManualSynchronizer_Invoke_System_Delegate_System_Object___
+  commentId: M:Cubusky.ManualSynchronizer.Invoke(System.Delegate,System.Object[])
+  name.vb: Invoke(Delegate, Object())
+  fullName: Cubusky.ManualSynchronizer.Invoke(System.Delegate, object[])
+  fullName.vb: Cubusky.ManualSynchronizer.Invoke(System.Delegate, Object())
+  nameWithType: ManualSynchronizer.Invoke(Delegate, object[])
+  nameWithType.vb: ManualSynchronizer.Invoke(Delegate, Object())
+- uid: Cubusky.ManualSynchronizer.Invoke*
+  name: Invoke
+  href: api/Cubusky.ManualSynchronizer.html#Cubusky_ManualSynchronizer_Invoke_
+  commentId: Overload:Cubusky.ManualSynchronizer.Invoke
+  isSpec: "True"
+  fullName: Cubusky.ManualSynchronizer.Invoke
+  nameWithType: ManualSynchronizer.Invoke
+- uid: Cubusky.ManualSynchronizer.InvokeRequired
+  name: InvokeRequired
+  href: api/Cubusky.ManualSynchronizer.html#Cubusky_ManualSynchronizer_InvokeRequired
+  commentId: P:Cubusky.ManualSynchronizer.InvokeRequired
+  fullName: Cubusky.ManualSynchronizer.InvokeRequired
+  nameWithType: ManualSynchronizer.InvokeRequired
+- uid: Cubusky.ManualSynchronizer.InvokeRequired*
+  name: InvokeRequired
+  href: api/Cubusky.ManualSynchronizer.html#Cubusky_ManualSynchronizer_InvokeRequired_
+  commentId: Overload:Cubusky.ManualSynchronizer.InvokeRequired
+  isSpec: "True"
+  fullName: Cubusky.ManualSynchronizer.InvokeRequired
+  nameWithType: ManualSynchronizer.InvokeRequired
+- uid: Cubusky.ManualSynchronizer.ProcessQueue
+  name: ProcessQueue()
+  href: api/Cubusky.ManualSynchronizer.html#Cubusky_ManualSynchronizer_ProcessQueue
+  commentId: M:Cubusky.ManualSynchronizer.ProcessQueue
+  fullName: Cubusky.ManualSynchronizer.ProcessQueue()
+  nameWithType: ManualSynchronizer.ProcessQueue()
+- uid: Cubusky.ManualSynchronizer.ProcessQueue*
+  name: ProcessQueue
+  href: api/Cubusky.ManualSynchronizer.html#Cubusky_ManualSynchronizer_ProcessQueue_
+  commentId: Overload:Cubusky.ManualSynchronizer.ProcessQueue
+  isSpec: "True"
+  fullName: Cubusky.ManualSynchronizer.ProcessQueue
+  nameWithType: ManualSynchronizer.ProcessQueue
 - uid: Cubusky.OfTypeAttribute
   name: OfTypeAttribute
   href: api/Cubusky.OfTypeAttribute.html
@@ -1751,142 +2039,6 @@ references:
   isSpec: "True"
   fullName: Cubusky.UnityPath.relativePath
   nameWithType: UnityPath.relativePath
-- uid: Cubusky.UpdateSynchronizer
-  name: UpdateSynchronizer
-  href: api/Cubusky.UpdateSynchronizer.html
-  commentId: T:Cubusky.UpdateSynchronizer
-  fullName: Cubusky.UpdateSynchronizer
-  nameWithType: UpdateSynchronizer
-- uid: Cubusky.UpdateSynchronizer.#ctor
-  name: UpdateSynchronizer()
-  href: api/Cubusky.UpdateSynchronizer.html#Cubusky_UpdateSynchronizer__ctor
-  commentId: M:Cubusky.UpdateSynchronizer.#ctor
-  name.vb: New()
-  fullName: Cubusky.UpdateSynchronizer.UpdateSynchronizer()
-  fullName.vb: Cubusky.UpdateSynchronizer.New()
-  nameWithType: UpdateSynchronizer.UpdateSynchronizer()
-  nameWithType.vb: UpdateSynchronizer.New()
-- uid: Cubusky.UpdateSynchronizer.#ctor*
-  name: UpdateSynchronizer
-  href: api/Cubusky.UpdateSynchronizer.html#Cubusky_UpdateSynchronizer__ctor_
-  commentId: Overload:Cubusky.UpdateSynchronizer.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: Cubusky.UpdateSynchronizer.UpdateSynchronizer
-  fullName.vb: Cubusky.UpdateSynchronizer.New
-  nameWithType: UpdateSynchronizer.UpdateSynchronizer
-  nameWithType.vb: UpdateSynchronizer.New
-- uid: Cubusky.UpdateSynchronizer.BeginInvoke(System.Delegate,System.Object[])
-  name: BeginInvoke(Delegate, object[])
-  href: api/Cubusky.UpdateSynchronizer.html#Cubusky_UpdateSynchronizer_BeginInvoke_System_Delegate_System_Object___
-  commentId: M:Cubusky.UpdateSynchronizer.BeginInvoke(System.Delegate,System.Object[])
-  name.vb: BeginInvoke(Delegate, Object())
-  fullName: Cubusky.UpdateSynchronizer.BeginInvoke(System.Delegate, object[])
-  fullName.vb: Cubusky.UpdateSynchronizer.BeginInvoke(System.Delegate, Object())
-  nameWithType: UpdateSynchronizer.BeginInvoke(Delegate, object[])
-  nameWithType.vb: UpdateSynchronizer.BeginInvoke(Delegate, Object())
-- uid: Cubusky.UpdateSynchronizer.BeginInvoke*
-  name: BeginInvoke
-  href: api/Cubusky.UpdateSynchronizer.html#Cubusky_UpdateSynchronizer_BeginInvoke_
-  commentId: Overload:Cubusky.UpdateSynchronizer.BeginInvoke
-  isSpec: "True"
-  fullName: Cubusky.UpdateSynchronizer.BeginInvoke
-  nameWithType: UpdateSynchronizer.BeginInvoke
-- uid: Cubusky.UpdateSynchronizer.EndInvoke(System.IAsyncResult)
-  name: EndInvoke(IAsyncResult)
-  href: api/Cubusky.UpdateSynchronizer.html#Cubusky_UpdateSynchronizer_EndInvoke_System_IAsyncResult_
-  commentId: M:Cubusky.UpdateSynchronizer.EndInvoke(System.IAsyncResult)
-  fullName: Cubusky.UpdateSynchronizer.EndInvoke(System.IAsyncResult)
-  nameWithType: UpdateSynchronizer.EndInvoke(IAsyncResult)
-- uid: Cubusky.UpdateSynchronizer.EndInvoke*
-  name: EndInvoke
-  href: api/Cubusky.UpdateSynchronizer.html#Cubusky_UpdateSynchronizer_EndInvoke_
-  commentId: Overload:Cubusky.UpdateSynchronizer.EndInvoke
-  isSpec: "True"
-  fullName: Cubusky.UpdateSynchronizer.EndInvoke
-  nameWithType: UpdateSynchronizer.EndInvoke
-- uid: Cubusky.UpdateSynchronizer.Finalize
-  name: ~UpdateSynchronizer()
-  href: api/Cubusky.UpdateSynchronizer.html#Cubusky_UpdateSynchronizer_Finalize
-  commentId: M:Cubusky.UpdateSynchronizer.Finalize
-  name.vb: ''
-  fullName: Cubusky.UpdateSynchronizer.~UpdateSynchronizer()
-  fullName.vb: ''
-  nameWithType: UpdateSynchronizer.~UpdateSynchronizer()
-  nameWithType.vb: ''
-- uid: Cubusky.UpdateSynchronizer.Finalize*
-  name: ~UpdateSynchronizer
-  href: api/Cubusky.UpdateSynchronizer.html#Cubusky_UpdateSynchronizer_Finalize_
-  commentId: Overload:Cubusky.UpdateSynchronizer.Finalize
-  isSpec: "True"
-  fullName: Cubusky.UpdateSynchronizer.~UpdateSynchronizer
-  nameWithType: UpdateSynchronizer.~UpdateSynchronizer
-- uid: Cubusky.UpdateSynchronizer.Invoke(System.Delegate,System.Object[])
-  name: Invoke(Delegate, object[])
-  href: api/Cubusky.UpdateSynchronizer.html#Cubusky_UpdateSynchronizer_Invoke_System_Delegate_System_Object___
-  commentId: M:Cubusky.UpdateSynchronizer.Invoke(System.Delegate,System.Object[])
-  name.vb: Invoke(Delegate, Object())
-  fullName: Cubusky.UpdateSynchronizer.Invoke(System.Delegate, object[])
-  fullName.vb: Cubusky.UpdateSynchronizer.Invoke(System.Delegate, Object())
-  nameWithType: UpdateSynchronizer.Invoke(Delegate, object[])
-  nameWithType.vb: UpdateSynchronizer.Invoke(Delegate, Object())
-- uid: Cubusky.UpdateSynchronizer.Invoke*
-  name: Invoke
-  href: api/Cubusky.UpdateSynchronizer.html#Cubusky_UpdateSynchronizer_Invoke_
-  commentId: Overload:Cubusky.UpdateSynchronizer.Invoke
-  isSpec: "True"
-  fullName: Cubusky.UpdateSynchronizer.Invoke
-  nameWithType: UpdateSynchronizer.Invoke
-- uid: Cubusky.UpdateSynchronizer.InvokeRequired
-  name: InvokeRequired
-  href: api/Cubusky.UpdateSynchronizer.html#Cubusky_UpdateSynchronizer_InvokeRequired
-  commentId: P:Cubusky.UpdateSynchronizer.InvokeRequired
-  fullName: Cubusky.UpdateSynchronizer.InvokeRequired
-  nameWithType: UpdateSynchronizer.InvokeRequired
-- uid: Cubusky.UpdateSynchronizer.InvokeRequired*
-  name: InvokeRequired
-  href: api/Cubusky.UpdateSynchronizer.html#Cubusky_UpdateSynchronizer_InvokeRequired_
-  commentId: Overload:Cubusky.UpdateSynchronizer.InvokeRequired
-  isSpec: "True"
-  fullName: Cubusky.UpdateSynchronizer.InvokeRequired
-  nameWithType: UpdateSynchronizer.InvokeRequired
-- uid: Cubusky.UpdateSynchronizer.ProcessQueue
-  name: ProcessQueue()
-  href: api/Cubusky.UpdateSynchronizer.html#Cubusky_UpdateSynchronizer_ProcessQueue
-  commentId: M:Cubusky.UpdateSynchronizer.ProcessQueue
-  fullName: Cubusky.UpdateSynchronizer.ProcessQueue()
-  nameWithType: UpdateSynchronizer.ProcessQueue()
-- uid: Cubusky.UpdateSynchronizer.ProcessQueue*
-  name: ProcessQueue
-  href: api/Cubusky.UpdateSynchronizer.html#Cubusky_UpdateSynchronizer_ProcessQueue_
-  commentId: Overload:Cubusky.UpdateSynchronizer.ProcessQueue
-  isSpec: "True"
-  fullName: Cubusky.UpdateSynchronizer.ProcessQueue
-  nameWithType: UpdateSynchronizer.ProcessQueue
-- uid: Cubusky.UpdaterService
-  name: UpdaterService
-  href: api/Cubusky.UpdaterService.html
-  commentId: T:Cubusky.UpdaterService
-  fullName: Cubusky.UpdaterService
-  nameWithType: UpdaterService
-- uid: Cubusky.UpdaterService.onFixedUpdate
-  name: onFixedUpdate
-  href: api/Cubusky.UpdaterService.html#Cubusky_UpdaterService_onFixedUpdate
-  commentId: E:Cubusky.UpdaterService.onFixedUpdate
-  fullName: Cubusky.UpdaterService.onFixedUpdate
-  nameWithType: UpdaterService.onFixedUpdate
-- uid: Cubusky.UpdaterService.onLateUpdate
-  name: onLateUpdate
-  href: api/Cubusky.UpdaterService.html#Cubusky_UpdaterService_onLateUpdate
-  commentId: E:Cubusky.UpdaterService.onLateUpdate
-  fullName: Cubusky.UpdaterService.onLateUpdate
-  nameWithType: UpdaterService.onLateUpdate
-- uid: Cubusky.UpdaterService.onUpdate
-  name: onUpdate
-  href: api/Cubusky.UpdaterService.html#Cubusky_UpdaterService_onUpdate
-  commentId: E:Cubusky.UpdaterService.onUpdate
-  fullName: Cubusky.UpdaterService.onUpdate
-  nameWithType: UpdaterService.onUpdate
 - uid: Cubusky.UriAttribute
   name: UriAttribute
   href: api/Cubusky.UriAttribute.html

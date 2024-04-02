@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Interface IEnumerableLoader&lt;TOutput&gt; | Cubusky Core | 1.3.0 </title>
+      <title>Interface ICompressor&lt;T&gt; | Cubusky Core | 1.3.0 </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Interface IEnumerableLoader&lt;TOutput&gt; | Cubusky Core | 1.3.0 ">
+      <meta name="title" content="Interface ICompressor&lt;T&gt; | Cubusky Core | 1.3.0 ">
       
-      <meta name="description" content="Loads a &amp;lt;TOutput&amp;gt; from multiple locations.">
+      
       <link rel="icon" href="../manual/images/favicon.png">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       <meta name="docfx:disablenewtab" content="true">
       
-      <meta name="docfx:docurl" content="https://github.com/Cubusky/com.cubusky.core/new/main/apiSpec/new?filename=Cubusky_IEnumerableLoader_1.md&amp;value=---%0Auid%3A%20Cubusky.IEnumerableLoader%601%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/Cubusky/com.cubusky.core/new/main/apiSpec/new?filename=Cubusky_ICompressor_1.md&amp;value=---%0Auid%3A%20Cubusky.ICompressor%601%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -84,12 +84,12 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="Cubusky.IEnumerableLoader`1">
+        <article data-uid="Cubusky.ICompressor`1">
 
 
 
-  <h1 id="Cubusky_IEnumerableLoader_1" data-uid="Cubusky.IEnumerableLoader`1" class="text-break">
-Interface IEnumerableLoader&lt;TOutput&gt;  <a class="header-action link-secondary" title="View source" href="https://github.com/Cubusky/com.cubusky.core/blob/main/Runtime/Saving &amp; Loading/ISaverLoader.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  <h1 id="Cubusky_ICompressor_1" data-uid="Cubusky.ICompressor`1" class="text-break">
+Interface ICompressor&lt;T&gt;  <a class="header-action link-secondary" title="View source" href="https://github.com/Cubusky/com.cubusky.core/blob/main/Runtime/Saving &amp; Loading/Compressing/ICompressor.cs/#L6"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,35 +97,24 @@ Interface IEnumerableLoader&lt;TOutput&gt;  <a class="header-action link-seconda
   
   </div>
 
-  <div class="markdown summary"><p>Loads a <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<code class="typeparamref">TOutput</code>&gt; from multiple locations.</p>
-</div>
+  <div class="markdown summary"></div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface IEnumerableLoader&lt;TOutput&gt; : ILoader&lt;IEnumerable&lt;TOutput&gt;&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public interface ICompressor&lt;T&gt;</code></pre>
   </div>
 
 
 
   <h4 class="section">Type Parameters</h4>
   <dl class="parameters">
-    <dt><code>TOutput</code></dt>
-    <dd>Loads a &lt;TOutput&gt; from multiple locations.</dd>
+    <dt><code>T</code></dt>
+    <dd></dd>
   </dl>
 
 
 
 
-  <dl class="typelist inheritedMembers">
-    <dt>Inherited Members</dt>
-    <dd>
-    <div>
-      <a class="xref" href="Cubusky.ILoader-1.html#Cubusky_ILoader_1_Load__1">ILoader&lt;IEnumerable&lt;TOutput&gt;&gt;.Load&lt;TData&gt;()</a>
-    </div>
-    <div>
-      <a class="xref" href="Cubusky.ILoader-1.html#Cubusky_ILoader_1_LoadAsync__1_System_Threading_CancellationToken_">ILoader&lt;IEnumerable&lt;TOutput&gt;&gt;.LoadAsync&lt;TData&gt;(CancellationToken)</a>
-    </div>
-  </dd></dl>
 
 
 
@@ -136,37 +125,144 @@ Interface IEnumerableLoader&lt;TOutput&gt;  <a class="header-action link-seconda
 </h2>
 
 
-  <a id="Cubusky_IEnumerableLoader_1_LoadAsyncEnumerable_" data-uid="Cubusky.IEnumerableLoader`1.LoadAsyncEnumerable*"></a>
+  <a id="Cubusky_ICompressor_1_Compress_" data-uid="Cubusky.ICompressor`1.Compress*"></a>
 
-  <h3 id="Cubusky_IEnumerableLoader_1_LoadAsyncEnumerable__1_System_Threading_CancellationToken_" data-uid="Cubusky.IEnumerableLoader`1.LoadAsyncEnumerable``1(System.Threading.CancellationToken)">
-  LoadAsyncEnumerable&lt;TData&gt;(CancellationToken)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Cubusky/com.cubusky.core/blob/main/Runtime/Saving &amp; Loading/ISaverLoader.cs/#L35"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Cubusky_ICompressor_1_Compress__0_" data-uid="Cubusky.ICompressor`1.Compress(`0)">
+  Compress(T)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Cubusky/com.cubusky.core/blob/main/Runtime/Saving &amp; Loading/Compressing/ICompressor.cs/#L8"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">IAsyncEnumerable&lt;TOutput&gt; LoadAsyncEnumerable&lt;TData&gt;(CancellationToken cancellationToken = default) where TData : TOutput</code></pre>
+    <pre><code class="lang-csharp hljs">T Compress(T data)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
+    <dt><code>data</code> <span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Cubusky_ICompressor_1_CompressAsync_" data-uid="Cubusky.ICompressor`1.CompressAsync*"></a>
+
+  <h3 id="Cubusky_ICompressor_1_CompressAsync__0_System_Threading_CancellationToken_" data-uid="Cubusky.ICompressor`1.CompressAsync(`0,System.Threading.CancellationToken)">
+  CompressAsync(T, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Cubusky/com.cubusky.core/blob/main/Runtime/Saving &amp; Loading/Compressing/ICompressor.cs/#L11"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;T&gt; CompressAsync(T data, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>data</code> <span class="xref">T</span></dt>
+    <dd></dd>
     <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.iasyncenumerable-1">IAsyncEnumerable</a>&lt;TOutput&gt;</dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;T&gt;</dt>
     <dd></dd>
   </dl>
 
-  <h4 class="section">Type Parameters</h4>
+
+
+
+
+
+
+
+
+
+
+  <a id="Cubusky_ICompressor_1_Decompress_" data-uid="Cubusky.ICompressor`1.Decompress*"></a>
+
+  <h3 id="Cubusky_ICompressor_1_Decompress__0_" data-uid="Cubusky.ICompressor`1.Decompress(`0)">
+  Decompress(T)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Cubusky/com.cubusky.core/blob/main/Runtime/Saving &amp; Loading/Compressing/ICompressor.cs/#L9"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">T Decompress(T compressedData)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>TData</code></dt>
+    <dt><code>compressedData</code> <span class="xref">T</span></dt>
     <dd></dd>
   </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Cubusky_ICompressor_1_DecompressAsync_" data-uid="Cubusky.ICompressor`1.DecompressAsync*"></a>
+
+  <h3 id="Cubusky_ICompressor_1_DecompressAsync__0_System_Threading_CancellationToken_" data-uid="Cubusky.ICompressor`1.DecompressAsync(`0,System.Threading.CancellationToken)">
+  DecompressAsync(T, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Cubusky/com.cubusky.core/blob/main/Runtime/Saving &amp; Loading/Compressing/ICompressor.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;T&gt; DecompressAsync(T compressedData, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>compressedData</code> <span class="xref">T</span></dt>
+    <dd></dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
 
 
 

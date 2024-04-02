@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class UpdateSynchronizer | Cubusky Core | 1.2.1 </title>
+      <title>Class ManualSynchronizer | Cubusky Core | 1.3.0 </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class UpdateSynchronizer | Cubusky Core | 1.2.1 ">
+      <meta name="title" content="Class ManualSynchronizer | Cubusky Core | 1.3.0 ">
       
-      <meta name="description" content="Synchronizes calls with Unity&#39;s Update() method.">
+      <meta name="description" content="Synchronizes calls manually by calling">
       <link rel="icon" href="../manual/images/favicon.png">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       <meta name="docfx:disablenewtab" content="true">
       
-      <meta name="docfx:docurl" content="https://github.com/Cubusky/com.cubusky.core/new/main/apiSpec/new?filename=Cubusky_UpdateSynchronizer.md&amp;value=---%0Auid%3A%20Cubusky.UpdateSynchronizer%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/Cubusky/com.cubusky.core/new/main/apiSpec/new?filename=Cubusky_ManualSynchronizer.md&amp;value=---%0Auid%3A%20Cubusky.ManualSynchronizer%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -84,12 +84,12 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="Cubusky.UpdateSynchronizer">
+        <article data-uid="Cubusky.ManualSynchronizer">
 
 
 
-  <h1 id="Cubusky_UpdateSynchronizer" data-uid="Cubusky.UpdateSynchronizer" class="text-break">
-Class UpdateSynchronizer  <a class="header-action link-secondary" title="View source" href="https://github.com/Cubusky/com.cubusky.core/blob/main/Runtime/Timer/UpdateSynchronizer.cs/#L11"><i class="bi bi-code-slash"></i></a>
+  <h1 id="Cubusky_ManualSynchronizer" data-uid="Cubusky.ManualSynchronizer" class="text-break">
+Class ManualSynchronizer  <a class="header-action link-secondary" title="View source" href="https://github.com/Cubusky/com.cubusky.core/blob/main/Runtime/Timer/ManualSynchronizer.cs/#L11"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,12 +97,12 @@ Class UpdateSynchronizer  <a class="header-action link-secondary" title="View so
   
   </div>
 
-  <div class="markdown summary"><p>Synchronizes calls with Unity's Update() method.</p>
+  <div class="markdown summary"><p>Synchronizes calls manually by calling <a class="xref" href="Cubusky.ManualSynchronizer.html#Cubusky_ManualSynchronizer_ProcessQueue">ProcessQueue()</a></p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class UpdateSynchronizer : ISynchronizeInvoke</code></pre>
+    <pre><code class="lang-csharp hljs">public class ManualSynchronizer : ISynchronizeInvoke</code></pre>
   </div>
 
 
@@ -112,7 +112,7 @@ Class UpdateSynchronizer  <a class="header-action link-secondary" title="View so
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><span class="xref">UpdateSynchronizer</span></div>
+      <div><span class="xref">ManualSynchronizer</span></div>
     </dd>
   </dl>
 
@@ -155,45 +155,15 @@ Class UpdateSynchronizer  <a class="header-action link-secondary" title="View so
 
 
 
-  <h2 class="section" id="constructors">Constructors
-</h2>
-
-
-  <a id="Cubusky_UpdateSynchronizer__ctor_" data-uid="Cubusky.UpdateSynchronizer.#ctor*"></a>
-
-  <h3 id="Cubusky_UpdateSynchronizer__ctor" data-uid="Cubusky.UpdateSynchronizer.#ctor">
-  UpdateSynchronizer()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Cubusky/com.cubusky.core/blob/main/Runtime/Timer/UpdateSynchronizer.cs/#L16"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public UpdateSynchronizer()</code></pre>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
   <h2 class="section" id="properties">Properties
 </h2>
 
 
-  <a id="Cubusky_UpdateSynchronizer_InvokeRequired_" data-uid="Cubusky.UpdateSynchronizer.InvokeRequired*"></a>
+  <a id="Cubusky_ManualSynchronizer_InvokeRequired_" data-uid="Cubusky.ManualSynchronizer.InvokeRequired*"></a>
 
-  <h3 id="Cubusky_UpdateSynchronizer_InvokeRequired" data-uid="Cubusky.UpdateSynchronizer.InvokeRequired">
+  <h3 id="Cubusky_ManualSynchronizer_InvokeRequired" data-uid="Cubusky.ManualSynchronizer.InvokeRequired">
   InvokeRequired
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Cubusky/com.cubusky.core/blob/main/Runtime/Timer/UpdateSynchronizer.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Cubusky/com.cubusky.core/blob/main/Runtime/Timer/ManualSynchronizer.cs/#L14"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets a value indicating whether the caller must call <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.isynchronizeinvoke.invoke">Invoke(Delegate, object[])</a> when calling an object that implements this interface.</p>
@@ -226,11 +196,11 @@ Class UpdateSynchronizer  <a class="header-action link-secondary" title="View so
 </h2>
 
 
-  <a id="Cubusky_UpdateSynchronizer_BeginInvoke_" data-uid="Cubusky.UpdateSynchronizer.BeginInvoke*"></a>
+  <a id="Cubusky_ManualSynchronizer_BeginInvoke_" data-uid="Cubusky.ManualSynchronizer.BeginInvoke*"></a>
 
-  <h3 id="Cubusky_UpdateSynchronizer_BeginInvoke_System_Delegate_System_Object___" data-uid="Cubusky.UpdateSynchronizer.BeginInvoke(System.Delegate,System.Object[])">
+  <h3 id="Cubusky_ManualSynchronizer_BeginInvoke_System_Delegate_System_Object___" data-uid="Cubusky.ManualSynchronizer.BeginInvoke(System.Delegate,System.Object[])">
   BeginInvoke(Delegate, object[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Cubusky/com.cubusky.core/blob/main/Runtime/Timer/UpdateSynchronizer.cs/#L26"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Cubusky/com.cubusky.core/blob/main/Runtime/Timer/ManualSynchronizer.cs/#L16"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Asynchronously executes the delegate on the thread that created this object.</p>
@@ -268,11 +238,11 @@ Class UpdateSynchronizer  <a class="header-action link-secondary" title="View so
 
 
 
-  <a id="Cubusky_UpdateSynchronizer_EndInvoke_" data-uid="Cubusky.UpdateSynchronizer.EndInvoke*"></a>
+  <a id="Cubusky_ManualSynchronizer_EndInvoke_" data-uid="Cubusky.ManualSynchronizer.EndInvoke*"></a>
 
-  <h3 id="Cubusky_UpdateSynchronizer_EndInvoke_System_IAsyncResult_" data-uid="Cubusky.UpdateSynchronizer.EndInvoke(System.IAsyncResult)">
+  <h3 id="Cubusky_ManualSynchronizer_EndInvoke_System_IAsyncResult_" data-uid="Cubusky.ManualSynchronizer.EndInvoke(System.IAsyncResult)">
   EndInvoke(IAsyncResult)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Cubusky/com.cubusky.core/blob/main/Runtime/Timer/UpdateSynchronizer.cs/#L52"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Cubusky/com.cubusky.core/blob/main/Runtime/Timer/ManualSynchronizer.cs/#L42"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Waits until the process started by calling <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.isynchronizeinvoke.begininvoke">BeginInvoke(Delegate, object[])</a> completes, and then returns the value generated by the process.</p>
@@ -307,37 +277,11 @@ Class UpdateSynchronizer  <a class="header-action link-secondary" title="View so
 
 
 
-  <a id="Cubusky_UpdateSynchronizer_Finalize_" data-uid="Cubusky.UpdateSynchronizer.Finalize*"></a>
+  <a id="Cubusky_ManualSynchronizer_Invoke_" data-uid="Cubusky.ManualSynchronizer.Invoke*"></a>
 
-  <h3 id="Cubusky_UpdateSynchronizer_Finalize" data-uid="Cubusky.UpdateSynchronizer.Finalize">
-  ~UpdateSynchronizer()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Cubusky/com.cubusky.core/blob/main/Runtime/Timer/UpdateSynchronizer.cs/#L21"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected ~UpdateSynchronizer()</code></pre>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <a id="Cubusky_UpdateSynchronizer_Invoke_" data-uid="Cubusky.UpdateSynchronizer.Invoke*"></a>
-
-  <h3 id="Cubusky_UpdateSynchronizer_Invoke_System_Delegate_System_Object___" data-uid="Cubusky.UpdateSynchronizer.Invoke(System.Delegate,System.Object[])">
+  <h3 id="Cubusky_ManualSynchronizer_Invoke_System_Delegate_System_Object___" data-uid="Cubusky.ManualSynchronizer.Invoke(System.Delegate,System.Object[])">
   Invoke(Delegate, object[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Cubusky/com.cubusky.core/blob/main/Runtime/Timer/UpdateSynchronizer.cs/#L62"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Cubusky/com.cubusky.core/blob/main/Runtime/Timer/ManualSynchronizer.cs/#L52"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Synchronously executes the delegate on the thread that created this object and marshals the call to the creating thread.</p>
@@ -375,11 +319,11 @@ Class UpdateSynchronizer  <a class="header-action link-secondary" title="View so
 
 
 
-  <a id="Cubusky_UpdateSynchronizer_ProcessQueue_" data-uid="Cubusky.UpdateSynchronizer.ProcessQueue*"></a>
+  <a id="Cubusky_ManualSynchronizer_ProcessQueue_" data-uid="Cubusky.ManualSynchronizer.ProcessQueue*"></a>
 
-  <h3 id="Cubusky_UpdateSynchronizer_ProcessQueue" data-uid="Cubusky.UpdateSynchronizer.ProcessQueue">
+  <h3 id="Cubusky_ManualSynchronizer_ProcessQueue" data-uid="Cubusky.ManualSynchronizer.ProcessQueue">
   ProcessQueue()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Cubusky/com.cubusky.core/blob/main/Runtime/Timer/UpdateSynchronizer.cs/#L75"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Cubusky/com.cubusky.core/blob/main/Runtime/Timer/ManualSynchronizer.cs/#L65"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>

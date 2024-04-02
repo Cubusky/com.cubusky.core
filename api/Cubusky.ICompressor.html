@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class UpdaterService | Cubusky Core | 1.2.1 </title>
+      <title>Interface ICompressor | Cubusky Core | 1.3.0 </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class UpdaterService | Cubusky Core | 1.2.1 ">
+      <meta name="title" content="Interface ICompressor | Cubusky Core | 1.3.0 ">
       
       
       <link rel="icon" href="../manual/images/favicon.png">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       <meta name="docfx:disablenewtab" content="true">
       
-      <meta name="docfx:docurl" content="https://github.com/Cubusky/com.cubusky.core/new/main/apiSpec/new?filename=Cubusky_UpdaterService.md&amp;value=---%0Auid%3A%20Cubusky.UpdaterService%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/Cubusky/com.cubusky.core/new/main/apiSpec/new?filename=Cubusky_ICompressor.md&amp;value=---%0Auid%3A%20Cubusky.ICompressor%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -84,12 +84,12 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="Cubusky.UpdaterService">
+        <article data-uid="Cubusky.ICompressor">
 
 
 
-  <h1 id="Cubusky_UpdaterService" data-uid="Cubusky.UpdaterService" class="text-break">
-Class UpdaterService  <a class="header-action link-secondary" title="View source" href="https://github.com/Cubusky/com.cubusky.core/blob/main/Runtime/Services/UpdaterService.cs/#L6"><i class="bi bi-code-slash"></i></a>
+  <h1 id="Cubusky_ICompressor" data-uid="Cubusky.ICompressor" class="text-break">
+Interface ICompressor  <a class="header-action link-secondary" title="View source" href="https://github.com/Cubusky/com.cubusky.core/blob/main/Runtime/Saving &amp; Loading/Compressing/ICompressor.cs/#L15"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -101,19 +101,12 @@ Class UpdaterService  <a class="header-action link-secondary" title="View source
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class UpdaterService</code></pre>
+    <pre><code class="lang-csharp hljs">public interface ICompressor : ICompressor&lt;byte[]&gt;</code></pre>
   </div>
 
 
 
 
-  <dl class="typelist inheritance">
-    <dt>Inheritance</dt>
-    <dd>
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><span class="xref">UpdaterService</span></div>
-    </dd>
-  </dl>
 
 
 
@@ -121,121 +114,18 @@ Class UpdaterService  <a class="header-action link-secondary" title="View source
     <dt>Inherited Members</dt>
     <dd>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+      <a class="xref" href="Cubusky.ICompressor-1.html#Cubusky_ICompressor_1_Compress__0_">ICompressor&lt;byte[]&gt;.Compress(byte[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+      <a class="xref" href="Cubusky.ICompressor-1.html#Cubusky_ICompressor_1_Decompress__0_">ICompressor&lt;byte[]&gt;.Decompress(byte[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+      <a class="xref" href="Cubusky.ICompressor-1.html#Cubusky_ICompressor_1_CompressAsync__0_System_Threading_CancellationToken_">ICompressor&lt;byte[]&gt;.CompressAsync(byte[], CancellationToken)</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+      <a class="xref" href="Cubusky.ICompressor-1.html#Cubusky_ICompressor_1_DecompressAsync__0_System_Threading_CancellationToken_">ICompressor&lt;byte[]&gt;.DecompressAsync(byte[], CancellationToken)</a>
     </div>
   </dd></dl>
-
-
-
-
-
-
-  <h2 class="section" id="events">Events
-</h2>
-
-
-
-  <h3 id="Cubusky_UpdaterService_onFixedUpdate" data-uid="Cubusky.UpdaterService.onFixedUpdate">
-  onFixedUpdate
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Cubusky/com.cubusky.core/blob/main/Runtime/Services/UpdaterService.cs/#L20"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static event Action onFixedUpdate</code></pre>
-  </div>
-
-
-
-
-
-
-  <h4 class="section">Event Type</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <h3 id="Cubusky_UpdaterService_onLateUpdate" data-uid="Cubusky.UpdaterService.onLateUpdate">
-  onLateUpdate
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Cubusky/com.cubusky.core/blob/main/Runtime/Services/UpdaterService.cs/#L14"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static event Action onLateUpdate</code></pre>
-  </div>
-
-
-
-
-
-
-  <h4 class="section">Event Type</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <h3 id="Cubusky_UpdaterService_onUpdate" data-uid="Cubusky.UpdaterService.onUpdate">
-  onUpdate
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Cubusky/com.cubusky.core/blob/main/Runtime/Services/UpdaterService.cs/#L8"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static event Action onUpdate</code></pre>
-  </div>
-
-
-
-
-
-
-  <h4 class="section">Event Type</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></dt>
-    <dd></dd>
-  </dl>
-
 
 
 

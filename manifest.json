@@ -45,6 +45,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Cubusky.DeflateCompressor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cubusky.DeflateCompressor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Cubusky.DirectorySaverLoader.yml",
       "output": {
         ".html": {
@@ -185,6 +195,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Cubusky.GZipCompressor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cubusky.GZipCompressor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Cubusky.GuidAttribute.yml",
       "output": {
         ".html": {
@@ -199,6 +219,26 @@
       "output": {
         ".html": {
           "relative_path": "api/Cubusky.HelpBoxAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cubusky.ICompressor-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cubusky.ICompressor-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cubusky.ICompressor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cubusky.ICompressor.html"
         }
       },
       "version": ""
@@ -395,6 +435,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Cubusky.ManualSynchronizer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cubusky.ManualSynchronizer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Cubusky.OfTypeAttribute.yml",
       "output": {
         ".html": {
@@ -529,26 +579,6 @@
       "output": {
         ".html": {
           "relative_path": "api/Cubusky.UnityPath.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Cubusky.UpdateSynchronizer.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Cubusky.UpdateSynchronizer.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Cubusky.UpdaterService.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Cubusky.UpdaterService.html"
         }
       },
       "version": ""

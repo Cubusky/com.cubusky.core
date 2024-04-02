@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class UnityPath | Cubusky Core | 1.3.0 </title>
+      <title>Class DeflateCompressor | Cubusky Core | 1.3.0 </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class UnityPath | Cubusky Core | 1.3.0 ">
+      <meta name="title" content="Class DeflateCompressor | Cubusky Core | 1.3.0 ">
       
       
       <link rel="icon" href="../manual/images/favicon.png">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       <meta name="docfx:disablenewtab" content="true">
       
-      <meta name="docfx:docurl" content="https://github.com/Cubusky/com.cubusky.core/new/main/apiSpec/new?filename=Cubusky_UnityPath.md&amp;value=---%0Auid%3A%20Cubusky.UnityPath%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/Cubusky/com.cubusky.core/new/main/apiSpec/new?filename=Cubusky_DeflateCompressor.md&amp;value=---%0Auid%3A%20Cubusky.DeflateCompressor%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -84,12 +84,12 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="Cubusky.UnityPath">
+        <article data-uid="Cubusky.DeflateCompressor">
 
 
 
-  <h1 id="Cubusky_UnityPath" data-uid="Cubusky.UnityPath" class="text-break">
-Class UnityPath  <a class="header-action link-secondary" title="View source" href="https://github.com/Cubusky/com.cubusky.core/blob/main/Runtime/Saving &amp; Loading/UnityPath.cs/#L7"><i class="bi bi-code-slash"></i></a>
+  <h1 id="Cubusky_DeflateCompressor" data-uid="Cubusky.DeflateCompressor" class="text-break">
+Class DeflateCompressor  <a class="header-action link-secondary" title="View source" href="https://github.com/Cubusky/com.cubusky.core/blob/main/Runtime/Saving &amp; Loading/Compressing/DeflateCompressor.cs/#L9"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -102,7 +102,7 @@ Class UnityPath  <a class="header-action link-secondary" title="View source" hre
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Serializable]
-public abstract class UnityPath</code></pre>
+public class DeflateCompressor : ICompressor, ICompressor&lt;byte[]&gt;</code></pre>
   </div>
 
 
@@ -112,18 +112,18 @@ public abstract class UnityPath</code></pre>
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><span class="xref">UnityPath</span></div>
+      <div><span class="xref">DeflateCompressor</span></div>
     </dd>
   </dl>
 
-
-  <dl class="typelist derived">
-    <dt>Derived</dt>
+  <dl class="typelist implements">
+    <dt>Implements</dt>
     <dd>
-      <div><a class="xref" href="Cubusky.DirectorySaverLoader.html">DirectorySaverLoader</a></div>
-      <div><a class="xref" href="Cubusky.FileSaverLoader.html">FileSaverLoader</a></div>
+      <div><a class="xref" href="Cubusky.ICompressor.html">ICompressor</a></div>
+      <div><a class="xref" href="Cubusky.ICompressor-1.html">ICompressor</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]&gt;</div>
     </dd>
   </dl>
+
 
   <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
@@ -146,104 +146,10 @@ public abstract class UnityPath</code></pre>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
     </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
   </dd></dl>
-
-
-
-
-
-
-  <h2 class="section" id="properties">Properties
-</h2>
-
-
-  <a id="Cubusky_UnityPath_applicationPath_" data-uid="Cubusky.UnityPath.applicationPath*"></a>
-
-  <h3 id="Cubusky_UnityPath_applicationPath" data-uid="Cubusky.UnityPath.applicationPath">
-  applicationPath
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Cubusky/com.cubusky.core/blob/main/Runtime/Saving &amp; Loading/UnityPath.cs/#L10"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ApplicationPath applicationPath { get; set; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="Cubusky.ApplicationPath.html">ApplicationPath</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <a id="Cubusky_UnityPath_fullPath_" data-uid="Cubusky.UnityPath.fullPath*"></a>
-
-  <h3 id="Cubusky_UnityPath_fullPath" data-uid="Cubusky.UnityPath.fullPath">
-  fullPath
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Cubusky/com.cubusky.core/blob/main/Runtime/Saving &amp; Loading/UnityPath.cs/#L13"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string fullPath { get; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <a id="Cubusky_UnityPath_relativePath_" data-uid="Cubusky.UnityPath.relativePath*"></a>
-
-  <h3 id="Cubusky_UnityPath_relativePath" data-uid="Cubusky.UnityPath.relativePath">
-  relativePath
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Cubusky/com.cubusky.core/blob/main/Runtime/Saving &amp; Loading/UnityPath.cs/#L12"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract string relativePath { get; set; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
-  </dl>
-
-
 
 
 
@@ -254,66 +160,71 @@ public abstract class UnityPath</code></pre>
 </h2>
 
 
-  <a id="Cubusky_UnityPath_ToString_" data-uid="Cubusky.UnityPath.ToString*"></a>
+  <a id="Cubusky_DeflateCompressor_CompressAsync_" data-uid="Cubusky.DeflateCompressor.CompressAsync*"></a>
 
-  <h3 id="Cubusky_UnityPath_ToString" data-uid="Cubusky.UnityPath.ToString">
-  ToString()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Cubusky/com.cubusky.core/blob/main/Runtime/Saving &amp; Loading/UnityPath.cs/#L17"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Cubusky_DeflateCompressor_CompressAsync_System_Byte___System_Threading_CancellationToken_" data-uid="Cubusky.DeflateCompressor.CompressAsync(System.Byte[],System.Threading.CancellationToken)">
+  CompressAsync(byte[], CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Cubusky/com.cubusky.core/blob/main/Runtime/Saving &amp; Loading/Compressing/DeflateCompressor.cs/#L16"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Returns a string that represents the current object.</p>
+  <div class="markdown level1 summary"><p>Compresses a string and returns a deflate compressed, Base64 encoded string.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
-  </div>
-
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>A string that represents the current object.</p>
-</dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-  <h2 class="section" id="operators">Operators
-</h2>
-
-
-  <a id="Cubusky_UnityPath_op_Implicit_" data-uid="Cubusky.UnityPath.op_Implicit*"></a>
-
-  <h3 id="Cubusky_UnityPath_op_Implicit_Cubusky_UnityPath__System_String" data-uid="Cubusky.UnityPath.op_Implicit(Cubusky.UnityPath)~System.String">
-  implicit operator string(UnityPath)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Cubusky/com.cubusky.core/blob/main/Runtime/Saving &amp; Loading/UnityPath.cs/#L15"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static implicit operator string(UnityPath unityPath)</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;byte[]&gt; CompressAsync(byte[] data, CancellationToken cancellationToken = default)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>unityPath</code> <a class="xref" href="Cubusky.UnityPath.html">UnityPath</a></dt>
+    <dt><code>data</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Cubusky_DeflateCompressor_DecompressAsync_" data-uid="Cubusky.DeflateCompressor.DecompressAsync*"></a>
+
+  <h3 id="Cubusky_DeflateCompressor_DecompressAsync_System_Byte___System_Threading_CancellationToken_" data-uid="Cubusky.DeflateCompressor.DecompressAsync(System.Byte[],System.Threading.CancellationToken)">
+  DecompressAsync(byte[], CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Cubusky/com.cubusky.core/blob/main/Runtime/Saving &amp; Loading/Compressing/DeflateCompressor.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Decompresses a deflate compressed, Base64 encoded string and returns an uncompressed string.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;byte[]&gt; DecompressAsync(byte[] compressedData, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>compressedData</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]&gt;</dt>
     <dd></dd>
   </dl>
 
