@@ -47,26 +47,34 @@ namespace Cubusky
     /// <inheritdoc/>
     public interface ISaver : ISaver<string>, ISaver<byte[]>
     {
-        void ISaver<byte[]>.Save(byte[] data) => Save(Encoding.UTF8.GetString(data));
+        Encoding encoding => Encoding.UTF8;
+
+        void ISaver<byte[]>.Save(byte[] data) => Save(encoding.GetString(data));
     }
 
     /// <inheritdoc/>
     public interface IEnumerableSaver : IEnumerableSaver<string>, IEnumerableSaver<byte[]>
     {
-        void ISaver<IEnumerable<byte[]>>.Save(IEnumerable<byte[]> data) => Save(data.Select(Encoding.UTF8.GetString));
-        IEnumerable<Task> IEnumerableSaver<byte[]>.SaveAsyncEnumrable(IEnumerable<byte[]> data, CancellationToken cancellationToken) => SaveAsyncEnumrable(data.Select(Encoding.UTF8.GetString), cancellationToken);
+        Encoding encoding => Encoding.UTF8;
+
+        void ISaver<IEnumerable<byte[]>>.Save(IEnumerable<byte[]> data) => Save(data.Select(encoding.GetString));
+        IEnumerable<Task> IEnumerableSaver<byte[]>.SaveAsyncEnumrable(IEnumerable<byte[]> data, CancellationToken cancellationToken) => SaveAsyncEnumrable(data.Select(encoding.GetString), cancellationToken);
     }
 
     /// <inheritdoc/>
     public interface ILoader : ILoader<string>, ILoader<byte[]>
     {
-        byte[] ILoader<byte[]>.Load<TData>() => Encoding.UTF8.GetBytes(Load<string>());
+        Encoding encoding => Encoding.UTF8;
+
+        byte[] ILoader<byte[]>.Load<TData>() => encoding.GetBytes(Load<string>());
     }
 
     /// <inheritdoc/>
     public interface IEnumerableLoader : IEnumerableLoader<string>, IEnumerableLoader<byte[]>
     {
-        IEnumerable<byte[]> ILoader<IEnumerable<byte[]>>.Load<TData>() => Load<IEnumerable<string>>().Select(Encoding.UTF8.GetBytes);
+        Encoding encoding => Encoding.UTF8;
+
+        IEnumerable<byte[]> ILoader<IEnumerable<byte[]>>.Load<TData>() => Load<IEnumerable<string>>().Select(encoding.GetBytes);
     }
     #endregion
 
