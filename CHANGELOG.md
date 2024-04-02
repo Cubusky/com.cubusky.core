@@ -4,6 +4,23 @@ All notable changes to this package will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com)
 and this project adheres to [Semantic Versioning](http://semver.org).
 
+## [1.3.0] - 2024-04-02
+### Added
+- Add the `ICompressor` interface for file compression / decompression. Compression often leads to a 50-75% file reduction.
+- Add `DeflateCompressor` for compressing files using Deflate compression.
+- Add `GZipCompressor` for compressing files using GZip compression.
+- Add `ISaver.encoding` to make `ISaver`'s encoding publically available.
+- Add `IEnumerableSaver.encoding` to make `IEnumerableSaver`'s encoding publically available.
+- Add `ILoader.encoding` to make `ILoader`'s encoding publically available.
+- Add `IEnumerableLoader.encoding` to make `IEnumerableLoader`'s encoding publically available.
+
+### Changed
+- Replace `UpdateSynchronizer` with `ManualSynchronizer`. Due to the unreliable nature of destructors, `UpdateSynchronizer`'s subscription to `UpdaterService` may not always be removed, leaking code with the ability to cause unintended consequences. You must now process `ManualSynchronizer` queue manually by calling `ManualSynchronizer.ProcessQueue()`.
+- Change `Timer` to return its full timestep. Previously it would return a rounded-off timestep for convenience, but if this rounding is desired, it should be done on the receivers end.
+
+### Removed
+- Remove `UpdaterService` as `Cubusky.Core` should contain no scripts running in the background, and with the replacement from `UpdateSynchronizer` to `ManualSynchronizer`, this service is no longer needed.
+
 ## [1.2.1] - 2024-03-21
 ### Added
 - Add `PasswordAttribute` to mask a string field in the inspector for screen share. Note that it doesn't actually encrypt or otherwise protect your string.
