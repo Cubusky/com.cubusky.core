@@ -9,7 +9,7 @@ This version of Cubusky Core is compatible with the following versions of the Un
 - 2022.3 and later (recommended)
 
 ## Known Limitations
-Cubusky Core `1.2.1` includes the following known limitations:
+Cubusky Core `1.3.0` includes the following known limitations:
 - TimeSpanField in the UIBuilder allows for weird string inputs. This may be improved using [UxmlElementAttribute](https://docs.unity3d.com/2023.2/Documentation/ScriptReference/UIElements.UxmlElementAttribute.html) in a later Unity version.
 - The OfType attribute does not single out objects shown in the [Object Picker](https://docs.unity3d.com/Manual/search-advanced-object-picker.html).
 - The ReferenceDropdown attribute hides away when you reset a Component.

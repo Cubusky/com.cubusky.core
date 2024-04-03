@@ -29,12 +29,7 @@ namespace Cubusky
             remove => base.Elapsed -= GetHandler(value);
         }
 
-        private ElapsedEventHandler GetHandler(Action<double> value) => (object sender, ElapsedEventArgs e) => value.Invoke(ElapsedTimeAt(e.SignalTime));
-        private double ElapsedTimeAt(DateTime signalTime)
-        {
-            var totalSeconds = (signalTime - StartTime).TotalSeconds;
-            return totalSeconds - totalSeconds % Interval;
-        }
+        private ElapsedEventHandler GetHandler(Action<double> value) => (object sender, ElapsedEventArgs e) => value.Invoke((e.SignalTime - StartTime).TotalSeconds);
 
         public new void Start()
         {

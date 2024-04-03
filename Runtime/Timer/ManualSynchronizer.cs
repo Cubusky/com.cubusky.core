@@ -6,22 +6,12 @@ using System.Threading;
 namespace Cubusky
 {
     /// <summary>
-    /// Synchronizes calls with Unity's Update() method.
+    /// Synchronizes calls manually by calling <see cref="ManualSynchronizer.ProcessQueue"/>
     /// </summary>
-    public class UpdateSynchronizer : ISynchronizeInvoke
+    public class ManualSynchronizer : ISynchronizeInvoke
     {
         private readonly Queue<AsyncResult> toExecute = new();
         public bool InvokeRequired => Thread.CurrentThread.ManagedThreadId != 1;
-
-        public UpdateSynchronizer()
-        {
-            UpdaterService.onUpdate += ProcessQueue;
-        }
-
-        ~UpdateSynchronizer()
-        {
-            UpdaterService.onUpdate -= ProcessQueue;
-        }
 
         public IAsyncResult BeginInvoke(Delegate method, object[] args)
         {
